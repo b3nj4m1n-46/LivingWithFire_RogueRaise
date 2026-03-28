@@ -6,15 +6,19 @@
   "scripts": {
     "build": "tsc",
     "test": "tsx src/test-tools.ts",
-    "bootstrap": "tsx src/scripts/bootstrap-warrants.ts"
+    "bootstrap": "tsx src/scripts/bootstrap-warrants.ts",
+    "test-matcher": "tsx src/scripts/test-matcher.ts"
   },
   "dependencies": {
     "@genkit-ai/anthropic": "^0.2.0",
+    "better-sqlite3": "^12.8.0",
+    "fastest-levenshtein": "^1.0.16",
     "genkit": "^1.0.0",
     "pg": "^8.13.0",
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.0.0",
     "@types/pg": "^8.11.0",
     "tsx": "^4.19.0",
