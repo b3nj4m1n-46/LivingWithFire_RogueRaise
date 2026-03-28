@@ -1,9 +1,22 @@
 # Internal Conflict Scan — First Demo-Worthy Result
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P0 (critical)
 > **Depends on:** 006-conflict-classifier-agent (classifyConflictFlow must exist)
 > **Blocks:** Admin portal dashboard (needs conflict data to display)
+> **Commit:** `461743b` — Implement internal conflict scan script
+
+## Implementation Notes
+
+### Deviations from Spec
+
+1. **Single flow call instead of plant-ID batching** — The spec suggested batching by 50 plant IDs at a time, but `classifyConflictFlow` already handles its own internal pagination (500 groups per fetch) and LLM batching (25 pairs per call). A single call with `mode: 'internal'` is simpler and equivalent.
+
+2. **Mini-transactions instead of one wrapping transaction** — The flow writes conflicts through the connection pool on separate connections via `writeConflictsBatch`. The script uses small focused transactions (INSERT batch record, then UPDATE after flow completes) to avoid holding a long-running transaction.
+
+3. **Dolt commit hash captured and stored** — The spec mentioned committing to Dolt but didn't specify storing the hash. The implementation queries `dolt_log` after commit and updates `analysis_batches.dolt_commit_hash`.
+
+4. **Verification queries run inline** — The spec listed verification as post-run SQL. The script runs these automatically and prints results, including an invalid-warrant-reference check.
 
 ## Problem
 
