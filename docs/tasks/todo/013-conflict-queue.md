@@ -1,6 +1,6 @@
 # Conflict Queue — Filterable Conflict Review Interface
 
-> **Status:** TODO
+> **Status:** COMPLETE
 > **Priority:** P0 (critical)
 > **Depends on:** 010-portal-scaffold (Next.js app + DB connection)
 > **Blocks:** None directly, but critical for the curation workflow
