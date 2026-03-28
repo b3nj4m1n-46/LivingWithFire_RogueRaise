@@ -47,19 +47,21 @@
 
 ## Phase 2: Pipeline Agents (Day 1, 4 hrs)
 
-### Matcher Agent
-- [ ] **T14** (20 min) Implement `matchPlantFlow` in Genkit: exact genus+species match against production
-- [ ] **T15** (15 min) Add synonym resolution tool via POWO_WCVP/WFO lookup
-- [ ] **T16** (15 min) Add fuzzy match fallback (Levenshtein)
-- [ ] **T17** (10 min) Test against FirePerformancePlants (541 plants)
+### Matcher Agent — ✅ COMPLETED (`ceb3ec7`)
+- [x] **T14** Implement `matchPlantFlow` in Genkit: exact genus+species match against production
+- [x] **T15** Add synonym resolution tool via POWO_WCVP/WFO lookup
+- [x] **T16** Add fuzzy match fallback (Levenshtein)
+- [x] **T17** Test against FirePerformancePlants (541 plants)
 
-> **Depends on:** T10-T11 ✅ — **Ready to start**
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/004-matcher-agent.md`
+> **Note:** Three-tier matching: exact → synonym (POWO_WCVP/WFO) → fuzzy (Levenshtein). Cultivar stripping and genus-level `spp.` handling included.
 
-### Schema Mapper Agent
-- [ ] **T18** (30 min) Implement `mapSchemaFlow`: read DATA-DICTIONARY.md, suggest column→attribute mappings
-- [ ] **T19** (15 min) Build rating scale crosswalk generator
+### Schema Mapper Agent — ✅ COMPLETED (`7b8e812`)
+- [x] **T18** Implement `mapSchemaFlow`: read DATA-DICTIONARY.md, suggest column→attribute mappings
+- [x] **T19** Build rating scale crosswalk generator
 
-> **Depends on:** T10 ✅ — **Ready to start**
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/005-schema-mapper-agent.md`
+> **Note:** AI-driven mapping from source columns to 125 production attributes. Includes value transformation rules (e.g., integer rating codes → production display values).
 
 ### Conflict Classifier Agent
 - [ ] **T20** (45 min) Implement `classifyConflictFlow`: compare warrants per plant+attribute, classify conflict type
@@ -92,7 +94,7 @@
 - [ ] **T27** (30 min) Process WUCOLS (4,103 plants) — same pipeline
 - [ ] **T28** (10 min) Dolt commit for WUCOLS
 
-> **Depends on:** T14-T21
+> **Depends on:** T14-T17 ✅, T18-T19 ✅, T20-T21
 
 **Milestone: End of Day 1** — Internal conflicts detected, 2 datasets analyzed, warrants + conflicts in Dolt
 
