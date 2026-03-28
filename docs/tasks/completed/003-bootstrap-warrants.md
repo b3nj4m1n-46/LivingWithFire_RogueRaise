@@ -4,6 +4,7 @@
 > **Priority:** P0 (critical)
 > **Depends on:** 001-dolt-setup (staging DB with production data), 002-genkit-setup (Genkit tools for DB access)
 > **Blocks:** All Phase 2 tasks (internal conflict scan, external analysis, specialist agents)
+> **Commit:** `820b50b` — Bootstrap 94,903 production values as warrants (003-bootstrap-warrants)
 
 ## Problem
 
@@ -219,30 +220,41 @@ Write `genkit/src/scripts/bootstrap-warrants.ts` that:
 
 ## Implementation Notes
 
-**Implemented by:** Claude Code (2026-03-28)
+> **Completed:** 2026-03-28
+> **Implemented by:** Claude Code
 
 ### Deviations from Spec
 
-1. **COALESCE for NULL values:** 26,889 values had NULL in `value` but `source_value = 'x'` — these are boolean presence markers on parent category attributes (e.g., "Bloom & Flower" = yes, this plant has bloom data). Used `COALESCE(value, source_value)` to preserve them as warrants rather than silently dropping evidence.
+1. **COALESCE for NULL values (data discovery):** The spec assumed all 94,903 values had a non-NULL `value` column. In reality, 26,889 values (28%) had `value = NULL` with `source_value = 'x'`. Investigation revealed these are boolean presence markers on **parent category attributes** in the EAV hierarchy (e.g., a row on "Bloom & Flower" with `source_value = 'x'` means "this plant has bloom data" — the actual detail lives in child attributes like "Flower Color", "Bloom Time"). Rather than silently dropping 28% of evidence, the script uses `COALESCE(v."value", v.source_value)` so these `'x'` markers are preserved as warrants. The mirrored production `"values"` table is not modified.
 
-2. **Source table schema differs from spec:** The `sources` table uses `region` (not `fire_region`) and `notes` (not `source_type`). The script maps `sources.notes` → `source_methodology` and `sources.region` → `source_region`.
+2. **Source table column names differ from spec:** The spec referenced `s.source_type` and `s.fire_region` — these columns don't exist. The actual `sources` table has `notes` and `region`. The script maps:
+   - `sources.notes` → warrant `source_methodology`
+   - `sources.region` → warrant `source_region`
 
-3. **Avoided LEFT JOIN to sources:** DoltgreSQL panics on LEFT JOINs with NULL foreign keys. The script pre-loads all 103 sources into a Map and looks up source metadata in-memory instead.
+3. **No LEFT JOIN to sources (DoltgreSQL bug workaround):** The spec used `LEFT JOIN sources s ON s.id = v.source_id`. DoltgreSQL panics with `interface conversion: interface {} is nil` when LEFT JOINing on nullable FK columns. The script works around this by pre-loading all 103 sources into an in-memory `Map<id, {name, notes, region}>` and looking up source metadata per-row during insert.
 
-4. **Added `batch_id` backfill step:** After inserting all warrants, the script sets `batch_id` on all bootstrapped warrants so they're linked to the analysis_batches record.
+4. **`batch_id` not set during INSERT (spec gap):** The spec's INSERT statement included `batch_id` as a column, but the script inserts warrants without `batch_id` first (for simplicity in the batch INSERT builder), then backfills with `UPDATE warrants SET batch_id = $1 WHERE batch_id IS NULL AND warrant_type = 'existing'`. End result is the same — all warrants are linked to their batch.
 
-5. **Idempotent re-run:** Script clears previous bootstrap warrants and batch records before inserting, so it can be safely re-run.
+5. **Idempotent re-run (added beyond spec):** The script DELETEs previous `warrant_type = 'existing'` warrants and `source_id_code = 'PRODUCTION'` batch records before inserting. This was not in the spec but was added so the script can be safely re-run without duplicating data.
+
+6. **`genkit/package.json` modified (not in spec):** Added `"bootstrap": "tsx src/scripts/bootstrap-warrants.ts"` npm script for convenience. The spec only listed the new script file.
+
+7. **`batch_id` set inline vs. during INSERT:** The spec showed `batch_id` as part of the INSERT VALUES. The implementation sets it via a separate UPDATE after all inserts complete (step 8 in the script). Functionally equivalent.
+
+8. **Stale comment in UPDATE query:** Line 139 has `-- non-null values only` which is now inaccurate after the COALESCE change — `total_source_records` is all 94,903. Minor, does not affect behavior.
 
 ### Files Created/Modified
-- `genkit/src/scripts/bootstrap-warrants.ts` — bootstrap script
-- `genkit/package.json` — added `"bootstrap"` npm script
+- **NEW:** `genkit/src/scripts/bootstrap-warrants.ts` — bootstrap script (244 lines)
+- **MODIFIED:** `genkit/package.json` — added `"bootstrap"` npm script
+- **MOVED:** `docs/tasks/todo/003-bootstrap-warrants.md` → `docs/tasks/completed/`
+- **MODIFIED:** `docs/planning/TASKS.md` — updated T12-T13 status references
 
 ### Verification Results (actual)
-- Warrant count: 94,903 (1:1 match with values)
-- NULL required fields: 0
-- NULL plant_genus: 0
-- NULL attribute_name: 0
-- Ceanothus velutinus: multiple warrants confirmed
-- Analysis batch: status=completed, warrants_created=94,903, plants_matched=1,361
-- Dolt commit: "bootstrap: 94903 production values converted to warrants"
-- Internal conflicts found: Mahonia aquifolium (18 warrants for Flammability), many plants with 13-15 warrants per attribute
+- Warrant count: **94,903** (1:1 match with values)
+- NULL required fields (plant_id, attribute_id, value): **0**
+- NULL plant_genus: **0**
+- NULL attribute_name: **0**
+- Ceanothus velutinus: multiple warrants confirmed, all `warrant_type = 'existing'`
+- Analysis batch: `status = 'completed'`, `warrants_created = 94903`, `plants_matched = 1361`
+- Dolt commit: `"bootstrap: 94903 production values converted to warrants"`
+- Internal conflict candidates: Mahonia aquifolium (18 warrants for Flammability), Penstemon spp. (15 for Flammability), many plants with 13-15 warrants per attribute

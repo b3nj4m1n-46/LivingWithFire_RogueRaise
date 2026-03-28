@@ -136,7 +136,7 @@ async function main() {
       `UPDATE analysis_batches SET
         status = 'completed',
         completed_at = CURRENT_TIMESTAMP,
-        total_source_records = $1,  -- non-null values only
+        total_source_records = $1,
         plants_matched = $2,
         warrants_created = $3,
         notes = $4
