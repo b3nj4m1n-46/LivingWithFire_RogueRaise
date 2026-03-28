@@ -1,9 +1,10 @@
 # Conflict Classifier Agent — Detect and Classify Warrant Disagreements
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P0 (critical)
 > **Depends on:** 003-bootstrap-warrants (warrants must exist to compare)
 > **Blocks:** 007-internal-conflict-scan, 009-first-external-analysis
+> **Commit:** `60a7ee1` — Implement conflict classifier agent for warrant disagreement detection
 
 ## Problem
 
@@ -281,3 +282,25 @@ The LLM returns:
    // result.corroborated > 0 (many warrants should agree)
    // result.summary.total + result.corroborated + result.complementary ≈ total groups
    ```
+
+## Implementation Notes
+
+### Commit: `60a7ee1`
+
+**Files created:**
+- `genkit/src/tools/warrantGroups.ts` — two-phase query tool (group discovery via GROUP BY/HAVING, then batched detail fetch in chunks of 50)
+- `genkit/src/tools/writeConflict.ts` — single-insert Genkit tool + `writeConflictsBatch` plain function for multi-row VALUES inserts
+- `genkit/src/flows/classifyConflictFlow.ts` — classification flow with deterministic fast-path + LLM batched classification
+
+**Files modified:**
+- `genkit/src/tools/index.ts` — added `getWarrantGroups` and `writeConflict` exports + `allTools` entries
+
+### Deviations from Spec
+
+- **`writeConflictsBatch` added as plain function** — not in the original spec, but needed for efficient bulk inserts from the flow. Not a Genkit tool (LLM never calls it directly), exported only for flow use.
+- **LLM batch size is 25** (spec said 20-50) — chosen as the midpoint to balance prompt size vs API call overhead.
+- **`extractJSON` duplicated from mapSchemaFlow.ts** — the spec didn't specify where the JSON parser comes from. Duplicated rather than refactored to shared util, matching the existing codebase pattern where each flow defines its own.
+- **`extractJSON` enhanced for arrays** — added bracket extraction (`[...]`) in addition to brace extraction, since the LLM returns a JSON array not an object.
+- **Pagination added to `getWarrantGroups`** — spec mentioned "batch detail queries 50 at a time" but didn't include limit/offset on the group discovery query. Added `limit` (default 500) and `offset` params for pagination. The flow loops until all groups are fetched.
+- **Conflict mode mapping** — `cross_source` mode maps to `all` when querying warrant groups (since cross-source conflicts span both existing and external warrants), then the `conflictMode` field on written conflicts preserves the original `cross_source` value.
+- **LLM failure fallback** — on LLM classification failure, pairs default to `RATING_DISAGREEMENT` / `moderate` rather than being skipped, ensuring all conflicts get a record for manual review.

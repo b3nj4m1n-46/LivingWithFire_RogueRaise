@@ -63,11 +63,12 @@
 > **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/005-schema-mapper-agent.md`
 > **Note:** AI-driven mapping from source columns to 125 production attributes. Includes value transformation rules (e.g., integer rating codes → production display values).
 
-### Conflict Classifier Agent
-- [ ] **T20** (45 min) Implement `classifyConflictFlow`: compare warrants per plant+attribute, classify conflict type
-- [ ] **T21** (15 min) Implement severity scoring and specialist routing logic
+### Conflict Classifier Agent — ✅ COMPLETED (`60a7ee1`)
+- [x] **T20** Implement `classifyConflictFlow`: compare warrants per plant+attribute, classify conflict type
+- [x] **T21** Implement severity scoring and specialist routing logic
 
-> **Depends on:** T12 ✅ — **Ready to start**
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/006-conflict-classifier-agent.md`
+> **Note:** Deterministic fast-path for corroboration/completeness + LLM-batched classification (Haiku 4.5). All 8 conflict types with specialist routing. Pairwise comparison capped at N=5 with mode-value anchor above that.
 
 ### Internal Conflict Scan
 - [ ] **T22** (30 min) Run Conflict Classifier in `internal` mode across all bootstrapped warrants
