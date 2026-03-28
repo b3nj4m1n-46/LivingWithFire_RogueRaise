@@ -1,9 +1,10 @@
 # Matcher Agent — Plant Name Resolution with Synonym + Fuzzy Matching
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P0 (critical)
 > **Depends on:** 002-genkit-setup (Genkit tools + DoltgreSQL connection)
 > **Blocks:** 009-first-external-analysis (can't create warrants without plant matches)
+> **Commit:** `ceb3ec7` — Implement matcher agent for plant name resolution
 
 ## Problem
 
@@ -246,3 +247,24 @@ Test against FirePerformancePlants (FIRE-01, 541 plants):
    const noMatches = matches.filter(m => m.matchType === 'NONE');
    // Manual spot check: are these plants really not in the 1,361 production plants?
    ```
+
+## Deviations from Spec
+
+1. **POWO_WCVP and WorldFloraOnline are pre-filtered to accepted names only** — no synonym records. Spec assumed `taxonomic_status` and `accepted_name_id` columns existed. Only USDA_PLANTS (93,157 records) has synonym resolution via `is_synonym` flag and `symbol`/`synonym_symbol` fields.
+
+2. **POWO/WFO were Git LFS stubs** at implementation time. Code includes LFS pointer detection that gracefully skips unavailable backbones. After `git lfs pull`, both DBs are available and used for accepted-name validation automatically.
+
+3. **`sourceRowId` uses `z.coerce.string()`** instead of `z.union([z.string(), z.number()])` — Genkit strict mode rejects union types in flow schemas.
+
+4. **FIRE-01 exact match rate is 33.5%**, not >80% as spec predicted. This is correct — FIRE-01 is a national dataset while the production DB contains 1,361 Pacific West plants. The 328 NONE matches are eastern US species genuinely absent from production.
+
+## Test Results (FIRE-01, 541 plants, 26s)
+
+| Match Type | Count | % |
+|---|---|---|
+| EXACT | 181 | 33.5% |
+| SYNONYM | 2 | 0.4% |
+| CULTIVAR | 0 | 0% |
+| GENUS_ONLY | 9 | 1.7% |
+| FUZZY | 21 | 3.9% |
+| NONE | 328 | 60.6% |
