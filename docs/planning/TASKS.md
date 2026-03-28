@@ -70,13 +70,13 @@
 > **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/006-conflict-classifier-agent.md`
 > **Note:** Deterministic fast-path for corroboration/completeness + LLM-batched classification (Haiku 4.5). All 8 conflict types with specialist routing. Pairwise comparison capped at N=5 with mode-value anchor above that.
 
-### Internal Conflict Scan
-- [ ] **T22** (30 min) Run Conflict Classifier in `internal` mode across all bootstrapped warrants
-- [ ] **T23** (10 min) Write conflicts to Dolt, commit: `"internal scan: X conflicts detected"`
-- [ ] **T24** (15 min) Generate summary stats for dashboard
+### Internal Conflict Scan — ✅ COMPLETED (`461743b`)
+- [x] **T22** Run Conflict Classifier in `internal` mode across all bootstrapped warrants
+- [x] **T23** Write conflicts to Dolt, commit: `"internal scan: X conflicts detected"`
+- [x] **T24** Generate summary stats for dashboard (console report + JSON at `genkit/output/internal-scan-summary.json`)
 
-> **Depends on:** T20, T12 ✅
-> **This is the first demo-worthy result.**
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/007-internal-conflict-scan.md`
+> **Note:** Single `classifyConflictFlow` call handles all pagination and LLM batching internally. Script adds batch tracking, Dolt commit, verification queries, and JSON summary output.
 
 ### Research Tools (Dataset Context + PageIndex)
 - [ ] **T22a** (20 min) Implement `getDatasetContext` Genkit tool: reads DATA-DICTIONARY.md + README.md for a dataset folder, returns structured metadata (rating scales, methodology, scope)
