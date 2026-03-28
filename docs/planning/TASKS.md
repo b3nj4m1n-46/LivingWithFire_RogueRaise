@@ -127,15 +127,15 @@
 > **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/012-warrant-claim-curation.md`
 > **Note:** Claims list with filtering, claim view with warrant cards + selection, approval workflow with Dolt commits. Synthesis stubbed pending Phase 4.
 
-### Conflict Queue
-- [ ] **T38** (30 min) Conflicts list page: filterable/sortable table
-  - Columns: plant, attribute, type, severity, value A vs value B, specialist verdict, status
-  - Filter by: status, severity, conflict type, attribute category
-  - Click → navigates to Claim View for that plant+attribute
-- [ ] **T39** (20 min) On-demand Research button: calls `researchConflictFlow` for a specific conflict
-- [ ] **T40** (15 min) Batch operations: select multiple conflicts → batch dismiss / batch route to specialist
+### Conflict Queue — ✅ COMPLETED (`fb7338e`, `ff60321`, `ad26295`)
+- [x] **T38** Conflicts list page: filterable/sortable table with severity, type, status filters
+- [x] **T39** On-demand Research button: calls research tools for conflict context
+- [x] **T40** Batch operations: select multiple conflicts → batch dismiss / batch route to specialist
 
-**Milestone: Lunch Day 2** — Working portal, can curate warrants and synthesize claims
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/013-conflict-queue.md`
+> **Note:** Filterable conflict table with inline expansion, research context retrieval, batch dismiss/route operations. URL query params for shareable filter states.
+
+**Milestone: Lunch Day 2** — ✅ Working portal, can curate warrants and synthesize claims
 
 ---
 
