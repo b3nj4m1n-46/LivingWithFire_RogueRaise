@@ -15,6 +15,10 @@ All endpoints are Next.js Route Handlers served from `admin/src/app/api/`.
 | `PATCH` | `/api/warrants/{id}` | Update warrant curation status |
 | `POST` | `/api/synthesize` | Generate claim synthesis from warrants (stub) |
 | `POST` | `/api/claims/approve` | Approve a claim with Dolt version control |
+| `GET` | `/api/conflicts/{id}` | Get conflict detail with both warrants |
+| `PATCH` | `/api/conflicts/{id}` | Update conflict status |
+| `POST` | `/api/conflicts/{id}/research` | Fetch research context for a conflict |
+| `POST` | `/api/conflicts/batch` | Batch update conflict statuses |
 
 ---
 
@@ -195,6 +199,204 @@ Uses `pool.connect()` directly (not the `query()` helper) to ensure all Dolt ope
 
 ---
 
+## `GET /api/conflicts/{id}`
+
+Fetch a single conflict's full details along with both associated warrants. Used by the expandable conflict row in the queue UI.
+
+**Source:** `admin/src/app/api/conflicts/[id]/route.ts`
+
+### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `id` | `string` | Conflict UUID |
+
+### Response — 200 OK
+
+```json
+{
+  "conflict": {
+    "id": "uuid",
+    "conflict_type": "RATING_DISAGREEMENT",
+    "conflict_mode": "external",
+    "severity": "critical",
+    "status": "pending",
+    "plant_id": "uuid",
+    "plant_name": "Arbutus menziesii",
+    "attribute_name": "Fire Resistance",
+    "value_a": "High",
+    "value_b": "Moderate",
+    "source_a": "FIRE-01",
+    "source_b": "FIRE-03",
+    "specialist_verdict": null,
+    "specialist_recommendation": null,
+    "warrant_a_id": "uuid",
+    "warrant_b_id": "uuid",
+    "classifier_explanation": "Direct disagreement on fire resistance rating...",
+    "specialist_agent": null,
+    "specialist_analysis": null,
+    "batch_id": "uuid",
+    "annotated_at": null,
+    "created_at": "2026-03-27T..."
+  },
+  "warrants": [
+    { "id": "uuid", "warrant_type": "existing", "value": "High", "...": "..." },
+    { "id": "uuid", "warrant_type": "external", "value": "Moderate", "...": "..." }
+  ]
+}
+```
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `404` | `{ "error": "Conflict not found" }` | No conflict with that ID |
+| `500` | `{ "error": "Failed to fetch conflict" }` | Database error |
+
+---
+
+## `PATCH /api/conflicts/{id}`
+
+Update the status of a single conflict. Used by the Resolve/Dismiss buttons in the expanded conflict row.
+
+**Source:** `admin/src/app/api/conflicts/[id]/route.ts`
+
+### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `id` | `string` | Conflict UUID |
+
+### Request Body
+
+```json
+{
+  "status": "resolved"
+}
+```
+
+| Field | Type | Required | Allowed Values |
+|-------|------|----------|----------------|
+| `status` | `string` | Yes | `pending`, `annotated`, `resolved`, `dismissed` |
+
+### Response — 200 OK
+
+```json
+{
+  "id": "uuid",
+  "status": "resolved"
+}
+```
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "Invalid status..." }` | Status not in allowed values |
+| `404` | `{ "error": "Conflict not found" }` | No conflict with that ID |
+| `500` | `{ "error": "Failed to update conflict" }` | Database error |
+
+---
+
+## `POST /api/conflicts/{id}/research`
+
+Fetch read-only research context for a conflict: source dataset documentation (DATA-DICTIONARY.md, README.md) and keyword-matched knowledge base sections. No database writes.
+
+**Source:** `admin/src/app/api/conflicts/[id]/research/route.ts`
+
+### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `id` | `string` | Conflict UUID |
+
+### Request Body
+
+None required — the route looks up the conflict and its warrants to determine sources and search terms.
+
+### Response — 200 OK
+
+```json
+{
+  "datasetContexts": [
+    {
+      "sourceIdCode": "FIRE-01",
+      "sourceDataset": "FirePerformancePlants",
+      "dataDictionary": "# DATA-DICTIONARY\n...",
+      "readme": "# FirePerformancePlants\n..."
+    }
+  ],
+  "knowledgeBaseResults": [
+    {
+      "documentTitle": "Bethke-UCCE_Literature-Review.pdf",
+      "sectionTitle": "Fire Resistance Rating Scales",
+      "sectionSummary": "This section compares...",
+      "nodeId": "0042"
+    }
+  ]
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `datasetContexts` | `array` | DATA-DICTIONARY.md and README.md content per source |
+| `knowledgeBaseResults` | `array` | Up to 10 matching sections from 47 indexed knowledge base documents |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `404` | `{ "error": "Conflict not found" }` | No conflict with that ID |
+| `500` | `{ "error": "Failed to fetch research context" }` | File read or parse error |
+
+### Implementation Note
+
+Reads files directly from `database-sources/` and `knowledge-base/indexes/` on the filesystem. Searches category folders (`fire/`, `deer/`, etc.) to locate the dataset by folder name. Knowledge base search uses keyword matching against pre-indexed structure JSON files.
+
+---
+
+## `POST /api/conflicts/batch`
+
+Batch update the status of multiple conflicts at once. Used by the batch toolbar when conflicts are selected with checkboxes.
+
+**Source:** `admin/src/app/api/conflicts/batch/route.ts`
+
+### Request Body
+
+```json
+{
+  "ids": ["uuid-1", "uuid-2", "uuid-3"],
+  "status": "dismissed"
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `ids` | `string[]` | Yes | Non-empty array of conflict UUIDs |
+| `status` | `string` | Yes | `pending`, `annotated`, `resolved`, or `dismissed` |
+
+### Response — 200 OK
+
+```json
+{
+  "updated": 3
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `updated` | `number` | Number of conflicts actually updated |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "ids must be a non-empty array" }` | Missing or empty ids |
+| `400` | `{ "error": "Invalid status..." }` | Status not in allowed values |
+| `500` | `{ "error": "Failed to batch update conflicts" }` | Database error |
+
+---
+
 ## Database Tables Referenced
 
 These endpoints read from and write to the following DoltgreSQL tables. Full schema definitions are in `scripts/create_warrant_tables.sql`.
@@ -207,6 +409,6 @@ These endpoints read from and write to the following DoltgreSQL tables. Full sch
 | `plants` | Read | Plant master data (via claim view queries) |
 | `attributes` | Read | Attribute definitions (via claim view queries) |
 | `"values"` | Read | Current production values (quoted — reserved word) |
-| `conflicts` | Read | Warrant conflict pairs (via claim view queries) |
+| `conflicts` | Read, Update | Warrant conflict pairs — queue, detail, status updates |
 
 See also: `docs/planning/PROPOSALS-SCHEMA.md` for the full data model.
