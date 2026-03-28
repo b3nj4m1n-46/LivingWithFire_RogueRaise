@@ -1,0 +1,29 @@
+scientific_name,common_name,plant_type,flower_color,height_ft,bloom,sun,soil,pollinators,host_plant
+Acer spp.,Maple,Tree/Shrub,greenish white to red,<30,March-June,sun to partial shade,"moist, well drained",bees,True
+Amelanchier alnifolia,Serviceberry,Tree/Shrub,white,1-5,April-July,sun to partial shade,moist to dry,"bees, flies",True
+Arbutus menziesii,Madrone,Tree/Shrub,white,6-30,April-May,sun to partial shade,dry,bees,False
+Arctostaphylos spp.,Manzanita,Tree/Shrub,white,0.1-4,April-July,sun to partial shade,"dry, well drained",hummingbirds,False
+Cornus nuttallii,Pacific Dogwood,Tree/Shrub,white,1-30,April-June,shade,"moist, well drained","bees, beetles, flies, butterflies",False
+Ribes spp.,Currants/Gooseberries,Tree/Shrub,"greenish white, pink, red",1-3,March-June,sun to shade,"moist to dry, well drained",hummingbirds,False
+Sambucus spp.,Elderberry,Tree/Shrub,white to creamy,1-6,May-July,sun to partial shade,"moist to dry, well drained",bees,False
+Symphoricarpos spp.,Snowberry,Tree/Shrub,pink,0.5-2,May-August,sun to shade,"moist, well drained",bees,True
+Vaccinium spp.,Huckleberry,Tree/Shrub,pink,0.1-3,April-August,sun to partial shade,"moist to dry, well drained",bees,False
+Achillea millefolium,Yarrow,Perennial,white,0.2-1,April-October,sun to partial shade,dry,bees,True
+Aquilegia formosa,Cascade Columbine,Perennial,"red, yellow",0.2-1,April-August,partial shade to shade,moist to dry,hummingbirds,False
+Aster spp.,Daisy,Perennial,"white, purple",0.1-1,June-October,sun to partial shade,dry to moist,"bees, butterflies",True
+Delphinium spp.,Larkspur,Perennial,"white, blue, purple",0.3-2,May-August,sun to partial shade,"moist, well drained","hummingbirds, bees",False
+Erigeron spp.,Fleabane,Perennial,"white, purple",0.1-0.6,May-September,sun,"dry, well drained","bees, butterflies",False
+Eriogonum spp.,Buckwheat,Perennial,"white, yellow",0.1-0.5,May-September,sun,"dry, well drained","bees, butterflies",True
+Erythronium spp.,Fawnlily,Perennial,"white, pink, yellow",0.1-0.3,March-August,sun to shade,,bees,False
+Eschscholzia californica,California Poppy,Perennial,yellow to orange,0.1-0.5,May-September,sun,"dry, well drained",bees,False
+Hydrophyllum spp.,Waterleaf,Perennial,"white, blue, purple",0.2-0.8,April-July,sun to shade,moist,bees,False
+Iris spp.,Iris,Perennial,"white, yellow to purple",0.1-0.4,April-July,sun to partial shade,,bees,False
+Lilium spp.,Lily,Perennial,"white to pinkish, orange",0.2-1,June-July,sun to partial shade,moist,hummingbirds,False
+Lupinus spp.,Lupine,Perennial,blue to purple,0.1-1,April-August,sun to partial shade,dry to moist,bees,True
+Mentha arvensis,Mint,Perennial,white to pink or purple,0.2-0.8,July-September,sun to partial shade,moist,bees,False
+Penstemon spp.,Penstemon,Perennial,white to purple or red,0.1-0.6,May-August,sun to partial shade,"dry, well drained",bees,True
+Phacelia spp.,Scorpion Weed,Perennial,white,0.2-1,May-August,sun,"dry, well drained",bees,False
+Sedum spp.,Stonecrop,Perennial,"white, pink, yellow",0.1-0.3,May-August,sun,"dry, well drained",bees,True
+Solidago spp.,Goldenrod,Perennial,yellow,0.3-2,July-October,sun to partial shade,moist,"bees, butterflies, beetles, wasps",True
+Trillium spp.,Trillium,Perennial,white to purple,0.1-0.3,March-June,partial shade to shade,,"beetles, flies, bees",False
+Lonicera hispidula,Hairy Honeysuckle,Vine,"pink, yellowish pink",<6,June-August,partial shade to shade,dry to moist,hummingbirds,False

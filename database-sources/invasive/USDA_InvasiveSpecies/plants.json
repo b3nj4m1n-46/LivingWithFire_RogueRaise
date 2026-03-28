@@ -1,0 +1,156 @@
+{
+  "source": "USDA National Invasive Species Information Center",
+  "url": "https://www.invasivespeciesinfo.gov/terrestrial/plants",
+  "plants": [
+    {
+      "scientific_name": "Dioscorea bulbifera",
+      "common_name": "Air Potato",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Elaeagnus umbellata",
+      "common_name": "Autumn Olive",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Vitex rotundifolia",
+      "common_name": "Beach Vitex",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Schinus terebinthifolius",
+      "common_name": "Brazilian Peppertree",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Inula britannica",
+      "common_name": "British Yellowhead",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Pyrus calleryana",
+      "common_name": "Callery Pear",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Cirsium arvense",
+      "common_name": "Canada Thistle",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Ligustrum sinense",
+      "common_name": "Chinese Privet",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Triadica sebifera",
+      "common_name": "Chinese Tallow",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Imperata cylindrica",
+      "common_name": "Cogongrass",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Rhamnus cathartica",
+      "common_name": "Common Buckthorn",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Dipsacus fullonum",
+      "common_name": "Common Teasel",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Linaria dalmatica",
+      "common_name": "Dalmatian Toadflax",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Centaurea diffusa",
+      "common_name": "Diffuse Knapweed",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Bromus tectorum",
+      "common_name": "Downy Brome",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Hedera spp.",
+      "common_name": "English Ivy",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Ficaria verna",
+      "common_name": "Fig Buttercup",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Alliaria petiolata",
+      "common_name": "Garlic Mustard",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Heracleum mantegazzianum",
+      "common_name": "Giant Hogweed",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Phyllostachys aurea",
+      "common_name": "Golden Bamboo",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Lepidium appelianum",
+      "common_name": "Hairy Whitetop",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Cynoglossum officinale",
+      "common_name": "Houndstongue",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Berberis thunbergii",
+      "common_name": "Japanese Barberry",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Lygodium japonicum",
+      "common_name": "Japanese Climbing Fern",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Lonicera japonica",
+      "common_name": "Japanese Honeysuckle",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Fallopia japonica",
+      "common_name": "Japanese Knotweed",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Spiraea japonica",
+      "common_name": "Japanese Spiraea",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Microstegium vimineum",
+      "common_name": "Japanese Stiltgrass",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Sorghum halepense",
+      "common_name": "Johnsongrass",
+      "invasive_status": "USDA Listed Invasive"
+    },
+    {
+      "scientific_name": "Pueraria montana var. lobata",
+      "common_name": "Kudzu",
+      "invasive_status": "USDA Listed Invasive"
+    }
+  ]
+}

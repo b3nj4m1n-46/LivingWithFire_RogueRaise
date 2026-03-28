@@ -1,0 +1,287 @@
+{
+  "total": 47,
+  "indexes": [
+    {
+      "file": "ABAG_Home-Hardening-Defensible-Space-Resource-Guide_structure.json",
+      "doc_name": "ABAG_Home-Hardening-Defensible-Space-Resource-Guide.pdf",
+      "top_level_sections": 6,
+      "size_bytes": 32927
+    },
+    {
+      "file": "BainbridgeIsland_Fire-Resistant-Plants-Home-Landscapes-PNW590_structure.json",
+      "doc_name": "BainbridgeIsland_Fire-Resistant-Plants-Home-Landscapes-PNW590.pdf",
+      "top_level_sections": 18,
+      "size_bytes": 20144
+    },
+    {
+      "file": "Bethke-UCCE_Literature-Review-Plant-Flammability-Fire-Resistant-Lists_2016_structure.json",
+      "doc_name": "Bethke-UCCE_Literature-Review-Plant-Flammability-Fire-Resistant-Lists_2016.pdf",
+      "top_level_sections": 8,
+      "size_bytes": 18266
+    },
+    {
+      "file": "EastBayMUD_Fire-Management-Plan_structure.json",
+      "doc_name": "EastBayMUD_Fire-Management-Plan.pdf",
+      "top_level_sections": 31,
+      "size_bytes": 212024
+    },
+    {
+      "file": "FireSafeMarin_Ecologically-Sound-Practices-Defensible-Space_2021_structure.json",
+      "doc_name": "FireSafeMarin_Ecologically-Sound-Practices-Defensible-Space_2021.pdf",
+      "top_level_sections": 6,
+      "size_bytes": 21220
+    },
+    {
+      "file": "FireSafeMarin_Fire-Resistant-Plants-Marin-County_2019_structure.json",
+      "doc_name": "FireSafeMarin_Fire-Resistant-Plants-Marin-County_2019.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 4045
+    },
+    {
+      "file": "FireSafeSanDiego_Comprehensive-Fire-Resistant-Plant-List_2017_structure.json",
+      "doc_name": "FireSafeSanDiego_Comprehensive-Fire-Resistant-Plant-List_2017.pdf",
+      "top_level_sections": 7,
+      "size_bytes": 28100
+    },
+    {
+      "file": "FlorenceOR_Fire-Resistant-Plants-Home-Landscapes_2024_structure.json",
+      "doc_name": "FlorenceOR_Fire-Resistant-Plants-Home-Landscapes_2024.pdf",
+      "top_level_sections": 1,
+      "size_bytes": 10956
+    },
+    {
+      "file": "Ganteaume_Quantifying-Flammability-Ornamental-Shrubs_2020_structure.json",
+      "doc_name": "Ganteaume_Quantifying-Flammability-Ornamental-Shrubs_2020.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 9358
+    },
+    {
+      "file": "HarborBay_Alameda-Plant-Guidelines_2011_structure.json",
+      "doc_name": "HarborBay_Alameda-Plant-Guidelines_2011.pdf",
+      "top_level_sections": 1,
+      "size_bytes": 28874
+    },
+    {
+      "file": "IdahoFirewise_Garden-Plant-Database_2026_structure.json",
+      "doc_name": "IdahoFirewise_Garden-Plant-Database_2026.pdf",
+      "top_level_sections": 10,
+      "size_bytes": 7771
+    },
+    {
+      "file": "IdahoFirewise_Garden-Signage_structure.json",
+      "doc_name": "IdahoFirewise_Garden-Signage.pdf",
+      "top_level_sections": 20,
+      "size_bytes": 12169
+    },
+    {
+      "file": "IdahoFirewise_Trifold-Guide_2021_structure.json",
+      "doc_name": "IdahoFirewise_Trifold-Guide_2021.pdf",
+      "top_level_sections": 21,
+      "size_bytes": 20492
+    },
+    {
+      "file": "JacksonSWCD_Fire-Resistant-Shrubs-Trees-Southern-OR_structure.json",
+      "doc_name": "JacksonSWCD_Fire-Resistant-Shrubs-Trees-Southern-OR.pdf",
+      "top_level_sections": 14,
+      "size_bytes": 12772
+    },
+    {
+      "file": "JacksonSWCD_Natural-Resource-Stewardship-Handbook_2020_structure.json",
+      "doc_name": "JacksonSWCD_Natural-Resource-Stewardship-Handbook_2020.pdf",
+      "top_level_sections": 5,
+      "size_bytes": 316922
+    },
+    {
+      "file": "MCSTOPPP_Go-Native-Fire-Resistant-Plants-Bay-Area_2013_structure.json",
+      "doc_name": "MCSTOPPP_Go-Native-Fire-Resistant-Plants-Bay-Area_2013.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 18806
+    },
+    {
+      "file": "MarinCounty_Fire-Protection-Standard-220A-VMP_2024_structure.json",
+      "doc_name": "MarinCounty_Fire-Protection-Standard-220A-VMP_2024.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 18969
+    },
+    {
+      "file": "MarinCounty_Vegetation-Management-Plan-Standard_2024_structure.json",
+      "doc_name": "MarinCounty_Vegetation-Management-Plan-Standard_2024.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 22263
+    },
+    {
+      "file": "MissouriBotanical_Native-Plants-Deer-Resistant-Garden_structure.json",
+      "doc_name": "MissouriBotanical_Native-Plants-Deer-Resistant-Garden.pdf",
+      "top_level_sections": 1,
+      "size_bytes": 4241
+    },
+    {
+      "file": "NPS_After-The-Vision-Fire-Phoenix-Team-Report_1996_structure.json",
+      "doc_name": "NPS_After-The-Vision-Fire-Phoenix-Team-Report_1996.pdf",
+      "top_level_sections": 21,
+      "size_bytes": 40172
+    },
+    {
+      "file": "OSU_PNW590-Fire-Resistant-Plants-Home-Landscapes_2023_structure.json",
+      "doc_name": "OSU_PNW590-Fire-Resistant-Plants-Home-Landscapes_2023.pdf",
+      "top_level_sections": 8,
+      "size_bytes": 12980
+    },
+    {
+      "file": "OrangeCounty_Wildland-Fire-Management-Plan-Vol1_structure.json",
+      "doc_name": "OrangeCounty_Wildland-Fire-Management-Plan-Vol1.pdf",
+      "top_level_sections": 43,
+      "size_bytes": 162163
+    },
+    {
+      "file": "RCD-CNPS_Fire-Resistant-Plants-List_2018_structure.json",
+      "doc_name": "RCD-CNPS_Fire-Resistant-Plants-List_2018.pdf",
+      "top_level_sections": 3,
+      "size_bytes": 7885
+    },
+    {
+      "file": "RCDSMM_Wildfire-Resilience-Defensible-Space-Booklet_2023_structure.json",
+      "doc_name": "RCDSMM_Wildfire-Resilience-Defensible-Space-Booklet_2023.pdf",
+      "top_level_sections": 19,
+      "size_bytes": 101697
+    },
+    {
+      "file": "Radtke_Basic-WUI-Firestorm-Safety-Concepts_structure.json",
+      "doc_name": "Radtke_Basic-WUI-Firestorm-Safety-Concepts.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 29902
+    },
+    {
+      "file": "Radtke_Homeowners-Guide-Fire-Watershed-Management_1993_structure.json",
+      "doc_name": "Radtke_Homeowners-Guide-Fire-Watershed-Management_1993.pdf",
+      "top_level_sections": 10,
+      "size_bytes": 18407
+    },
+    {
+      "file": "Radtke_Living-More-Safely-Chaparral-Urban-Interface_structure.json",
+      "doc_name": "Radtke_Living-More-Safely-Chaparral-Urban-Interface.pdf",
+      "top_level_sections": 10,
+      "size_bytes": 91534
+    },
+    {
+      "file": "Radtke_Wildland-Plantings-Urban-Forestry-LA-County_1978_structure.json",
+      "doc_name": "Radtke_Wildland-Plantings-Urban-Forestry-LA-County_1978.pdf",
+      "top_level_sections": 10,
+      "size_bytes": 44982
+    },
+    {
+      "file": "SanRafael_Guidelines-Development-Riparian-Watershed-Areas_structure.json",
+      "doc_name": "SanRafael_Guidelines-Development-Riparian-Watershed-Areas.pdf",
+      "top_level_sections": 3,
+      "size_bytes": 157173
+    },
+    {
+      "file": "SantaBarbara_Fire-Wise-Water-Wise-Landscaping_structure.json",
+      "doc_name": "SantaBarbara_Fire-Wise-Water-Wise-Landscaping.pdf",
+      "top_level_sections": 6,
+      "size_bytes": 11897
+    },
+    {
+      "file": "SantaBarbara_Guidelines-Landscaping-High-Fire-Hazard-Zone_structure.json",
+      "doc_name": "SantaBarbara_Guidelines-Landscaping-High-Fire-Hazard-Zone.pdf",
+      "top_level_sections": 5,
+      "size_bytes": 22593
+    },
+    {
+      "file": "Slaughter_I-Zone-WUI-Fire-Prevention-Mitigation_1996_structure.json",
+      "doc_name": "Slaughter_I-Zone-WUI-Fire-Prevention-Mitigation_1996.pdf",
+      "top_level_sections": 8,
+      "size_bytes": 599392
+    },
+    {
+      "file": "StopWaste_Bay-Friendly-Landscape-Guidelines_2010_structure.json",
+      "doc_name": "StopWaste_Bay-Friendly-Landscape-Guidelines_2010.pdf",
+      "top_level_sections": 22,
+      "size_bytes": 55684
+    },
+    {
+      "file": "TownOfRoss_UC-CoopExt-Acceptable-Fire-Resistant-Plant-List_structure.json",
+      "doc_name": "TownOfRoss_UC-CoopExt-Acceptable-Fire-Resistant-Plant-List.pdf",
+      "top_level_sections": 19,
+      "size_bytes": 175341
+    },
+    {
+      "file": "UC-ForestProductsLab_Defensible-Space-Landscaping-WUI_1997_structure.json",
+      "doc_name": "UC-ForestProductsLab_Defensible-Space-Landscaping-WUI_1997.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 766328
+    },
+    {
+      "file": "UCDavis_California-Plant-Information-Systems_structure.json",
+      "doc_name": "UCDavis_California-Plant-Information-Systems.pdf",
+      "top_level_sections": 17,
+      "size_bytes": 44527
+    },
+    {
+      "file": "UCDavis_Site-Appropriate-CA-Residential-Landscaping_2009_structure.json",
+      "doc_name": "UCDavis_Site-Appropriate-CA-Residential-Landscaping_2009.pdf",
+      "top_level_sections": 15,
+      "size_bytes": 19938
+    },
+    {
+      "file": "UCRiverside_Landscaping-For-Fire-Protection_structure.json",
+      "doc_name": "UCRiverside_Landscaping-For-Fire-Protection.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 19465
+    },
+    {
+      "file": "UC_SAFE-Landscapes-Southern-CA-Guidebook_2009_structure.json",
+      "doc_name": "UC_SAFE-Landscapes-Southern-CA-Guidebook_2009.pdf",
+      "top_level_sections": 9,
+      "size_bytes": 32433
+    },
+    {
+      "file": "UF-IFAS_Firewise-Shrubs-Reduce-Wildfire-Risk_structure.json",
+      "doc_name": "UF-IFAS_Firewise-Shrubs-Reduce-Wildfire-Risk.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 2223
+    },
+    {
+      "file": "UF-IFAS_Selecting-Firewise-Shrubs-WUI_structure.json",
+      "doc_name": "UF-IFAS_Selecting-Firewise-Shrubs-WUI.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 2216
+    },
+    {
+      "file": "UF-IFAS_Selecting-Maintaining-Firewise-Plants-WUI_structure.json",
+      "doc_name": "UF-IFAS_Selecting-Maintaining-Firewise-Plants-WUI.pdf",
+      "top_level_sections": 8,
+      "size_bytes": 10082
+    },
+    {
+      "file": "USDA-APHIS_Federal-Noxious-Weed-List_structure.json",
+      "doc_name": "USDA-APHIS_Federal-Noxious-Weed-List.pdf",
+      "top_level_sections": 4,
+      "size_bytes": 2306
+    },
+    {
+      "file": "VenturaCountyFire_Guideline-417-Plant-Reference-Guide_2024_structure.json",
+      "doc_name": "VenturaCountyFire_Guideline-417-Plant-Reference-Guide_2024.pdf",
+      "top_level_sections": 5,
+      "size_bytes": 5579
+    },
+    {
+      "file": "WA-DNR_Fire-Resistant-Plants-Eastern-Washington_structure.json",
+      "doc_name": "WA-DNR_Fire-Resistant-Plants-Eastern-Washington.pdf",
+      "top_level_sections": 14,
+      "size_bytes": 233729
+    },
+    {
+      "file": "WSU_Deer-Resistant-Plants-Eastern-WA_structure.json",
+      "doc_name": "WSU_Deer-Resistant-Plants-Eastern-WA.pdf",
+      "top_level_sections": 1,
+      "size_bytes": 11376
+    },
+    {
+      "file": "WSU_Fire-Resistant-Plants-Chelan-Douglas-County_2017_structure.json",
+      "doc_name": "WSU_Fire-Resistant-Plants-Chelan-Douglas-County_2017.pdf",
+      "top_level_sections": 2,
+      "size_bytes": 300246
+    }
+  ]
+}

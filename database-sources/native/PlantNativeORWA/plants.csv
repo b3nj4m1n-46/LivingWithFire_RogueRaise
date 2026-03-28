@@ -1,0 +1,60 @@
+scientific_name,common_name,plant_type,sun,moisture,height
+Acer circinatum,Vine Maple,Tree,F-S,A-W,25'
+Acer macrophyllum,Big Leaf Maple,Tree,F-P,A,30-100'
+Alnus rubra,Red Alder,Tree,F,W,40-100'
+Arbutus menziesii,Pacific Madrone,Tree,F,A,40-80'
+Betula papyrifera,Paper Birch,Tree,F-S,A,80'
+Crataegus douglasii,Black Hawthorn,Tree,F,W,20-30'
+Cornus nuttallii,Pacific Dogwood,Tree,F-P,A,30-50'
+Fraxinus latifolia,Oregon Ash,Tree,F,W,40-75'
+Malus spp.,Crab Apple,Tree,F-P,A-W,15-35'
+Oemleria cerasiformis,Indian Plum,Tree,F-P,D-A,16'
+Populus tremuloides,Quaking Aspen,Tree,F,A-W,40-80'
+Populus trichocarpa,Black Cottonwood,Tree,F,W,70-100'
+Prunus emarginata,Bitter Cherry,Tree,F-P,A,20-60'
+Quercus garryana,Oregon White Oak,Tree,F,D-A,30-100'
+Rhamnus purshiana,Cascara,Tree,F-P,A,30'
+Salix lasiandra,Pacific Willow,Tree,F,W,20'
+Abies grandis,Grand Fir,Tree,F-P,D-A,100-200'
+Abies procera,Noble Fir,Tree,F,,
+Picea sitchensis,Sitka Spruce,Tree,,,100-150'
+Pinus ponderosa,Ponderosa Pine,Tree,F,D-W,60-130'
+Pseudotsuga menziesii,Douglas Fir,Tree,F,D-W,75-200'
+Sequoiadendron giganteum,Giant Sequoia,Tree,F,A,200'
+Thuja plicata,Western Redcedar,Tree,P,A-W,100-175'
+Tsuga heterophylla,Western Hemlock,Tree,F-P,D-A,125-200'
+Amelanchier alnifolia,Serviceberry,Shrub,F,A,4-15'
+Arctostaphylos columbiana,Hairy Manzanita,Shrub,,,10-15'
+Arctostaphylos uva-ursi,Kinnikinnick,Shrub,F-P,A,"12"""
+Berberis aquifolium,Tall Oregon Grape,Shrub,,,8-10'
+Ceanothus velutinus,Snowbrush,Shrub,,,9'
+Cornus stolonifera,Red-osier Dogwood,Shrub,F-S,W,15'
+Corylus cornuta var. californica,Western Hazelnut,Shrub,,,5-12'
+Gaultheria shallon,Salal,Shrub,F-S,A,6'
+Holodiscus discolor,Ocean Spray,Shrub,P-S,D-W,3-20'
+Lonicera ciliosa,Western Honeysuckle,Shrub,,,Vine
+Lonicera involucrata,Twinberry,Shrub,,,4-8'
+Mahonia nervosa,Creeping Oregon Grape,Shrub,F-S,D-W,"12"""
+Philadelphus lewisii,Mock Orange,Shrub,F-P,D-A,4-10'
+Physocarpus capitatus,Pacific Ninebark,Shrub,F-S,W,10'
+Rosa gymnocarpa,Bald-hip Rose,Shrub,F,D,5'
+Rosa woodsii,Wood Rose,Shrub,,,1-8'
+Ribes sanguineum,Red Flowering Currant,Shrub,F-P,A,10-35'
+Rosa nutkana,Nootka Rose,Shrub,,,8-10'
+Rubus spectabilis,Salmonberry,Shrub,F-P,A-W,12'
+Sambucus racemosa,Red Elderberry,Shrub,F-S,A,1-8'
+Spiraea douglasii,Western Spirea,Shrub,F-P,A-W,3-6'
+Symphoricarpos spp.,Snowberry,Shrub,F-P,D-W,8-20'
+Vaccinium membranaceum,Huckleberry,Shrub,F,A,2-6'
+Vaccinium ovatum,Evergreen Huckleberry,Shrub,,,4'
+Vaccinium parvifolium,Red Huckleberry,Shrub,F-P,A,2-8'
+Aquilegia formosa,Red Columbine,Perennial,F-P,A-W,3'
+Dodecatheon hendersonii,Shooting Star,Perennial,F,A-W,
+Erythronium oregonum,White Fawn Lily,Perennial,F-S,A,
+Lilium columbianum,Tiger Lily,Perennial,F,,
+Lupinus polyphyllus,Big Leaf Lupine,Perennial,F,A-W,3-4'
+Sedum oreganum,Oregon Stonecrop,Perennial,F-P,A-W,
+Sisyrinchium californicum,Yellow-Eyed Grass,Perennial,F-P,W,
+Cornus canadensis,Dwarf Dogwood,Perennial,S,W,Low
+Dicentra formosa,Bleeding Heart,Perennial,S,W,1-2'
+Viola adunca,Early Blue Violet,Perennial,S,W,"4"""

@@ -1,0 +1,56 @@
+{
+  "doc_name": "MissouriBotanical_Native-Plants-Deer-Resistant-Garden.pdf",
+  "structure": [
+    {
+      "title": "Native Plants for a Deer Resistant Garden",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "No Browse",
+          "start_index": 1,
+          "end_index": 2,
+          "node_id": "0001",
+          "summary": "This partial document provides a list of native plants categorized by their resistance to deer browsing, based on a three-year study conducted in Wildwood, Missouri, an area with a high deer population. The main points covered are:\n\n*   **Introduction to Deer-Resistant Gardening:** The document's title and introductory sentence establish its purpose: to guide gardeners in selecting native plants that deer are unlikely to eat.\n*   **Study Context:** The information is derived from a practical study in an area with significant deer overpopulation, lending credibility to the plant classifications.\n*   **Categorized Plant Lists:** The core of the document is a detailed listing of native plants divided into three categories based on observed deer behavior:\n    *   **No Browse:** Plants that deer did not eat at all.\n    *   **Very Light Browse (Tasted):** Plants that deer tasted but did not consume significantly.\n    *   **Light Browse:** Plants that deer browsed to some extent, but not heavily.\nEach plant is listed with both its scientific and common name."
+        },
+        {
+          "title": "Very Light Browse (Tasted)",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0002",
+          "summary": "This partial document lists various plant species, categorized by their browse levels: \"No Browse,\" \"Very Light Browse (Tasted),\" and \"Light Browse.\" Each entry includes both the scientific and common name for the plant, indicating their palatability or consumption by browsing animals."
+        },
+        {
+          "title": "Light Browse",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0003",
+          "summary": "The partial document lists various plant species, categorized by their level of browse. It includes sections for \"No Browse,\" \"Very Light Browse (Tasted),\" and \"Light Browse,\" with each section providing both scientific and common names for the plants."
+        },
+        {
+          "title": "Medium Browse",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0004",
+          "summary": "The document lists various plant species, identified by both their common and scientific names, categorized into three levels of browse intensity: Medium Browse, Heavy Browse, and Complete Browse."
+        },
+        {
+          "title": "Heavy Browse",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0005",
+          "summary": "This partial document lists various plant species, categorized into three distinct groups: \"Medium Browse,\" \"Heavy Browse,\" and \"Complete Browse.\" Each category provides a list of plants, including both their scientific and common names, suggesting a classification based on their susceptibility or resistance to browsing by animals."
+        },
+        {
+          "title": "Complete Browse",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0006",
+          "summary": "This partial document lists various plant species, categorized into three distinct groups: \"Medium Browse,\" \"Heavy Browse,\" and \"Complete Browse.\" Each category provides a list of plants, including both their scientific and common names, suggesting a classification based on their susceptibility or resistance to browsing by animals."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "This partial document provides a list of native plants suitable for a deer-resistant garden. The information is based on a three-year study conducted in Wildwood, Missouri, an area with a significant deer overpopulation. The main content is a detailed list of plants, categorized under \"No Browse,\" indicating they are not typically eaten by deer. Each plant is listed with its scientific and common name."
+    }
+  ]
+}

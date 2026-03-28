@@ -1,0 +1,33 @@
+scientific_name,common_name,pollen_nectar,attracts,insect_count
+Achillea millefolium,Common Yarrow,"P, N","lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",11
+Arnoglossum atriplicifolium,Pale Indianlantain,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, sweat_bees",9
+Asclepias syriaca,Common Milkweed,N,"syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",11
+Asclepias incarnata,Swamp Milkweed,N,"tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",10
+Ceanothus americanus,New Jersey Tea,"P, N","syrphid_flies, tachinid_flies, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, mining_bees, sweat_bees",8
+Coreopsis palmata,Plains Coreopsis,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",9
+Dalea purpurea,Purplerairie Clover,"P, N","syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",9
+Doellingeria umbellata,Flat-topped Aster,"P, N","syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",11
+Erigeron strigosus,Daisy Fleabane,"P, N","lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, paper_wasps, leafcutter_bees, mining_bees, sweat_bees",9
+Eryngium yuccifolium,Rattlesnake Master,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",11
+Eupatorium perfoliatum,Common Boneset,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",12
+Euphorbia corollata,Flowering Spurge,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, leafcutter_bees, sweat_bees",8
+Euthamia graminifolia,Grass-leaved Goldenrod,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, mining_bees, sweat_bees",10
+Helenium autumnale,Sneezeweed,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",10
+Heliopsis helianthoides,False Sunflower or Smooth Oxeye,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",9
+Monarda fistulosa,Wild Bergamot,"P, N","syrphid_flies, soldier_beetles, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",8
+Parthenium integrifolium,Wild Quinine,"P, N","syrphid_flies, tachinid_flies, thynid_wasps, mason_potter_wasps, paper_wasps, leafcutter_bees, mining_bees, sweat_bees",8
+Pycnanthemum tenuifolium,Slender Mountain Mint,N,"syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",11
+Pycnanthemum virginianum,Virginia Mountain Mint,N,"syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",12
+Ratibida pinnata,Yellow or Gray-headed Coneflower,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",11
+Rudbeckia hirta,Black-eyed Susan,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",10
+Rudbeckia subtomentosa,Sweet Black-eyed Susan,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",9
+Solidago rigida,Stiff Goldenrod,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",12
+Symphyotrichum lanceolatum,Panicled Aster,"P, N","lacewings, syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",13
+Symphyotrichum lateriflorum,Calico Aster,"P, N","lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",12
+Symphyotrichum novae-angliae,New England Aster,"P, N","syrphid_flies, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",6
+Tradescantia ohiensis,Ohio Spiderwort,P,"syrphid_flies, soldier_beetles, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",6
+Verbena hastata,Blue Vervain,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",10
+Verbesina alternifolia,Wingstem,"P, N","syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",11
+Vernonia gigantea,Tall Ironweed,"P, N","bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",4
+Veronicastrum virginicum,Culver’s Root,"P, N","syrphid_flies, tachinid_flies, soldier_beetles, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",7
+Zizia aurea,Golden Alexanders,"P, N","syrphid_flies, mason_potter_wasps, paper_wasps, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",7

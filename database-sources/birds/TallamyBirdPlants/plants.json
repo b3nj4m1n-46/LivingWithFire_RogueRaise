@@ -1,0 +1,350 @@
+{
+  "source": "Doug Tallamy, University of Delaware - 20 Most Valuable Native Plant Genera (2018)",
+  "url": "https://canr.udel.edu/wp-content/uploads/sites/16/2018/10/30121131/20-Most-Valuable-for-Biodiversity.pdf",
+  "methodology": "Number of Lepidoptera (butterfly/moth) species whose caterpillars feed on the given plant genus. 96% of terrestrial birds feed caterpillars to nestlings, so Lepidoptera count directly predicts bird food value.",
+  "bird_value_tiers": {
+    "Exceptional": "200+ Lepidoptera species",
+    "Very High": "100-199 Lepidoptera species",
+    "High": "50-99 Lepidoptera species",
+    "Moderate": "20-49 Lepidoptera species",
+    "Good": "10-19 Lepidoptera species"
+  },
+  "plants": [
+    {
+      "genus": "Quercus",
+      "common_name": "Oak",
+      "lepidoptera_species": 557,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Prunus",
+      "common_name": "Black Cherry",
+      "lepidoptera_species": 456,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Salix",
+      "common_name": "Willow",
+      "lepidoptera_species": 455,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Betula",
+      "common_name": "Birch",
+      "lepidoptera_species": 413,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Populus",
+      "common_name": "Poplar",
+      "lepidoptera_species": 368,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Malus",
+      "common_name": "Crabapple",
+      "lepidoptera_species": 311,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Acer",
+      "common_name": "Maple",
+      "lepidoptera_species": 297,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Vaccinium",
+      "common_name": "Blueberry",
+      "lepidoptera_species": 288,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Alnus",
+      "common_name": "Alder",
+      "lepidoptera_species": 255,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Carya",
+      "common_name": "Hickory",
+      "lepidoptera_species": 235,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Ulmus",
+      "common_name": "Elm",
+      "lepidoptera_species": 215,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Pinus",
+      "common_name": "Pine",
+      "lepidoptera_species": 203,
+      "type": "Woody",
+      "bird_value": "Exceptional",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Crataegus",
+      "common_name": "Hawthorn",
+      "lepidoptera_species": 168,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Picea",
+      "common_name": "Spruce",
+      "lepidoptera_species": 156,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Tilia",
+      "common_name": "Basswood",
+      "lepidoptera_species": 150,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Fraxinus",
+      "common_name": "Ash",
+      "lepidoptera_species": 150,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Rosa",
+      "common_name": "Rose",
+      "lepidoptera_species": 139,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Corylus",
+      "common_name": "Filbert",
+      "lepidoptera_species": 131,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Juglans",
+      "common_name": "Walnut",
+      "lepidoptera_species": 130,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Fagus",
+      "common_name": "Beech",
+      "lepidoptera_species": 127,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Castanea",
+      "common_name": "Chestnut",
+      "lepidoptera_species": 127,
+      "type": "Woody",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Solidago",
+      "common_name": "Goldenrod",
+      "lepidoptera_species": 104,
+      "type": "Perennial",
+      "bird_value": "Very High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Fragaria",
+      "common_name": "Strawberry",
+      "lepidoptera_species": 67,
+      "type": "Perennial",
+      "bird_value": "High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Helianthus",
+      "common_name": "Sunflower",
+      "lepidoptera_species": 56,
+      "type": "Perennial",
+      "bird_value": "High",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Eupatorium",
+      "common_name": "Joe Pye / Boneset",
+      "lepidoptera_species": 31,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Viola",
+      "common_name": "Violet",
+      "lepidoptera_species": 28,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Panicum",
+      "common_name": "Switchgrass",
+      "lepidoptera_species": 25,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Geranium",
+      "common_name": "Geranium",
+      "lepidoptera_species": 25,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Hibiscus",
+      "common_name": "Rosemallow",
+      "lepidoptera_species": 25,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Lupinus",
+      "common_name": "Lupine",
+      "lepidoptera_species": 24,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Sium",
+      "common_name": "Water Parsnip",
+      "lepidoptera_species": 21,
+      "type": "Perennial",
+      "bird_value": "Moderate",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Erigeron",
+      "common_name": "Fleabane",
+      "lepidoptera_species": 19,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Baptisia",
+      "common_name": "Wild Indigo",
+      "lepidoptera_species": 19,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Vernonia",
+      "common_name": "Ironweed",
+      "lepidoptera_species": 19,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Rudbeckia",
+      "common_name": "Black-eyed Susan",
+      "lepidoptera_species": 18,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Verbesina",
+      "common_name": "Wingstem",
+      "lepidoptera_species": 15,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Oenothera",
+      "common_name": "Evening Primrose",
+      "lepidoptera_species": 15,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Thalictrum",
+      "common_name": "Meadow Rue",
+      "lepidoptera_species": 15,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Andropogon",
+      "common_name": "Bluestem",
+      "lepidoptera_species": 14,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Apocynum",
+      "common_name": "Dogbane",
+      "lepidoptera_species": 14,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Asclepias",
+      "common_name": "Milkweed",
+      "lepidoptera_species": 12,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    },
+    {
+      "genus": "Aquilegia",
+      "common_name": "Columbine",
+      "lepidoptera_species": 11,
+      "type": "Perennial",
+      "bird_value": "Good",
+      "region": "Mid-Atlantic (applicable nationwide for genera)"
+    }
+  ]
+}

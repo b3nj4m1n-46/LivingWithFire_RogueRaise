@@ -1,0 +1,542 @@
+common_name,scientific_name,size_feet,firewise_rating,firewise_rating_code,firewise_rating_label,landscape_zone,slug
+allegheny serviceberry,Amelanchier laevis,25',Firewise (1),1,Firewise,LZ2,amelanchier-laevis
+allegheny spurge,Pachysandra procumbens,1',AT RISK Firewise (3),3,At Risk Firewise,LZ1,pachysandra-procumbens
+alpine currant,Ribes alpinum,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,ribes-alpinum
+American beautyberry,Callicarpa americana,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,callicarpa-americana
+American beech,Fagus grandifolia,100.0',Firewise (1),1,Firewise,LZ3,fagus-grandifolia
+American chestnut,Castanea dentata,40',AT RISK Firewise (3),3,At Risk Firewise,LZ3,castanea-dentata
+American devilwood,Osmanthus americanus,25',NOT Firewise (4),4,Not Firewise,LZ3,osmanthus-americanus
+American elm,Ulmus americana,100.0',Firewise (1),1,Firewise,LZ3,ulmus-americana
+American hazelnut,Corylus americana,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,corylus-americana
+American holly,Ilex opaca,50',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-opaca
+American mountain-ash,Sorbus americana,15',Firewise (1),1,Firewise,LZ3,sorbus-americana
+American plum,Prunus americana,15',AT RISK Firewise (3),3,At Risk Firewise,LZ2,prunus-americana
+American wisteria,Wisteria frutescens,40',NOT Firewise (4),4,Not Firewise,LZ3,wisteria-frutescens
+amur honeysuckle,Lonicera maacki,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,lonicera-maacki
+amur maackia,Maackia amurensis,35',Firewise (1),1,Firewise,LZ3,maackia-amurensis
+amur maple,Acer ginnala,15',Firewise (1),1,Firewise,LZ3,acer-ginnala
+Anglojapanese yew,Taxus xmedia,6',NOT Firewise (4),4,Not Firewise,LZ2,taxus-xmedia
+apple,Malus pumila,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-pumila
+apple,Malus sylvestris,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-sylvestris
+apple serviceberry,Amelanchier x grandiflora,25',Firewise (1),1,Firewise,LZ2,amelanchier-x-grandiflora
+arborvitae,Thuja occidentalis,15',NOT Firewise (4),4,Not Firewise,LZ3,thuja-occidentalis
+Arizona cypress,Cupressus arizonica var. arizonica,50',NOT Firewise (4),4,Not Firewise,LZ3,cupressus-arizonica-var-arizonica
+Arnold's Promise witchhazel,Hamamelis x intermedia 'Arnold's Promise',6',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,hamamelis-x-intermedia-arnolds-promise
+arrowwood viburnum,Viburnum lentago,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-lentago
+Atlas cedar,Cedrus atlantica,50',NOT Firewise (4),4,Not Firewise,LZ3,cedrus-atlantica
+aurora dogwood,Cornus x 'Rutban',25',Firewise (1),1,Firewise,LZ3,cornus-x-rutban
+Austrian pine,Pinus nigra,50',NOT Firewise (4),4,Not Firewise,LZ3,pinus-nigra
+autumn olive,Elaeagnus umbellata,15',NOT Firewise (4),4,Not Firewise,LZ3,elaeagnus-umbellata
+baldcypress,Taxodium distichum,100.0',NOT Firewise (4),4,Not Firewise,LZ3,taxodium-distichum
+balsam fir,Abies balsamea,60',AT RISK Firewise (3),3,At Risk Firewise,LZ4,abies-balsamea
+bamboo,Phyllostachys spp.,15',NOT Firewise (4),4,Not Firewise,LZ4,phyllostachys-spp
+banana,Musa spp.,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,musa-spp
+banana shrub,Michelia figo,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,michelia-figo
+basswood,Tilia americana,50',Firewise (1),1,Firewise,LZ3,tilia-americana
+bay,Persea borbonia,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,persea-borbonia
+beaked hazelnut,Corylus cornuta,8',13,,13,LZ2,corylus-cornuta
+Beale's mahonia,Mahonia bealei,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,mahonia-bealei
+bearberry,Arctostaphlos uva-ursi,<1',Firewise (1),1,Firewise,LZ2,arctostaphlos-uvaursi
+beautybush,Kolkwitzia amabilis,12',AT RISK Firewise (3),3,At Risk Firewise,LZ3,kolkwitzia-amabilis
+Big-leaf holly,Ilex montana,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,ilex-montana
+bigleaf magnolia,Magnolia macrophylla,30',AT RISK Firewise (3),3,At Risk Firewise,LZ3,magnolia-macrophylla
+bird cherry,Prunus avium,50',Firewise (1),1,Firewise,LZ3,prunus-avium
+bitternut hickory,Carya cordiformis,50',Firewise (1),1,Firewise,LZ3,carya-cordiformis
+bittersweet,Celastrus orbiculata,50',NOT Firewise (4),4,Not Firewise,LZ4,celastrus-orbiculata
+black ash,Fraxinus nigra,50',Firewise (1),1,Firewise,LZ3,fraxinus-nigra
+black birch,Betula lenta,50',Firewise (1),1,Firewise,LZ3,betula-lenta
+black chokeberry,Aronia melanocarpa,10',Firewise (1),1,Firewise,LZ2,aronia-melanocarpa
+black gum or sour gum,Nyssa sylvatica,50',Firewise (1),1,Firewise,LZ3,nyssa-sylvatica
+black jetbead,Rhodotypos scandens,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhodotypos-scandens
+black locust,Robinia pseudoacacia,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,robinia-pseudoacacia
+black maple,Acer nigrum,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-nigrum
+black mulberry,Morus nigra,30',Firewise (1),1,Firewise,LZ3,morus-nigra
+black oak,Quercus velutina,50',Firewise (1),1,Firewise,LZ3,quercus-velutina
+black walnut,Juglans nigra,50',Firewise (1),1,Firewise,LZ3,juglans-nigra
+black willow,Salix nigra,100.0',Firewise (1),1,Firewise,LZ3,salix-nigra
+blackhaw viburnum,Viburnum prunifolium,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,viburnum-prunifolium
+blackjack oak,Quercus marilandica,40',Firewise (1),1,Firewise,LZ3,quercus-marilandica
+bladdernut,Staphylea trifolia,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,staphylea-trifolia
+blireana plum,Prunus x blireana,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,prunus-x-blireana
+blue ash,Fraxinus quadrangulata,75',Firewise (1),1,Firewise,LZ3,fraxinus-quadrangulata
+bluebeard,Caryopteris xclandoensis,2',Firewise (1),1,Firewise,LZ2,caryopteris-xclandoensis
+bog laurel,Kalmia polifolia,2',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,kalmia-polifolia
+bog rosemary,Andromeda polifolia,2',Firewise (1),1,Firewise,LZ2,andromeda-polifolia
+Boston ivy,Parthenocissus tricuspidata,30',NOT Firewise (4),4,Not Firewise,LZ2,parthenocissus-tricuspidata
+bottlebrush,Callistemon citrinus,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,callistemon-citrinus
+bottlebrush buckeye,Aesculus parviflora,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,aesculus-parviflora
+boxelder,Acer negundo,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-negundo
+bridalwreath spirea,Spirea prunifolia,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,spirea-prunifolia
+bristly locust,Robinia hispida,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,robinia-hispida
+bumald spirea,Spirea xbulmalda,4',AT RISK Firewise (3),3,At Risk Firewise,LZ2,spirea-xbulmalda
+bur oak,Quercus macrocarpa,100.0',Firewise (1),1,Firewise,LZ3,quercus-macrocarpa
+burford Chinese holly,Ilex cornuta 'Burfordii',15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-cornuta-burfordii
+bush-honeysuckle,Diervilla lonicera,5',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,diervilla-lonicera
+butterflybush,Buddleja davidii,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,buddleja-davidii
+butternut,Juglans cinerea,25',Firewise (1),1,Firewise,LZ3,juglans-cinerea
+buttonbush,Cephalanthus occidentalis,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,cephalanthus-occidentalis
+callery pear,Pyrus calleryana,40',AT RISK Firewise (3),3,At Risk Firewise,LZ3,pyrus-calleryana
+Canada serviceberry,Amelanchier canadensis,20',Firewise (1),1,Firewise,LZ2,amelanchier-canadensis
+Canadian hemlock,Tsuga canadensis,100.0',NOT Firewise (4),4,Not Firewise,LZ3,tsuga-canadensis
+Canary palm,Phoenix canariensis,30',NOT Firewise (4),4,Not Firewise,LZ3,phoenix-canariensis
+Canby's mountain-lover,Paxistima canbyi,4',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,paxistima-canbyi
+candytuft,Iberis sempervirens,1',AT RISK Firewise (3),3,At Risk Firewise,LZ1,iberis-sempervirens
+Carolina allspice,Calycanthus floridus,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,calycanthus-floridus
+Carolina buckthorn,Rhamnus caroliniana,25',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhamnus-caroliniana
+Carolina hemlock,Tsuga caroliniana,50',NOT Firewise (4),4,Not Firewise,LZ3,tsuga-caroliniana
+Carolina jessamine,Gelsemium sempervirens,25',NOT Firewise (4),4,Not Firewise,LZ4,gelsemium-sempervirens
+Carolina rhododendron,Rhododendron minus,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhododendron-minus
+Carolina Safire Arizona cypress,Cupressus glabra 'Carolina Safire',35',NOT Firewise (4),4,Not Firewise,LZ3,cupressus-glabra-carolina-safire
+Carolina sillverbell,Halesia tetraptera,20',Firewise (1),1,Firewise,LZ3,halesia-tetraptera
+castor aralia,Kalopanax pictus,15',NOT Firewise (4),4,Not Firewise,LZ3,kalopanax-pictus
+catawba rhododendron,Rhododendron catawbiense,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhododendron-catawbiense
+cedar of Lebanon,Cedrus libani,50',NOT Firewise (4),4,Not Firewise,LZ3,cedrus-libani
+chastetree,Vitex agnus-castus,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vitex-agnuscastus
+cherry-Laurel,Prunus caroliniana,25',AT RISK Firewise (3),3,At Risk Firewise,LZ2,prunus-caroliniana
+cherry-laurel,Prunus lauracerasus,5',AT RISK Firewise (3),3,At Risk Firewise,LZ2,prunus-lauracerasus
+chestnut oak,Quercus prinus,50',Firewise (1),1,Firewise,LZ3,quercus-prinus
+Chickasaw plum,Prunus angustifolia,15',AT RISK Firewise (3),3,At Risk Firewise,LZ2,prunus-angustifolia
+Chinaberry,Melia azedarach,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,melia-azedarach
+Chinese chestnut,Castanea mollissima,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,castanea-mollissima
+Chinese juniper,Juniperus chinensis,12',NOT Firewise (4),4,Not Firewise,LZ3,juniperus-chinensis
+Chinese photinia,Photinia serrulata,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,photinia-serrulata
+Chinese privit,Ligustrum sinensis,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ligustrum-sinensis
+chinquapin,Castanea pumila,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,castanea-pumila
+chinquapin oak,Quercus muehlenbergii,40',Firewise (1),1,Firewise,LZ3,quercus-muehlenbergii
+choke cherry,Prunus virginiana,50',,,,LZ3,prunus-virginiana
+cinnamon clethra,Clethra acuminata,6',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,clethra-acuminata
+citrus,Citrus spp.,20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,citrus-spp
+Coast azalea,Rhododendron atlanticum,8',Firewise (1),1,Firewise,LZ2,rhododendron-atlanticum
+coast leucothoe,Leucothoe axillaris,5',AT RISK Firewise (3),3,At Risk Firewise,LZ2,leucothoe-axillaris
+coast redwood,Sequoia sempervirens,300.0',NOT Firewise (4),4,Not Firewise,LZ3,sequoia-sempervirens
+cockspur hawthorn,Crataegus crus-galli,25',Firewise (1),1,Firewise,LZ3,crataegus-crusgalli
+Colorado spruce,Picea pungens,75',NOT Firewise (4),4,Not Firewise,LZ3,picea-pungens
+common boxwood,Buxus sempervirens,25',AT RISK Firewise (3),3,At Risk Firewise,LZ3,buxus-sempervirens
+common flowering-quince,Chaenomeles speciosa,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,chaenomeles-speciosa
+common juniper,Juniperus communis,12',NOT Firewise (4),4,Not Firewise,LZ2,juniperus-communis
+common lilac,Syringa vulgaris,12',Firewise (1),1,Firewise,LZ2,syringa-vulgaris
+common pricklyash,Zanthoxylum americanum,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,zanthoxylum-americanum
+common privit,Ligustrum vulgare,20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ligustrum-vulgare
+common witchhazel,Hamamelis virginiana,8',Firewise (1),1,Firewise,LZ3,hamamelis-virginiana
+confederate jasmine,Trachelospermum jasminoides,35',AT RISK Firewise (3),3,At Risk Firewise,LZ2,trachelospermum-jasminoides
+contorted filbert,Corylus avellana 'Contorted',6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,corylus-avellana-contorted
+contorted willow,Salix matsudana 'Tortuosa',40',Firewise (1),1,Firewise,LZ3,salix-matsudana-tortuosa
+corktree,Phellodendron amurense,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,phellodendron-amurense
+corneliancherry dogwood,Cornus mas,25',Firewise (1),1,Firewise,LZ3,cornus-mas
+cottonwood,Populus deltoides,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,populus-deltoides
+crabapple,Malus hupehensis,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-hupehensis
+crabapple,Malus spectabilis,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-spectabilis
+cranberry cotoneaster,Cotoneaster apiculata,3',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,cotoneaster-apiculata
+crape myrtle,Lagerstroemia indica,15',Firewise (1),1,Firewise,LZ3,lagerstroemia-indica
+creeping juniper,Juniperus horizontalis,1',NOT Firewise (4),4,Not Firewise,LZ2,juniperus-horizontalis
+creeping mahonia,Mahonia repens,2',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,mahonia-repens
+cross-vine,Bignonia capreolata,25',NOT Firewise (4),4,Not Firewise,LZ4,bignonia-capreolata
+cucumber magnolia,Magnolia acuminata,70',Firewise (1),1,Firewise,LZ3,magnolia-acuminata
+cumberland azalea,Rhododendron bakeri,8',Firewise (1),1,Firewise,LZ2,rhododendron-bakeri
+cutleaf buckthorn,Rhamnus frangula 'Asplenifolia',20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,rhamnus-frangula-asplenifolia
+dahoon holly,Ilex cassine,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-cassine
+daphne,Daphne odora,5',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,daphne-odora
+dawn redwood,Metasequoia glyptostroboides,75',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,metasequoia-glyptostroboides
+deerberry,Vaccinium stamineum,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vaccinium-stamineum
+deodara cedar,Cedrus deodara,50',NOT Firewise (4),4,Not Firewise,LZ3,cedrus-deodara
+devil's walkingstick,Aralia spinosa,30',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aralia-spinosa
+doublefile viburnum,Viburnum plicatum var. tomentosum,10',Firewise (1),1,Firewise,LZ3,viburnum-plicatum-var-tomentosum
+douglas fir,Pseudotsuga menziesii,75',NOT Firewise (4),4,Not Firewise,LZ4,pseudotsuga-menziesii
+downy serviceberry,Amelanchier arborea,25',Firewise (1),1,Firewise,LZ2,amelanchier-arborea
+drooping leucothoe,Leucothoe fontanesiana,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,leucothoe-fontanesiana
+dutchman's pipe,Aristolochia macrophylla,50',NOT Firewise (4),4,Not Firewise,LZ4,aristolochia-macrophylla
+dwarf fothergilla,Fothergilla gardenii,6',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,fothergilla-gardenii
+eastern red cedar,Juniperus virginiana,50',NOT Firewise (4),4,Not Firewise,LZ3,juniperus-virginiana
+elderberry,Sambucus canadensis,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,sambucus-canadensis
+empresstree,Paulownia tomentosa,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,paulownia-tomentosa
+English holly,Ilex aquifolium,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-aquifolium
+English ivy,Hedera helix,40',NOT Firewise (4),4,Not Firewise,LZ3,hedera-helix
+English oak,Quercus robur,50',Firewise (1),1,Firewise,LZ3,quercus-robur
+English walnut,Juglans regia,35',Firewise (1),1,Firewise,LZ3,juglans-regia
+English yew,Taxus baccata,15',NOT Firewise (4),4,Not Firewise,LZ2,taxus-baccata
+eucalyptus,Eucalyptus spp.,50',NOT Firewise (4),4,Not Firewise,LZ3,eucalyptus-spp
+European alder,Alnus glutinosa,50',AT RISK Firewise (3),3,At Risk Firewise,LZ3,alnus-glutinosa
+European beech,Fagus sylvatica,100.0',Firewise (1),1,Firewise,LZ3,fagus-sylvatica
+European cranberry highbush viburnum,Viburnum opulus,15',Firewise (1),1,Firewise,LZ2,viburnum-opulus
+European euonymus,Euonymus europaeus,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,euonymus-europaeus
+European filbert,Corylus colurna,25',Firewise (1),1,Firewise,LZ3,corylus-colurna
+European fly honeysuckle,Lonicera xylosteum,10',AT RISK Firewise (3),3,At Risk Firewise,LZ3,lonicera-xylosteum
+European hophornbeam,Ostrya carpinifolia,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,ostrya-carpinifolia
+European hornbeam,Carpinus betulus,35',Firewise (1),1,Firewise,LZ2,carpinus-betulus
+European larch,Larix decidua,50',AT RISK Firewise (3),3,At Risk Firewise,LZ3,larix-decidua
+European linden,Tilia x 'Euchlora',35',Firewise (1),1,Firewise,LZ3,tilia-x-euchlora
+European mountain-ash,Sorbus aucuparia,12',Firewise (1),1,Firewise,LZ3,sorbus-aucuparia
+European white birch,Betula pendula,50',Firewise (1),1,Firewise,LZ3,betula-pendula
+evergreen eleagnus,Elaeagnus pungens,15',NOT Firewise (4),4,Not Firewise,LZ3,elaeagnus-pungens
+evergreen privit,Ligustrum lucidum,20',NOT Firewise (4),4,Not Firewise,LZ3,ligustrum-lucidum
+exbury hybrid azalea,Rhododendron 'Exbury',7',Firewise (1),1,Firewise,LZ2,rhododendron-exbury
+fall firebush,Euonymus alatus,10',Firewise (1),1,Firewise,LZ2,euonymus-alatus
+fig,Ficus carica,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,ficus-carica
+firethorn or pyracantha,Pyracantha coccinea,15',NOT Firewise (4),4,Not Firewise,LZ2,pyracantha-coccinea
+five-leaf akebia,Akebia quinata,50',NOT Firewise (4),4,Not Firewise,LZ4,akebia-quinata
+flame azalea,Rhododendron calendulaceum,8',Firewise (1),1,Firewise,LZ2,rhododendron-calendulaceum
+Florida anise,Illicium floridanum,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,illicium-floridanum
+Florida torreya,Torreya taxifolia,8',NOT Firewise (4),4,Not Firewise,LZ2,torreya-taxifolia
+flowering dogwood,Cornus florida,15',Firewise (1),1,Firewise,LZ2,cornus-florida
+forsythia,Forsythia xintermedia,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,forsythia-xintermedia
+fortune's osmanthus,Osmanthus x fortunei,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,osmanthus-x-fortunei
+Foster holly,Ilex x attenuata hybrids,20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-x-attenuata-hybrids
+fountaingrass,Pennisetum spp.,8',NOT Firewise (4),4,Not Firewise,LZ4,pennisetum-spp
+fragrant honeysuckle,Lonicera sempervirens,10',AT RISK Firewise (3),3,At Risk Firewise,LZ3,lonicera-sempervirens
+fragrant osmanthus,Osmanthus fragrans,25',NOT Firewise (4),4,Not Firewise,LZ3,osmanthus-fragrans
+fragrant sumac,Rhus aromatica,5',Firewise (1),1,Firewise,LZ2,rhus-aromatica
+franklinia,Franklinia alatamaha,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,franklinia-alatamaha
+fraser magnolia,Magnolia fraseri,30',AT RISK Firewise (3),3,At Risk Firewise,LZ3,magnolia-fraseri
+frazer fir,Abies frazeri,60',AT RISK Firewise (3),3,At Risk Firewise,LZ4,abies-frazeri
+freeman maple,Acer x freemanii,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-x-freemanii
+fringe flower,Loropetalum chinensis,4',AT RISK Firewise (3),3,At Risk Firewise,LZ2,loropetalum-chinensis
+fringetree,Chionanthus virginicus,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,chionanthus-virginicus
+fullmoon maple,Acer japonicum,10',Firewise (1),1,Firewise,LZ3,acer-japonicum
+gardenia,Gardenia jasminoides,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,gardenia-jasminoides
+giant cane,Arundo donax,15',NOT Firewise (4),4,Not Firewise,LZ4,arundo-donax
+giant dogwood,Cornus controversa,50',Firewise (1),1,Firewise,LZ3,cornus-controversa
+giant sequoia,Sequoiadendron giganteum,150.0',NOT Firewise (4),4,Not Firewise,LZ3,sequoiadendron-giganteum
+ginkgo,Ginkgo biloba,100.0',Firewise (1),1,Firewise,LZ3,ginkgo-biloba
+glossy abelia,Abelia grandiflora,6',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,abelia-grandiflora
+golden-larch,Pseudolarix kaempferi,50',NOT Firewise (4),4,Not Firewise,LZ3,pseudolarix-kaempferi
+goldenchaintree,Laburnum x watereri,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,laburnum-x-watereri
+goldenraintree,Koelreuteria paniculata,35',Firewise (1),1,Firewise,LZ3,koelreuteria-paniculata
+gordonia,Gordonia lasianthus,25',AT RISK Firewise (3),3,At Risk Firewise,LZ3,gordonia-lasianthus
+grape,Vitus spp.,100.0',NOT Firewise (4),4,Not Firewise,LZ4,vitus-spp
+gray dogwood,Cornus racemosa,15',Firewise (1),1,Firewise,LZ2,cornus-racemosa
+green ash,Fraxinus pennsylvanica,50',Firewise (1),1,Firewise,LZ3,fraxinus-pennsylvanica
+grey birch,Betula populifolia,50',Firewise (1),1,Firewise,LZ3,betula-populifolia
+grey santolina,Santolina chamaecyparis,1',AT RISK Firewise (3),3,At Risk Firewise,LZ2,santolina-chamaecyparis
+groundsel tree,Baccharis halmifolia,12',NOT Firewise (4),4,Not Firewise,LZ2,baccharis-halmifolia
+hackberry,Celtis occidentalis,50',Firewise (1),1,Firewise,LZ3,celtis-occidentalis
+hardy orange,Poncirus trifoliata,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,poncirus-trifoliata
+harlequin glorybower clerodendron,Clerodendron trichotomum,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,clerodendron-trichotomum
+heather,Calluna vulgaris,2',AT RISK Firewise (3),3,At Risk Firewise,LZ2,calluna-vulgaris
+hedge maple,Acer campestre,35',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,acer-campestre
+hercules club,Zanthoxylum clava-herculis,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,zanthoxylum-clavaherculis
+high bush blueberry,Vaccinium corymbosum,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vaccinium-corymbosum
+Himalayan pine,Pinus wallichiana,50',NOT Firewise (4),4,Not Firewise,LZ3,pinus-wallichiana
+hinoki falsecypress,Chamaecyparis obtusa,10',NOT Firewise (4),4,Not Firewise,LZ2,chamaecyparis-obtusa
+honeylocust,Gleditsia triacanthos,40',Firewise (1),1,Firewise,LZ3,gleditsia-triacanthos
+hophornbeam,Ostrya virginiana,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,ostrya-virginiana
+hornbeam,Carpinus caroliniana,25',Firewise (1),1,Firewise,LZ3,carpinus-caroliniana
+horsechestnut,Aesculus hippocastanum,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aesculus-hippocastanum
+horsetail,Equisetum hyemale,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,equisetum-hyemale
+hybrid rose,Rosa hybrida,3',Firewise (1),1,Firewise,LZ2,rosa-hybrida
+hydrangea,Hydrangea macrophylla,4',Firewise (1),1,Firewise,LZ2,hydrangea-macrophylla
+indian coralberry,Symphoricarpus orbiculatus,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,symphoricarpus-orbiculatus
+Indian hawthorne,Raphiolepis indica,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,raphiolepis-indica
+indigo-bush,Amorpha fruticosa,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,amorpha-fruticosa
+Italian cypress,Cupressus sempervirens,35',NOT Firewise (4),4,Not Firewise,LZ3,cupressus-sempervirens
+jackman clematis,Clematis xjackmanii,10',NOT Firewise (4),4,Not Firewise,LZ2,clematis-xjackmanii
+Japanese aucuba,Aucuba japonica,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aucuba-japonica
+Japanese barberry,Berberis thunbergi,7',Firewise (1),1,Firewise,LZ2,berberis-thunbergi
+Japanese black pine,Pinus thunbergiana,30',NOT Firewise (4),4,Not Firewise,LZ3,pinus-thunbergiana
+Japanese camellia,Camellia japonica,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,camellia-japonica
+Japanese cleyera,Ternstroemia gymnanthera,12',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ternstroemia-gymnanthera
+Japanese crabapple,Malus floribunda,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-floribunda
+Japanese Crapemyrtle,Lagerstroemia fauriei,20',Firewise (1),1,Firewise,LZ3,lagerstroemia-fauriei
+Japanese cryptomeria,Cryptomeria japonica,75',NOT Firewise (4),4,Not Firewise,LZ3,cryptomeria-japonica
+Japanese cunninghamia,Cunninghamia lanceolata,50',NOT Firewise (4),4,Not Firewise,LZ3,cunninghamia-lanceolata
+Japanese euonymus,Euonymus japonicus,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,euonymus-japonicus
+Japanese falsecypress,Chamaecyparis pisifera,10',NOT Firewise (4),4,Not Firewise,LZ2,chamaecyparis-pisifera
+Japanese flowering-quince,Chaenomeles japonica,6',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,chaenomeles-japonica
+Japanese holly,Ilex crenata,5',AT RISK Firewise (3),3,At Risk Firewise,LZ2,ilex-crenata
+Japanese honeysuckle,Lonicera japonica,10',AT RISK Firewise (3),3,At Risk Firewise,LZ4,lonicera-japonica
+Japanese kerria,Kerria japonica,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,kerria-japonica
+Japanese knotweed,Polygonum japonicum (Fallopia japonica),8',NOT Firewise (4),4,Not Firewise,LZ4,polygonum-japonicum-%28fallopia-japonica%29
+Japanese maple,Acer palmatum,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,acer-palmatum
+Japanese pachysandra,Pachysandra terminalis,1',AT RISK Firewise (3),3,At Risk Firewise,LZ1,pachysandra-terminalis
+Japanese pagodatree,Sophora japonica,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,sophora-japonica
+Japanese pieris,Pieris japonica,8',NOT Firewise (4),4,Not Firewise,LZ2,pieris-japonica
+Japanese pittosporum,Pittosporum tobira,3',NOT Firewise (4),4,Not Firewise,LZ2,pittosporum-tobira
+Japanese privit,Ligustrum japonicum,20',NOT Firewise (4),4,Not Firewise,LZ3,ligustrum-japonicum
+Japanese red pine,Pinus densiflora,20',NOT Firewise (4),4,Not Firewise,LZ3,pinus-densiflora
+Japanese snowbell,Styrax japonicus,15',Firewise (1),1,Firewise,LZ3,styrax-japonicus
+Japanese stewartia,Stewartia pseudocamellia,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,stewartia-pseudocamellia
+Japanese torreya,Torreya nucifera,8',NOT Firewise (4),4,Not Firewise,LZ2,torreya-nucifera
+Japanese tree lilac,Syringa reticulata,25',Firewise (1),1,Firewise,LZ3,syringa-reticulata
+Japanese white pine,Pinus parviflora,30',NOT Firewise (4),4,Not Firewise,LZ3,pinus-parviflora
+Japanese yew,Taxus cuspidata,15',NOT Firewise (4),4,Not Firewise,LZ2,taxus-cuspidata
+Japanese zelkova,Zelkova serrata,50',Firewise (1),1,Firewise,LZ3,zelkova-serrata
+jasminum,Jasminum mudiflorum,6',NOT Firewise (4),4,Not Firewise,LZ2,jasminum-nudiflorum
+Johnsongrass,Sorghum halepense,6',NOT Firewise (4),4,Not Firewise,LZ4,sorghum-halepense
+"jujuba, Chinese date",Ziziphus jujuba,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ziziphus-jujuba
+kaki persimmon,Diospyros kaki,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,diospyros-kaki
+katsuratyree,Cercidiphyllum japonicum,50',Firewise (1),1,Firewise,LZ3,cercidiphyllum-japonicum
+Kentucky coffeetree,Gymnocladus dioicus,75',Firewise (1),1,Firewise,LZ3,gymnocladus-dioicus
+kiwi,Actinidia deliciosa,50',NOT Firewise (4),4,Not Firewise,LZ4,actinidia-deliciosa
+Koreanspice viburnum,Viburnum carlesi,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,viburnum-carlesi
+kousa dogwood,Cornus kousa var. chinensis,15',Firewise (1),1,Firewise,LZ2,cornus-kousa-var-chinensis
+kudzu,Pueraria montana,100.0',NOT Firewise (4),4,Not Firewise,LZ4,pueraria-montana
+kureme azalea,Rhododendron obtusa,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhododendron-obtusa
+Kwanzan flowering cherry,Prunus serrulata 'Kwanzan',25',Firewise (1),1,Firewise,LZ3,prunus-serrulata-kwanzan
+lacebark elm,Ulmus parvifolia,45',Firewise (1),1,Firewise,LZ3,ulmus-parvifolia
+lacebark pine,Pinus bungeana,30',NOT Firewise (4),4,Not Firewise,LZ3,pinus-bungeana
+large fothergilla,Fothergilla major,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,fothergilla-major
+largeleaf periwinkle,Vinca major,1',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vinca-major
+largetoothed aspen,Populus grandidentata,35',Firewise (1),1,Firewise,LZ3,populus-grandidentata
+laurel oak,Quercus laurifolia,75',Firewise (1),1,Firewise,LZ3,quercus-laurifolia
+leatherleaf,Chamaedaphne calyculata,8',NOT Firewise (4),4,Not Firewise,LZ2,chamaedaphne-calyculata
+leatherleaf viburnum,Viburnum rhytidiphyllum,15',AT RISK Firewise (3),3,At Risk Firewise,LZ3,viburnum-rhytidiphyllum
+leatherwood,Dirca palustris,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,dirca-palustris
+Lemoine,Malus purpurea,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-purpurea
+leyland cypress,X Cupressocyparis leylandii,25',NOT Firewise (4),4,Not Firewise,LZ3,x-cupressocyparis-leylandii
+lily-turf,Liriope xmuscari,1',AT RISK Firewise (3),3,At Risk Firewise,LZ2,liriope-xmuscari
+littleleaf boxwood,Buxus sinica,15',AT RISK Firewise (3),3,At Risk Firewise,LZ2,buxus-sinica
+littleleaf linden,Tilia cordata,50',Firewise (1),1,Firewise,LZ3,tilia-cordata
+live oak,Quercus virginiana,100.0',AT RISK Firewise (3),3,At Risk Firewise,LZ3,quercus-virginiana
+loblolly pine,Pinus taeda,75',NOT Firewise (4),4,Not Firewise,LZ3,pinus-taeda
+lombardy poplar,Populus nigra 'Italica',40',Firewise (1),1,Firewise,LZ3,populus-nigra-italica
+London planetree,Platanus x acerifolia,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,platanus-x-acerifolia
+long leaf pine,Pinus palustris,50',NOT Firewise (4),4,Not Firewise,LZ4,pinus-palustris
+loquat,Eriobotrya japonica,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,eriobotrya-japonica
+low bush blueberry,Vaccinium angustifolium,1',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vaccinium-angustifolium
+lythrum,Lythrum salicaria,6',NOT Firewise (4),4,Not Firewise,LZ2,lythrum-salicaria
+maiden grass,Miscanthus sinensis,8',NOT Firewise (4),4,Not Firewise,LZ4,miscanthus-sinensis
+mapleleaf viburnum,Viburnum acerifolia,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-acerifolia
+may hawthorn,Crataegus aestivalis,25',Firewise (1),1,Firewise,LZ3,crataegus-aestivalis
+medlar,Mespilus germanica,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,mespilus-germanica
+meserve holly,Ilex x meserveae hybrids,5',AT RISK Firewise (3),3,At Risk Firewise,LZ2,ilex-x-meserveae-hybrids
+mimosa,Albizzia julibrissum,25',Firewise (1),1,Firewise,LZ3,albizzia-julibrissum
+mockernut hickory,Carya tomentosa,50',Firewise (1),1,Firewise,LZ3,carya-tomentosa
+mockorange,Philadelphus coronarius,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,philadelphus-coronarius
+monarch birch,Betula maximowicziana,35',Firewise (1),1,Firewise,LZ3,betula-maximowicziana
+morrow honeysuckle,Lonicera morrowi,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,lonicera-morrowi
+mountain pieris,Pieris floribunda,8',NOT Firewise (4),4,Not Firewise,LZ2,pieris-floribunda
+mountain-laurel,Kalmia latifolia,12',NOT Firewise (4),4,Not Firewise,LZ2,kalmia-latifolia
+mugo pine,Pinus mugo,3',NOT Firewise (4),4,Not Firewise,LZ2,pinus-mugo
+muhley grass,Muhlenbergia spp.,8',NOT Firewise (4),4,Not Firewise,LZ4,muhlenbergia-spp
+multiflora rose,Rosa multiflora,12',AT RISK Firewise (3),3,At Risk Firewise,LZ3,rosa-multiflora
+nandina,Nandina domestica,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,nandina-domestica
+Nellie Stevens holly,Ilex x 'Nellie R. Stevens',20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,ilex-x-nellie-r-stevens
+New Jersey tea,Ceanothus americus,15',AT RISK Firewise (3),3,At Risk Firewise,LZ2,ceanothus-americus
+ninebark,Physocarpus opulifolius,10',NOT Firewise (4),4,Not Firewise,,physocarpus-opulifolius
+nippon bridalwreath spirea,Spirea nipponica,7',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,spirea-nipponica
+Nootka falsecypress,Xanthacyparis nootkatensis,30',NOT Firewise (4),4,Not Firewise,LZ3,xanthacyparis-nootkatensis
+nordmann fir,Abies nordmanniana,100.0',AT RISK Firewise (3),3,At Risk Firewise,LZ4,abies-nordmanniana
+northern bayberry,Myrica pensylvanica,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,myrica-pensylvanica
+northern catalpa,Catalpa speciosa,50',Firewise (1),1,Firewise,LZ3,catalpa-speciosa
+northern elderberry,Sambucus pubens,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,sambucus-pubens
+northern pin oak,Quercus ellipsoidalis,50',Firewise (1),1,Firewise,LZ3,quercus-ellipsoidalis
+northern red oak,Quercus borealis,100.0',Firewise (1),1,Firewise,LZ3,quercus-borealis
+northern red oak,Quercus rubra,100.0',Firewise (1),1,Firewise,LZ3,quercus-rubra
+northern white cedar,Chamaecyparis thyoides,40',NOT Firewise (4),4,Not Firewise,LZ3,chamaecyparis-thyoides
+Norway maple,Acer platanoides,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-platanoides
+Norway spruce,Picea abies,75',NOT Firewise (4),4,Not Firewise,LZ3,picea-abies
+nuttal oak,Quercus nuttallii,40',Firewise (1),1,Firewise,LZ3,quercus-nuttallii
+oak leaf hydrangea,Hydrangea quercifolia,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,hydrangea-quercifolia
+Ohio buckeye,Aesculus glabra,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aesculus-glabra
+Oklahoma white redbud,Cercis reniformis 'Oklahoma',20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,cercis-reniformis-oklahoma
+oleander,Nerium oleander,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,nerium-oleander
+olive,Olea europaea,25',AT RISK Firewise (3),3,At Risk Firewise,LZ3,olea-europaea
+oregon-grape holly leafed barberry,Mahonia aquifolium,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,mahonia-aquifolium
+oriental arborvitae,Platycladnus orientalis,15',NOT Firewise (4),4,Not Firewise,LZ2,platycladnus-orientalis
+osage orange,Maclura pomifera,50',Firewise (1),1,Firewise,LZ3,maclura-pomifera
+overcup oak,Quercus lyrata,50',Firewise (1),1,Firewise,LZ3,quercus-lyrata
+p g hydrangea,Hydrangea paniculata,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,hydrangea-paniculata
+pagoda dogwood,Cornus alternifolia,30',Firewise (1),1,Firewise,LZ3,cornus-alternifolia
+palmetto,Sabal palmetto,80',NOT Firewise (4),4,Not Firewise,LZ2,sabal-palmetto
+pampas grass,Cortaderia selloana,15',NOT Firewise (4),4,Not Firewise,LZ4,cortaderia-selloana
+paper mulberry,Broussonetia papyrifera,40',NOT Firewise (4),4,Not Firewise,LZ4,broussonetia-papyrifera
+paper or white birch,Betula papyrifera,50',Firewise (1),1,Firewise,LZ3,betula-papyrifera
+paperbark maple,Acer griseum,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-griseum
+papyrus,Cyperus spp.,5',NOT Firewise (4),4,Not Firewise,LZ2,cyperus-spp
+parrotia,Parrotia persica,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,parrotia-persica
+paw paw,Asimina triloba,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,asimina-triloba
+peach,Prunus persica,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,prunus-persica
+pear,Pyrus communis,35',Firewise (1),1,Firewise,LZ3,pyrus-communis
+pearlbush,Exocorda racemosa,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,exocorda-racemosa
+pecan,Carya illinoensis,100.0',Firewise (1),1,Firewise,LZ3,carya-illinoensis
+Pekin lilac,Syringa pekinensis,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,syringa-pekinensis
+periwinkle,Vinca minor,<1',AT RISK Firewise (3),3,At Risk Firewise,LZ1,vinca-minor
+persimmon,Diospyros virginiana,35',Firewise (1),1,Firewise,LZ3,diospyros-virginiana
+phragmites grass,Phragmites australis,10',NOT Firewise (4),4,Not Firewise,LZ4,phragmites-australis
+piedmont azalea,Rhododendron canescens,8',Firewise (1),1,Firewise,LZ2,rhododendron-canescens
+pignut hickory,Carya glabra,50',Firewise (1),1,Firewise,LZ3,carya-glabra
+pin oak,Quercus palustris,50',Firewise (1),1,Firewise,LZ3,quercus-palustris
+pinckneya,Pinckneya pubens,25',Firewise (1),1,Firewise,LZ2,pinckneya-pubens
+pinkshell azalea,Rhododendron vaseyi,8',Firewise (1),1,Firewise,LZ2,rhododendron-vaseyi
+pinxterbloom azalea,Rhododendron periclymenoides,8',Firewise (1),1,Firewise,LZ2,rhododendron-periclymenoides
+pitch pine,Pinus rigida,30',NOT Firewise (4),4,Not Firewise,LZ3,pinus-rigida
+plum yew,Cephlotaxus harringtonia,10',NOT Firewise (4),4,Not Firewise,LZ2,cephlotaxus-harringtonia
+plumleaf azalea,Rhododendron prunifolium,8',Firewise (1),1,Firewise,LZ2,rhododendron-prunifolium
+podocarpus,Podocarpus macrophyllus,15',NOT Firewise (4),4,Not Firewise,LZ2,podocarpus-macrophyllus
+poet's laurel,Danae racemosa,5',AT RISK Firewise (3),3,At Risk Firewise,LZ2,danae-racemosa
+poison ivy,Toxidendron radicans,25',NOT Firewise (4),4,Not Firewise,LZ3,toxidendron-radicans
+poison sumac,Toxidendron vermix,15',AT RISK Firewise (3),3,At Risk Firewise,LZ4,toxidendron-vermix
+pomegranate,Punica granatum,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,punica-granatum
+pond cypress,Taxodium ascendens,75',NOT Firewise (4),4,Not Firewise,LZ3,taxodium-ascendens
+ponderosa pine,Pinus ponderosa,50',NOT Firewise (4),4,Not Firewise,LZ3,pinus-ponderosa
+porcelainberry,Ampelopsis brevipedunculata,50',NOT Firewise (4),4,Not Firewise,LZ4,ampelopsis-brevipedunculata
+Port Orford cedar,Chamaecyparis lawsoniana,50',NOT Firewise (4),4,Not Firewise,LZ3,chamaecyparis-lawsoniana
+possum-haw holly,Ilex decidua,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,ilex-decidua
+possumhaw viburnum,Viburnum nudum,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-nudum
+post oak,Quercus stellata,40',Firewise (1),1,Firewise,LZ3,quercus-stellata
+Prairie crabapple,Malus ioensis,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-ioensis
+pumpkin ash,Fraxinus tomentosa,50',Firewise (1),1,Firewise,LZ3,fraxinus-tomentosa
+purple beautyberry,Callicarpa dichotoma,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,callicarpa-dichotoma
+purpleleaf plum,Prunus cerasifera 'Atropurpurea',15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,prunus-cerasifera-atropurpurea
+pussy willow,Salix discolor,25',Firewise (1),1,Firewise,LZ3,salix-discolor
+quaking aspen,Populus tremuloides,35',Firewise (1),1,Firewise,LZ3,populus-tremuloides
+red alder,Alnus rubra,40',AT RISK Firewise (3),3,At Risk Firewise,LZ3,alnus-rubra
+red buckeye,Aesculus pavia,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aesculus-pavia
+red bud crabapple,Malus x zumi var. calocarpa,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-x-zumi-var-calocarpa
+red chokeberry,Aronia arbutifolia,12',Firewise (1),1,Firewise,LZ2,aronia-arbutifolia
+red horsechestnut,Aesculus x carnea,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,aesculus-x-carnea
+red maple,Acer rubrum,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-rubrum
+red mulberry,Morus rubra,50',Firewise (1),1,Firewise,LZ3,morus-rubra
+red pine,Pinus resinosa,40',NOT Firewise (4),4,Not Firewise,LZ3,pinus-resinosa
+red spruce,Picea rubens,75',NOT Firewise (4),4,Not Firewise,LZ3,picea-rubens
+red tip,Photinia x fraseri,12',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,photinia-x-fraseri
+redbud,Cercis canadensis,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,cercis-canadensis
+redosier dogwood,Cornus sericea,10',Firewise (1),1,Firewise,LZ2,cornus-sericea
+redvein ekianthus,Enkianthus campanulatus,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,enkianthus-campanulatus
+reed grass,Calamagrostis spp.,15',NOT Firewise (4),4,Not Firewise,LZ2,calamagrostis-spp
+rhodora,Rhododendron canadense,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhododendron-canadense
+river birch,Betula nigra,50',Firewise (1),1,Firewise,LZ3,betula-nigra
+rock cotoneaster,Cotoneaster horizontalis,3',NOT Firewise (4),4,Not Firewise,LZ2,cotoneaster-horizontalis
+rose of sharon,Hibiscus syriacus,10',Firewise (1),1,Firewise,LZ2,hibiscus-syriacus
+rosebay rhododendron,Rhododendron maximum,15',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhododendron-maximum
+rosemary,Rosmarius officinalis,3',NOT Firewise (4),4,Not Firewise,LZ2,rosmarius-officinalis
+royal palm,Roystonea spp.,75',NOT Firewise (4),4,Not Firewise,LZ3,roystonea-spp
+rugose rose,Rosa rugosa,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rosa-rugosa
+Russian arborvitae,Microbiota decussata,3',NOT Firewise (4),4,Not Firewise,LZ2,microbiota-decussata
+Russian olive,Elaeagnus angustifolia,40',AT RISK Firewise (3),3,At Risk Firewise,LZ3,elaeagnus-angustifolia
+rusty blackhaw viburnum,Viburnum rufidulum,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-rufidulum
+sandcherry,Prunus x cistena,10',AT RISK Firewise (3),3,At Risk Firewise,LZ3,prunus-x-cistena
+sargent crabapple,Malus sargentii,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-sargentii
+sasanqua camellia,Camellis sasanqua,20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,camellis-sasanqua
+sassfras,Sassafras albidum,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,sassafras-albidum
+saucer magnolia,Magnolia x soulangiana,25',Firewise (1),1,Firewise,LZ3,magnolia-x-soulangiana
+saw palmetto,Serenoa repens,6',NOT Firewise (4),4,Not Firewise,LZ2,serenoa-repens
+sawtooth oak,Quercus acutissima,50',Firewise (1),1,Firewise,LZ3,quercus-acutissima
+scarlet oak,Quercus coccinea,100.0',Firewise (1),1,Firewise,LZ3,quercus-coccinea
+Scot's broom,Cytisus scoparius,5',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,cytisus-scoparius
+scot's pine,Pinus sylvestris,50',NOT Firewise (4),4,Not Firewise,LZ3,pinus-sylvestris
+scrub or bear oak,Quercus illicifolia,25',AT RISK Firewise (3),3,At Risk Firewise,LZ3,quercus-illicifolia
+Senegal date palm,Phoenix reclinata,35',NOT Firewise (4),4,Not Firewise,LZ3,phoenix-reclinata
+seven son's flower,Heptacodium miconioides,15',Firewise (1),1,Firewise,LZ3,heptacodium-miconioides
+shagbark hickory,Carya ovata,50',Firewise (1),1,Firewise,LZ3,carya-ovata
+shantung maple,Acer truncatum,25',Firewise (1),1,Firewise,LZ3,acer-truncatum
+sheep laurel,Kalmia angustifolia,4',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,kalmia-angustifolia
+shellbark hickory,Carya laciniosa,50',Firewise (1),1,Firewise,LZ3,carya-laciniosa
+shingle oak,Quercus imbricaria,50',Firewise (1),1,Firewise,LZ3,quercus-imbricaria
+shining sumac,Rhus copallina,25',AT RISK Firewise (3),3,At Risk Firewise,LZ2,rhus-copallina
+shortleaf pine,Pinus echinata,50',NOT Firewise (4),4,Not Firewise,LZ4,pinus-echinata
+shrubby st. johnswort,Hypericum prolificum,4',AT RISK Firewise (3),3,At Risk Firewise,LZ2,hypericum-prolificum
+shumard oak,Quercus shumardii,50',Firewise (1),1,Firewise,LZ3,quercus-shumardii
+Siberian crabapple,Malus baccata,20',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,malus-baccata
+Siberian elm,Ulmus pumila,50',Firewise (1),1,Firewise,LZ3,ulmus-pumila
+Siberian peashrub,Caragana arborescens,10',AT RISK Firewise (3),3,At Risk Firewise,LZ3,caragana-arborescens
+siebold viburnum,Viburnum sieboldii,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-sieboldii
+silky dogwood,Cornus amomum,8',Firewise (1),1,Firewise,LZ2,cornus-amomum
+silver fleece vine,Polygonum aubertii,50',NOT Firewise (4),4,Not Firewise,LZ4,polygonum-aubertii
+silver linden,Tilia tomentosa,45',Firewise (1),1,Firewise,LZ3,tilia-tomentosa
+silver maple,Acer saccharinum,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-saccharinum
+singleleaf ash,Fraxinus ornus 'Rotundifolia',25',Firewise (1),1,Firewise,LZ3,fraxinus-ornus-rotundifolia
+skimmia,Skimmia japonica,3',NOT Firewise (4),4,Not Firewise,LZ2,skimmia-japonica
+slash pine,Pinus elliottii,50',NOT Firewise (4),4,Not Firewise,LZ4,pinus-elliottii
+slender deutzia,Deutzia gracilis,4',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,deutzia-gracilis
+slippery elm,Ulmus rubra,40',Firewise (1),1,Firewise,LZ3,ulmus-rubra
+small-leaf arrowwood viburnum,Viburnum obovatum,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-obovatum
+smokebush,Cotinus coggygria,20',Firewise (1),1,Firewise,LZ3,cotinus-coggygria
+smooth alder,Alnus serrulata,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,alnus-serrulata
+smooth hydrangea,Hydrangea arborescens,6',Firewise (1),1,Firewise,LZ3,hydrangea-arborescens
+smooth sumac,Rhus glabra,15',Firewise (1),1,Firewise,LZ3,rhus-glabra
+smoothleaf elm,Ulmus carpinifolia,40',Firewise (1),1,Firewise,LZ3,ulmus-carpinifolia
+snowberry,Symphoricarpus albus,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,symphoricarpus-albus
+sourwood,Oxydendrum arboreum,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,oxydendrum-arboreum
+Southern arrowood viburnum,Viburnum dentatum,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,viburnum-dentatum
+southern bush-honeysuckle,Diervilla sessifolia,5',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,diervilla-sessifolia
+southern catalpa,Catalpa bignonioides,50',Firewise (1),1,Firewise,LZ3,catalpa-bignonioides
+southern magnolia,Magnolia grandiflora,75',NOT Firewise (4),4,Not Firewise,LZ3,magnolia-grandiflora
+southern red oak,Quercus falcata,100.0',Firewise (1),1,Firewise,LZ3,quercus-falcata
+sparkleberry,Vaccinium arboreum,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,vaccinium-arboreum
+speckled alder,Alnus incana,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,alnus-incana
+spicebush,Lindera benzoin,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,lindera-benzoin
+spindletree,Euonymus americanus,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,euonymus-americanus
+spineless yucca,Yucca elephantipes,2',AT RISK Firewise (3),3,At Risk Firewise,LZ2,yucca-elephantipes
+staghorn sumac,Rhus typhina,15',Firewise (1),1,Firewise,LZ3,rhus-typhina
+star magnolia,Magnolia stellata,10',Firewise (1),1,Firewise,LZ2,magnolia-stellata
+stephandra,Stephandra incisa,4',AT RISK Firewise (3),3,At Risk Firewise,LZ2,stephandra-incisa
+stewartia,Stewartia ovata,15',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,stewartia-ovata
+stone pine,Pinus cembra,30',NOT Firewise (4),4,Not Firewise,LZ3,pinus-cembra
+striped maple,Acer pensylvanicum,25',Firewise (1),1,Firewise,LZ3,acer-pensylvanicum
+sugar hackberry,Celtis laevigata,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,celtis-laevigata
+sugar maple or rock maple,Acer saccharum,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-saccharum
+summersweet,Clethra alnifolia,4',Firewise (1),1,Firewise,LZ2,clethra-alnifolia
+swamp azalea,Rhododendron viscosum,8',Firewise (1),1,Firewise,LZ2,rhododendron-viscosum
+swamp chestnut oak,Quercus michauxii,50',Firewise (1),1,Firewise,LZ3,quercus-michauxii
+swamp white oak,Quercus bicolor,50',Firewise (1),1,Firewise,LZ3,quercus-bicolor
+sweet azalea,Rhododendron arborescens,8',Firewise (1),1,Firewise,LZ2,rhododendron-arborescens
+sweet viburnum,Viburnum odoratissimum,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,viburnum-odoratissimum
+sweetbay magnolia,Magnolia virginiana,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,magnolia-virginiana
+sweetgum,Liquidambar styraciflua,50',Firewise (1),1,Firewise,LZ3,liquidambar-styraciflua
+sycamore,Platanus occidentalis,75',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,platanus-occidentalis
+sycamore maple,Acer pseudoplatanus,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,acer-pseudoplatanus
+tamarack,Larix laricina,50',AT RISK Firewise (3),3,At Risk Firewise,LZ3,larix-laricina
+tamarix,Tamarix ramosissima,8',AT RISK Firewise (3),3,At Risk Firewise,LZ3,tamarix-ramosissima
+tatarian honeysuckle,Lonicera tatarica,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,lonicera-tatarica
+tatarian maple,Acer tataricum,20',Firewise (1),1,Firewise,LZ3,acer-tataricum
+tea-oil camellia,Camellia oleifera,20',AT RISK Firewise (3),3,At Risk Firewise,LZ3,camellia-oleifera
+Texas persimmon,Diospyros texana,25',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,diospyros-texana
+tree of heaven,Ailanthus altissima,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ4,ailanthus-altissima
+trident maple,Acer buergeranum,50',Firewise (1),1,Firewise,LZ3,acer-buergeranum
+trumpet vine,Campsis radicans,40',NOT Firewise (4),4,Not Firewise,LZ2,campsis-radicans
+Tulip tree,Magnolia x loebneri,20',Firewise (1),1,Firewise,LZ3,magnolia-x-loebneri
+tulip-poplar or yellow poplar,Liriodendron tulipifera,100.0',Firewise (1),1,Firewise,LZ3,liriodendron-tulipifera
+two-winged silverbell,Halesia diptera,20',Firewise (1),1,Firewise,LZ3,halesia-diptera
+umbrella magnolia,Magnolia tripetala,30',AT RISK Firewise (3),3,At Risk Firewise,LZ3,magnolia-tripetala
+umbrella-pine,Sciadopitys verticillata,50',NOT Firewise (4),4,Not Firewise,LZ3,sciadopitys-verticillata
+Ural false spiraea,Sorbaria sorbifolia,8',AT RISK Firewise (3),3,At Risk Firewise,LZ2,sorbaria-sorbifolia
+van houtte bridalwreath spirea,Spirea xvanhouttei,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,spirea-xvanhouttei
+vernal witchhazel,Hamamelis vernalis,12',Firewise (1),1,Firewise,LZ3,hamamelis-vernalis
+virgin's bower clematis,Clematis virginiana,40',NOT Firewise (4),4,Not Firewise,LZ4,clematis-virginiana
+Virginia creeper,Parthenocissus quinquifolia,30',NOT Firewise (4),4,Not Firewise,LZ2,parthenocissus-quinquifolia
+Virginia pine,Pinus virginiana,50',NOT Firewise (4),4,Not Firewise,LZ3,pinus-virginiana
+Virginia rose,Rosa virginiana,12',NOT Firewise (4),4,Not Firewise,LZ2,rosa-virginiana
+Virginia sweetspire,Itea virginica,6',AT RISK Firewise (3),3,At Risk Firewise,LZ2,itea-virginica
+wafer ash,Ptelea trifoliata,25',Firewise (1),1,Firewise,LZ3,ptelea-trifoliata
+Washington hawthorn,Crataegus phaenopyrum,25',Firewise (1),1,Firewise,LZ2,crataegus-phaenopyrum
+Washington palm,Washingtonia robusta,70',NOT Firewise (4),4,Not Firewise,LZ3,washingtonia-robusta
+water oak,Quercus nigra,40',Firewise (1),1,Firewise,LZ3,quercus-nigra
+water tupelo,Nyssa aquatica,50',Firewise (1),1,Firewise,LZ3,nyssa-aquatica
+wax myrtle,Myrica cerifera,10',AT RISK Firewise (3),3,At Risk Firewise,LZ2,myrica-cerifera
+weeping forsythia,Forsythia suspensa,8',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,forsythia-suspensa
+weeping Higan cherry,Prunus subhirtella 'Pendula',10',AT RISK Firewise (3),3,At Risk Firewise,LZ3,prunus-subhirtella-pendula
+weeping willow,Salix babylonica,75',Firewise (1),1,Firewise,LZ3,salix-babylonica
+weigela,Weigela florida,4',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,weigela-florida
+western arborvitae,Thuja plicata,100.0',NOT Firewise (4),4,Not Firewise,LZ3,thuja-plicata
+western red cedar,Juniperus scopulorum,50',NOT Firewise (4),4,Not Firewise,LZ3,juniperus-scopulorum
+white ash,Fraxinus americana,100.0',Firewise (1),1,Firewise,LZ3,fraxinus-americana
+white fir,Abies concolor,80',AT RISK Firewise (3),3,At Risk Firewise,LZ4,abies-concolor
+white mulberry,Morus alba,30',Firewise (1),1,Firewise,LZ3,morus-alba
+white oak,Quercus alba,100.0',Firewise (1),1,Firewise,LZ3,quercus-alba
+white pine,Pinus strobus,75',NOT Firewise (4),4,Not Firewise,LZ3,pinus-strobus
+white poplar,Populus alba,30',Firewise (1),1,Firewise,LZ3,populus-alba
+white spruce,Picea glauca,40',NOT Firewise (4),4,Not Firewise,LZ3,picea-glauca
+white willow,Salix alba,100.0',Firewise (1),1,Firewise,LZ3,salix-alba
+whitebarked Himalayan birch,Betula jacquemontii,35',Firewise (1),1,Firewise,LZ3,betula-jacquemontii
+Whitespire birch,Betula platyphylla 'Whitespire',35',Firewise (1),1,Firewise,LZ3,betula-platyphylla-whitespire
+wild black cherry,Prunus serotina,50',Firewise (1),1,Firewise,LZ3,prunus-serotina
+willow oak,Quercus phellos,50',Firewise (1),1,Firewise,LZ3,quercus-phellos
+willowleaf cotoneaster,Cotoneaster salicifolia,3',NOT Firewise (4),4,Not Firewise,LZ3,cotoneaster-salicifolia
+winged elm,Ulmus alata,50',Firewise (1),1,Firewise,LZ3,ulmus-alata
+winter honeysuckle,Lonicera fragrantissima,10',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,lonicera-fragrantissima
+Winter King green hawthorn,Crataegus viridis 'Winter King',25',Firewise (1),1,Firewise,LZ2,crataegus-viridis-winter-king
+winterberry holly,Ilex verticillata,8',Firewise (1),1,Firewise,LZ2,ilex-verticillata
+wintercreeper euonymus,Euonymus fortunei,<2',AT RISK Firewise (3),3,At Risk Firewise,LZ3,euonymus-fortunei
+wintergreen,Gaultheria procumbens,1',AT RISK Firewise (3),3,At Risk Firewise,LZ1,gaultheria-procumbens
+wintergreen barberry,Berberis julianae,6',Firewise (1),1,Firewise,LZ2,berberis-julianae
+wisteria,Wisteria floribunda,50',NOT Firewise (4),4,Not Firewise,LZ4,wisteria-floribunda
+yaupon holly,Ilex vomitoria,12',AT RISK Firewise (3),3,At Risk Firewise,LZ2,ilex-vomitoria
+yeddo hawthorne,Raphiolepis umbellata,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,raphiolepis-umbellata
+yellow birch,Betula alleghaniensis,50',Firewise (1),1,Firewise,LZ3,betula-alleghaniensis
+yellow buckeye,Aesculus flava,50',MODERATELY Firewise (2),2,Moderately Firewise,LZ4,aesculus-flava
+yellowroot,Xanthorhiza simplicissima,1',MODERATELY Firewise (2),2,Moderately Firewise,LZ2,xanthorhiza-simplicissima
+yellowtwig dogwood,Cornus sericea 'Flaviramea',10',Firewise (1),1,Firewise,LZ2,cornus-sericea-flaviramea
+yellowwood,Cladrastis kentukea,40',MODERATELY Firewise (2),2,Moderately Firewise,LZ3,cladrastis-kentukea
+Yoshino cherry,Prunus x yedoensis,15',Firewise (1),1,Firewise,LZ3,prunus-x-yedoensis
+yucca,Yucca filamentosa,2',AT RISK Firewise (3),3,At Risk Firewise,LZ2,yucca-filamentosa
+zenobia,Zenobia pulverulata,3',AT RISK Firewise (3),3,At Risk Firewise,LZ2,zenobia-pulverulata

@@ -1,0 +1,33 @@
+{
+  "doc_name": "USDA-APHIS_Federal-Noxious-Weed-List.pdf",
+  "structure": [
+    {
+      "title": "Aquatic",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "This partial document presents the Federal Noxious Weed List, Version 1.0, effective December 10, 2010. It categorizes noxious weeds, specifically detailing \"Aquatic\" and \"Parasitic\" types. For each listed weed, it provides the Latin name, author(s), and common name(s). The document includes numerous examples of aquatic weeds such as Hydrilla verticillata and Caulerpa taxifolia, and parasitic weeds like Cuscuta spp. (dodders) and Striga spp. (witchweeds)."
+    },
+    {
+      "title": "Parasitic",
+      "start_index": 1,
+      "end_index": 2,
+      "node_id": "0001",
+      "summary": "This partial document presents a Federal Noxious Weed List, effective as of December 10, 2010, with some entries showing later update dates. It categorizes noxious weeds into three main types: Aquatic, Parasitic, and Terrestrial. For each listed weed, the document provides its Latin name, the author(s) who described it, and one or more common names."
+    },
+    {
+      "title": "Terrestrial",
+      "start_index": 2,
+      "end_index": 5,
+      "node_id": "0002",
+      "summary": "This partial document is a segment (pages 2-5) of the \"Federal Noxious Weed List, Version 1.0,\" specifically focusing on \"Terrestrial\" weeds. It presents a comprehensive list of plants, detailing their Latin names, author(s), and common name(s). Many entries include update dates and sometimes alternative or previous Latin names. The document concludes with a \"Change Log\" on page 5, outlining revisions made to the list's formatting and content, including the addition of the change log itself and affecting various sections like Aquatic, Parasitic, and Terrestrial tables."
+    },
+    {
+      "title": "Change Log",
+      "start_index": 5,
+      "end_index": 5,
+      "node_id": "0003",
+      "summary": "This partial document is a change log for Version 1.0 of the Federal Noxious Weed List. It details two main changes implemented on December 10, 2010: formatting changes affecting the Aquatic, Parasitic, and Terrestrial tables, and the addition of the change log itself."
+    }
+  ]
+}

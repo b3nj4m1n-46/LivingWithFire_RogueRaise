@@ -1,0 +1,571 @@
+{
+  "source": "USDA APHIS PPQ Federal Noxious Weed List",
+  "effective_date": "December 10, 2010",
+  "categories": [
+    "Aquatic",
+    "Parasitic",
+    "Terrestrial"
+  ],
+  "plants": [
+    {
+      "scientific_name": "Azolla pin",
+      "common_name": "Mosquito fern, water velvet",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Caulerpa taxifolia",
+      "common_name": "Killer algae",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Eichhornia azurea",
+      "common_name": "Anchored water",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Hydrilla verticillata",
+      "common_name": "Hydri lla",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Hygrophila polysperma",
+      "common_name": "Miramar weed",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Ipomoea aquatica",
+      "common_name": "",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Lagarosiphon major",
+      "common_name": "Africa n elodea",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Limnophila sessiliflora",
+      "common_name": "Ambulia",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Melaleuca quinquenervia",
+      "common_name": "Broadleaf paper bark tree",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Monochoria hastata",
+      "common_name": "Arrowleaf false pickerelweed",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Monochoria vaginalis",
+      "common_name": "Heartshape false pickerelweed",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Ottelia alismoides",
+      "common_name": "Duck lettuce",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Sagittaria sagittifolia",
+      "common_name": "Arrowhead",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Salvinia auriculata",
+      "common_name": "Giant salvinia",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Salvinia biloba",
+      "common_name": "Giant salvinia",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Salvinia herzogii",
+      "common_name": "Giant salvinia",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Salvinia molesta",
+      "common_name": "Giant salvinia",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Solanum tampicense",
+      "common_name": "Wetland nightshade",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Sparganium erectum",
+      "common_name": "",
+      "category": "Aquatic"
+    },
+    {
+      "scientific_name": "Aeginetia sp",
+      "common_name": "Varies by species",
+      "category": "Parasitic"
+    },
+    {
+      "scientific_name": "Alectra",
+      "common_name": "Varies by species",
+      "category": "Parasitic"
+    },
+    {
+      "scientific_name": "Cuscuta",
+      "common_name": "Dodders",
+      "category": "Parasitic"
+    },
+    {
+      "scientific_name": "Orobanche",
+      "common_name": "Broomrapes",
+      "category": "Parasitic"
+    },
+    {
+      "scientific_name": "Striga",
+      "common_name": "Witchweeds",
+      "category": "Parasitic"
+    },
+    {
+      "scientific_name": "Acacia nilotica",
+      "common_name": "Prickly acacia",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Ageratina adenophora",
+      "common_name": "Crofton weed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Ageratina riparia",
+      "common_name": "Mistflower, spreading snakeroot",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Alternanthera sessilis",
+      "common_name": "Sessile joyweed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Arctotheca calendula",
+      "common_name": "Capeweed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Asphodelus fistulosus",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Avena sterilis",
+      "common_name": "Animated oat, wild oat",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Carthamus oxyacantha",
+      "common_name": "Wild safflower",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Chrysopogon aciculatus",
+      "common_name": "Pilipiliula",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Commelina benghalensis",
+      "common_name": "Benghal dayflower",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Crupina vulgaris",
+      "common_name": "Common crupina",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Digitaria scalarum",
+      "common_name": "African couchgrass, fingergrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Digitaria velutina",
+      "common_name": "P alisot de Velvet fingergrass, annual",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Drymaria arenariodes",
+      "common_name": "Lightning w eed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Emex australis",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Emex spinosa",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Euphorbia terracina",
+      "common_name": "Geraldton carnation",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Galega officinalis",
+      "common_name": "Goats rue",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Heracleum",
+      "common_name": "Giant hogweed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Imperata brasilie",
+      "common_name": "Brazilian satintail",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Imperata cylindrica",
+      "common_name": "Cogongrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Inula britannica",
+      "common_name": "British yellowhead",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Ischaemum rugosum",
+      "common_name": "Murainograss",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Leptochloa chinensis",
+      "common_name": "Asian sprangletop",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Lycium ferocissimum",
+      "common_name": "African boxthorn",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Lygodium flexuosum",
+      "common_name": "Maidenhair creeper",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Lygodium microphyllum",
+      "common_name": "Old world climbing fern",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Melastoma",
+      "common_name": "Malabar melastome",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Mikania cordat",
+      "common_name": "Mile-a-minute",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Mikania micrantha",
+      "common_name": "Bittervine",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Mimosa invisa",
+      "common_name": "Giant sensitive plant",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Mimosa pigra",
+      "common_name": "Catclaw mimosa",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Moraea collina",
+      "common_name": "Cape tulip",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Moraea flaccida",
+      "common_name": "One leaf cape tulip",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Moraea miniata",
+      "common_name": "Two leaf cape tulip",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Moraea ochroleuca",
+      "common_name": "Apricot tulip",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Moraea pallida",
+      "common_name": "Yellow tulip",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Nassella trichotoma",
+      "common_name": "Serrated tussock",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Onopordum acaulon",
+      "common_name": "Stemless thistle",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Onopordum illyricum",
+      "common_name": "Illyricum thistle",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Opuntia aurantiaca",
+      "common_name": "Jointed prickly pear",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Oryza longistaminata",
+      "common_name": "Red rice",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Oryza punctata",
+      "common_name": "Red rice",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Oryza rufipogon",
+      "common_name": "Red rice",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Paspalum scrobiculatum",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Pennisetum",
+      "common_name": "Kikuyugrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Pennisetum pedicellatum",
+      "common_name": "Kyasumagrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Pennisetum polystachion",
+      "common_name": "Missiongrass, thin napiergrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis alpataco",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis argentina",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis articulata",
+      "common_name": "Velvet mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis burkartii",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis caldenia",
+      "common_name": "Calden",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis calingastana",
+      "common_name": "Cusqui",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis campestris",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis castellanosii",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis denudans",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis elata",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis farcta",
+      "common_name": "Syrian mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis ferox",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis fiebrigii",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis hassleri",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis humilis",
+      "common_name": "Algaroba",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis kuntzei",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis pallida",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Bonpland",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis palmeri",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis reptans",
+      "common_name": "Tornillo",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis rojasiana",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis ruizlealii",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis ruscifolia",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis sericantha",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis strombulifera",
+      "common_name": "Argentine screwbean",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Prosopis torquata",
+      "common_name": "Mesquite",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Lagasca y",
+      "common_name": "",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Rottboellia",
+      "common_name": "Itchgrass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Rubus fruticosis",
+      "common_name": "Wild blackberry",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Rubus moluccanus",
+      "common_name": "Wild raspberry",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Saccharum spontaneum",
+      "common_name": "Wild sugarcane",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Salsola vermiculata",
+      "common_name": "Wormleaf salsola",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Senecio inaequidens",
+      "common_name": "African ragwort",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Senecio",
+      "common_name": "Fireweed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Setaria pumila",
+      "common_name": "Cattail grass",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Solanu m",
+      "common_name": "Turkeyberry",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Solanum viar",
+      "common_name": "Tropical soda apple",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Spermacoce alata",
+      "common_name": "Winged false buttonweed",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Tridax procumbens",
+      "common_name": "Coat buttons",
+      "category": "Terrestrial"
+    },
+    {
+      "scientific_name": "Urochloa panicoides",
+      "common_name": "Liverseed grass",
+      "category": "Terrestrial"
+    }
+  ]
+}

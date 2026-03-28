@@ -1,0 +1,3643 @@
+{
+  "source": "NC State University Extension Gardener Plant Toolbox",
+  "url": "https://plants.ces.ncsu.edu/find_a_plant/?tag=deer-resistant",
+  "tag": "deer-resistant",
+  "note": "Binary tag only - no resistance rating scale. Scraped from all 29 paginated pages.",
+  "plants": [
+    {
+      "scientific_name": "Abelmoschus manihot",
+      "common_name": "Hibiscus Manihot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Abies concolor 'Compacta'",
+      "common_name": "Compact White Fir",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acanthus 'Summer Beauty'",
+      "common_name": "Bear's Breeches",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acer Crimson Sunset 'JFS-KW202'",
+      "common_name": "Crimson Sunset Maple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acer diabolicum",
+      "common_name": "Devil Maple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acer fabri",
+      "common_name": "Emerald Jade Maple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acer floridanum",
+      "common_name": "Florida Maple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Acer palmatum",
+      "common_name": "Japanese Maple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Achillea",
+      "common_name": "Yarrow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Achillea filipendulina",
+      "common_name": "Fernleaf Yarrow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Common Yarrow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Achillea tomentosa",
+      "common_name": "Woolly Yarrow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aconitum",
+      "common_name": "Monkshood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aconitum uncinatum",
+      "common_name": "Eastern Monkshood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Actaea",
+      "common_name": "Baneberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Actaea pachypoda",
+      "common_name": "Doll's Eyes",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Actaea podocarpa",
+      "common_name": "Mountain Bugbane",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Actaea racemosa",
+      "common_name": "Black Cohosh",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum",
+      "common_name": "Maidenhair Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum capillus-veneris",
+      "common_name": "Southern Maidenhair Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum pedatum",
+      "common_name": "Northern Maidenhair Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum raddianum",
+      "common_name": "Pacific Maidenhair",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum tenerum",
+      "common_name": "Fan Maidenhair",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Adiantum x mairisii",
+      "common_name": "Hardy Maidenhair Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aegopodium podagraria",
+      "common_name": "Ground Elder",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aeonium",
+      "common_name": "Tree Houseleek",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aesculus californica",
+      "common_name": "California Buckeye",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aesculus flava",
+      "common_name": "Yellow Buckeye",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aesculus pavia",
+      "common_name": "Red Buckeye",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aesculus sylvatica",
+      "common_name": "Painted Buckeye",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Agapanthus",
+      "common_name": "Lily of the Nile",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ageratina",
+      "common_name": "Snakeroot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ageratum houstonianum",
+      "common_name": "Floss Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ajuga pyramidalis",
+      "common_name": "Pyramidal Bugle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ajuga reptans",
+      "common_name": "Carpet Bugle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ajuga reptans 'Chocolate Chip'",
+      "common_name": "Chocolate Chip Bugleweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium ampeloprasum",
+      "common_name": "Wild Leek",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium caeruleum",
+      "common_name": "Blue Globe Onion",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium canadense",
+      "common_name": "Wild Onion",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium cepa",
+      "common_name": "Onion",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium moly",
+      "common_name": "Golden Garlic",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium sativum",
+      "common_name": "Garlic",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium sativum var. ophioscorodon",
+      "common_name": "Hard Neck Garlic",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium sativum var. sativum",
+      "common_name": "Soft Neck Garlic",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium sphaerocephalon",
+      "common_name": "Drumsticks",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Allium tuberosum",
+      "common_name": "Garlic Chives",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Alocasia",
+      "common_name": "Elephant's-Ear",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Alocasia 'Calidora'",
+      "common_name": "Calidora Elephant Ear",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Alocasia sarawakensis 'Yucatan Princess'",
+      "common_name": "Yucatan Princess",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Alocasia x mortfontanensis",
+      "common_name": "African Mask",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aloysia virgata",
+      "common_name": "Sweet Almond Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Alstroemeria",
+      "common_name": "Peruvian Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amaryllis belladonna",
+      "common_name": "Belladonna Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amelanchier arborea",
+      "common_name": "Downy Serviceberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amelanchier canadensis",
+      "common_name": "Canadian Serviceberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amelanchier laevis",
+      "common_name": "Allegheny Serviceberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amelanchier x lamarckii",
+      "common_name": "Apple Serviceberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amianthium muscitoxicum",
+      "common_name": "Fly Poison",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amorpha fruticosa",
+      "common_name": "Indigo Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ampelaster carolinianus",
+      "common_name": "Climbing Aster",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amsonia 'Blue Ice'",
+      "common_name": "Blue Star",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amsonia ciliata",
+      "common_name": "Bluestar",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Amsonia hubrichtii",
+      "common_name": "Threadleaf Blue Star",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aquilegia x hybrida",
+      "common_name": "Hybrid Columbine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Arabis caucasica",
+      "common_name": "Caucasian Rockcress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Arachniodes simplicior 'Variegata'",
+      "common_name": "Variegated Holly Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Arachniodes standishii",
+      "common_name": "Upside Down Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aralia spinosa",
+      "common_name": "Devil's Walkingstick",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Argemone mexicana",
+      "common_name": "Mexican Prickly Poppy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aristida stricta",
+      "common_name": "Wiregrass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aristolochia fimbriata",
+      "common_name": "Hardy Dutchman's Pipe",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aristolochia macrophylla",
+      "common_name": "Dutchman's Pipe",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aristolochia serpentaria",
+      "common_name": "Virginia Snakeroot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Arnoglossum atriplicifolium",
+      "common_name": "Pale Indian Plantain",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Artemisia",
+      "common_name": "Wormwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Artemisia abrotanum",
+      "common_name": "Southernwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Artemisia ludoviciana",
+      "common_name": "Western Mugwort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Artemisia 'Powis Castle'",
+      "common_name": "Powis Castle Artemisia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Arum palaestinum",
+      "common_name": "Black Calla",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aruncus dioicus",
+      "common_name": "Goat's Beard",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asarum arifolium",
+      "common_name": "Heartleaf Wild Ginger",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asarum canadense",
+      "common_name": "Canadian Wild Ginger",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias curassavica",
+      "common_name": "Tropical Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias humistrata",
+      "common_name": "Sandhill Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias incarnata",
+      "common_name": "Swamp Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias incarnata subsp. pulchra",
+      "common_name": "Eastern Swamp Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias quadrifolia",
+      "common_name": "Four-Leaved Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias syriaca",
+      "common_name": "Common Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias tuberosa",
+      "common_name": "Butterfly Weed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asclepias variegata",
+      "common_name": "White Milkweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asparagus densiflorus",
+      "common_name": "Asparagus Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asparagus setaceus",
+      "common_name": "Plumosa Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Aspidistra elatior",
+      "common_name": "Cast Iron Plant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Asplenium bulbiferum",
+      "common_name": "Mother Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia albescens",
+      "common_name": "Spiked White Wild Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia australis",
+      "common_name": "Blue False Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia 'Carolina Moonlight'",
+      "common_name": "Carolina Moonlight False Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia cinerea",
+      "common_name": "Carolina Wild Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia 'Purple Smoke'",
+      "common_name": "Purple Smoke False Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Baptisia tinctoria",
+      "common_name": "Yellow Wild Indigo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Begonia",
+      "common_name": "Wax Begonia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis aquifolium",
+      "common_name": "Oregon Grape Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis aquifolium 'Orange Flame'",
+      "common_name": "Orange Flame Oregon Grape",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis bealei",
+      "common_name": "Leatherleaf Mahonia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis canadensis",
+      "common_name": "American Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis candidula",
+      "common_name": "Paleleaf Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis darwinii",
+      "common_name": "Darwin Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis eurybracteata",
+      "common_name": "Chinese Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis fremontii",
+      "common_name": "Fremont Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis gracilis",
+      "common_name": "Mexican Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis jamesiana",
+      "common_name": "James Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis julianae",
+      "common_name": "Wintergreen Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis microphylla 'Nana'",
+      "common_name": "Magellan Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis thunbergii",
+      "common_name": "Japanese Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis thunbergii 'Aurea'",
+      "common_name": "Golden Japanese Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis thunbergii 'Crimson Pygmy'",
+      "common_name": "Crimson Pygmy Japanese Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis verruculosa",
+      "common_name": "Warty Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis x chenaultii",
+      "common_name": "Chenault Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis x gladwynensis 'William Penn'",
+      "common_name": "William Penn Barberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis x hortensis",
+      "common_name": "Media Mahonia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berberis x hortensis 'Arthur Menzies'",
+      "common_name": "Arthur Menzies Berberis",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Berlandiera lyrata",
+      "common_name": "Chocolate Daisy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Betonica officinalis",
+      "common_name": "Wood Betony",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Betonica officinalis subsp. officinalis",
+      "common_name": "Alpine Betony",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Betula lenta",
+      "common_name": "Black Birch",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Betula nigra 'Shiloh Splash'",
+      "common_name": "River Birch",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Betula 'Royal Frost'",
+      "common_name": "Royal Frost Birch",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Bigelowia nuttallii",
+      "common_name": "Rayless Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Blechnum spicant",
+      "common_name": "Deer Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Boltonia asteroides",
+      "common_name": "False Aster",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Boltonia decurrens",
+      "common_name": "Decurrent False Aster",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Borago officinalis",
+      "common_name": "Borage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buddleja alternifolia",
+      "common_name": "Fountain Butterfly Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buddleja davidii",
+      "common_name": "Butterfly Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buddleja globosa",
+      "common_name": "Orange Ball Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buddleja x weyeriana",
+      "common_name": "Weyer's Butterfly Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus",
+      "common_name": "Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus 'Green Gem'",
+      "common_name": "Green Gem Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus 'Green Mountain'",
+      "common_name": "Green Mountain Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus 'Green Velvet'",
+      "common_name": "Green Velvet Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus harlandii",
+      "common_name": "Harland Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus microphylla",
+      "common_name": "Littleleaf Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus microphylla var. japonica",
+      "common_name": "Japanese Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus sempervirens",
+      "common_name": "Common Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus sempervirens 'Suffruticosa'",
+      "common_name": "English Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus sempervirens 'Vardar Valley'",
+      "common_name": "Vardar Valley Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Buxus sinica",
+      "common_name": "Korean Boxwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Calamagrostis arundinacea",
+      "common_name": "Korean Feather Reed Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Calamagrostis x acutiflora",
+      "common_name": "Feather Reed Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Calamagrostis x acutiflora 'Karl Foerster'",
+      "common_name": "Karl Foerster Feather Reed Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Calendula officinalis",
+      "common_name": "Pot Marigold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Callicarpa bodinieri",
+      "common_name": "Bodinier Beautyberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Callicarpa dichotoma",
+      "common_name": "Purple Beautyberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Callitropsis nootkatensis 'Pendula'",
+      "common_name": "Nootka Cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Caltha palustris",
+      "common_name": "Marsh Marigold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Calycanthus chinensis",
+      "common_name": "Chinese Sweetshrub",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Camellia oleifera",
+      "common_name": "Oil-seed Camellia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Camellia reticulata",
+      "common_name": "To-tsubaki",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Camellia sasanqua",
+      "common_name": "Sasanqua Camellia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Camellia sinensis",
+      "common_name": "Tea Camellia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula carpatica",
+      "common_name": "Carpathian Bellflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula glomerata",
+      "common_name": "Clustered Bellflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula medium",
+      "common_name": "Canterbury Bells",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula persicifolia",
+      "common_name": "Peachleaf Bellflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula punctata",
+      "common_name": "Spotted Bellflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campanula trachelium",
+      "common_name": "Coventry Bellflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campsis grandiflora",
+      "common_name": "Chinese Trumpet Creeper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Campsis x tagliabueana",
+      "common_name": "Madame Galen",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Canna flaccida",
+      "common_name": "Golden Canna",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Capsicum annuum",
+      "common_name": "Sweet Pepper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex albula",
+      "common_name": "New Zealand Hair Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex buchananii",
+      "common_name": "Leatherleaf Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex divulsa",
+      "common_name": "European Gray Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex dolichostachya",
+      "common_name": "Gold Fountains",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex flagellifera",
+      "common_name": "Weeping Brown Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex grayi",
+      "common_name": "Gray's Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex laxiculmis 'Bunny Blue'",
+      "common_name": "Creeping Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex normalis",
+      "common_name": "Greater Straw Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex oshimensis",
+      "common_name": "Evergold Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Carex texensis",
+      "common_name": "Texas Sedge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cartrema americana",
+      "common_name": "Devilwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Caryopteris",
+      "common_name": "Bluebeard",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Caryopteris x clandonensis",
+      "common_name": "Blue Mist Shrub",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Castanea dentata",
+      "common_name": "American Chestnut",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Castanea sativa",
+      "common_name": "Spanish Chestnut",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Catalpa ovata",
+      "common_name": "Chinese Catalpa",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Catharanthus roseus",
+      "common_name": "Madagascar Periwinkle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Centaurea cyanus",
+      "common_name": "Bachelor's Button",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cephalanthus occidentalis",
+      "common_name": "Buttonbush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cephalotaxus harringtonia",
+      "common_name": "Japanese Plum Yew",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cephalotaxus harringtonia 'Duke Gardens'",
+      "common_name": "Duke Gardens Plum Yew",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cephalotaxus harringtonia 'Prostrata'",
+      "common_name": "Prostrate Japanese Plum Yew",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cerastium tomentosum",
+      "common_name": "Snow-in-summer",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ceratostigma plumbaginoides",
+      "common_name": "Blue Leadwort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ceratostigma willmottianum",
+      "common_name": "Chinese Leadwort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cercis canadensis",
+      "common_name": "Eastern Redbud",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cercis chinensis",
+      "common_name": "Chinese Redbud",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cercis chingii",
+      "common_name": "Ching's Redbud",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cercis gigantea",
+      "common_name": "Giant Redbud",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cercis siliquastrum",
+      "common_name": "Judas Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cestrum",
+      "common_name": "Cestrum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cestrum aurantiacum",
+      "common_name": "Orange Cestrum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chaenomeles",
+      "common_name": "Flowering Quince",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chaenomeles speciosa",
+      "common_name": "Common Flowering Quince",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chamaecyparis",
+      "common_name": "False-cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chamaecyparis obtusa 'Crippsii'",
+      "common_name": "Golden Hinoke Cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chamaecyparis pisifera 'Snow'",
+      "common_name": "Snow False-cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chamaecyparis thyoides 'Red Star'",
+      "common_name": "Red Star White Cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chasmanthium latifolium",
+      "common_name": "River Oats",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chelone lyonii",
+      "common_name": "Pink Turtlehead",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chrysanthemum x morifolium",
+      "common_name": "Garden Mum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Chrysogonum virginianum",
+      "common_name": "Green and Gold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clematis viorna",
+      "common_name": "Leatherflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clematis virginiana",
+      "common_name": "Devil's Darning Needles",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clematis x jackmanii",
+      "common_name": "Jackman's Clematis",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cleome",
+      "common_name": "Bee Plant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cleome houtteana",
+      "common_name": "Cleome",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clethra acuminata",
+      "common_name": "Cinnamonbark Clethra",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clethra alnifolia",
+      "common_name": "Alderleaf Clethra",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Clinopodium nepeta",
+      "common_name": "Lesser Calamint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Colchicum",
+      "common_name": "Autumn Crocus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Coleus scutellarioides",
+      "common_name": "Coleus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Colocasia",
+      "common_name": "Dasheen",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Colocasia esculenta",
+      "common_name": "Caladium",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Comptonia peregrina",
+      "common_name": "Sweet Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Conoclinium coelestinum",
+      "common_name": "Ageratum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Convallaria majalis",
+      "common_name": "Lily of the Valley",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Coreopsis auriculata",
+      "common_name": "Eared Coreopsis",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Coreopsis lanceolata",
+      "common_name": "Lanceleaf Coreopsis",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Coreopsis pubescens",
+      "common_name": "Downy Tickseed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Coreopsis tinctoria",
+      "common_name": "Calliopsis",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus alba",
+      "common_name": "Red-Barked Dogwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus alternifolia",
+      "common_name": "Alternate-leaf Dogwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus canadensis",
+      "common_name": "Bunchberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus controversa",
+      "common_name": "Giant Dogwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus drummondii",
+      "common_name": "Cornel Dogwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus mas",
+      "common_name": "Cornelian Cherry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cornus officinalis",
+      "common_name": "Chinese Cornelian Dogwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Crataegus mollis",
+      "common_name": "Downy Hawthorn",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Crataegus phaenopyrum",
+      "common_name": "Washington Hawthorn",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Crinum",
+      "common_name": "Crinum Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Crocosmia 'Lucifer'",
+      "common_name": "Montbretia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Crocus",
+      "common_name": "Common Crocus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Croton alabamensis",
+      "common_name": "Alabama Croton",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cryptomeria japonica",
+      "common_name": "Japanese Cedar",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Curio repens",
+      "common_name": "Blue Chalksticks",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cyclamen hederifolium",
+      "common_name": "Hardy Cyclamen",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cynara cardunculus",
+      "common_name": "Cardoon",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cyrtomium falcatum",
+      "common_name": "Holly Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cyrtomium fortunei",
+      "common_name": "Japanese Holly Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cystopteris bulbifera",
+      "common_name": "Berry Bladder Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cystopteris fragilis",
+      "common_name": "Brittle Bladder Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Cystopteris protrusa",
+      "common_name": "Lowland Brittle Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dasiphora fruticosa",
+      "common_name": "Bush Cinquefoil",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Datura wrightii",
+      "common_name": "Sacred Datura",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Delphinium carolinianum",
+      "common_name": "Carolina Larkspur",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Delphinium elatum",
+      "common_name": "Delphinium",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Delphinium grandiflorum",
+      "common_name": "Dwarf Larkspur",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dennstaedtia punctilobula",
+      "common_name": "Hay-scented Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deparia acrostichoides",
+      "common_name": "Silvery Glade Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia",
+      "common_name": "Deutzia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia crenata",
+      "common_name": "Deutzia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia gracilis",
+      "common_name": "Slender Deutzia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia ningpoensis",
+      "common_name": "Ningbo Deutzia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia scabra",
+      "common_name": "Pride-of-Rochester",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Deutzia x lemoinei",
+      "common_name": "Lemoine Deutzia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dicentra canadensis",
+      "common_name": "Squirrel Corn",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dicentra cucullaria",
+      "common_name": "Dutchman's Breeches",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dicentra eximia",
+      "common_name": "Bleeding-heart",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dictamnus albus",
+      "common_name": "Burning Bush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Diervilla sessilifolia",
+      "common_name": "Bush Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Digitalis purpurea",
+      "common_name": "Common Foxglove",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Diospyros virginiana",
+      "common_name": "American Persimmon",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Distylium racemosum",
+      "common_name": "Isu tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris",
+      "common_name": "Buckler Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris affinis",
+      "common_name": "Golden Male Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris carthusiana",
+      "common_name": "Shield Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris celsa",
+      "common_name": "Log Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris cristata",
+      "common_name": "Crested Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris dilatata",
+      "common_name": "Broad Buckler Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris erythrosora",
+      "common_name": "Autumn Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris filix-mas",
+      "common_name": "Male Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris goldieana",
+      "common_name": "Giant Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris intermedia",
+      "common_name": "Evergreen Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris ludoviciana",
+      "common_name": "Southern Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris marginalis",
+      "common_name": "Evergreen Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris sieboldii",
+      "common_name": "Siebold's Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris villarii",
+      "common_name": "Rigid Buckler Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris wallichiana",
+      "common_name": "Wallich's Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Dryopteris x australis",
+      "common_name": "Dixie Woodfern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Echinacea laevigata",
+      "common_name": "Smooth Purple Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Echinacea pallida",
+      "common_name": "Pale Purple Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Echinacea paradoxa",
+      "common_name": "Bushe's Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Echinacea purpurea",
+      "common_name": "Purple Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Epimedium x versicolor 'Sulphureum'",
+      "common_name": "Bicolor Barrenwort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Epimedium x youngianum 'Niveum'",
+      "common_name": "Bishop's Hat",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Equisetum arvense",
+      "common_name": "Common Horsetail",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Equisetum praealtum",
+      "common_name": "Scouring Rush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eranthis cilicica",
+      "common_name": "Winter Aconite",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eremurus",
+      "common_name": "Desert Candle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Erica carnea",
+      "common_name": "Alpine Heath",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Erigeron",
+      "common_name": "Common Fleabane",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eriobotrya japonica",
+      "common_name": "Japanese Medlar",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eriocapitella hupehensis",
+      "common_name": "Chinese Anemone",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eriocapitella x hybrida",
+      "common_name": "Japanese Anemone",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eryngium aquaticum",
+      "common_name": "Bitter Snakeroot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eryngium planum",
+      "common_name": "Blue Eryngo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eryngium yuccifolium",
+      "common_name": "Beargrass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Erysimum x hybrida",
+      "common_name": "Wallflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eubotrys racemosa",
+      "common_name": "Swamp Doghobble",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eucomis comosa 'Sparkling Burgundy'",
+      "common_name": "Pineapple Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eupatorium altissimum",
+      "common_name": "Tall Boneset",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eupatorium capillifolium",
+      "common_name": "Dogfennel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eupatorium perfoliatum",
+      "common_name": "American Boneset",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia",
+      "common_name": "Euphorbia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia amygdaloides subsp. robbiae",
+      "common_name": "Mrs. Robb's Bonnet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia characias",
+      "common_name": "Albanian Spurge",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia corollata",
+      "common_name": "Baby's Breath of the Prairie",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia cotinifolia",
+      "common_name": "Caribbean Cooper Plant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Euphorbia epithymoides",
+      "common_name": "Cushion Euphorbia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eutrochium dubium",
+      "common_name": "Coastal Plain Joe Pye Weed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eutrochium maculatum",
+      "common_name": "Joe-Pye-weed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Eutrochium purpureum",
+      "common_name": "Joe-Pye Weed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fagus sylvatica",
+      "common_name": "Common Beech",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fagus sylvatica 'Asplenifolia'",
+      "common_name": "Fern Leaved Beech",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fagus sylvatica f. pendula",
+      "common_name": "Weeping European Beech",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fallopia aubertii",
+      "common_name": "Fleece Vine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Farfugium japonicum",
+      "common_name": "Leopard Plant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Festuca rubra",
+      "common_name": "Creeping Red Fescue",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ficus pumila",
+      "common_name": "Climbing Fig",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Firmiana simplex",
+      "common_name": "Chinese Bottletree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Forsythia ovata",
+      "common_name": "Early Forsythia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Forsythia viridissima",
+      "common_name": "Golden Bells",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fothergilla gardenii",
+      "common_name": "Dwarf Fothergilla",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fothergilla latifolia",
+      "common_name": "Large Fothergilla",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fothergilla 'Mount Airy'",
+      "common_name": "Dwarf Fothergilla",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fraxinus americana",
+      "common_name": "White Ash",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fraxinus pennsylvanica",
+      "common_name": "Green Ash",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fraxinus profunda",
+      "common_name": "Pumpkin Ash",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Fritillaria meleagris",
+      "common_name": "Snakeshead Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Gaillardia x grandiflora",
+      "common_name": "Blanket Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Galanthus elwesii",
+      "common_name": "Giant Snowdrop",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Galanthus nivalis",
+      "common_name": "Common Snowdrop",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Gardenia jasminoides",
+      "common_name": "Cape Jasmine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Garrya elliptica",
+      "common_name": "Coast Silktassel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Gypsophila elegans",
+      "common_name": "Baby's Breath",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Gypsophila paniculata",
+      "common_name": "Baby's Breath",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hakonechloa macra",
+      "common_name": "Forest Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hamamelis mollis",
+      "common_name": "Chinese Witchhazel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hamamelis vernalis",
+      "common_name": "Ozark Witch Hazel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hamamelis virginiana",
+      "common_name": "Common Witchhazel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hamamelis x intermedia",
+      "common_name": "Hybrid Witchhazel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helenium",
+      "common_name": "Sneezeweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helenium autumnale",
+      "common_name": "Autumn Sneezeweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helenium flexuosum",
+      "common_name": "Purple-headed Sneezeweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helianthus atrorubens",
+      "common_name": "Appalachian Sunflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helianthus divaricatus",
+      "common_name": "Rough Sunflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helianthus maximiliani",
+      "common_name": "Maximilian Sunflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helictotrichon sempervirens",
+      "common_name": "Blue Oats Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Heliotropium arborescens",
+      "common_name": "Heliotrope",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus",
+      "common_name": "Christmas Roses",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus argutifolius",
+      "common_name": "Corsican Hellebore",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus croaticus",
+      "common_name": "Croatian Hellebore",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus foetidus",
+      "common_name": "Bearsfoot Hellebore",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus niger",
+      "common_name": "Black Hellebore",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus orientalis",
+      "common_name": "Christmas Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Helleborus x hybridus",
+      "common_name": "Hybrid Lenten Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hesperis matronalis",
+      "common_name": "Dame's Rocket",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hesperocyparis arizonica",
+      "common_name": "Arizona Cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Heuchera",
+      "common_name": "Alumroot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Heuchera americana",
+      "common_name": "Alumroot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hyacinthoides hispanica",
+      "common_name": "Spanish Bluebell",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hydrangea arborescens",
+      "common_name": "Hills of Snow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hymenocallis",
+      "common_name": "Basket Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hypericum kalmianum",
+      "common_name": "St. John's Wort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Hyssopus officinalis",
+      "common_name": "Hyssop",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iberis amara",
+      "common_name": "Annual Candytuft",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iberis sempervirens",
+      "common_name": "Candytuft",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex",
+      "common_name": "Hollies",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex chinensis",
+      "common_name": "Kashi Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex cornuta",
+      "common_name": "Chinese Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex cornuta 'Burfordii'",
+      "common_name": "Burford Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex crenata",
+      "common_name": "Box Leaved Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex decidua",
+      "common_name": "Possumhaw",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex latifolia",
+      "common_name": "Lusterleaf Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex montana",
+      "common_name": "Mountain Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex opaca",
+      "common_name": "American Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex pedunculosa",
+      "common_name": "Longstalk Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex verticillata",
+      "common_name": "Winterberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex vomitoria",
+      "common_name": "Yaupon",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex x aquipernyi",
+      "common_name": "Aquipern Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ilex x attenuata",
+      "common_name": "Foster Holly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Illicium parviflorum",
+      "common_name": "Hardy Anise Shrub",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Incarvillea delavayi",
+      "common_name": "Hardy Gloxinia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ipomoea alba",
+      "common_name": "Moonflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ipomoea quamoclit",
+      "common_name": "Cypress Vine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ipomoea tricolor",
+      "common_name": "Morning Glory",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ipomopsis rubra",
+      "common_name": "Scarlet Gilia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris",
+      "common_name": "Flag",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris cristata",
+      "common_name": "Crested Dwarf Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris ensata",
+      "common_name": "Japanese Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris japonica",
+      "common_name": "Butterfly Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris laevigata",
+      "common_name": "Water Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris pallida 'Variegata'",
+      "common_name": "Zebra Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris reticulata",
+      "common_name": "Dwarf Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris sibirica",
+      "common_name": "Siberian Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris tectorum",
+      "common_name": "Roof Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris versicolor",
+      "common_name": "Northern Blue Flag",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris virginica",
+      "common_name": "Southern Blue Flag Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Iris x germanica",
+      "common_name": "Bearded Iris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Itea virginica",
+      "common_name": "Virginia Sweetspire",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Jasminum nudiflorum",
+      "common_name": "Winter Jasmine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus chinensis",
+      "common_name": "Chinese Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus communis",
+      "common_name": "Common Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus conferta",
+      "common_name": "Shore Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus horizontalis",
+      "common_name": "Creeping Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus procumbens",
+      "common_name": "Japanese Garden Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus sabina",
+      "common_name": "Savin Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus scopulorum",
+      "common_name": "Rocky Mountain Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus squamata 'Blue Star'",
+      "common_name": "Blue Star Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus virginiana",
+      "common_name": "Eastern Redcedar",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Juniperus x pfitzeriana",
+      "common_name": "Pfitzer Juniper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Kalimeris incisa",
+      "common_name": "Blue Star Kalimeris",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Kalmia latifolia",
+      "common_name": "Mountain Laurel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Kerria japonica",
+      "common_name": "Japanese Kerria",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Kniphofia uvaria",
+      "common_name": "Red Hot Poker",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Koelreuteria bipinnata",
+      "common_name": "Chinese Flame Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Koelreuteria paniculata",
+      "common_name": "Golden Rain Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Kolkwitzia amabilis",
+      "common_name": "Beautybush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lagerstroemia indica",
+      "common_name": "Crape Myrtle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lamium maculatum 'Aureum'",
+      "common_name": "Golden Dead Nettle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lamprocapnos spectabilis",
+      "common_name": "Bleeding Heart",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lantana camara",
+      "common_name": "Common Lantana",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Larix decidua",
+      "common_name": "European Larch",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lavandula stoechas",
+      "common_name": "French Lavender",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lavandula x intermedia",
+      "common_name": "Hybrid Lavender",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lespedeza thunbergii",
+      "common_name": "Bush Clover",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucanthemum vulgare",
+      "common_name": "Marguerite",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucanthemum x superbum",
+      "common_name": "Shasta Daisy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucojum aestivum",
+      "common_name": "Lodden Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucojum vernum",
+      "common_name": "Snowflake",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucothoe axillaris",
+      "common_name": "Coastal Doghobble",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leucothoe fontanesiana",
+      "common_name": "Doghobble",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Leymus arenarius",
+      "common_name": "Blue Lyme Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liatris microcephala",
+      "common_name": "Appalachian Blazing Star",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ligustrum japonicum",
+      "common_name": "Japanese Privet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ligustrum lucidum",
+      "common_name": "Glossy Privet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ligustrum sinense",
+      "common_name": "Chinese Privet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liquidambar formosana",
+      "common_name": "Chinese Sweetgum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liquidambar styraciflua",
+      "common_name": "American Sweet Gum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liriodendron tulipifera",
+      "common_name": "Tulip Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liriope",
+      "common_name": "Lilyturf",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liriope muscari",
+      "common_name": "Big Blue Lilyturf",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Liriope spicata",
+      "common_name": "Creeping Lilyturf",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lonicera fragrantissima",
+      "common_name": "Fragrant Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lonicera maackii",
+      "common_name": "Amur Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lonicera periclymenum",
+      "common_name": "Common Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lonicera sempervirens",
+      "common_name": "Coral Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Lonicera x heckrottii",
+      "common_name": "Goldflame Honeysuckle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Magnolia x soulangeana",
+      "common_name": "Saucer Magnolia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Malvaviscus arboreus var. drummondii",
+      "common_name": "Turk's Cap",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Melaleuca citrina",
+      "common_name": "Crimson Bottle Brush",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Melampodium leucanthum",
+      "common_name": "Blackfoot Daisy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Metasequoia glyptostroboides",
+      "common_name": "Dawn Redwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Microbiota decussata",
+      "common_name": "Siberian Carpet Cypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Mimulus ringens",
+      "common_name": "Allegheny Monkey Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Miscanthus sinensis",
+      "common_name": "Maiden Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Miscanthus transmorrisonensis",
+      "common_name": "Evergreen Miscanthus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Monarda bradburyana",
+      "common_name": "Bradbury Beebalm",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Monarda didyma",
+      "common_name": "Bee Balm",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Monarda fistulosa",
+      "common_name": "Wild Bergamot",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Monarda punctata",
+      "common_name": "Spotted Beebalm",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Morus rubra",
+      "common_name": "Red Mulberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Muhlenbergia capillaris",
+      "common_name": "Pink Muhly Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Muhlenbergia lindheimeri",
+      "common_name": "Lindheimer's Muhly",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Muscari",
+      "common_name": "Grape Hyacinth",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Myrica californica",
+      "common_name": "California Bayberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Myrica cerifera",
+      "common_name": "Southern Wax Myrtle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Myrtus communis",
+      "common_name": "Common Myrtle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nandina domestica",
+      "common_name": "Heavenly Bamboo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Narcissus jonquilla",
+      "common_name": "Daffodil",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Narcissus tazetta",
+      "common_name": "Paper White Narcissus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Narcissus triandrus",
+      "common_name": "Orchid Daffodil",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nassella tenuissima",
+      "common_name": "Mexican Feather Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nepeta",
+      "common_name": "Catmint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nepeta cataria",
+      "common_name": "Catnip",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nepeta x faassenii 'Walker's Low'",
+      "common_name": "Walker's Low Catmint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nephrolepis exaltata",
+      "common_name": "Boston Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nerine bowdenii",
+      "common_name": "Guernsey Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nerium oleander",
+      "common_name": "Oleander",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nicotiana tabacum",
+      "common_name": "Tobacco",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Nyssa sylvatica",
+      "common_name": "Black Tupelo",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Oenothera berlandieri 'Siskiyou'",
+      "common_name": "Evening Primrose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Oenothera fruticosa",
+      "common_name": "Southern Sundrops",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Oenothera lindheimeri",
+      "common_name": "Lindheimer's Gaura",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Onoclea sensibilis",
+      "common_name": "Sensitive Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Onoclea struthiopteris",
+      "common_name": "Ostrich Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ophiopogon japonicus",
+      "common_name": "Mondo Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ophiopogon planiscapus 'Nigrescens'",
+      "common_name": "Black Mondo Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Opuntia",
+      "common_name": "Prickly Pear Cactus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Opuntia humifusa",
+      "common_name": "Eastern Prickly Pear",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Origanum",
+      "common_name": "Oregano",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Origanum majorana",
+      "common_name": "Sweet Marjoram",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Origanum vulgare subsp. hirtum",
+      "common_name": "Greek Oregano",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Osmanthus delavayi",
+      "common_name": "Delavay Tea Olive",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Osmanthus fragrans",
+      "common_name": "Fragrant Tea Olive",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Panicum virgatum",
+      "common_name": "Switchgrass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Panicum virgatum 'Heavy Metal'",
+      "common_name": "Heavy Metal Switch Grass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Panicum virgatum 'Northwind'",
+      "common_name": "Northwind Switchgrass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Papaver orientale",
+      "common_name": "Oriental Poppy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Parthenocissus quinquefolia",
+      "common_name": "Virginia Creeper",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Passiflora incarnata",
+      "common_name": "Passionflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Passiflora lutea",
+      "common_name": "Yellow Passionflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Penstemon canescens",
+      "common_name": "Appalachian Beardtongue",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Penstemon digitalis 'Huskers Red'",
+      "common_name": "Huskers Red Penstemon",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pentas lanceolata",
+      "common_name": "Star Cluster",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Petrosedum rupestre 'Angelina'",
+      "common_name": "Rocky Stonecrop",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Petunia x hybrida",
+      "common_name": "Garden Petunia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phedimus kamtschaticus",
+      "common_name": "Kamschatka Sedum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phlomis fruticosa",
+      "common_name": "Jerusalem Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phlox glaberrima",
+      "common_name": "Smooth Phlox",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phlox stolonifera",
+      "common_name": "Creeping Phlox",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phlox subulata",
+      "common_name": "Moss Phlox",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Physostegia virginiana",
+      "common_name": "Obedient Plant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Phytolacca americana",
+      "common_name": "Pokeweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Picea abies 'Nidiformis'",
+      "common_name": "Bird's Nest Spruce",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Picea laxa",
+      "common_name": "White Spruce",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus cembra",
+      "common_name": "Swiss Stone Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus densiflora",
+      "common_name": "Japanese Red Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus echinata",
+      "common_name": "Shortleaf Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus edulis",
+      "common_name": "Pinyon Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus elliottii",
+      "common_name": "Slash Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus flexilis",
+      "common_name": "Limber Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus glabra",
+      "common_name": "Spruce Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus heldreichii",
+      "common_name": "Bosnian Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus jeffreyi",
+      "common_name": "Jeffrey's Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus koraiensis",
+      "common_name": "Korean Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus monticola",
+      "common_name": "Western White Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus mugo",
+      "common_name": "Mugo Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus nigra",
+      "common_name": "Austrian Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus palustris",
+      "common_name": "Longleaf Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus parviflora",
+      "common_name": "Japanese White Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus peuce",
+      "common_name": "Macedonian Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus pinaster",
+      "common_name": "Maritime Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus ponderosa",
+      "common_name": "Ponderosa Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus rigida",
+      "common_name": "Pitch Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus serotina",
+      "common_name": "Pond Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus strobus",
+      "common_name": "Eastern White Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus sylvestris",
+      "common_name": "Scots Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus taeda",
+      "common_name": "Loblolly Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus thunbergii",
+      "common_name": "Japanese Black Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus virginiana",
+      "common_name": "Virginia Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus wallichiana",
+      "common_name": "Himalayan Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pinus yunnanensis",
+      "common_name": "Yunnan Pine",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Platanus occidentalis",
+      "common_name": "American Sycamore",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Platanus x acerifolia",
+      "common_name": "London Planetree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Platycodon grandiflorus",
+      "common_name": "Balloon Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Podophyllum pleianthum",
+      "common_name": "Chinese Mayapple",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polemonium reptans",
+      "common_name": "Jacob's Ladder",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polypodium appalachianum",
+      "common_name": "Appalachian Polypody",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polypodium virginianum",
+      "common_name": "American Wall Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polypodium vulgare",
+      "common_name": "Common Polypody",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polystichum acrostichoides",
+      "common_name": "Christmas Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polystichum braunii",
+      "common_name": "Braun's Holly Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polystichum polyblepharum",
+      "common_name": "Japanese Tassel Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Polystichum setiferum",
+      "common_name": "Soft Shield Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pontederia cordata",
+      "common_name": "Pickerelweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Portulaca grandiflora",
+      "common_name": "Moss Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Prunus caroliniana",
+      "common_name": "Carolina Cherry Laurel",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Prunus serotina",
+      "common_name": "Black Cherry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Prunus serrulata",
+      "common_name": "Japanese Cherry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pteridium latiusculum",
+      "common_name": "Bracken Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pulmonaria longifolia",
+      "common_name": "Bethlehem Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pulmonaria 'Raspberry Splash'",
+      "common_name": "Raspberry Splash Lungwort",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pycnanthemum",
+      "common_name": "Mountain Mint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pycnanthemum flexuosum",
+      "common_name": "Appalachian Mountain Mint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pycnanthemum incanum",
+      "common_name": "Hoary Mountain Mint",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pyracantha coccinea",
+      "common_name": "Firethorn",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pyracantha koidzumii",
+      "common_name": "Formosan Firethorn",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Pyrus calleryana",
+      "common_name": "Callery Pear",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus acutissima",
+      "common_name": "Sawtooth Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus alba",
+      "common_name": "White Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus nigra",
+      "common_name": "Black Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus oglethorpensis",
+      "common_name": "Oglethorpe Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus pagoda",
+      "common_name": "Cherry Bark Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus petraea",
+      "common_name": "Cornish Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus phellos",
+      "common_name": "Willow Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus robur",
+      "common_name": "Common Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus rubra",
+      "common_name": "American Red Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus stellata",
+      "common_name": "Post Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus texana",
+      "common_name": "Nuttall Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus variabilis",
+      "common_name": "Chinese Cork Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Quercus virginiana",
+      "common_name": "Live Oak",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rhododendron hybrids",
+      "common_name": "Exbury Azaleas",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rhododendron impeditum",
+      "common_name": "Dwarf Purple Rhododendron",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ribes alpinum",
+      "common_name": "Alpine Currant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ribes sanguineum",
+      "common_name": "Blood Currant",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ricinus communis",
+      "common_name": "Castor Bean",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rohdea japonica",
+      "common_name": "Japanese Sacred Lily",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rosa banksiae 'Lutea'",
+      "common_name": "Yellow Banksia Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rosa laevigata",
+      "common_name": "Cherokee Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rosa rugosa",
+      "common_name": "Beach Rose",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rubus allegheniensis",
+      "common_name": "Allegheny Blackberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rubus idaeus subsp. strigosus",
+      "common_name": "American Raspberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rubus occidentalis",
+      "common_name": "Blackcap",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rudbeckia fulgida",
+      "common_name": "Black-eyed Susan",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rudbeckia laciniata",
+      "common_name": "Cutleaf Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Rudbeckia maxima",
+      "common_name": "Cabbage-leaf Coneflower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salix udensis 'Sekka'",
+      "common_name": "Japanese Fantail Willow",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia azurea",
+      "common_name": "Blue Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia coccinea",
+      "common_name": "Bloody Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia elegans",
+      "common_name": "Pineapple Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia farinacea",
+      "common_name": "Blue Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia greggii",
+      "common_name": "Autumn Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia guaranitica",
+      "common_name": "Anise Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia leucantha",
+      "common_name": "Mexican Bush Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia lyrata",
+      "common_name": "Lyreleaf Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia microphylla",
+      "common_name": "Baby Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia nemorosa",
+      "common_name": "Balkan Clary",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "common_name": "Common Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia rosmarinus",
+      "common_name": "Rosemary",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia sclarea",
+      "common_name": "Clary Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia splendens",
+      "common_name": "Scarlet Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia uliginosa",
+      "common_name": "Blue Spike Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia x sylvestris",
+      "common_name": "Meadow Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Salvia yangii",
+      "common_name": "Russian Sage",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sanguisorba canadensis",
+      "common_name": "American Burnet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Santolina etrusca",
+      "common_name": "Cotton Lavender",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Santolina rosmarinifolia",
+      "common_name": "Green Lavender Cotton",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sarcococca confusa",
+      "common_name": "Fragrant Sarcococca",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sarcococca hookeriana",
+      "common_name": "Himalayan Sarcococca",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sarcococca orientalis",
+      "common_name": "Christmas Box",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sarcococca ruscifolia",
+      "common_name": "Fragrant Sarcococca",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Satureja hortensis",
+      "common_name": "Summer Savory",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Saururus cernuus",
+      "common_name": "Lizard's Tail",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Scabiosa atropurpurea",
+      "common_name": "Pincushion Flower",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Schizachyrium scoparium",
+      "common_name": "Little Bluestem",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sinojackia rehderiana",
+      "common_name": "Jacktree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago",
+      "common_name": "Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago altissima",
+      "common_name": "Canada Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago caesia",
+      "common_name": "Axillary Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago juncea",
+      "common_name": "Early Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago nemoralis",
+      "common_name": "Common Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago odora",
+      "common_name": "Anise Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago rugosa 'Fireworks'",
+      "common_name": "Fireworks Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago sempervirens",
+      "common_name": "Seaside Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago speciosa",
+      "common_name": "Showy Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago sphacelata",
+      "common_name": "Autumn Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Solidago virgaurea 'Peter Pan'",
+      "common_name": "Peter Pan Goldenrod",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sorghastrum nutans",
+      "common_name": "Indiangrass",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea alba",
+      "common_name": "Meadowsweet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea cantoniensis",
+      "common_name": "Bridal-wreath Spiraea",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea japonica 'Goldmound'",
+      "common_name": "Goldmound Spirea",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea nipponica 'Snowmound'",
+      "common_name": "Snowmound Spiraea",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea thunbergii 'Ogon'",
+      "common_name": "Golden Thunberg's Spirea",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea tomentosa",
+      "common_name": "Hardbark Spiraea",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Spiraea x vanhouttei",
+      "common_name": "Bridal Wreath",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Sporobolus heterolepis",
+      "common_name": "Prairie Dropseed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Stachys byzantina",
+      "common_name": "Lamb's Ear",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Stokesia laevis",
+      "common_name": "Stokes' Aster",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Syringa oblata",
+      "common_name": "Broadleaf Lilac",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Syringa persica",
+      "common_name": "Persian Lilac",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Syringa reticulata",
+      "common_name": "Japanese Tree Lilac",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Syringa villosa",
+      "common_name": "Late Lilac",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Syringa vulgaris",
+      "common_name": "Common Lilac",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Tagetes",
+      "common_name": "Marigold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Tagetes erecta",
+      "common_name": "African Marigold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Tagetes patula",
+      "common_name": "French Marigold",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Taxodium distichum",
+      "common_name": "Baldcypress",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Tetradium daniellii",
+      "common_name": "Bee Bee Tree",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Teucrium chamaedrys",
+      "common_name": "Germander",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thalictrum aquilegiifolium",
+      "common_name": "Columbine Meadowrue",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thalictrum dasycarpum",
+      "common_name": "Purple Meadowrue",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thelypteris kunthii",
+      "common_name": "Kunth's Maiden Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thelypteris noveboracensis",
+      "common_name": "New York Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thelypteris palustris subsp. pubescens",
+      "common_name": "Eastern Marsh Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thymus praecox",
+      "common_name": "Creeping Thyme",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thymus pseudolanuginosus",
+      "common_name": "Wooly Thyme",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thymus pulegioides",
+      "common_name": "Broad-Leaved Thyme",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thymus serpyllum",
+      "common_name": "Creeping Thyme",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Thymus x citriodorus",
+      "common_name": "Lemon Thyme",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Tulbaghia violacea",
+      "common_name": "Pink Agapanthus",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ulmus alata",
+      "common_name": "Winged Elm",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Ulmus americana",
+      "common_name": "American Elm",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Verbascum",
+      "common_name": "Mullein",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Verbascum thapsus",
+      "common_name": "Common Mullein",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Verbena bonariensis",
+      "common_name": "Argentinian Vervain",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Verbena rigida",
+      "common_name": "Purple Verbena",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Verbesina occidentalis",
+      "common_name": "Small Yellow Crownbeard",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Vernonia gigantea",
+      "common_name": "Giant Ironweed",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Veronica",
+      "common_name": "Speedwell",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Veronica spicata",
+      "common_name": "Spiked Speedwell",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Veronicastrum virginicum",
+      "common_name": "Bowman's Root",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum acerifolium",
+      "common_name": "Maple Leaf Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum awabuki 'Chindo'",
+      "common_name": "Chindo Sweet Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum carlesii",
+      "common_name": "Koreanspice Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum cassinoides",
+      "common_name": "Blue Haw",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum davidii",
+      "common_name": "David Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum dilatatum",
+      "common_name": "Linden Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum lantana",
+      "common_name": "Wayfaringtree Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum lantanoides",
+      "common_name": "Alder-leaved Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum lentago",
+      "common_name": "Black Haw",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum obovatum",
+      "common_name": "Small Leaf Arrowwood",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum opulus",
+      "common_name": "Cranberry Bush Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum plicatum var. tomentosum",
+      "common_name": "Doublefile Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum prunifolium",
+      "common_name": "Blackhaw",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum x juddii",
+      "common_name": "Judd Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viburnum x pragense",
+      "common_name": "Pragense Viburnum",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Vinca major",
+      "common_name": "Big Leaf Periwinkle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Vinca minor",
+      "common_name": "Common Periwinkle",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola canadensis",
+      "common_name": "Canada Violet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola cornuta",
+      "common_name": "Horned Violet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola odorata",
+      "common_name": "Common Violet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola pedata",
+      "common_name": "Bird-Foot Violet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola sororia",
+      "common_name": "Common Blue Violet",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Viola x wittrockiana",
+      "common_name": "Pansy",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Vitex agnus-castus",
+      "common_name": "Chasteberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Waldsteinia ternata",
+      "common_name": "Barren Strawberry",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Weigela florida",
+      "common_name": "Old Fashioned Weigela",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Wisteria",
+      "common_name": "Wisteria",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Wisteria floribunda",
+      "common_name": "Japanese Wisteria",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Wisteria frutescens 'Amethyst Falls'",
+      "common_name": "Amethyst Falls Wisteria",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Wisteria sinensis",
+      "common_name": "Chinese Wisteria",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Woodsia obtusa",
+      "common_name": "Common Woodsia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Woodwardia areolata",
+      "common_name": "Netted Chain Fern",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Zinnia haageana",
+      "common_name": "Mexican Zinnia",
+      "deer_resistant": true
+    },
+    {
+      "scientific_name": "Zizia aptera",
+      "common_name": "Heartleaf Golden-Alexanders",
+      "deer_resistant": true
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+"""
+Build Utah State University CWEL Western Native Plants dataset.
+
+Source: USU Center for Water-Efficient Landscaping (CWEL)
+URL: https://cwelwnp.usu.edu/westernnativeplants/plantlist.php
+Plants: ~90 western native species with rich narrative profiles
+Region: Intermountain West (Utah, Idaho, Wyoming, Colorado, etc.)
+
+Note: Detail pages contain rich narrative data on drought tolerance,
+water needs, soil, sun, wildlife, propagation, maintenance, and more.
+This initial extraction captures the plant list; detail page scraping
+could be added later for the full narrative data.
+"""
+
+import csv
+import json
+import os
+import sqlite3
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.dirname(SCRIPT_DIR)
+
+# Data scraped from all A-Z pages of the CWEL plant list
+PLANTS = [
+    # A
+    {"scientific_name": "Acer glabrum", "common_name": "Rocky Mountain Maple"},
+    {"scientific_name": "Acer grandidentatum", "common_name": "Bigtooth Maple"},
+    {"scientific_name": "Agastache cana", "common_name": "Bubblegum Mint"},
+    {"scientific_name": "Amelanchier alnifolia", "common_name": "Serviceberry"},
+    {"scientific_name": "Amelanchier pumila", "common_name": "Dwarf Serviceberry"},
+    {"scientific_name": "Amelanchier utahensis", "common_name": "Utah Serviceberry"},
+    {"scientific_name": "Anaphalis margaritacea", "common_name": "Pearly Everlasting"},
+    {"scientific_name": "Antennaria microphylla", "common_name": "Littleleaf Pussytoes"},
+    {"scientific_name": "Aquilegia barnebyi", "common_name": "Oil Shale Columbine"},
+    {"scientific_name": "Aquilegia chrysantha", "common_name": "Golden Columbine"},
+    {"scientific_name": "Aquilegia desertorum", "common_name": "Desert Columbine"},
+    {"scientific_name": "Aquilegia formosa", "common_name": "Western Red Columbine"},
+    {"scientific_name": "Aquilegia scopulorum", "common_name": "Rock Columbine"},
+    {"scientific_name": "Arctostaphylos patula", "common_name": "Greenleaf Manzanita"},
+    {"scientific_name": "Arctostaphylos uva-ursi", "common_name": "Bearberry"},
+    {"scientific_name": "Artemisia cana", "common_name": "Silver Sagebrush"},
+    {"scientific_name": "Artemisia frigida", "common_name": "Fringed Sagebrush"},
+    {"scientific_name": "Artemisia michauxiana", "common_name": "Michaux's Sage"},
+    {"scientific_name": "Artemisia tridentata vaseyana", "common_name": "Mountain Big Sagebrush"},
+    {"scientific_name": "Asclepias incarnata", "common_name": "Swamp Milkweed"},
+    # B
+    {"scientific_name": "Berberis repens", "common_name": "Creeping Oregon Grape"},
+    {"scientific_name": "Betula occidentalis", "common_name": "Water Birch"},
+    # C
+    {"scientific_name": "Calylophus serrulatus", "common_name": "Yellow Sundrops"},
+    {"scientific_name": "Castilleja integra", "common_name": "Wholeleaf Paintbrush"},
+    {"scientific_name": "Ceanothus prostratus", "common_name": "Prostrate Ceanothus"},
+    {"scientific_name": "Ceanothus velutinus", "common_name": "Snowbrush Ceanothus"},
+    {"scientific_name": "Cercocarpus ledifolius var. intricatus", "common_name": "Littleleaf Mountain Mahogany"},
+    {"scientific_name": "Chamaebatiaria millefolium", "common_name": "Fernbush"},
+    {"scientific_name": "Clematis columbiana", "common_name": "Rock Clematis"},
+    {"scientific_name": "Cornus sericea", "common_name": "Redtwig Dogwood"},
+    # D
+    {"scientific_name": "Dalea ornata", "common_name": "Western Prairie Clover"},
+    {"scientific_name": "Dasiphora fruticosa", "common_name": "Shrubby Cinquefoil"},
+    {"scientific_name": "Douglasia nivalis", "common_name": "Snow Dwarf Primrose"},
+    # E
+    {"scientific_name": "Ericameria nauseosa", "common_name": "Gray Rabbitbrush"},
+    {"scientific_name": "Erigeron compositus", "common_name": "Cut-leaf Daisy"},
+    {"scientific_name": "Erigeron speciosus", "common_name": "Showy Fleabane"},
+    {"scientific_name": "Eriogonum arcuatum", "common_name": "Ivy League Buckwheat"},
+    {"scientific_name": "Eriogonum compositum", "common_name": "Arrow-leaf Buckwheat"},
+    {"scientific_name": "Eriogonum corymbosum", "common_name": "Lacy Buckwheat"},
+    {"scientific_name": "Eriogonum douglasii", "common_name": "Douglas Buckwheat"},
+    {"scientific_name": "Eriogonum heracleoides", "common_name": "Whorled Buckwheat"},
+    {"scientific_name": "Eriogonum jamesii", "common_name": "James' Buckwheat"},
+    {"scientific_name": "Eriogonum ovalifolium", "common_name": "Oval-leaf Buckwheat"},
+    {"scientific_name": "Eriogonum strictum", "common_name": "Strict Buckwheat"},
+    {"scientific_name": "Eriogonum umbellatum", "common_name": "Sulfur Buckwheat"},
+    {"scientific_name": "Eriophyllum lanatum", "common_name": "Woolly Sunflower"},
+    # G
+    {"scientific_name": "Gaillardia aristata", "common_name": "Blanketflower"},
+    {"scientific_name": "Geum rivale", "common_name": "Purple Avens"},
+    {"scientific_name": "Geum triflorum", "common_name": "Prairie Smoke"},
+    {"scientific_name": "Gilia capitata", "common_name": "Globe Gilia"},
+    # H
+    {"scientific_name": "Heuchera cylindrica", "common_name": "Roundleaf Alumroot"},
+    {"scientific_name": "Hymenoxys acaulis", "common_name": "Angelita Daisy"},
+    # I
+    {"scientific_name": "Iliamna rivularis", "common_name": "Mountain Hollyhock"},
+    # K
+    {"scientific_name": "Koeleria macrantha", "common_name": "June Grass"},
+    {"scientific_name": "Krascheninnikovia lanata", "common_name": "Winterfat"},
+    # L
+    {"scientific_name": "Linum lewisii", "common_name": "Lewis Flax"},
+    {"scientific_name": "Lomatium columbianum", "common_name": "Columbia Desert Parsley"},
+    # M
+    {"scientific_name": "Machaeranthera coloradoensis", "common_name": "Colorado Tansyaster"},
+    {"scientific_name": "Mirabilis multiflora", "common_name": "Desert Four O'Clock"},
+    {"scientific_name": "Monarda fistulosa var. menthaefolia", "common_name": "Bee Balm"},
+    # O
+    {"scientific_name": "Oenothera caespitosa", "common_name": "Tufted Evening Primrose"},
+    # P
+    {"scientific_name": "Penstemon barbatus", "common_name": "Beardlip Penstemon"},
+    {"scientific_name": "Penstemon cardinalis", "common_name": "Cardinal Penstemon"},
+    {"scientific_name": "Penstemon confertus", "common_name": "Yellow Penstemon"},
+    {"scientific_name": "Penstemon cyaneus", "common_name": "Blue Penstemon"},
+    {"scientific_name": "Penstemon davidsonii", "common_name": "Davidson's Penstemon"},
+    {"scientific_name": "Penstemon deustus", "common_name": "Hot Rock Penstemon"},
+    {"scientific_name": "Penstemon fruticosus", "common_name": "Shrubby Penstemon"},
+    {"scientific_name": "Penstemon hallii", "common_name": "Hall's Penstemon"},
+    {"scientific_name": "Penstemon montanus", "common_name": "Mountain Penstemon"},
+    {"scientific_name": "Penstemon perpulcher", "common_name": "Minidoka Penstemon"},
+    {"scientific_name": "Penstemon pinifolius", "common_name": "Pineleaf Penstemon"},
+    {"scientific_name": "Penstemon rostriflorus", "common_name": "Bridges' Penstemon"},
+    {"scientific_name": "Penstemon strictus", "common_name": "Rocky Mountain Penstemon"},
+    {"scientific_name": "Penstemon venustus", "common_name": "Lovely Penstemon"},
+    {"scientific_name": "Penstemon whippleanus", "common_name": "Whipple's Penstemon"},
+    {"scientific_name": "Philadelphus lewisii", "common_name": "Western Syringa"},
+    {"scientific_name": "Physaria eburniflora", "common_name": "Devil's Gate Twinpod"},
+    {"scientific_name": "Physocarpus monogynus", "common_name": "Mountain Ninebark"},
+    {"scientific_name": "Physocarpus opulifolius", "common_name": "Common Ninebark"},
+    {"scientific_name": "Potentilla thurberi", "common_name": "Scarlet Cinquefoil"},
+    {"scientific_name": "Purshia mexicana", "common_name": "Mexican Cliffrose"},
+    # R
+    {"scientific_name": "Rhamnus purshiana", "common_name": "Cascara Buckthorn"},
+    {"scientific_name": "Rhus glabra", "common_name": "Smooth Sumac"},
+    {"scientific_name": "Rhus trilobata", "common_name": "Skunkbush Sumac"},
+    {"scientific_name": "Ribes aureum", "common_name": "Golden Currant"},
+    # S
+    {"scientific_name": "Salvia pachyphylla", "common_name": "Giant Purple Sage"},
+    {"scientific_name": "Sisyrinchium idahoense", "common_name": "Idaho Blue-Eyed Grass"},
+    {"scientific_name": "Sphaeralcea grossulariifolia", "common_name": "Gooseberry Globemallow"},
+    {"scientific_name": "Sporobolus airoides", "common_name": "Alkali Sacaton"},
+    {"scientific_name": "Sporobolus wrightii", "common_name": "Giant Sacaton"},
+    # W
+    {"scientific_name": "Wyethia scabra", "common_name": "Scabland Mule's Ear"},
+    # Z
+    {"scientific_name": "Zauschneria garrettii", "common_name": "Firechalice"},
+    {"scientific_name": "Zinnia grandiflora", "common_name": "Desert Zinnia"},
+]
+
+
+def main():
+    print(f"Plants: {len(PLANTS)}")
+
+    # --- CSV ---
+    csv_path = os.path.join(DATA_DIR, "plants.csv")
+    fields = ["scientific_name", "common_name"]
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        for p in PLANTS:
+            writer.writerow(p)
+    print(f"Wrote {csv_path}")
+
+    # --- JSON ---
+    json_path = os.path.join(DATA_DIR, "plants.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "source": "Utah State University CWEL - Western Native Plants",
+            "url": "https://cwelwnp.usu.edu/westernnativeplants/plantlist.php",
+            "region": "Intermountain West (Utah, Idaho, Wyoming, Colorado, Nevada, Montana)",
+            "note": "Each species has a rich detail page with narrative data on drought tolerance, water needs, soil, sun, wildlife value, propagation, maintenance, invasiveness, and availability. This extraction captures the plant list; detail pages could be scraped for full profiles.",
+            "detail_url_pattern": "https://cwelwnp.usu.edu/westernnativeplants/plantlist_view.php?id={id}&name={name}",
+            "plants": PLANTS,
+        }, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {json_path}")
+
+    # --- SQLite ---
+    db_path = os.path.join(DATA_DIR, "plants.db")
+    if os.path.exists(db_path):
+        os.remove(db_path)
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE plants (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            scientific_name TEXT,
+            common_name TEXT
+        )
+    """)
+    cur.execute("CREATE INDEX idx_sci ON plants(scientific_name)")
+    for p in PLANTS:
+        cur.execute("INSERT INTO plants (scientific_name, common_name) VALUES (?, ?)",
+                    (p["scientific_name"], p["common_name"]))
+    conn.commit()
+    conn.close()
+    print(f"Wrote {db_path}")
+
+
+if __name__ == "__main__":
+    main()

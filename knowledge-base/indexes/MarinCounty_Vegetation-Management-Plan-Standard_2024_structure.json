@@ -1,0 +1,139 @@
+{
+  "doc_name": "MarinCounty_Vegetation-Management-Plan-Standard_2024.pdf",
+  "structure": [
+    {
+      "title": "VEGETATION MANAGEMENT PLAN PREFACE",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "WHAT IS A VEGETATION MANAGEMENT PLAN?",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0001",
+          "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), identified as Fire Protection Standard 220. It details the requirements for preparing and submitting a VMP, which is a collaborative standard developed to ensure consistent application of various fire safety regulations. The document defines a VMP as an assessment of a property's fire hazard, a proposal for mitigation, and a plan for future maintenance, listing components such as hazard identification, fuel reduction, creating defensible space, and maintaining access. It specifies that a VMP is required for all new homes, structures, subdivisions, and substantially remodeled buildings within the Wildland-Urban Interface. Additionally, it addresses situations where defensible space crosses property lines, requiring easements or alternative mitigation, and notes that existing structures may need additional fire protection measures combining vegetation management, appropriate building materials, and design features."
+        },
+        {
+          "title": "WHEN IS A VMP REQUIRED?",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), developed collaboratively to ensure consistent application of fire prevention regulations. It defines a VMP as an assessment of a property's fire hazards, a proposal for mitigation, and a plan for future maintenance, detailing components such as hazard identification, fuel reduction, defensible space creation, and fire-safe landscaping. The document specifies that a VMP is required for new homes, structures, subdivisions, and substantial remodels within the Wildland-Urban Interface. It also addresses requirements for defensible space that crosses property lines, necessitating easements or alternative mitigation measures."
+        },
+        {
+          "title": "ADJACENT PROPERTY",
+          "start_index": 1,
+          "end_index": 2,
+          "node_id": "0003",
+          "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), designated as Fire Protection Standard 220, approved on January 27, 2020. It details the requirements for preparing and submitting a VMP, which is a collaborative effort consistent with various state and local fire safety regulations.\n\nThe document defines a VMP as an assessment of a property's fire hazard based on topography, aspect, and vegetation, along with a proposal for hazard mitigation and a prescriptive plan for future maintenance. Key components include identifying hazards, surveying vegetation, reducing fuels, creating defensible space, establishing fire breaks, and maintaining access.\n\nA VMP is required for all new homes, structures, subdivisions, and substantially remodeled buildings located within the Wildland-Urban Interface. It also addresses requirements for defensible space that crosses property lines, potentially necessitating easements or alternative mitigation, and considerations for properties adjacent to Open Space land.\n\nFinally, the document provides definitions for critical terms such as \"Defensible Space\" and \"Home Ignition Zones\" (HIZ). It breaks down the HIZ into specific areas: the Immediate Zone (0-5 feet from the structure), the Intermediate Zone (5-30 feet), the Extended Zone (30-100 feet or more), and the Access Zone (0-10 feet horizontally from roads/driveways), outlining the maintenance goals and requirements for each to reduce wildfire risk."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), identified as Fire Protection Standard 220. It details the requirements for preparing and submitting a VMP, which is a collaborative standard developed to ensure consistent application of various fire safety regulations. The document defines a VMP as an assessment of a property's fire hazard, a proposal for mitigation, and a plan for future maintenance, listing components such as hazard identification, fuel reduction, creating defensible space, and maintaining access. It specifies that a VMP is required for all new homes, structures, subdivisions, and substantially remodeled buildings within the Wildland-Urban Interface. Additionally, it addresses situations where defensible space crosses property lines, requiring easements or alternative mitigation, and notes that existing structures may need additional fire protection measures combining vegetation management, appropriate building materials, and design features."
+    },
+    {
+      "title": "DEFINITIONS",
+      "start_index": 2,
+      "end_index": 2,
+      "nodes": [
+        {
+          "title": "Defensible Space",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0005",
+          "summary": "This partial document outlines a Vegetation Management Plan (VMP) developed by the Marin County Fire Department, approved on January 27, 2020. It emphasizes the importance of noting properties adjacent to Open Space land and incorporating any limitations set by landowners into the VMP.\n\nThe core of the document defines key terms related to wildfire prevention:\n*   **Defensible Space:** A buffer created between structures and vegetation to slow wildfire spread, protect homes, and ensure firefighter safety.\n*   **Home Ignition Zones (HIZ):** A concept for reducing a home's ignition potential based on proximity to fuel types, typically within 100 feet or more.\n\nIt then details specific zones within the HIZ with their respective distances and maintenance goals:\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with strategic landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, requiring 14 feet of vertical clearance and meeting Zone 1 separation standards for emergency access."
+        },
+        {
+          "title": "Home Ignition Zones",
+          "start_index": 2,
+          "end_index": 2,
+          "nodes": [
+            {
+              "title": "Immediate Zone (ZONE 0): 0'-5'",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0007",
+              "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), approved on January 27, 2020. It emphasizes the importance of considering adjacent Open Space land and incorporating landowner limitations into the VMP. The document defines \"Defensible Space\" as a crucial buffer to slow wildfire spread, protect homes, and ensure firefighter safety. It then details the \"Home Ignition Zones\" (HIZ), which are areas around a home designed to reduce ignition potential. These zones include:\n\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with careful landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, ensuring 14 feet of vertical clearance for emergency access."
+            },
+            {
+              "title": "Intermediate Zone (ZONE 1): 5'-30'",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0008",
+              "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), approved on January 27, 2020. It emphasizes the importance of considering adjacent Open Space land and incorporating landowner limitations into the VMP. The document defines \"Defensible Space\" as a crucial buffer to slow wildfire spread, protect homes, and ensure firefighter safety. It then details the \"Home Ignition Zones\" (HIZ), which are areas around a home designed to reduce ignition potential. These zones include:\n\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with careful landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, ensuring 14 feet of vertical clearance for emergency access."
+            },
+            {
+              "title": "Extended Zone (ZONE 2): 30'-100'",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0009",
+              "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), approved on January 27, 2020. It emphasizes the importance of considering adjacent Open Space land and incorporating landowner limitations into the VMP. The document defines \"Defensible Space\" as a crucial buffer to slow wildfire spread, protect homes, and ensure firefighter safety. It then details the \"Home Ignition Zones\" (HIZ), which are areas around a home designed to reduce ignition potential. These zones include:\n\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with careful landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, ensuring 14 feet of vertical clearance for emergency access."
+            },
+            {
+              "title": "Access Zone (Zone 4): 0\u2019-10\u2019",
+              "start_index": 2,
+              "end_index": 3,
+              "node_id": "0010",
+              "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP) Standard 220, dated January 27, 2020. It defines key terms such as \"Defensible Space\" and \"Home Ignition Zones\" (HIZ), detailing specific zones (Immediate, Intermediate, Extended, and Access Zones) with their respective distances from structures and maintenance objectives for wildfire prevention. The document also introduces the concept of fire-safe landscaping. A significant portion is dedicated to specifying the minimum requirements for a VMP, detailing what must be included in the Site Plan, Narrative, and Graphic Plan components, such as property details, existing and proposed vegetation, HIZ dimensions, and long-term maintenance practices."
+            }
+          ],
+          "node_id": "0006",
+          "summary": "This partial document outlines the Marin County Fire Department's Vegetation Management Plan (VMP), approved on January 27, 2020. It emphasizes the importance of considering adjacent Open Space land and incorporating landowner limitations into the VMP. The document defines \"Defensible Space\" as a crucial buffer to slow wildfire spread, protect homes, and ensure firefighter safety. It then details the \"Home Ignition Zones\" (HIZ), which are areas around a home designed to reduce ignition potential. These zones include:\n\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with careful landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, ensuring 14 feet of vertical clearance for emergency access."
+        },
+        {
+          "title": "Fire Safe Landscaping",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0011",
+          "summary": "This partial document, developed by the Marin County Fire Department, outlines the requirements for a Vegetation Management Plan (VMP) as part of Fire Protection Standard 220. It focuses on \"Fire Safe Landscaping\" to prevent fire spread to homes. The document details the minimum information required to be included in a VMP, specifically covering:\n\n1.  **Site Plan Requirements:** Specifications for drawing scale, preparer information, vicinity maps, property lines, easements, structure footprints, setbacks, and adjacent structures within the Home Ignition Zone (HIZ).\n2.  **Narrative Requirements:** Descriptions of existing property conditions, proposed scope of work, disclaimers for future plantings, details for all Home Ignition Zones (Zone 0-3), and long-term maintenance practices.\n3.  **Graphic Plan Requirements:** Visual representation of buildings, property lines, access roads, the extent of Home Ignition Zones (Zones 1, 2, & 3), existing vegetation, planned vegetation removal/modification, new plantings, and the location/type of mulch and ground cover."
+        }
+      ],
+      "node_id": "0004",
+      "summary": "This partial document outlines a Vegetation Management Plan (VMP) developed by the Marin County Fire Department, approved on January 27, 2020. It emphasizes the importance of noting properties adjacent to Open Space land and incorporating any limitations set by landowners into the VMP.\n\nThe core of the document defines key terms related to wildfire prevention:\n*   **Defensible Space:** A buffer created between structures and vegetation to slow wildfire spread, protect homes, and ensure firefighter safety.\n*   **Home Ignition Zones (HIZ):** A concept for reducing a home's ignition potential based on proximity to fuel types, typically within 100 feet or more.\n\nIt then details specific zones within the HIZ with their respective distances and maintenance goals:\n*   **Immediate Zone (ZONE 0):** 0-5 feet from the house, requiring aggressive fire-resistant maintenance.\n*   **Intermediate Zone (ZONE 1):** 5-30 feet from structures, to be kept \"Lean, Clean, and Green\" with strategic landscaping.\n*   **Extended Zone (ZONE 2):** 30-100 feet (or more), aimed at interrupting fire's path and keeping flames on the ground.\n*   **Access Zone (Zone 4):** 0-10 feet horizontally from roads/driveways, requiring 14 feet of vertical clearance and meeting Zone 1 separation standards for emergency access."
+    },
+    {
+      "title": "WHAT IS REQUIRED TO BE INCLUDED IN THE VMP?",
+      "start_index": 3,
+      "end_index": 3,
+      "nodes": [
+        {
+          "title": "SITE PLAN-",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0013",
+          "summary": "This partial document, developed by the Marin County Fire Department, outlines the requirements for a Vegetation Management Plan (VMP) as part of Fire Protection Standard 220. It focuses on \"Fire Safe Landscaping\" to prevent fire spread to homes. The document details the minimum information required to be included in a VMP, specifically covering:\n\n1.  **Site Plan Requirements:** Specifications for drawing scale, preparer information, vicinity maps, property lines, easements, structure footprints, setbacks, and adjacent structures within the Home Ignition Zone (HIZ).\n2.  **Narrative Requirements:** Descriptions of existing property conditions, proposed scope of work, disclaimers for future plantings, details for all Home Ignition Zones (Zone 0-3), and long-term maintenance practices.\n3.  **Graphic Plan Requirements:** Visual representation of buildings, property lines, access roads, the extent of Home Ignition Zones (Zones 1, 2, & 3), existing vegetation, planned vegetation removal/modification, new plantings, and the location/type of mulch and ground cover."
+        },
+        {
+          "title": "NARRATIVE- Vegetation Management Plan \u201cNarrative\u201d shall describe:",
+          "start_index": 3,
+          "end_index": 3,
+          "node_id": "0014",
+          "summary": "This partial document outlines the requirements for a Vegetation Management Plan (VMP) developed by the Marin County Fire Department, focusing on Fire Safe Landscaping. It details the necessary components for a VMP, which include a **SITE PLAN** specifying drawing scale, preparer information, vicinity map, property lines, structures, setbacks, and adjacent structures within the Home Ignition Zone (HIZ). Additionally, it requires a **NARRATIVE** describing existing property conditions, proposed work, future planting disclaimers, requirements for all Home Ignition Zones (Zone 0-3), and long-term maintenance practices. Finally, a **GRAPHIC PLAN** must be included, illustrating buildings, property lines, access, HIZ extents, and the location and type of existing, removed, modified, and proposed plants, as well as mulch and ground cover materials."
+        },
+        {
+          "title": "GRAPHIC PLAN- The plan sets shall be required to include the following graphic detail:",
+          "start_index": 3,
+          "end_index": 4,
+          "node_id": "0015",
+          "summary": "This partial document, Fire Protection Standard 220 from the Marin County Fire Department, outlines the requirements for a Vegetation Management Plan (VMP) focused on Fire Safe Landscaping. It details what must be included in a VMP, specifically covering:\n\n*   **Purpose of Fire Safe Landscaping:** Using fire-resistant designs, materials, and plants to prevent fire spread to homes.\n*   **Required VMP Components:**\n    *   **Site Plan:** Specifications for drawing scale, preparer information, vicinity map, property lines, structures, setbacks, and Home Ignition Zones (HIZs).\n    *   **Narrative:** Description of existing property conditions, scope of work, future planting disclaimers, HIZ descriptions (Zone 0-3), and long-term maintenance practices.\n    *   **Graphic Plan:** Visual representation of buildings, property lines, access roads, HIZ extents, and the location/configuration of existing, removed, modified, and new plants/shrubs/trees, as well as mulch and ground cover.\n    *   **Additional Information:** Schedules for plants to be used/retained, lists of fire-prone plants, and irrigation details.\n*   **Permit Application & Review Process:** Instructions for submitting VMPs as PDFs, the requirement for a permit application and fees, criteria for incomplete submissions, and the timeline for review and implementation of mitigation measures."
+        },
+        {
+          "title": "ADDITIONAL INFORMATION",
+          "start_index": 4,
+          "end_index": 4,
+          "node_id": "0016",
+          "summary": "This partial document outlines requirements for a Vegetation Management Plan (VMP) under Marin County Fire Department's Fire Protection Standard 220. It details the necessary components of a VMP, including schedules of plants to be used/retained and fire-prone plants, as well as irrigation information. The document also specifies the permit application and review process, requiring VMPs to be submitted as PDFs with a permit application and fees, including line drawings and a text narrative. Finally, it sets the timeline for VMP implementation, stating that mitigation must begin before construction and be completed prior to project completion, with exceptions at the discretion of the Authority Having Jurisdiction."
+        }
+      ],
+      "node_id": "0012",
+      "summary": "This partial document, developed by the Marin County Fire Department, outlines the requirements for a Vegetation Management Plan (VMP) as part of Fire Protection Standard 220. It focuses on \"Fire Safe Landscaping\" to prevent fire spread to homes. The document details the minimum information required to be included in a VMP, specifically covering:\n\n1.  **Site Plan Requirements:** Specifications for drawing scale, preparer information, vicinity maps, property lines, easements, structure footprints, setbacks, and adjacent structures within the Home Ignition Zone (HIZ).\n2.  **Narrative Requirements:** Descriptions of existing property conditions, proposed scope of work, disclaimers for future plantings, details for all Home Ignition Zones (Zone 0-3), and long-term maintenance practices.\n3.  **Graphic Plan Requirements:** Visual representation of buildings, property lines, access roads, the extent of Home Ignition Zones (Zones 1, 2, & 3), existing vegetation, planned vegetation removal/modification, new plantings, and the location/type of mulch and ground cover."
+    },
+    {
+      "title": "PERMIT APPLICATION & REVIEW",
+      "start_index": 4,
+      "end_index": 4,
+      "node_id": "0017",
+      "summary": "This partial document outlines requirements for Vegetation Management Plans (VMPs) under the Marin County Fire Department's Fire Protection Standard 220. It details the necessary content for a VMP, including lists of plants to be used/retained, fire-prone plants, and irrigation details. The document also specifies the permit application and review process, requiring VMPs to be submitted as PDFs with a permit application and fees, and to include line drawings and a text narrative. It mandates that VMP mitigation begin prior to construction and be completed before project finalization, with exceptions granted at the discretion of the Authority Having Jurisdiction."
+    }
+  ]
+}

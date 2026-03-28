@@ -1,0 +1,2294 @@
+{
+  "source": "Rutgers Cooperative Extension E271: Landscape Plants Rated by Deer Resistance",
+  "authors": "Perdomo, P., Nitzsche, P., and Drake, D.",
+  "rating_scale": {
+    "A": "Rarely Damaged",
+    "B": "Seldom Severely Damaged",
+    "C": "Occasionally Severely Damaged",
+    "D": "Frequently Severely Damaged"
+  },
+  "plants": [
+    {
+      "scientific_name": "Seldom",
+      "common_name": "Severely Damaged",
+      "plant_type": "Bulbs",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Rarely",
+      "common_name": "Damaged Ceratostigma plumbaginoides Plumbago",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Gaultheria procumbens",
+      "common_name": "Creeping Wintergreen",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Allium sp.",
+      "common_name": "Ornamental Onion",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Liriope sp.",
+      "common_name": "Lilyturf",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Colchicum sp.",
+      "common_name": "Autumn Crocus",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Vinca major",
+      "common_name": "Large Periwinkle",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Endymion sp.",
+      "common_name": "Bluebell",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Vinca minor",
+      "common_name": "Periwinkle",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Eranthus hyemalis",
+      "common_name": "Winter Aconite",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Fritilaria imperialis",
+      "common_name": "Crown Imperial, Fritilia",
+      "plant_type": "Bulbs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Galanthus nivalis",
+      "common_name": "Snowdrops Occasionally Severely Damaged",
+      "plant_type": "Bulbs",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Narcissus sp.",
+      "common_name": "Daffodil Euonymus fortunei Wintercreeeper",
+      "plant_type": "Bulbs",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Scilla siberica",
+      "common_name": "Siberian Squill Hedera helix English Ivy",
+      "plant_type": "Bulbs",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Seldom",
+      "common_name": "Severely Damaged ORNAMENTAL GRASSES",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Camassia leichtlini",
+      "common_name": "Camassia Rarely Damaged",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Canna sp.",
+      "common_name": "Canna Lily",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Acorus sp.",
+      "common_name": "Japanese Sweet Flag",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Colocasia esculenta",
+      "common_name": "Elephant Ear",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Andropogon sp.",
+      "common_name": "Big Bluestem",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Crocus sp.",
+      "common_name": "Crocus",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Arrhenatherum elatius",
+      "common_name": "Varigated Oat Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Gladiolus sp.",
+      "common_name": "Gladiolus",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Arundo donax",
+      "common_name": "Giant Reed",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Gloriosa superba",
+      "common_name": "Glory Lily",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Calamagrostis sp.",
+      "common_name": "Feather Reed Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Hyacinthus sp.",
+      "common_name": "Hyacinth",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Carex sp.",
+      "common_name": "Japanese Sedge",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Muscari sp.",
+      "common_name": "Grape Hyacinth",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Chasmanthium latifolium",
+      "common_name": "Northern Sea Oats",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Oxalis sp.",
+      "common_name": "Wood Sorrel",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Cortaderia selloana",
+      "common_name": "Pampus Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Zantedeschia sp.",
+      "common_name": "Calla Lily",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Eragrostus curvula",
+      "common_name": "Weeping Love Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Erianthus ravennae",
+      "common_name": "Ravenna Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Occasionally",
+      "common_name": "Severely Damaged Fargesia sp. Clump Bamboo",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Caladium sp.",
+      "common_name": "Caladium Festuca glauca Blue Fescue",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Lilium sp.",
+      "common_name": "Garden Lily Hakonechloa macra Hakonechloa",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Helictotrichon sempervirens",
+      "common_name": "Blue Oat Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Frequently",
+      "common_name": "Severely Damaged Imperata cylindrica Japanese Blood Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Juncus",
+      "common_name": "Effusus Hard Rush",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Tulip sp.",
+      "common_name": "Tulip",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Koeleria glauca",
+      "common_name": "Large Blue June Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Lyme",
+      "common_name": "Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Miscanthus floridulis",
+      "common_name": "Giant Japanese Silver Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rarely",
+      "common_name": "Damaged Miscanthus sinensis Japanese Silver Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Athyrium goeringianum",
+      "common_name": "Japanese Painted Fern Molinia caerulea Purple Moor Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Variegated",
+      "common_name": "Purple Moor Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Cyrtomium falcatum",
+      "common_name": "Holly Fern Panicum virgatum Switch Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Dennstaedtia punctilobula",
+      "common_name": "Hayscented Fern Pennisetum alopecuroides Fountain Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Dryopteris marginalis",
+      "common_name": "Wood Fern Pennisetum orientale Oriental Fountain Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Matteuccia struthiopteris",
+      "common_name": "Ostrich Fern Phyllostachys aurea Golden Bamboo",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Onoclea sensibilis",
+      "common_name": "Sensitive Fern Schizachyrium scoparium Little Bluestem",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Osmunda cinnamomea",
+      "common_name": "Cinnamon Fern Sorghastrum nutans Indian Grass",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Osmunda regalis",
+      "common_name": "Royal Fern",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Polystichum arcostichoides",
+      "common_name": "Christmas Fern Seldom Severely Damaged",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Thelyptens noveboracensis",
+      "common_name": "New York Fern Bambusa sp. Bamboo",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Carex pendula",
+      "common_name": "Drooping Sedge",
+      "plant_type": "Ornamental Grasses",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Hystrix patula",
+      "common_name": "Bottlebrush Grass",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Ophiopogon japonicus",
+      "common_name": "Dwarf Mondo Grass",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Rarely",
+      "common_name": "Damaged",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Phalaris arundinaceae",
+      "common_name": "Ribbon Grass",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Aegopodium podagaria",
+      "common_name": "Bishop’s Weed",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Scirpus lacustris",
+      "common_name": "Sedge",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Ajuga reptans",
+      "common_name": "Bugleweed",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Arctostaphylos",
+      "common_name": "uva-ursi Bearberry",
+      "plant_type": "Groundcovers",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Convallaria majalis",
+      "common_name": "Lily of the Valley",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Epimediurn sp.",
+      "common_name": "Barrenwort Rarely Damaged",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Asperula",
+      "common_name": "Sweet Woodruff Aconitum sp. Monkshood",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Agastache sp.",
+      "common_name": "Anise Hyssop",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Lamium sp.",
+      "common_name": "Spotted Deadnettle Allium sp. Ornamental Onion",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Pachysandra procumbens",
+      "common_name": "Allegheny Spurge Arabis caucasica Rock-Cress",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Pachysandra terminalis",
+      "common_name": "Pachysandra",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Arisaema triphylum",
+      "common_name": "Jack-in-the-pulpit Anchusa sp. Bugloss",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Armoracia rusticana",
+      "common_name": "Horseradish Anemone x hybrida Japanese Anemone",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Artemisia dracunculus",
+      "common_name": "Tarragon Anemonella thalictroides Rue Anemone",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Artemisia sp.",
+      "common_name": "Silver Mound Aquilegia sp. Columbine",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Asarum canadense",
+      "common_name": "Wild Ginger Armeria maritima Sea Thrift",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Asarum europaeum",
+      "common_name": "European Ginger Asclepias incarnata Swamp Milkweed",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Aubretia deltoidea",
+      "common_name": "Purple Rock-Cress Asclepias tuberosa Butterfly Weed",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Aurinia saxatilis",
+      "common_name": "Basket of Gold Asparagus officinalis Asparagus",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Baptisia australis",
+      "common_name": "False Indigo Aster sp. Aster",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Bruneria macrophylla",
+      "common_name": "Siberian Bugloss Astilbe sp. Astilbe",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Bergenia sp.",
+      "common_name": "Heartleaf Bergenia",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Cactaceae sp.",
+      "common_name": "Cactus Boltonia asteroides White Boltonia",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Coreopsis verticillata",
+      "common_name": "Threadleaf Coreopsis Cerastium Snow-in-Summer",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Corydalis sp.",
+      "common_name": "Corydalis Chrysanthemum parthenium Feverfew",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Dicentra eximia",
+      "common_name": "Fringed Bleeding Heart Cimcifuga sp. Snakeroot, Bugbane",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Dicentra spectabilis",
+      "common_name": "Bleeding Heart Coreopsis lanceolata Lance Coreopsis",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Echinops ritro",
+      "common_name": "Small Globe Thistle Croscosmia sp. Crocosmia",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Spurge",
+      "common_name": "Cyclamen sp. Cyclamen",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Delphinium sp.",
+      "common_name": "Delphinium",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Helleborus sp.",
+      "common_name": "Lenton or Christmas Rose Dianthus sp. Carnation, Pinks",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Rocket",
+      "common_name": "Dictamus alba Gas Plant",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Hyssopus officinalis",
+      "common_name": "Hyssop Digitalis grandiflora Yellow Foxglove",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Iris",
+      "common_name": "Echinacea purpurea Purple Coneflower",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Lavandula sp.",
+      "common_name": "Lavendar Erythronium Trout Lily",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Ligularia dentata",
+      "common_name": "Bigleaf Goldenray Eupatorium coelestinurn Mist Flower",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Rocket",
+      "common_name": "Ligularia Eupatorium rugosum White Snakeroot",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Limonium latifolium",
+      "common_name": "Statice Geranium macrorrhizum Hardy Geranium",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Linaria vulgaris",
+      "common_name": "Butter & Eggs Gypsophila sp. Baby’s Breath",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Lychnis coronaria",
+      "common_name": "Rose Campion Helenium autumnale Sneezeweed",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Majorana",
+      "common_name": "Marjoram Heuchera sp. Coralbells",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Marrubium vulgare",
+      "common_name": "Horehound Hypericum calycinum St. John’s Wort",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Melissa officinalis",
+      "common_name": "Lemon Balm Iberis sempervirens Candytuft",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Mentha sp.",
+      "common_name": "Mint Kirengeshoma palmata Yellow Wax-Bells",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Myosotis sp.",
+      "common_name": "Forget-Me-Not Kniphofia tritoma Red-Hot Poker",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Nepeta sp.",
+      "common_name": "Catmint Liatris sp. Blazing Star",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Oreganum sp.",
+      "common_name": "Oregano Lobelia sp. Cardinal Flower",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Peony",
+      "common_name": "Lupinus sp. Lupine",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Perovskio atriplicifolia",
+      "common_name": "Russian Sage Lychnis chalcedonica Maltese Cross",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Phlomis sp.",
+      "common_name": "Greek Jerusalem Sage Macleaya cordata Plume Poppy",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Podophyllum",
+      "common_name": "May Apple Mertensia virginica Virginia Bluebells",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Potentilla sp.",
+      "common_name": "Potentilla, Cinquefoil Monarda didyma Beebalm",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Pulmonaria sp.",
+      "common_name": "Lungwort Papaver orientale Oriental Poppy",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Ranunculus sp.",
+      "common_name": "Buttercup Patrinia scabiosifolia Patrinia",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Rodgersia sp.",
+      "common_name": "Rodgers Flower Physostegia sp. Obedient Plant",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Ruta sp.",
+      "common_name": "Rue Polemonium caeruleum Jacob’s Ladder",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Salvia officinalis",
+      "common_name": "Garden Sage Primula sp. Primrose",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Santolina chamaecyparissus",
+      "common_name": "Lavender-Cotton Rheum rhabarbarum Rhubarb",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Tanacetum vulgare",
+      "common_name": "Common Tansy Salvia nemorosa Meadow Sage",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Teucrium",
+      "common_name": "Chamaedrys Germander Saponaria sp. Soapwort",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Thalictrum sp.",
+      "common_name": "Meadow Rue Satureja montana Savory",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Thymus sp.",
+      "common_name": "Thyme Scabiosa caucasica Pincushin Flower",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Yucca filimentosa",
+      "common_name": "Yucca Sempervivum sp. Hens and Chickens",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Solidago sp.",
+      "common_name": "Goldenrod",
+      "plant_type": "Perennials",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Seldom",
+      "common_name": "Severely Damaged Stokesia laevis Stokes’ Aster",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Symplocarpos foetidus",
+      "common_name": "Skunk Cabbage",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Achillea filipendulina",
+      "common_name": "Yarrow",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Tiarella cordifolia",
+      "common_name": "Foam Flower",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Common Yarrow",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Tradescantia sp.",
+      "common_name": "Spiderwort",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Agapanthus sp.",
+      "common_name": "African Lily",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Tricyrtis hirta",
+      "common_name": "Toad Lily",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Alchemilla sp.",
+      "common_name": "Ladys’ Mantle",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Trillium sp.",
+      "common_name": "Trillium Erica sp. Heath",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "John",
+      "common_name": "T. Morris Holly",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Lydia",
+      "common_name": "Morris Holly",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Prince",
+      "common_name": "Prince of Wales Juniper",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Occasionally",
+      "common_name": "Severely Damaged Juniperus scopulorum Moonglow Juniper",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Alcea sp.",
+      "common_name": "Hollyhock",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Leucothoe fontanesiana",
+      "common_name": "Drooping Leucothoe",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Aruncus sp.",
+      "common_name": "Goat’s Beard",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Mahonia aquifolium",
+      "common_name": "Oregon Grape Holly",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Begonia grandis",
+      "common_name": "Hardy Begonia",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Mahonia bealei",
+      "common_name": "Leatherleaf Mahonia",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Bellis perennis",
+      "common_name": "English Daisy",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Microbiota decussata",
+      "common_name": "Russian Cypress",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Campanula glomerata",
+      "common_name": "Bellflower",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Myrica pensylvanica",
+      "common_name": "Bayberry",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Centaurea montana",
+      "common_name": "Mountain Bluet",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pieris floribunda",
+      "common_name": "Mountain Pieris",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Chelone sp.",
+      "common_name": "Pink Turtlehead",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pieris japonica",
+      "common_name": "Japanese Pieris, Andromeda",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Chrysanthemum",
+      "common_name": "Fall Mums",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Potentilla fruticosa",
+      "common_name": "Bush Cinquefoil",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Chrysanthemum superbum",
+      "common_name": "Shasta Daisy",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Rhus aromatica",
+      "common_name": "Fragrant Sumac",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Erigeron sp.",
+      "common_name": "Fleabane",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Sambucus racemosa",
+      "common_name": "Red Elderberry",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Euphorbia dulcis",
+      "common_name": "‘Chameleon’ Spurge",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Sarcoccoca hookeriana",
+      "common_name": "Sweet Box",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Filipendula sp.",
+      "common_name": "Meadowsweet",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Skimmia japonica",
+      "common_name": "Japanese Skimmia",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Gaillardia sp.",
+      "common_name": "Blanket Flower",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Viburnum dentatum",
+      "common_name": "Arrowwood Viburnum",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Geranium clarkei",
+      "common_name": "Hardy Geranium",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Geranium sanguineum",
+      "common_name": "Hardy Geranium",
+      "plant_type": "Perennials",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Geranium x cantabrigiense",
+      "common_name": "Hardy Geranium Seldom Severely Damaged",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Geum sp.",
+      "common_name": "Geum, Avens Abelia sp. Glossy Abelia",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Hemerocallis sp.",
+      "common_name": "Daylily Abies balsamea Dwarf Balsam Fir",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Hibiscus moscheutos",
+      "common_name": "Rose Mallow Andromeda polifolia Bog Rosemary",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Leucanthemum maximum",
+      "common_name": "Shasta Daisy Aronia arbutifolia Red Chokeberry",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Lysimachia clethroides",
+      "common_name": "Gooseneck Loosestrife Aucuba japonica Goldust Plant",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Lythrum sp.",
+      "common_name": "Purple Loosestrife Callicarpa sp. Beautyberry",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Oenethera sp.",
+      "common_name": "Sundrops Calycanthus floridus Common Sweetshrub",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Penstemon sp.",
+      "common_name": "Penstemon Calycanthus occidentalis California Sweetshrub",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Phlox sp.",
+      "common_name": "Phlox Chaenomeles japonica Japanese Flowering Quince",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Platycodon grandiflorus",
+      "common_name": "Balloon Flower Clerodendrum fargesii Harlequin Glorybower",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Seal",
+      "common_name": "Clethra sp. Sweet Pepperbush",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Sedum spectabile",
+      "common_name": "Showy Sedum Cornus alba Red Twigged Dogwood",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Sidalcia malviflora",
+      "common_name": "Checkermallow Cornus sericea Red Osier Dogwood",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Symphytum officinale",
+      "common_name": "Comfrey Corylus sp. Hazelnut",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Trollius sp.",
+      "common_name": "Globeflower Cotinus coggygria Smokebush",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Cotoneaster apiculatus",
+      "common_name": "Cranberry Cotoneaster",
+      "plant_type": "Perennials",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Frequently",
+      "common_name": "Severely Damaged Cotoneaster congestus Pyrenees Cotoneaster",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Cotoneaster dammeri",
+      "common_name": "Bearberry Cotoneaster",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Eryngium sp.",
+      "common_name": "Sea-Holly",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Cotoneaster horizontalis",
+      "common_name": "Rockspray Cotoneaster",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Fragraria sp.",
+      "common_name": "Strawberry",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Cotoneaster salicifolius",
+      "common_name": "Willowleaf Cotoneaster",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Geranium endressii",
+      "common_name": "Hardy Geranium",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Deutzia sp.",
+      "common_name": "Deutzia",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Hosta sp.",
+      "common_name": "Hosta",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Elaeagnus umbellatus",
+      "common_name": "Autumn Olive",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Pardancanda x norrisii",
+      "common_name": "Candy Lily",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Enkianthus campanulatus",
+      "common_name": "Redvein Enkianthus",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Forsythia x intermedia",
+      "common_name": "Forsythia",
+      "plant_type": "Perennials",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Fothergila sp.",
+      "common_name": "Fothergillia",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rarely",
+      "common_name": "Damaged Halesia carolina Carolina Silverbell",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Walking",
+      "common_name": "Stick Hamamelis virginiana Common Witchhazel",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Berberis sp.",
+      "common_name": "Barberry Hibiscus syriacus Rose of Sharon",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Buddleia sp.",
+      "common_name": "Butterfly Bush Hippophae rhamnoides Sea Buckthorn",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Buxus sempervirens",
+      "common_name": "Common Boxwood Hypericum prolificum St. John’s Wort",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Calliuna sp.",
+      "common_name": "Heather Ilex aquifolium English Holly",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Caryopteris clandonensis",
+      "common_name": "Blue Mist Shrub Ilex cornuta Chinese Holly",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Cephalotaxus harringtonia",
+      "common_name": "Japanese Plum Yew Ilex glabra Inkberry",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Cytisus sp.",
+      "common_name": "Broom Ilex verticillata Winterberry Holly",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Daphne sp.",
+      "common_name": "Daphne Itea virginica Virginia Sweetspire",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Armstrong",
+      "common_name": "Juniper",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus chinensis cv.*",
+      "common_name": "Chinese Juniper Prunus x cistena Purple Leaf Sand Cherry",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Pfitzer",
+      "common_name": "Juniper Rhododendron carolinianum Carolina Rhododendron",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus horizontalis cv.*",
+      "common_name": "Creeping Juniper Rhododendron catawbiense Catawba Rhododendron",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus horizontalis",
+      "common_name": "Youngstown Andorra Juniper Rhododendron maximum Rosebay Rhododendron",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Rhododendron sp.*",
+      "common_name": "Deciduous Azaleas",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Japanese",
+      "common_name": "Garden Juniper Rosa multiflora Multiflora Rose",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus sabin cv.",
+      "common_name": "Savin/Tam Juniper Rosa rugosa Rugosa Rose",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus scopulorum cv.*",
+      "common_name": "Mountain Juniper Rosa x hybrid Hybrid Tea Rose",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Blue",
+      "common_name": "Star Juniper Syringa villosa Late Lilac",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Juniperus squamata cv.*",
+      "common_name": "Singleseed Juniper Syringa x chinesis Chinese Lilac",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Kerria japonica",
+      "common_name": "Japanese Kerria Syringa x persica Persian Lilac",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Kolkwitzia amabilis",
+      "common_name": "Beautybush Vaccinum corymbosum Highbush Blueberry",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Lagerstroemia indica",
+      "common_name": "Crape Myrtle",
+      "plant_type": "Shrubs",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Leucothoe axillaris",
+      "common_name": "Coast Leucothoe Frequently Severely Damaged",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Ligustrurn sp.",
+      "common_name": "Privet",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Euonymus fortunei",
+      "common_name": "Wintercreeper",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Lindera benzoin",
+      "common_name": "Spicebush",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rhododendron penclymenoides",
+      "common_name": "Pinxterbloom Azalea",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Magnolia x soulangiana",
+      "common_name": "Saucer Magnolia",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rhododendron sp.*",
+      "common_name": "Evergreen Azaleas",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Osmanthus heterophyllus",
+      "common_name": "Holly Osmanthus",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rhododendron sp.*",
+      "common_name": "Rhododendrons",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Philadelphus coronarius",
+      "common_name": "Sweet Mock Orange",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Taxus sp.",
+      "common_name": "Yews",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Pinus mugo",
+      "common_name": "Mugo Pine",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Prunus laurocerasus",
+      "common_name": "Cherry Laurel",
+      "plant_type": "Shrubs",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Pyracantha coccinea",
+      "common_name": "Firethorn",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Rhammus sp.",
+      "common_name": "Buckthorn Rarely Damaged",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Ribes sp.",
+      "common_name": "Currant Aesculus parviflora Bottlebrush Buckeye",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Rubus sp.",
+      "common_name": "Brambles Albizia julibrissin Mimosa",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Sambucus canadensis",
+      "common_name": "Blueberry Elder, Sweet Elder Asimina triloba Pawpaw",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Spiraea japonica",
+      "common_name": "Japanese Spirea Betula nigra River Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Spiraea prunifolia",
+      "common_name": "Bridalwreath Spirea Betula papyrifera Paper Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Spiraea x bumalda",
+      "common_name": "Anthony Waterer Spirea Cercidiphyllum japonicum Katsura Tree",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Symphoricarpos albus",
+      "common_name": "Snowberry Ilex opaca American Holly",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Dwarf",
+      "common_name": "Alberta Spruce",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Syringa reticulata",
+      "common_name": "Japanese Tree Lilac Pinus resinosa Red Pine",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Syringa vulgaris",
+      "common_name": "Common Lilac Pinus rigida Pitch Pine",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Viburnum carlesii",
+      "common_name": "Koreanspice Viburnum Pinus thunbergiana Japanese Black Pine",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Viburnum opulus",
+      "common_name": "Cranberry Bush",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Viburnum plicatum",
+      "common_name": "Doublefile Viburnum",
+      "plant_type": "Trees",
+      "deer_rating": "Rarely Damaged",
+      "deer_rating_code": "A"
+    },
+    {
+      "scientific_name": "Acer griseurn",
+      "common_name": "Paperbark Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Viburnum prunifolium",
+      "common_name": "Blackhaw Viburnum",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Acer palmatum",
+      "common_name": "Japanese Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Viburnum rhytidophyllum",
+      "common_name": "Leatherleaf Viburnum",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Acer pensylvanicum",
+      "common_name": "Striped Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Viburnum x juddii",
+      "common_name": "Judd Viburnum",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Acer rubrum",
+      "common_name": "Red Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Weigela florida",
+      "common_name": "Weigela",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Acer saccharum",
+      "common_name": "Sugar Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Aesculus x carnea",
+      "common_name": "Ruby Horsechestnut",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Occasionally",
+      "common_name": "Severely Damaged",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Amelanchier arborea",
+      "common_name": "Downy Serviceberry",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cornus racemosa",
+      "common_name": "Panicled Dogwood Amelanchier canadensis Shadbush",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cornus sanguinea",
+      "common_name": "Bloodtwig Dogwood Amelanchier laevis Allegheny Serviceberry",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Corylopsis glabrescens",
+      "common_name": "Fragrant Winterhazel Betula albo-sinensis Chinese Paper Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Euonymus alata",
+      "common_name": "Winged Euonymus Betula jacquemontii Himalayan Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Euonymus japonica",
+      "common_name": "Japanese Euonymus Betula lutea Yellow Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Hydrangea arborescens",
+      "common_name": "Smooth Hydrangea Betula pendula European White Birch",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Hydrangea macrophylla",
+      "common_name": "Bigleaf Hydrangea Chaenomeles speciosa Common Flowering Quince",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Hydrangea paniculata",
+      "common_name": "Panicle Hydrangea Chamaecyparis pisifera Japanese Falsecypress",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Hydrangea quercifolia",
+      "common_name": "Oakleaf Hydrangea Chionanthus retusus Chinese Fringe Tree",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Ilex crenata",
+      "common_name": "Japanese Holly Cornus kousa Kousa Dogwood",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Ilex x meserveae",
+      "common_name": "Blue Holly Crataegus laevigata English Hawthorn",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Juniperus conferta",
+      "common_name": "Shore Juniper Cryptomeria japonica Japanese Cedar",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Kalmia latifolia",
+      "common_name": "Mountain Laurel Fagus sylvatica European Beech",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Nandina sp.",
+      "common_name": "Heavenly Bamboo Fraximus pennsylvanica Green Ash",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Fraxinus excelsior",
+      "common_name": "European Ash Malus sp. Apples",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Gleditsia triacanthos",
+      "common_name": "Honey Locust Prunus avium Sweet Cherry",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Ilex x aquipernyi",
+      "common_name": "Dragon Lady, San Jose Holly Pyrus calleryana Callery Pear",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Juniperus virginiana",
+      "common_name": "Eastern Red Cedar Pyrus communis Common Pear",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Koelreuteria paniculata",
+      "common_name": "Goldenrain Tree Quercus alba White Oak",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Liriodendron tulipifera",
+      "common_name": "Tulip Tree Quercus prinus Chestnut Oak",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Metasequoia glyptostroboides",
+      "common_name": "Dawn Redwood Quercus rubra Northern Red Oak",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Oxydendrum arboreum",
+      "common_name": "Sourwood Rhus typhina Staghorn Sumac",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Picea abies",
+      "common_name": "Norway Spruce Robinia pseudoacia Black Locust",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Salix sp.*",
+      "common_name": "Willows",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Picea omorika",
+      "common_name": "Serbian Spruce Taxodium distichum Bald Cypress",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Picea pungens",
+      "common_name": "Colorado Blue Spruce Thuja plicata Western Arborvitae",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pinus densiflora",
+      "common_name": "Japanese Red Pine Tilia americana Basswood",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Greenspire",
+      "common_name": "Littleleaf Linden",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pinus strobus",
+      "common_name": "Eastern White Pine Tsuga canadensis Eastern Hemlock",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pinus sylvestris",
+      "common_name": "Scotch Pine Tsuga caroliniana Carolina Hemlock",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Prunus serrulata",
+      "common_name": "Japanese Flowering Cherry",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Pseudotsuga menziesii",
+      "common_name": "Douglas Fir Frequently Severely Damaged",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Corkscrew",
+      "common_name": "Willow",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Prunus sp.",
+      "common_name": "Plums",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Sassafras albidurn",
+      "common_name": "Common Sassafras",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Prunus sp.*",
+      "common_name": "Cherries",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Sorbus aucuparia",
+      "common_name": "European Mountain Ash",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Occasionally",
+      "common_name": "Severely Damaged Thuja occidentalis American Arborvitae",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Abies balsamea",
+      "common_name": "Balsam Fir",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Abies concolor",
+      "common_name": "White Fir VINES",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Abies fraseri",
+      "common_name": "Fraser Fir",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Acer platanoides",
+      "common_name": "Norway Maple",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Acer saccharinum",
+      "common_name": "Silver Maple Celastrus scandens American Bittersweet",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Aesculus hippocastanum",
+      "common_name": "Common Horsechestnut Jasminum nudiflorum Winter Jasmine",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Cedrus atlantica",
+      "common_name": "Atlas Cedar Wisteria floribunda Wisteria",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Cercis canadensis",
+      "common_name": "Eastern Redbud",
+      "plant_type": "Trees",
+      "deer_rating": "Seldom Severely Damaged",
+      "deer_rating_code": "B"
+    },
+    {
+      "scientific_name": "Chamaecyparis obtusa",
+      "common_name": "Hinoki Cypress Occasionally Severely Damaged",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Chamaecyparis thyoides",
+      "common_name": "Atlantic White Cedar Campsis radicans Trumpet Creeper",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Chionanthus virginicus",
+      "common_name": "White Fringe Tree Clematis sp. Clematis",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cornus alternifolia",
+      "common_name": "Alternate-Leaved Dogwood Hedera helix English Ivy",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cornus florida",
+      "common_name": "Flowering Dogwood Hydrangea anomala petiolaris Climbing Hydrangea",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cornus mas",
+      "common_name": "Cornelian Cherry Lonicera x heckrottii Goldflame Honeysuckle",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Cupressocyparis leyandii",
+      "common_name": "Leyland Cypress Parthenocissus quinquifolia Virginia Creeper",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Ilex pernyi",
+      "common_name": "Pernyi Holly",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Nellie",
+      "common_name": "Stevens Holly",
+      "plant_type": "Trees",
+      "deer_rating": "Occasionally Severely Damaged",
+      "deer_rating_code": "C"
+    },
+    {
+      "scientific_name": "Frequently",
+      "common_name": "Severely Damaged",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Larix decidua",
+      "common_name": "European Larch",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Liquidambar styraciflua",
+      "common_name": "Sweetgum",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Special thanks",
+      "common_name": "to our cooperators on this project:",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Helen",
+      "common_name": "Heinrich, Certified Landscape Architect; James Messina, Certified Landscape Architect, Landscape Plus;",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Master",
+      "common_name": "Gardeners, and",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Desktop publishing",
+      "common_name": "by Rutgers-Cook College Resource Center Revised: April 2003",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    },
+    {
+      "scientific_name": "Equal",
+      "common_name": "Opportunity Program Provider and Employer.",
+      "plant_type": "Trees",
+      "deer_rating": "Frequently Severely Damaged",
+      "deer_rating_code": "D"
+    }
+  ]
+}

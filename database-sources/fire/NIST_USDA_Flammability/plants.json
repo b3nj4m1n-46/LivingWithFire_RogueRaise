@@ -1,0 +1,240 @@
+[
+  {
+    "common_name": "Glossy abelia",
+    "scientific_name": "Abelia x grandiflora",
+    "authority": "(Andre) Rehd.",
+    "cultivar": "",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Pipestem",
+    "scientific_name": "Agarista populifolia",
+    "authority": "(Lam.) Judd",
+    "cultivar": "",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Azalea",
+    "scientific_name": "Azalea obtusum",
+    "authority": "(Lindl.) Planch.",
+    "cultivar": "Hershey red",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Butterfly bush",
+    "scientific_name": "Buddleia davidii",
+    "authority": "(Franch.)",
+    "cultivar": "Royal red",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Boxwood",
+    "scientific_name": "Buxus microphylla var. koreana",
+    "authority": "Siebold & Zucc.",
+    "cultivar": "Wintergreen",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Beautyberry",
+    "scientific_name": "Callicarpa dichotoma",
+    "authority": "(Lour.) C. Koch",
+    "cultivar": "Profusion",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Camellia",
+    "scientific_name": "Camellia japonica",
+    "authority": "L.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Summer-sweet; sweet pepperbush",
+    "scientific_name": "Clethra alnifolia",
+    "authority": "L.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Leyland cypress",
+    "scientific_name": "x Cupressocyparis leylandii",
+    "authority": "(A. B. Jacks. & Dallim.)",
+    "cultivar": "",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Klein's forsythia",
+    "scientific_name": "Forsythia x intermedia",
+    "authority": "Zab.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Cape jasmine",
+    "scientific_name": "Gardenia jasminoides",
+    "authority": "Ellis",
+    "cultivar": "August beauty",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Bigleaf hydrangea; French hydrangea",
+    "scientific_name": "Hydrangea macrophylla",
+    "authority": "(Thunb.) Ser.",
+    "cultivar": "Nikko",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Oakleaf hydrangea",
+    "scientific_name": "Hydrangea quercifolia",
+    "authority": "Bartr.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Foster holly",
+    "scientific_name": "Ilex x attenuata",
+    "authority": "Ashe",
+    "cultivar": "Fosteri",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Gallberry",
+    "scientific_name": "Ilex glabra",
+    "authority": "L.",
+    "cultivar": "Compacta",
+    "flammability_rank": "High"
+  },
+  {
+    "common_name": "Blue holly",
+    "scientific_name": "Ilex x meservea",
+    "authority": "S. Y. Hu",
+    "cultivar": "Mesdob",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Winterberry",
+    "scientific_name": "Ilex verticillata",
+    "authority": "(L.) A. Gray",
+    "cultivar": "Berry nice",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Dwarf yaupon",
+    "scientific_name": "Ilex vomitoria",
+    "authority": "Ait.",
+    "cultivar": "Schellings dwarf",
+    "flammability_rank": "High"
+  },
+  {
+    "common_name": "Anisetree",
+    "scientific_name": "Illicium floridanum",
+    "authority": "Ellis",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Ashe juniper; Ozark white cedar",
+    "scientific_name": "Juniperus ashei",
+    "authority": "Buchh.",
+    "cultivar": "",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Chinese juniper",
+    "scientific_name": "Juniperus chinensis",
+    "authority": "L.",
+    "cultivar": "Pfitzerana",
+    "flammability_rank": "High"
+  },
+  {
+    "common_name": "Mountain laurel; calico bush",
+    "scientific_name": "Kalmia latifolia",
+    "authority": "L.",
+    "cultivar": "Olympic fire",
+    "flammability_rank": "High"
+  },
+  {
+    "common_name": "Bayberry; candleberry",
+    "scientific_name": "Myrica pennsylvanica",
+    "authority": "Loisel.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Oleander",
+    "scientific_name": "Nerium oleander",
+    "authority": "L.",
+    "cultivar": "Calypso",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Pittosporum",
+    "scientific_name": "Pittosporum tobira",
+    "authority": "(Thunb.) Ait.",
+    "cultivar": "Compacta",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Potentilla; shrubby cinquefoil; golden hardhack",
+    "scientific_name": "Potentilla fruiticosa",
+    "authority": "L.",
+    "cultivar": "Gold star",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Scarlet firethorn",
+    "scientific_name": "Pyracantha coccinea",
+    "authority": "M. J. Roem.",
+    "cultivar": "Mohave",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Rhododendron",
+    "scientific_name": "Rhododendron x chionoides",
+    "authority": "L.",
+    "cultivar": "Chionoides",
+    "flammability_rank": "Moderate"
+  },
+  {
+    "common_name": "Rosebay; great laurel",
+    "scientific_name": "Rhododendron maximum",
+    "authority": "L.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Arrowwood",
+    "scientific_name": "Viburnum dentatum",
+    "authority": "L.",
+    "cultivar": "Chicago luster",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Walter's viburnum",
+    "scientific_name": "Viburnum obovatum",
+    "authority": "Walt.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Weigela",
+    "scientific_name": "Weigela florida",
+    "authority": "(Bunge) A. DC.",
+    "cultivar": "Wine and roses",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Adam's needle",
+    "scientific_name": "Yucca filamentosa",
+    "authority": "L.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  },
+  {
+    "common_name": "Coontie",
+    "scientific_name": "Zamia pumila",
+    "authority": "L.",
+    "cultivar": "",
+    "flammability_rank": "Low"
+  }
+]

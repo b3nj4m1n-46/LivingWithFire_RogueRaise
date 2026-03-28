@@ -1,0 +1,36 @@
+# ===========================================
+# LivinWitFire .gitignore
+# ===========================================
+# Strategy: Track ALL outputs (CSV, JSON, DB) so every dataset
+# is available on clone. Only ignore raw source downloads and temp files.
+# Files over 100MB are handled by Git LFS (see .gitattributes).
+
+# ----- Source files (PDFs, ZIPs, XLSX, HTML originals) -----
+# Reproducible from URLs documented in each folder's README.md
+**/Sources/
+
+# ----- Scraping temp files -----
+scrape_progress.json
+
+# ----- OS and editor junk -----
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ----- Python -----
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# ----- Temp/cache -----
+*.tmp
+*.bak
+*.log

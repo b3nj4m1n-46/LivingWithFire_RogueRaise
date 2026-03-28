@@ -1,0 +1,40 @@
+{
+  "doc_name": "VenturaCountyFire_Guideline-417-Plant-Reference-Guide_2024.pdf",
+  "structure": [
+    {
+      "title": "GUIDELINE 417 PLANT REFERENCE GUIDE",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "This partial document is a Plant Reference Guide (Guideline 417) from the Fire Prevention Bureau, dated December 12, 2024. It serves as a reference for characteristics of commonly used native and ornamental plants, but explicitly states it is not an approved plant list and is superseded by Guideline 410 (Prohibited Plant List) for defensible space and fuel modification zones.\n\nThe document emphasizes the importance of defensible space and fuel modification zones in mitigating wildfire risk to structures and life, highlighting that proper plant selection, installation, spacing, and maintenance are crucial for structure survivability. It clarifies that \"fire-resistant\" plants are not fireproof and require ongoing maintenance.\n\nA legend is provided to interpret plant listings, identifying \"Target (Undesirable) Species\" (marked with an asterisk) that are not allowed near structures and are recommended for removal, as well as invasive species (highlighted in green). It also specifies that vines and climbing plants are excluded from the guide as they are not permitted on combustible structures. The document directs users to VCFD Standard 515 for detailed information on zone designations, plant spacing, and maintenance requirements."
+    },
+    {
+      "title": "LEGEND",
+      "start_index": 1,
+      "end_index": 2,
+      "node_id": "0001",
+      "summary": "This partial document is a Plant Reference Guide (Guideline 417) issued by the Fire Prevention Bureau, Ventura County Fire Department (VCFD), dated December 12, 2024.\n\nThe main points covered are:\n\n1.  **Purpose and Scope:** It serves as a reference guide for commonly used native and ornamental plants, providing characteristics for each. It is explicitly stated that this is *not* an approved plant list and will be updated periodically.\n2.  **Wildfire Risk Mitigation:** The guide emphasizes the importance of proper plant selection, installation, spacing, and maintenance in creating defensible space and fuel modification zones to protect lives and structures from wildland fires.\n3.  **Prohibited Plants:** It highlights that VCFD Guideline 410, the \"Prohibited Plant List,\" overrides this guide, and plants on that list are strictly forbidden in new defensible spaces or fuel modification zones.\n4.  **Undesirable and Invasive Species:** A legend defines \"Target (Undesirable) Species\" (marked with an asterisk `*`), which are not allowed within specific distances (e.g., 30', 50', 100') of structures and are recommended for removal. It also identifies invasive species (highlighted in green) that degrade native habitats.\n5.  **Maintenance Warning:** The document stresses that \"fire-resistant does not mean fireproof\" and proper maintenance (watering, pruning, removing dead material) is crucial for plant health and fire safety.\n6.  **Related Standards:** It refers users to VCFD Standard 515 for detailed information on defensible space zone designations, plant spacing, and maintenance requirements.\n7.  **Plant Characteristics Legend:** A legend explains symbols for plant type (Ground Cover, Shrub, Tree), water needs (Very Low, Low, Medium, High), and whether a plant is Native, Evergreen, or Deciduous.\n8.  **Partial Plant List:** The document begins to list specific ground cover plants, detailing their botanical and common names, type, water needs, height, spread, and native/evergreen/deciduous status, often including the `*` and distance restrictions for undesirable species."
+    },
+    {
+      "title": "GROUND COVER",
+      "start_index": 2,
+      "end_index": 5,
+      "node_id": "0002",
+      "summary": "This partial document is a dated \"Plant Reference Guide\" (December 12, 2024) that provides a detailed catalog of various plants. It is organized into sections, specifically \"GROUND COVER\" and \"SHRUBS,\" listing numerous botanical and common names for each plant type. For every entry, the guide specifies key horticultural characteristics including its type (Ground Cover or Shrub), water requirements (High, Medium, Low, Very Low), typical height, spread, and whether it is evergreen or deciduous."
+    },
+    {
+      "title": "SHRUBS",
+      "start_index": 5,
+      "end_index": 10,
+      "node_id": "0003",
+      "summary": "This partial document is a \"Plant Reference Guide\" dated December 12, 2024, providing a detailed catalog of various plants. It is divided into sections for \"SHRUBS\" and \"TREES.\" For each plant listed, the guide includes its botanical name, common name, plant type, water requirements (categorized as High, Medium, Low, or Very Low), typical height, typical spread, and whether it is evergreen or deciduous. Some entries also indicate if the plant is native."
+    },
+    {
+      "title": "TREES",
+      "start_index": 10,
+      "end_index": 14,
+      "node_id": "0004",
+      "summary": "This partial document is a \"Plant Reference Guide\" specifically detailing various tree species. It presents a comprehensive list of trees, organized by their botanical and common names, and provides key characteristics for each, including their type (always \"Tree\" in this excerpt), water requirements (Low, Medium, High, Very Low), typical height, typical spread, and whether they are evergreen (E) or deciduous (D)."
+    }
+  ]
+}

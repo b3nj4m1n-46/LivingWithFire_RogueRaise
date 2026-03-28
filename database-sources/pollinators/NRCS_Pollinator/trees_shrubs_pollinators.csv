@@ -1,0 +1,30 @@
+scientific_name,common_name,type,color,moisture,height,bloom,pollinators,wasps,bees,other
+Acer rubrum,Red Maple,Canopy Tree,red/yellow,m,to 95 ft,Apr,butterflies,True,True,sawflies
+Acer saccharum,Sugar Maple,Canopy Tree,yellow,m,to 100 ft,Apr-May,butterflies,True,True,sawflies
+Aesculus glabra,Ohio Buckeye,Canopy Tree,yellow,m,to 35 ft,May,,False,True,hummingbirds
+Gleditsia triacanthos,Honey Locust,Canopy Tree,yellow,"m, d",to 45 ft,May-Jun,,True,True,
+Gymnocladus dioicus,Kentucky Coffeetree,Canopy Tree,white,"w, m",to 75 ft,May-Jun,butterflies,True,True,hummingbirds
+Prunus serotina,Black Cherry,Canopy Tree,white,"m, d",to 100 ft,May,butterflies,True,True,ants
+Tilia americana,American Basswood,Canopy Tree,white,m,to 95 ft,Jun-Jul,moths,True,True,sawflies
+Amelanchier spp.,Serviceberries,Tall Tree,white,"w, m, d",10-25 ft,Apr-May,,True,True,
+Amorpha fruticosa,False Indigo,Tall Tree,purple,m,12 ft,Jun,,True,True,
+Cercis canadensis,Eastern Redbud,Tall Tree,pink,m,to 25 ft,Apr-May,,True,True,
+Cornus alternifolia,Pagoda Dogwood,Tall Tree,white,m,to 25 ft,May-Jun,,True,True,
+Cornus rugosa,Round-Leaved Dogwood,Tall Tree,white,"m, d",5-18 ft,Jun,,True,True,
+Crataegus crus-galli,Cockspur Hawthorn,Tall Tree,white,m,to 25 ft,May-Jun,butterflies,True,True,
+Ceanothus americanus,New Jersey Tea,Shrub,white,"m, d",2-6 ft,Jun-Jul,butterflies,True,True,sawflies
+Cephalanthus occidentalis,Buttonbush,Shrub,white,"w, m",5-15 ft,Jul-Aug,butterflies,True,True,
+Cornus amomum,Silky Dogwood,Shrub,white,w,10-15 ft,May-Jun,,True,True,
+Cornus racemosa,Gray Dogwood,Shrub,white,"m, d",10-18 ft,May-Jun,butterflies,True,True,
+Cornus sericea,Red Osier Dogwood,Shrub,white,"w, m",6-15 ft,May-Jun,,True,True,
+Diervilla lonicera,Dwarf Bush Honeysuckle,Shrub,yellow,"m, d",2-4 ft,Jun-Jul,moths,False,True,
+Ilex verticillata,Winterberry,Shrub,white,"w, m",6-15 ft,Jun,,False,True,butterflies
+Physocarpus opulifolius,Ninebark,Shrub,white,"m, d",5-10 ft,Jun,butterflies,True,True,
+Ribes spp.,Currant/Gooseberry,Shrub,wh/yell,"w, m, d",2-10 ft,Apr-May,both,True,True,
+Rosa arkansana,Prairie Wild Rose,Shrub,pink,"m, d",1-3 ft,Jun-Jul,,False,True,
+Rosa blanda,Smooth Wild Rose,Shrub,pink,"m, d",3-5 ft,Jun,,False,True,
+Spiraea alba,Meadowsweet,Shrub,white,w,3-7 ft,Jul-Aug,,True,True,
+Spiraea tomentosa,Hardhack,Shrub,pink,w,3-6 ft,Jul-Aug,,True,True,
+Symphoricarpos albus,Snowberry,Shrub,white/pink,"m, d",3-6 ft,Jun-Jul,both,True,True,
+Symphoricarpos occidentalis,Wolfberry,Shrub,white/pink,"m, d",3-6 ft,Jun-Jul,,True,True,
+Viburnum rafinesquianum,Downy Arrowwood Vib.,Shrub,white,"m, d",5-8 ft,May-Jun,,True,True,

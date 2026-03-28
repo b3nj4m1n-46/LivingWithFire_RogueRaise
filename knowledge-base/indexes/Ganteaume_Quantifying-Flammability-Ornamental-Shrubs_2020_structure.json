@@ -1,0 +1,63 @@
+{
+  "doc_name": "Ganteaume_Quantifying-Flammability-Ornamental-Shrubs_2020.pdf",
+  "structure": [
+    {
+      "title": "INTRODUCTION",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "This partial document describes research focused on quantifying and ranking the flammability of ornamental shrubs in the Southern United States. It highlights the need for reliable firewise landscaping lists for the Wildland-Urban Interface (WUI) in the South, as existing lists are inconsistent and lack a standard ranking method. The research aims to address this by measuring the flammability of entire shrubs using large-scale calorimetry equipment at the National Institute of Standards and Technology (NIST). The methodology section details the selection of 34 shrub species based on surveys of WUI fire professionals and outlines how flammability components like ignitability (time to independent ignition) and sustainability (duration of flaming combustion) are measured."
+    },
+    {
+      "title": "METHODOLOGY",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Species selection",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "This partial document describes a research project focused on quantifying and ranking the flammability of ornamental shrubs in the Southern United States. It highlights the critical need for accurate, region-specific firewise plant lists for Wildland-Urban Interface (WUI) residents and landscape professionals, as existing lists are inconsistent and not suitable for the Southern US. The research aims to establish a standard method for ranking plant flammability by using large-scale calorimetry equipment at the National Institute of Standards and Technology (NIST) to precisely measure the flammability of entire shrubs. The methodology involves selecting 34 shrub species based on surveys of WUI fire professionals and defining flammability through components like ignitability (time to independent ignition) and sustainability (duration of flaming combustion)."
+        },
+        {
+          "title": "Measuring Flammability",
+          "start_index": 1,
+          "end_index": 2,
+          "node_id": "0003",
+          "summary": "This partial document describes a study focused on quantifying and ranking the flammability of ornamental shrubs in the Southern United States. It highlights the need for reliable firewise landscaping plant lists for Wildland-Urban Interface (WUI) residents, nursery employees, and landscape architects, as existing lists are inconsistent and lack a standard ranking method for the Southern region.\n\nThe research objective was to accurately measure and rank the flammability of entire landscape shrub species from the South. The methodology involved selecting 34 shrub species based on surveys of WUI fire professionals. Flammability was measured using large-scale calorimetry equipment, assessing components such as ignitability (time to ignition), sustainability (duration of flaming combustion), combustibility (peak heat release rate, total energy, maximum flame height), and consumability (amount of plant burned). Additional plant characteristics like height, width, foliar moisture, and energy content were also measured. Statistical analyses, including principle component and cluster analysis, were used to differentiate and group species by flammability.\n\nThe results identified three flammability rankings: low, moderate, and high. Four species (Ilex glabra, Ilex vomitoria, Juniperus chinensis, and Kalmia latifolia) were ranked as highly flammable and advised against planting near structures. Eight species were categorized as moderately flammable, with similar cautions, especially under drought conditions. Conversely, 22 species were identified as having low flammability, making them suitable for firewise landscaping."
+        },
+        {
+          "title": "Plant measurements",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0004",
+          "summary": "This partial document describes a study on plant flammability, detailing the methodologies used for measurement, analysis, and the resulting classifications. It outlines various methods for assessing combustibility, including peak heat release rate, total energy released, maximum flame height, and consumability (plant material burned). The document also specifies the plant characteristics measured, such as height, width, foliar moisture content, and foliar energy content. Statistical analyses, including principle component and cluster analysis, were employed to differentiate and group species based on their flammability. The results section highlights the identification of three flammability rankings (low, moderate, and high) among southern shrub species, providing specific examples of highly flammable species to avoid near structures and identifying species suitable for firewise planning. The document concludes with a list of literature cited."
+        },
+        {
+          "title": "Statistical analysis",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0005",
+          "summary": "This partial document describes the methodology and results of a study on plant flammability. It details various methods used to measure combustibility and consumability, including peak heat release rate, total energy released, maximum flame height, and changes in canopy volume. The document also outlines the plant characteristics measured (height, width, foliar moisture content, and foliar energy content) that influence flammability. Statistical analyses, specifically principle component and cluster analysis, are explained as tools for differentiating and grouping species by flammability. The results section presents a classification of southern shrub species into low, moderate, and high flammability categories, identifying specific species in each group and offering recommendations for their use in firewise planning, particularly regarding proximity to structures. A list of literature cited is also included."
+        }
+      ],
+      "node_id": "0001",
+      "summary": "This partial document describes a research project focused on quantifying and ranking the flammability of ornamental shrubs in the Southern United States. It highlights the critical need for accurate, region-specific firewise plant lists for Wildland-Urban Interface (WUI) residents and landscape professionals, as existing lists are inconsistent and not suitable for the Southern US. The research aims to establish a standard method for ranking plant flammability by using large-scale calorimetry equipment at the National Institute of Standards and Technology (NIST) to precisely measure the flammability of entire shrubs. The methodology involves selecting 34 shrub species based on surveys of WUI fire professionals and defining flammability through components like ignitability (time to independent ignition) and sustainability (duration of flaming combustion)."
+    },
+    {
+      "title": "RESULTS AND DISCUSSION",
+      "start_index": 2,
+      "end_index": 2,
+      "node_id": "0006",
+      "summary": "This partial document describes the methodology and results of a study on plant flammability. It details various methods used to measure combustibility and consumability, including peak heat release rate, total energy released, maximum flame height, and changes in canopy volume. The document also outlines the plant characteristics measured (height, width, foliar moisture content, and foliar energy content) that influence flammability. Statistical analyses, specifically principle component and cluster analysis, are explained as tools for differentiating and grouping species by flammability. The results section presents a classification of southern shrub species into low, moderate, and high flammability categories, identifying specific species in each group and offering recommendations for their use in firewise planning, particularly regarding proximity to structures. A list of literature cited is also included."
+    },
+    {
+      "title": "LITERATURE CITED",
+      "start_index": 2,
+      "end_index": 3,
+      "node_id": "0007",
+      "summary": "This partial document describes a study on the flammability of southern shrub species. It details the methods used to measure plant combustibility (peak heat release rate, total energy released, maximum flame height) and consumability (amount of plant burned). It also outlines the measurement of plant characteristics that influence flammability, such as height, width, foliar moisture content, and foliar energy content. The document explains the statistical analyses employed, including principle component and cluster analysis, to categorize species based on their flammability. The results present three flammability rankings (low, moderate, and high) for 34 commonly used horticultural plants, identifying specific species in each category and offering practical recommendations for firewise landscaping, particularly regarding which species to avoid planting near structures. A table provides a comprehensive list of the tested plants and their assigned flammability ranks."
+    }
+  ]
+}

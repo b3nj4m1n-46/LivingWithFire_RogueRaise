@@ -1,0 +1,681 @@
+{
+  "doc_name": "RCDSMM_Wildfire-Resilience-Defensible-Space-Booklet_2023.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "start_index": 1,
+      "end_index": 4,
+      "nodes": [
+        {
+          "title": "The Role of Sustainable Defensible Space",
+          "start_index": 4,
+          "end_index": 5,
+          "node_id": "0001",
+          "summary": "This partial document describes the concept and importance of \"Sustainable Defensible Space\" around homes, defining it as the area up to 100 feet that is crucial for wildfire resistance, firefighter safety, and environmental conservation. It highlights the need for residents to understand their local environment and wildfire risk using interactive maps, and emphasizes community collaboration with neighbors to mitigate shared risks. A significant focus is placed on fortifying or retrofitting the home itself as the primary defense against ember intrusion, which is identified as the cause of most home ignitions. Finally, it covers the importance of landscape fuel management, land maintenance, and thoughtful plant selection within the defensible space, particularly the first sixty feet from the home, to enhance structure survival."
+        },
+        {
+          "title": "House: Start with Your Home",
+          "start_index": 5,
+          "end_index": 5,
+          "nodes": [
+            {
+              "title": "Roofing Materials & Maintenance",
+              "start_index": 5,
+              "end_index": 7,
+              "node_id": "0003",
+              "summary": "This partial document provides comprehensive guidance on fortifying a home against wildland fires, emphasizing that the house itself is the most critical component of defensible space. It details the vulnerability of the roof, recommending Class A rated roofing materials (e.g., asphalt fiberglass, concrete/clay tiles, slate, metal) and crucial maintenance practices like \"bird-stopping\" to block gaps. The document also covers protecting chimneys by installing spark arrestors and metal flashing, and removing nearby vegetation. A key feature is a prioritization guide for home hardening upgrades, illustrating the relative cost and vulnerability of various features like roofs, vents, windows, and sidings, consistently highlighting the roof as a top priority. It also briefly mentions the importance of landscape fuel management around the home."
+            },
+            {
+              "title": "Open-Eave Design",
+              "start_index": 7,
+              "end_index": 9,
+              "node_id": "0004",
+              "summary": "This partial document provides guidance on home hardening for fire resistance, particularly focusing on protecting the \"house\" structure. It includes a graphic that prioritizes various home features (like sidings, windows, roof, decks, doors, eaves, fences, gutters, vents, and maintenance) based on their relative cost and vulnerability to wildfires and embers.\n\nA significant portion details the importance of fire-resistant eaves, overhangs, and soffits. It defines these components, explains their vulnerability to embers and heat, and outlines specific steps for retrofitting them. These steps include evaluating and replacing non-fire-resistant soffits, covering combustible fascia with fire-resistant materials, installing fire-rated soffits, using gypsum board for enhanced resistance, sealing gaps, and removing combustible vegetation from under eaves.\n\nAdditionally, the document addresses rain gutters and leaf guards, emphasizing how accumulated debris can ignite. It recommends installing noncombustible leaf guards to prevent debris buildup and installing drip edges to protect roof edges from flames and block ember entry into soffited eaves."
+            },
+            {
+              "title": "Rain Gutters & Leaf-Guards",
+              "start_index": 9,
+              "end_index": 10,
+              "node_id": "0005",
+              "summary": "This partial document focuses on recommendations for house-related defensible space, specifically addressing the risks associated with rain gutters and ember intrusion. It highlights how wind-blown debris accumulating in gutters can ignite and spread flames to the roof and siding. The document advises upgrading gutters to prevent debris accumulation, installing noncombustible leaf guards (such as metal-mesh screens or metal hoods), and installing drip edges to protect roof edges and block ember entry into soffited-eave constructions. It also emphasizes using noncombustible materials like galvanized steel, copper, or aluminum for gutters and downspouts. The text briefly introduces \"Vents & Ember Intrusion\" as another key area of concern."
+            },
+            {
+              "title": "Vents & Ember Intrusion",
+              "start_index": 10,
+              "end_index": 12,
+              "node_id": "0006",
+              "summary": "This partial document provides recommendations for making a house more resistant to fire, particularly focusing on preventing ember intrusion and ignition from radiant heat or direct flame contact. It covers:\n\n1.  **Non-Combustible Gutters and Downspouts:** Advises using materials like galvanized steel, copper, or aluminum, and metal hood leaf guards to prevent melting and debris accumulation.\n2.  **Vents and Ember Intrusion:** Discusses the vulnerability of various vents (roof, attic, crawlspace, HVAC) to ember and hot gas entry, which can lead to internal ignition. It recommends using non-combustible materials for vents and flashing, installing fine metal mesh screens (1/8 inch maximum opening), baffling attic and soffit vents, and installing shutters over vents, with a note on upgrading combustible wall/soffit materials if necessary.\n3.  **Windows and Skylights:** Emphasizes their role in preventing interior ignition. It recommends specific heat-resistant materials such as tempered glass (potentially with low-e or reflective coatings), proprietary fiberglass-reinforced translucent glazing, and insulated glazing units (IGUs). For frames, it strongly advises using metal or metal-clad wood, while cautioning against wood, plastic, or plastic-clad fiberglass frames."
+            },
+            {
+              "title": "Windows & Skylights",
+              "start_index": 12,
+              "end_index": 13,
+              "node_id": "0007",
+              "summary": "This partial document provides detailed guidance on making windows and skylights resistant to wildfires. It emphasizes the importance of these components in preventing interior ignition and discusses how combustible framing materials can ignite and glass can fail due to heat. The document recommends specific materials for glass, such as tempered glass (especially with low-e or reflective coatings), fiberglass-reinforced translucent glazing, and insulated glazing units (IGUs), highlighting their resistance to heat and flames. For frames, it strongly advises using only metal or metal-clad wood, while cautioning against wood, plastic, and plastic-clad fiberglass. Additionally, it suggests using solid metal exterior window shutters for protection. The document also offers specific considerations for skylights based on roof slope, recommending dome skylights for low-slope roofs due to debris accumulation and noting the vulnerability of all skylights to radiant heat."
+            },
+            {
+              "title": "Doors & Garages",
+              "start_index": 13,
+              "end_index": 15,
+              "node_id": "0008",
+              "summary": "This partial document provides guidance on hardening a house against wildfires, focusing on specific exterior components. It recommends solid metal exterior window shutters for protection and discusses skylight vulnerabilities based on roof slope, preferring dome skylights for low-slope roofs due to debris accumulation. The document emphasizes the critical role of exterior doors and garage doors in preventing ember intrusion and radiant heat, recommending fire-rated doors, insulated metal garage doors, and UL Standard 10C tested weatherstripping. For exterior walls, it details recommended noncombustible or fire-resistant materials like concrete, fiber-cement, and stucco, while advising against vinyl, aluminum, and non-pressure impregnated fire-retardant treated wood. It also suggests targeting vulnerable areas of combustible siding and explicitly states that intumescent paints are not effective for exterior wildfire protection."
+            },
+            {
+              "title": "Walls, Sidings, and Coatings",
+              "start_index": 15,
+              "end_index": 16,
+              "node_id": "0009",
+              "summary": "This partial document focuses on the fire vulnerability of exterior walls, sidings, and coatings, particularly concerning windborne embers, conductive heat, and radiant heat. It details how combustible materials like wood, vinyl, and plastic can ignite, deform, and lead to fire spread and significant building damage. The document provides recommendations for fire-resistant exterior materials, including concrete, fiber-cement, stucco, masonry, and certain metals, while advising against materials like vinyl, aluminum, and EIFS. It also suggests targeted mitigation strategies for existing combustible sidings, such as creating a 6-inch noncombustible zone at the base. Finally, it explicitly states that intumescent paints are not effective for exterior applications due to their loss of performance when exposed to weathering."
+            },
+            {
+              "title": "Fences",
+              "start_index": 16,
+              "end_index": 18,
+              "node_id": "0010",
+              "summary": "This partial document provides guidance on reducing wildfire ignition risks for exterior home features, specifically fences and decks. It details the fire resistance of various fencing materials, recommending non-combustible options like masonry, concrete, stone, and metal over wood or plastic. The text also offers strategies to reduce fence vulnerability, such as avoiding direct attachment of combustible fences to buildings and choosing designs that allow for better airflow to prevent ember accumulation. For decks, it emphasizes the combustibility of most common decking materials, including wood and plastic composites, and suggests using fire-retardant treated wood or noncombustible materials near the house. Additionally, it provides recommendations for deck spacing and joist treatment to minimize ember exposure."
+            },
+            {
+              "title": "Decks & Ember Ignition",
+              "start_index": 18,
+              "end_index": 18,
+              "node_id": "0011",
+              "summary": "This partial document focuses on the importance of decks in creating defensible space around a house, particularly concerning ember ignition. It highlights that most common decking materials, including wood and plastic composites, are combustible. The document recommends using fire-retardant treated wood or replacing deck boards with noncombustible materials within five feet of the house to mitigate risk. Additionally, it provides specific design recommendations for decks to minimize ember exposure, such as increasing gaps between deck boards, widening joist spacing, and applying foil-faced adhesive flashing tape to joists."
+            }
+          ],
+          "node_id": "0002",
+          "summary": "This partial document emphasizes the critical importance of defensible space for protecting homes from wildland fires, primarily focusing on preventing ember intrusion. It highlights that fortifying or retrofitting the home itself is the best initial defense, advocating a \"house out\" approach to fire protection. The text also stresses the significance of appropriate landscape fuel management, land maintenance, and thoughtful plant selection within the first sixty feet from the home, which is identified as the most crucial zone for structure survival. It references the Defensible Space website for further guidance and resources on home landscape management and mentions \"Roofing Materials & Maintenance\" as a related topic."
+        },
+        {
+          "title": "Firewise Landscape",
+          "start_index": 19,
+          "end_index": 19,
+          "nodes": [
+            {
+              "title": "Zone 0: The Ember-Resistant Zone (ERZ)",
+              "start_index": 19,
+              "end_index": 21,
+              "node_id": "0013",
+              "summary": "This partial document outlines strategies for creating defensible space around homes to protect against wildfires, focusing on landscape management. It introduces three zones for sustainable defensible space (Zone 0, 1, and 2, though only 0 and 1 are detailed here).\n\nKey points covered include:\n\n*   **General Defensible Space Principles:** The document emphasizes that zone sizes are research-backed and consistent with regulations (e.g., CalFire standards), recommending native vegetation modification up to 100-200 feet from a home, depending on local requirements. It also advises contacting local fire and planning departments for specific regulations, especially regarding native vegetation and permits for modifying vegetation near State Parks or Protected Areas (Boundary Vegetation Modification Right of Entry Permit - BVMROE).\n*   **Zone 0: The Ember-Resistant Zone (ERZ):** This critical zone covers the first 5 feet around the home, including the structure itself. Its primary objective is to prevent ignitions from windblown embers, which are responsible for most home losses in wildfires. Recommendations for Zone 0 include:\n    *   Removing or replacing all combustible materials (vegetation, equipment, furniture, toys).\n    *   Creating a \"lean\" or no planting zone.\n    *   Using non-combustible surfaces like clear soil, gravel, pavers, or concrete.\n    *   Strictly avoiding organic mulches (wood chips, rubber, plastic) and preferring inorganic options like rocks and gravel.\n    *   Keeping the area free of dead plant materials, firewood, and climbing plants.\n    *   Maintaining a 6-inch non-combustible zone at the base of walls.\n    *   Noting that State regulations for this zone are under development, with effective dates in 2023 and 2024.\n*   **Zone 1: The Home Protection Zone:** This zone extends at least 30 feet wide (50 feet for slopes above 20%) from Zone 0. Its purpose is to create a landscape that, if ignited, will not transmit fire to the home. Key recommendations for Zone 1 include:\n    *   Designing a \"lean, clean, and green\" landscape that promotes fire-wise landscaping and water conservation.\n    *   Using low-to-medium density planting, with trees spaced to allow at least 10 feet clearance to structures at maturity.\n    *   Prioritizing healthy, well-watered, and pruned plants with high moisture content to make them less likely to ignite.\n    *   Incorporating hardscape elements like granite paths and stone walls to act as fire breaks."
+            },
+            {
+              "title": "Zone 1: The Home Protection Zone",
+              "start_index": 21,
+              "end_index": 23,
+              "node_id": "0014",
+              "summary": "The partial document provides detailed guidance on creating defensible space around a home to protect it from wildfires, primarily focusing on \"Zone 1: The Home Protection Zone\" and introducing \"Zone 2: The Reduced Fuel / Thinning Zone.\"\n\nKey points covered include:\n*   **Definition and Purpose of Zone 1:** This zone (30-50 feet around the home) is designed to prevent fire transmission to the structure by maintaining a \"lean, clean, and green\" landscape. It emphasizes fire-wise landscaping, water conservation, and low-density planting.\n*   **Planting Recommendations for Zone 1:** Advice on selecting native, non-invasive, low-flammability plants, ground covers, and shrubs. It also recommends drip irrigation for plant health and water conservation.\n*   **Mulch Guidelines for Zone 1:** Recommends composted wood-chips for their benefits in weed control, moisture retention, and soil health, while strongly advising against highly flammable rubber or plastic mulches.\n*   **Proper Spacing:** Detailed instructions for vertical and horizontal spacing of trees, shrubs, and structures to prevent fire spread, including specific clearances from the ground and between plants/buildings.\n*   **Hardscaping for Fire Protection:** Strategies for using non-flammable hardscape elements like paths, walls, and terracing to create fire breaks, stabilize slopes, and disrupt fire and ember movement.\n*   **Eliminating Ladder Fuels:** The importance of disrupting the vertical and horizontal continuity of plants to prevent fire from climbing into taller vegetation or structures.\n\nThe document promotes a sustainable approach to defensible space, integrating fire safety with ecosystem support and water conservation."
+            },
+            {
+              "title": "Zone 2: The Reduced Fuel / Thinning Zone",
+              "start_index": 23,
+              "end_index": 26,
+              "node_id": "0015",
+              "summary": "This partial document focuses on strategies for wildfire prevention and landscape management, particularly within \"Zone 2: The Reduced Fuel / Thinning Zone.\" It outlines how to design landscapes against fire using hardscaping solutions like non-flammable pathways and retaining walls, and emphasizes eliminating ladder fuels. A significant portion is dedicated to the importance of native plants for habitat restoration, reducing wildfire energy, controlling erosion on slopes (\"Soil Keepers\"), and supporting local ecosystems. Specific native plant examples are provided. The document also offers detailed tips for managing terraced slopes to prevent erosion and runoff. Finally, it discusses the broader context of the surrounding wildland, highlighting threats to biodiversity from habitat loss, fragmentation, and human-caused disturbances, especially in Southern California's urban interface."
+            },
+            {
+              "title": "The Surrounding Wildland",
+              "start_index": 26,
+              "end_index": 28,
+              "node_id": "0016",
+              "summary": "This partial document describes the ecological importance of wildland habitats in Southern California, particularly focusing on the threats to biodiversity from human development, frequent wildfires, and invasive species. It highlights the significance of native vegetation types like Chaparral and Coastal Sage Scrub, detailing their characteristics, ecological roles, and recovery periods after disturbance. The document provides recommendations for managing surrounding wildland, including guidelines for vegetation modification, identifying native vs. invasive species, and community fire-wise planning. It also emphasizes the critical role of seasonal landscape maintenance for creating defensible space, with a specific focus on fall activities such as new plantings, debris removal, and water management to mitigate wildfire risk and promote healthy ecosystems."
+            },
+            {
+              "title": "Planning Around Seasons: Maintenance & Upkeep",
+              "start_index": 28,
+              "end_index": 31,
+              "node_id": "0017",
+              "summary": "This partial document provides a comprehensive, seasonal guide to landscape maintenance in Southern California, primarily aimed at creating and maintaining defensible space to reduce wildfire risk. It outlines specific tasks and considerations for each season:\n\n*   **Fall:** Focuses on new plantings, clearing roof debris, managing fallen leaves (recommending rakes over leaf blowers), preparing for rain and erosion, smart watering, and pruning evergreens and semi-evergreen plants.\n*   **Winter:** Emphasizes soil care, protecting frost-susceptible plants (which can become fire hazards), applying organic mulches, and specific pruning advice for pines and winter-deciduous species.\n*   **Spring:** Details irrigation system checks, deep watering practices, composting green waste, vigilant weed management (especially invasive species), and being mindful of bird nesting seasons during landscape activities.\n*   **Summer:** Advises on planning for the fall planting season, appropriate watering to avoid excess growth, consistent weed control, clearing rain gutters, and detailed pruning techniques for overall plant health, including specific guidance for Coast Live Oaks.\n\nThe document also includes a crucial \"Things to Keep in Mind\" section, covering important considerations such as local regulations for oak tree pruning, the use of fire-wise and non-invasive plants, protecting endangered species and migratory birds, preventing erosion, restrictions near streams, and a strong recommendation against using leaf blowers due to their environmental impact and fire hazard. Throughout, it stresses the importance of consistent, year-round maintenance for a healthy, fire-safe landscape."
+            }
+          ],
+          "node_id": "0012",
+          "summary": "This partial document describes strategies for creating defensible space around homes to mitigate wildfire risk, focusing on a multi-zone approach. It introduces three zones for sustainable defensible space, with a detailed explanation of \"Zone 0: The Ember-Resistant Zone (ERZ).\" Zone 0 encompasses the first 5 feet around a home, emphasizing the removal or replacement of all combustible materials to prevent ignitions from windblown embers, which are a primary cause of home loss in wildfires. The document recommends a \"lean\" or no planting zone for Zone 0, favoring non-combustible ground covers.\n\nIt also discusses general defensible space distances, noting that native vegetation modification can extend up to 100 feet from a home, with some local regulations (e.g., Los Angeles County) requiring up to 200 feet. The text highlights the importance of contacting local fire and planning departments for specific requirements, especially regarding protected native vegetation. Additionally, it mentions the Boundary Vegetation Modification Right of Entry Permit (BVMROE) for homeowners bordering State Parks, allowing vegetation trimming within 130 feet of a structure. The information presented is supported by research into wildfire home losses and aligns with current CalFire standards, with upcoming state regulations for Zone 0 also mentioned."
+        },
+        {
+          "title": "Plants",
+          "start_index": 32,
+          "end_index": 32,
+          "nodes": [
+            {
+              "title": "What Is A \u201cFire-Resistant\u201d Plant?",
+              "start_index": 32,
+              "end_index": 34,
+              "node_id": "0019",
+              "summary": "This partial document discusses fire-resistant plants, emphasizing that plant condition and maintenance are more crucial for fire safety than species alone. It defines fire-resistant plants, debunks the myth that certain species are inherently \"fire-proof,\" and outlines characteristics of both fire-hazardous and lower-ignition-risk plants. The document then transitions to promoting the use of native plants, highlighting their benefits for habitat value, water conservation, lower maintenance, reduced pesticide use, and supporting local wildlife, all within the context of creating a sustainable and fire-wise landscape."
+            },
+            {
+              "title": "The Habitat Value of A Native Garden",
+              "start_index": 34,
+              "end_index": 35,
+              "node_id": "0020",
+              "summary": "The partial document advocates for the use of California native plants, emphasizing their ecological importance in providing habitat for native wildlife and preserving biodiversity, especially in the Wildland-Urban Interface. It details numerous benefits of native gardens, including water conservation, lower maintenance, reduced need for pesticides, and enhanced wildlife viewing. The document also focuses on the concept of fire-resistant native plants, explaining their role in fire-wise landscaping by retaining moisture, and provides a partial list of specific fire-resistant native trees and shrubs suitable for such purposes."
+            },
+            {
+              "title": "Looking for Examples? Here Are Some Fire-Resistant Native Plants for You!",
+              "start_index": 35,
+              "end_index": 35,
+              "nodes": [
+                {
+                  "title": "Trees",
+                  "start_index": 35,
+                  "end_index": 35,
+                  "node_id": "0022",
+                  "summary": "This partial document advocates for supporting local ecology by planting California native plants to create wildlife \"bridges\" in developed areas and encourages community involvement in preservation. It then focuses on identifying and listing fire-resistant California native plants, clarifying that while no plant is fireproof, some retain moisture and are considered fire-resistant. The purpose of this list is to help place beneficial, fire-resistant, and wildlife-important plants in areas cleared of brush. The document provides examples of such plants, including trees like Toyon and Coast Live Oak, and shrubs like Lemonade Berry, Guadalupe Island Rock Daisy, and various Sages, detailing their characteristics and ecological benefits. It also directs readers to a website for a full list of these plants."
+                },
+                {
+                  "title": "Shrubs",
+                  "start_index": 35,
+                  "end_index": 36,
+                  "node_id": "0023",
+                  "summary": "This partial document advocates for the use of California native plants to support local ecology, create wildlife habitats, and connect wildlands. A significant portion focuses on identifying and describing fire-resistant native plants, clarifying that while no plant is fireproof, certain species retain moisture and can reduce fire risk. The document provides a curated list of such plants, categorized into trees, shrubs, and groundcovers, detailing their characteristics, benefits (like drought resistance, erosion control, and wildlife value), and maintenance tips. It also encourages community involvement in preserving native flora and directs readers to a website for a more comprehensive list of fire-resistant native plants."
+                },
+                {
+                  "title": "Groundcovers",
+                  "start_index": 36,
+                  "end_index": 36,
+                  "node_id": "0024",
+                  "summary": "This partial document discusses plants in the context of fire risk and habitat quality, specifically focusing on groundcovers. It emphasizes that maintenance is key to reducing the flammability of certain plants, using sages as an example. The document then describes specific plants, including Dwarf Coyote Bush (Baccharis piluaris \u201cPigeon Point\u201d), highlighting its erosion control benefits and fire approval, and Willowy Coyote Mint (Monardella linoides viminea), noting its protected status, preferred growing conditions, and attractiveness to pollinators and birds."
+                }
+              ],
+              "node_id": "0021",
+              "summary": "This partial document advocates for the use of California native plants to support local ecology, create wildlife \"bridges\" in developed areas, and encourage community involvement in preservation. It specifically highlights a list of fire-resistant native plants, clarifying that while no plant is fireproof, certain species retain moisture and offer resistance, especially useful for areas cleared of brush. The document provides examples of such plants, categorized as trees and shrubs, including Toyon, Coast Live Oak, Lemonade Berry, Guadalupe Island Rock Daisy, and Sages, detailing their characteristics and benefits like wildlife value, drought resistance, and erosion control."
+            }
+          ],
+          "node_id": "0018",
+          "summary": "This partial document defines \"fire-resistant\" plants, explaining that they do not readily ignite or significantly contribute to fire intensity, though they can still be damaged. It emphasizes that factors like moisture content, age, and dead material influence a plant's fire characteristics more than just its species. The document debunks the myth that fire-safe landscaping is solely about choosing specific \"fire-resistant\" plants, stressing that proper maintenance and plant condition (e.g., irrigation) are paramount, as even \"flammable\" plants can pose a lower risk if well-maintained, and any plant can burn under the right conditions. It advocates for focusing on underlying principles of fire-safe design and maintenance rather than just species selection."
+        },
+        {
+          "title": "Fire & Invasive Species",
+          "start_index": 36,
+          "end_index": 36,
+          "nodes": [
+            {
+              "title": "Invasive Plants Can Increase Fire Hazard",
+              "start_index": 37,
+              "end_index": 37,
+              "node_id": "0026",
+              "summary": "This partial document describes how invasive plants pose a significant threat to Southern California's Wildland-Urban Interface (WUI) areas. It highlights that these non-native species increase fire hazard by producing large amounts of dry biomass, leading to more intense and severe wildfires, especially in riparian zones. The document also explains that invasive plants harm wildland health by displacing native vegetation, reducing wildlife diversity, contributing to soil erosion, clogging waterways, and increasing flooding. It notes that improper clearance can promote their spread as they thrive in disturbed soils. Finally, the document provides guidance on how to recognize and avoid invasive species, recommending consulting resources like the California Invasive Plant Council and DefensibleSpace.org/plants, and gives a detailed example of Giant Reed (Arundo donax) and its various detrimental impacts."
+            },
+            {
+              "title": "Invasive Plants Can Harm the Wildland Health",
+              "start_index": 37,
+              "end_index": 37,
+              "node_id": "0027",
+              "summary": "This partial document describes how invasive plants pose a significant threat to Southern California's Wildland-Urban Interface (WUI) areas. It highlights that these non-native species increase fire hazard by producing large amounts of dry biomass, leading to more intense and severe wildfires, especially in riparian zones. The document also explains that invasive plants harm wildland health by displacing native vegetation, reducing wildlife diversity, contributing to soil erosion, clogging waterways, and increasing flooding. It notes that improper clearance can promote their spread as they thrive in disturbed soils. Finally, the document provides guidance on how to recognize and avoid invasive species, recommending consulting resources like the California Invasive Plant Council and DefensibleSpace.org/plants, and gives a detailed example of Giant Reed (Arundo donax) and its various detrimental impacts."
+            },
+            {
+              "title": "How to Recognize Invasive Species?",
+              "start_index": 37,
+              "end_index": 40,
+              "node_id": "0028",
+              "summary": "This partial document describes the significant threat posed by invasive plants, particularly in Southern California's Wildland-Urban Interface (WUI) areas. It explains how these non-native species increase fire hazard and intensity, harm wildland health by displacing native vegetation, reducing wildlife diversity, contributing to soil erosion, and clogging waterways. The document provides guidance on how to recognize and avoid invasive species, directing readers to resources like the California Invasive Plant Council for comprehensive lists. A substantial section details common invasive plants in Southern California, outlining their specific characteristics and negative impacts, including their role in fueling wildfires. Finally, it encourages readers to utilize an interactive GIS map to understand their specific location's habitat types, fire history, and community protection plans, highlighting how individual and community decisions influence wildfire vulnerability."
+            }
+          ],
+          "node_id": "0025",
+          "summary": "This partial document discusses plants in the context of fire risk and habitat quality, specifically focusing on groundcovers. It highlights how maintenance can reduce the flammability of certain plants, using sages as an example. The document then describes specific plants like Dwarf Coyote Bush (Baccharis piluaris \u201cPigeon Point\u201d), noting its erosion control benefits and fire approval, and Willowy Coyote Mint (Monardella linoides viminea), detailing its preferred conditions and benefits to pollinators and birds. It emphasizes the importance of maintenance for fire risk reduction and improving habitat."
+        },
+        {
+          "title": "Location No Two Places Alike: Learn About Your Location",
+          "start_index": 40,
+          "end_index": 41,
+          "node_id": "0029",
+          "summary": "This partial document emphasizes two main aspects of wildfire preparedness: understanding your specific location and engaging in community planning. It introduces an interactive GIS map at DefensibleSpace.org/location to help users learn about their property's habitat types, past fires, and local protection plans, thereby understanding their individual wildfire vulnerability. The document also highlights the critical role of community collaboration, urging neighbors to work together to reduce shared wildfire risks, especially where defensible spaces overlap. It stresses that protecting one's own home from ignition is crucial for community safety, as a burning structure poses a greater threat to neighbors than vegetation."
+        },
+        {
+          "title": "Community Organize with Your Neighbors: Community Planning",
+          "start_index": 41,
+          "end_index": 41,
+          "nodes": [
+            {
+              "title": "Your Defensible Space Starts from Your Home",
+              "start_index": 41,
+              "end_index": 41,
+              "node_id": "0031",
+              "summary": "This partial document emphasizes the critical role of community planning and neighbor collaboration in reducing wildfire vulnerability. It highlights that individual defensible spaces often overlap with neighboring properties, making it essential for residents to work together to understand and mitigate shared risks. The document also stresses that a home itself, if ignited, poses the greatest threat to neighbors due to intense heat and embers, underscoring that protecting one's home directly contributes to community safety."
+            },
+            {
+              "title": "Your Defensible Space Extends into Neighboring Properties",
+              "start_index": 42,
+              "end_index": 42,
+              "node_id": "0032",
+              "summary": "The partial document discusses the concept of defensible space extending beyond property lines, emphasizing that a homeowner's thinning zone can reach into neighboring undeveloped land or overlap with a neighbor's defensible space. It highlights the importance of cooperation between neighbors for effective fire mitigation, suggesting options like thinning, deflection walls, or specific landscaping. The text also addresses defensible space requirements for undeveloped neighboring parcels, noting that thinning may be required beyond 100 feet (up to 200 feet in some areas) and stressing the need to contact local Fire and Planning Departments before modifying native vegetation due to potential regulations. Finally, it advises conserving native habitats on larger parcels for their ecosystem services."
+            },
+            {
+              "title": "A Neighbor\u2019s Defensible Space Extends onto Your Property",
+              "start_index": 42,
+              "end_index": 42,
+              "node_id": "0033",
+              "summary": "The partial document discusses the concept of defensible space extending beyond property lines, emphasizing that a homeowner's thinning zone can reach into neighboring undeveloped land or overlap with a neighbor's defensible space. It highlights the importance of cooperation between neighbors for effective fire mitigation, suggesting options like thinning, deflection walls, or specific landscaping. The text also addresses defensible space requirements for undeveloped neighboring parcels, noting that thinning may be required beyond 100 feet (up to 200 feet in some areas) and stressing the need to contact local Fire and Planning Departments before modifying native vegetation due to potential regulations. Finally, it advises conserving native habitats on larger parcels for their ecosystem services."
+            },
+            {
+              "title": "Undeveloped Neighboring Parcels",
+              "start_index": 42,
+              "end_index": 42,
+              "node_id": "0034",
+              "summary": "This partial document describes how defensible space for fire protection extends beyond individual property lines, emphasizing the interconnectedness of neighboring properties in fire mitigation. It details how a property owner's thinning zone can extend onto undeveloped neighboring land and how a neighbor's defensible space can extend onto one's own property, necessitating cooperation and various mitigation techniques. The document also addresses requirements for undeveloped neighboring parcels, noting that defensible space may need to extend beyond 100 feet (e.g., up to 200 feet in some jurisdictions) and stresses the importance of contacting local Fire and Planning Departments before modifying native vegetation due to potential regulations and the need to conserve native habitats for ecosystem services."
+            },
+            {
+              "title": "Parcels of Land Larger than the 100 Feet Sustainable Defensible Space Zone",
+              "start_index": 42,
+              "end_index": 43,
+              "node_id": "0035",
+              "summary": "This partial document focuses on the interconnectedness of defensible space for wildfire safety, emphasizing that individual property efforts extend to and require cooperation with neighbors. It details how thinning zones can overlap or extend onto adjacent properties, both developed and undeveloped, and suggests various mitigation measures and options for shared spaces. The document also highlights the importance of regulatory compliance, advising readers to contact local Fire and Planning Departments before modifying native vegetation or extending defensible space beyond 100 feet due to potential protections and requirements. Furthermore, it advocates for a community-wide approach to wildfire risk reduction, promoting collective action through initiatives like Fire Safe Councils and Fire Adapted Communities, and stresses the conservation of native habitats for ecosystem services. Finally, it strongly recommends signing up for local emergency alert systems."
+            },
+            {
+              "title": "Community What to Do Before, During, & After a Fire",
+              "start_index": 43,
+              "end_index": 43,
+              "nodes": [
+                {
+                  "title": "Sign up Today for Emergency Alerts",
+                  "start_index": 43,
+                  "end_index": 43,
+                  "node_id": "0037",
+                  "summary": "This partial document emphasizes the critical role of community-wide cooperation in wildfire safety, stating that collective vegetation management and home hardening across a neighborhood are more effective than individual efforts. It highlights that this collaborative approach not only reduces wildfire risk but also positively impacts local ecosystems. The document strongly recommends signing up for various emergency alert systems, providing specific examples and instructions for Los Angeles and Ventura counties. It also briefly touches on actions communities can take \"Before the Fire,\" such as working with Fire Safe Councils and adopting Firewise standards."
+                },
+                {
+                  "title": "Before the Fire",
+                  "start_index": 43,
+                  "end_index": 44,
+                  "node_id": "0038",
+                  "summary": "This partial document emphasizes the critical role of community-wide cooperation in wildfire safety and resilience, covering actions to take before, during, and after a fire. It highlights the importance of creating defensible space across entire neighborhoods, not just individual properties, and encourages signing up for various emergency alert systems. The text details preparedness strategies like forming \"Map Your Neighborhood\" groups, outlines the roles of local, state, and federal agencies, and community organizations during a fire, and provides guidance on collaborative recovery efforts for issues such as structure loss, erosion risk, and landscape restoration."
+                },
+                {
+                  "title": "During the Fire",
+                  "start_index": 44,
+                  "end_index": 44,
+                  "node_id": "0039",
+                  "summary": "This partial document outlines comprehensive strategies for wildfire preparedness, response, and recovery, with a strong emphasis on community involvement. It introduces programs like \"Map Your Neighborhood\" (MYN) and \"Ready Your LA Neighborhood\" (RYLAN) to enhance neighborhood-level readiness and self-reliance before an emergency. The document then details the primary agencies and community organizations involved during a fire, such as local fire departments, CalFire, CERT, and the American Red Cross. Finally, it provides recovery strategies for after a fire, addressing issues like structure loss, erosion risk, and landscape restoration, consistently advocating for collaborative efforts with neighbors and local agencies to mitigate damages and rebuild."
+                },
+                {
+                  "title": "After the Fire",
+                  "start_index": 44,
+                  "end_index": 45,
+                  "node_id": "0040",
+                  "summary": "This partial document outlines comprehensive strategies for wildfire preparedness, response, and recovery, emphasizing community collaboration. It introduces programs like \"Map Your Neighborhood\" (MYN) and \"Ready Your LA Neighborhood\" (RYLAN) for enhancing neighborhood-level readiness and mutual support. The text details the roles of various local, state, and federal agencies, as well as community organizations, during an active fire. For post-fire recovery, it provides guidance on addressing structure loss, erosion risk, and landscape restoration, again stressing the importance of working together. Finally, it strongly encourages creating a personal \"Wildfire Action Plan\" and explains CAL FIRE's \"Ready, Set, Go!\" program, which covers steps for being prepared, getting set for evacuation, and knowing when to go early for safety."
+                }
+              ],
+              "node_id": "0036",
+              "summary": "This partial document emphasizes the critical role of community-wide cooperation in wildfire safety, stating that collective vegetation management and home hardening across a neighborhood are more effective than individual efforts. It highlights that this collaborative approach not only reduces wildfire risk but also positively impacts local ecosystems. The document strongly recommends signing up for various emergency alert systems, providing specific examples and instructions for Los Angeles and Ventura counties. It also briefly touches on actions communities can take \"Before the Fire,\" such as working with Fire Safe Councils and adopting Firewise standards."
+            },
+            {
+              "title": "Community Make Your \u201cWildfire Action Plan\u201d Today!",
+              "start_index": 45,
+              "end_index": 45,
+              "nodes": [
+                {
+                  "title": "Ready, Set, Go!",
+                  "start_index": 45,
+                  "end_index": 45,
+                  "node_id": "0042",
+                  "summary": "This partial document focuses on wildfire preparedness, primarily through the creation of a \"Wildfire Action Plan\" for families and the implementation of CAL FIRE's \"Ready, Set, Go!\" program. It emphasizes the importance of preparing families and homes well in advance of a wildfire, practicing evacuation plans, and understanding the three phases of the \"Ready, Set, Go!\" program: \"Be Ready!\" (creating defensible space and hardening homes), \"Get Set!\" (preparing for evacuation, including considerations for COVID-19), and \"Go!\" (evacuating early for safety). The document highlights California's particular vulnerability to wildfires and encourages residents in at-risk areas to follow these guidelines."
+                },
+                {
+                  "title": "How to Create Your Wildfire Action Plan",
+                  "start_index": 46,
+                  "end_index": 46,
+                  "node_id": "0043",
+                  "summary": "This partial document outlines how to create a comprehensive Wildfire Action Plan, emphasizing preparedness and household familiarity with the plan. It details key components such as developing an evacuation plan with designated meeting locations, multiple escape routes, and provisions for pets and large animals. The document also stresses the importance of a Family Communication Plan using an out-of-area contact. Further preparedness steps include having fire extinguishers, knowing utility shut-off locations, assembling emergency supply kits for home and car, maintaining emergency contact lists, and having a portable radio. Finally, it introduces the \"6 P's\" \u2013 a checklist of critical items (People & Pets, Papers, Prescriptions, Pictures, Personal Computer/data, and Plastic/Cash) to have ready for immediate evacuation."
+                },
+                {
+                  "title": "6 P\u2019s: Include These 6P\u2019s in Your Wildfire Plan & Keep Them Ready in Case Immediate Evacuation Is Required",
+                  "start_index": 46,
+                  "end_index": 47,
+                  "node_id": "0044",
+                  "summary": "This partial document provides a comprehensive guide on creating a wildfire action plan. It covers essential components such as developing an evacuation plan with designated meeting locations and multiple escape routes, including provisions for pets and large animals. It also details the importance of a family communication plan with an out-of-area contact. Further preparedness steps include having fire extinguishers, knowing utility shut-off locations, assembling emergency supply kits, maintaining contact lists, and having a portable radio. The document highlights the \"6 P's\" \u2013 critical items to gather for immediate evacuation. Finally, it offers a self-assessment checklist for house and landscape maintenance to create defensible space, focusing on roofing, open-eaves, rain gutters, and vents to reduce fire vulnerability."
+                }
+              ],
+              "node_id": "0041",
+              "summary": "This partial document focuses on wildfire preparedness, primarily through the creation of a \"Wildfire Action Plan\" for families and the implementation of CAL FIRE's \"Ready, Set, Go!\" program. It emphasizes the importance of preparing families and homes well in advance of a wildfire, practicing evacuation plans, and understanding the three phases of the \"Ready, Set, Go!\" program: \"Be Ready!\" (creating defensible space and hardening homes), \"Get Set!\" (preparing for evacuation, including considerations for COVID-19), and \"Go!\" (evacuating early for safety). The document highlights California's particular vulnerability to wildfires and encourages residents in at-risk areas to follow these guidelines."
+            }
+          ],
+          "node_id": "0030",
+          "summary": "This partial document emphasizes the critical role of community planning and neighbor collaboration in reducing wildfire vulnerability. It highlights that individual defensible spaces often overlap with neighboring properties, making it essential for residents to work together to understand and mitigate shared risks. The document also stresses that a home itself, if ignited, poses the greatest threat to neighbors due to intense heat and embers, underscoring that protecting one's home directly contributes to community safety."
+        },
+        {
+          "title": "Tools for House & Landscape Self-Assessment Checklist",
+          "start_index": 47,
+          "end_index": 47,
+          "nodes": [
+            {
+              "title": "ROOFING",
+              "start_index": 47,
+              "end_index": 47,
+              "node_id": "0046",
+              "summary": "This partial document provides a self-assessment checklist for homeowners to create defensible space around their property, focusing on fire safety. It covers specific areas such as roofing, open-eaves, rain gutters, and vents, offering actionable advice. Key recommendations include removing vegetation and combustible debris, maintaining clear distances from roofs and chimneys, inspecting for and sealing gaps, installing spark arrestors, evaluating and replacing non-fire-resistant materials, and ensuring proper vent screening and baffling."
+            },
+            {
+              "title": "OPEN-EAVE",
+              "start_index": 47,
+              "end_index": 47,
+              "node_id": "0047",
+              "summary": "This partial document provides a self-assessment checklist for homeowners to create defensible space around their property, focusing on fire safety. It covers specific areas such as roofing, open-eaves, rain gutters, and vents, offering actionable advice. Key recommendations include removing vegetation and combustible debris, maintaining clear distances from roofs and chimneys, inspecting for and sealing gaps, installing spark arrestors, evaluating and replacing non-fire-resistant materials, and ensuring proper vent screening and baffling."
+            },
+            {
+              "title": "RAIN GUTTERS",
+              "start_index": 47,
+              "end_index": 47,
+              "node_id": "0048",
+              "summary": "The partial document provides a self-assessment checklist for creating defensible space around a property, focusing on fire safety and prevention. It details specific actions for various parts of a house's exterior, including:\n\n*   **Roofing**: Recommendations for removing vegetation debris, inspecting vulnerable areas, clearing overhanging tree limbs, checking for gaps, and installing spark arrestors on chimneys.\n*   **Open-Eave**: Guidance on evaluating and replacing non-fire-resistant soffits, and removing combustible materials from under eaves.\n*   **Rain Gutters**: Instructions for checking and maintaining leaf-guards, replacing damaged components, and regularly removing vegetation debris.\n*   **Vents**: Advice on installing fine metal mesh screens and baffling attic and soffit vents.\n\nThe overall aim is to help homeowners identify and mitigate fire risks related to their house and landscape."
+            },
+            {
+              "title": "VENTS",
+              "start_index": 47,
+              "end_index": 48,
+              "node_id": "0049",
+              "summary": "This partial document provides a comprehensive checklist for homeowners to assess and improve their property's resistance to wildfire, focusing on creating defensible space and hardening the home's exterior. It details specific actions for various parts of a house and its immediate surroundings, including:\n\n*   **Roofing:** Removing debris, maintaining clearances from tree limbs, checking for gaps, and installing spark arrestors.\n*   **Open-Eaves & Rain Gutters:** Evaluating fire resistance, removing combustible materials, and maintaining leaf-guards.\n*   **Vents:** Installing protective mesh screens and baffling attic/soffit vents to create ember-resistant zones.\n*   **Fences:** Replacing sections connecting to the building with noncombustible materials, clearing vegetation debris, and avoiding storage of firewood.\n*   **Decks:** Removing combustible materials and vegetation from underneath and around, and applying flashing to support joists.\n*   **Windows & Skylights:** Replacing with multi-pane/tempered glass, installing screens, and closing them during wildfire threats.\n*   **Doors & Garages:** Removing doormats and combustible materials, and ensuring proper sealing.\n*   **Walls, Sidings, & Coatings:** Avoiding storage of combustible items near sidings and removing vegetation debris from the base.\n\nThe overarching theme is to minimize ignition risk by removing combustible materials, maintaining clearances, and installing fire-resistant components around the home."
+            },
+            {
+              "title": "FENCES",
+              "start_index": 48,
+              "end_index": 48,
+              "node_id": "0050",
+              "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+            },
+            {
+              "title": "DECKS",
+              "start_index": 48,
+              "end_index": 48,
+              "node_id": "0051",
+              "summary": "This partial document outlines practical strategies for wildfire preparedness and home hardening, focusing on creating ember-resistant zones and minimizing ignition risks around a property. It provides specific recommendations for various exterior components, including:\n\n*   **Fences:** Replacing sections near buildings with noncombustible materials, clearing vegetation debris, maintaining physical condition, and avoiding firewood storage.\n*   **Decks:** Preventing storage of combustible materials underneath, establishing an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists to mitigate ember ignition.\n*   **Vent Openings:** Removing vegetation and combustible items from near vents and within a 5-foot zone around the house.\n*   **Windows & Skylights:** Upgrading to multi-pane tempered glass, installing screens, closing them during wildfire threats, clearing debris, and moving patio furniture away.\n*   **Doors & Garages:** Removing doormats on high-risk days, clearing vegetation and combustibles within 5 feet, and ensuring proper sealing of garage doors.\n*   **Walls, Sidings, & Coatings:** Avoiding storage of combustible items near sidings and removing vegetation debris from the base.\n\nThe overarching goal is to reduce the vulnerability of a home to wildfire ignition, particularly from embers."
+            },
+            {
+              "title": "WINDOWS & SKYLIGHTS",
+              "start_index": 48,
+              "end_index": 48,
+              "node_id": "0052",
+              "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+            },
+            {
+              "title": "DOORS & GARAGES",
+              "start_index": 48,
+              "end_index": 48,
+              "node_id": "0053",
+              "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+            },
+            {
+              "title": "WALLS, SIDINGS, & COATINGS",
+              "start_index": 48,
+              "end_index": 49,
+              "node_id": "0054",
+              "summary": "This partial document provides detailed guidelines for creating a wildfire-resistant home and establishing defensible space. It outlines specific actions for various components of a property, including fences, decks, windows, skylights, doors, garages, walls, sidings, and vent openings, focusing on minimizing ignition risk.\n\nKey recommendations include:\n*   **Removing combustible materials and vegetation:** Clearing debris, pine needles, leaf litter, and other flammable items from around and under structures, near vents, windows, doors, and sidings.\n*   **Replacing or modifying materials:** Suggesting noncombustible materials for fences connecting to buildings, applying metal flashing to deck joists, and using multi-pane/tempered glass windows.\n*   **Maintaining clear zones:** Emphasizing an \"ember-resistant zone\" directly around the house and removing vegetation within 5 feet of structures.\n*   **Operational measures:** Closing windows/skylights, removing doormats, and moving patio furniture during wildfire threats.\n\nThe document further defines three zones for \"Defensible Space\":\n*   **Zone 0 (0-5 feet):** An ember-resistant zone immediately surrounding the house, focusing on non-combustible ground treatment, limited and well-maintained nonwoody plants, and removal of all dead vegetation.\n*   **Zone 1 (up to 30 feet, 50 feet on slopes):** A home protection zone advocating for landscape \"islands\" with hardscape, lean, green, and irrigated vegetation, and removal of dead plants.\n*   **Zone 2 (up to 100 feet):** A thinning zone, recommending native plants for slope stabilization.\n\nCommon to Zones 1 and 2 are guidelines for maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive species, and adhering to seasonal landscape maintenance."
+            },
+            {
+              "title": "DEFENSIBLE SPACE",
+              "start_index": 49,
+              "end_index": 49,
+              "nodes": [
+                {
+                  "title": "Zone 0: Ember-Resistant Zone (0\u20135 Feet)",
+                  "start_index": 49,
+                  "end_index": 49,
+                  "node_id": "0056",
+                  "summary": "This partial document describes the concept of \"Defensible Space\" for fire protection, outlining three distinct zones around a property. It details specific recommendations for each zone: Zone 0 (Ember-Resistant Zone, 0-5 feet) focuses on non-combustible materials and removal of all dead vegetation; Zone 1 (Home Protection Zone, extending 30-50 feet) emphasizes landscape planning with vegetation \"islands\" and well-irrigated, lean plants; and Zone 2 (The Thinning Zone, extending 100 feet) suggests native plants for slope stabilization. Common recommendations for Zones 1 and 2 include maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive grasses, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for additional FAQs and resources."
+                },
+                {
+                  "title": "Zone 1: Home Protection Zone (Extends 30 Feet Outwards, 50 Feet on Slopes)",
+                  "start_index": 49,
+                  "end_index": 49,
+                  "node_id": "0057",
+                  "summary": "This partial document describes the concept of \"Defensible Space\" around a home, outlining three distinct zones with specific recommendations for fire prevention. Zone 0, the Ember-Resistant Zone (0-5 feet), focuses on using non-combustible materials, limiting plants, and removing all dead vegetation. Zone 1, the Home Protection Zone (up to 30 feet, 50 feet on slopes), suggests landscape planning with vegetation \"islands\" and maintaining lean, green, and well-irrigated plants. Zone 2, the Thinning Zone (up to 100 feet), recommends considering native plants for slope stabilization. Common advice for Zones 1 and 2 includes maintaining proper spacing between plants, removing ladder fuels, planting native species, removing invasive species, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for more information, FAQs, and resources."
+                },
+                {
+                  "title": "Zone 2: The Thinning Zone (Extends 100 Feet Outwards)",
+                  "start_index": 49,
+                  "end_index": 49,
+                  "node_id": "0058",
+                  "summary": "This partial document describes the concept of \"Defensible Space\" around a home, outlining three distinct zones with specific recommendations for fire prevention. Zone 0, the Ember-Resistant Zone (0-5 feet), focuses on using non-combustible materials, limiting plants, and removing all dead vegetation. Zone 1, the Home Protection Zone (up to 30 feet, 50 feet on slopes), suggests landscape planning with vegetation \"islands\" and maintaining lean, green, and well-irrigated plants. Zone 2, the Thinning Zone (up to 100 feet), recommends considering native plants for slope stabilization. Common advice for Zones 1 and 2 includes maintaining proper spacing between plants, removing ladder fuels, planting native species, removing invasive species, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for more information, FAQs, and resources."
+                },
+                {
+                  "title": "Common to Zone 1 & Zone 2",
+                  "start_index": 49,
+                  "end_index": 48,
+                  "node_id": "0059",
+                  "summary": "The partial document is empty and therefore covers no main points."
+                }
+              ],
+              "node_id": "0055",
+              "summary": "This partial document describes the concept of \"Defensible Space\" around a home, outlining three distinct zones with specific recommendations for fire prevention. Zone 0, the Ember-Resistant Zone (0-5 feet), focuses on using non-combustible materials, limiting plants, and removing all dead vegetation. Zone 1, the Home Protection Zone (up to 30 feet, 50 feet on slopes), suggests landscape planning with vegetation \"islands\" and maintaining lean, green, and well-irrigated plants. Zone 2, the Thinning Zone (up to 100 feet), recommends considering native plants for slope stabilization. Common advice for Zones 1 and 2 includes maintaining proper spacing between plants, removing ladder fuels, planting native species, removing invasive species, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for more information, FAQs, and resources."
+            }
+          ],
+          "node_id": "0045",
+          "summary": "This partial document provides a self-assessment checklist for homeowners to create defensible space around their property, focusing on fire safety. It covers specific areas such as roofing, open-eaves, rain gutters, and vents, offering actionable advice. Key recommendations include removing vegetation and combustible debris, maintaining clear distances from roofs and chimneys, inspecting for and sealing gaps, installing spark arrestors, evaluating and replacing non-fire-resistant materials, and ensuring proper vent screening and baffling."
+        },
+        {
+          "title": "We Have More: Check out the FAQ & Resources on Our Website!",
+          "start_index": 49,
+          "end_index": 49,
+          "node_id": "0060",
+          "summary": "This partial document describes the concept of \"Defensible Space\" for fire protection, outlining three distinct zones around a property. It details specific recommendations for each zone: Zone 0 (Ember-Resistant Zone, 0-5 feet) focuses on non-combustible materials and removal of all dead vegetation; Zone 1 (Home Protection Zone, extending 30-50 feet) emphasizes landscape planning with vegetation \"islands\" and well-irrigated, lean plants; and Zone 2 (The Thinning Zone, extending 100 feet) suggests native plants for slope stabilization. Common recommendations for Zones 1 and 2 include maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive grasses, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for additional FAQs and resources."
+        },
+        {
+          "title": "Funding Sources",
+          "start_index": 50,
+          "end_index": 50,
+          "node_id": "0061",
+          "summary": "The partial document covers funding sources, the Technical Advisory Committee, content creation, branding, and brochures. It also includes an acknowledgement of partners and a call to action to share information."
+        },
+        {
+          "title": "Technical Advisory Committee",
+          "start_index": 50,
+          "end_index": 50,
+          "node_id": "0062",
+          "summary": "The partial document covers funding sources, the Technical Advisory Committee, content creation, branding, and brochures. It also includes an acknowledgement of partners and a call to action to share information."
+        },
+        {
+          "title": "Content Creation, Brand, and Brochure",
+          "start_index": 50,
+          "end_index": 50,
+          "node_id": "0063",
+          "summary": "The partial document covers funding sources, the Technical Advisory Committee, content creation, branding, and brochures. It also includes acknowledgements to partners and a call to action for readers to share information."
+        },
+        {
+          "title": "RCDSMM Thanks All of Our Partners",
+          "start_index": 50,
+          "end_index": 51,
+          "node_id": "0064",
+          "summary": "This partial document introduces the critical issue of wildfires, particularly in Southern California, highlighting their destructive impact and the importance of preparing properties. It presents \"Sustainable Defensible Space\" as a solution to help protect homes, communities, and wildlands. The document also includes acknowledgments to partners and funding sources, a call to action to share information, and directs readers to DefensibleSpace.org for more details, listing potential content sections like Home Landscape Plants, Community, and Resources."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "This partial document outlines the \"Wildland Urban Interface Wildfire Resilience Homeowner Handbook,\" created by the Resource Conservation District of the Santa Monica Mountains (RCDSMM) with funding from CALFIRE through the California Climate Investments Program. It introduces defensiblespace.org, a platform designed to improve fire safety and habitat quality in the defensible space of homes within the Wildland Urban Interface (WUI).\n\nThe main points covered include:\n*   **Introduction to Sustainable Defensible Space:** Defining it as the area up to 100 feet around a home, crucial for wildfire resistance, firefighter safety, and environmental conservation (habitat, biodiversity, carbon storage, water conservation).\n*   **Home Fortification:** Detailed guidance on making homes resistant to wildfire, particularly against ember intrusion, covering aspects like roofing materials, open-eave design, rain gutters, vents, windows, doors, walls, fences, and decks.\n*   **Firewise Landscape Design:** Strategies for creating a fire-resistant landscape, divided into specific zones: Zone 0 (Ember-Resistant Zone), Zone 1 (Home Protection Zone), Zone 2 (Reduced Fuel/Thinning Zone), and managing the surrounding wildland.\n*   **Plant Selection and Maintenance:** Information on \"fire-resistant\" plants, the habitat value of native gardens, and the impact of fire and invasive species.\n*   **Understanding Local Environment:** Encouraging homeowners to learn about their specific location's wildfire risk and habitat types using tools like interactive maps.\n*   **Community Planning and Collaboration:** Emphasizing the importance of neighbors working together to understand and mitigate shared wildfire risks.\n*   **Wildfire Preparedness:** Advice on what to do before, during, and after a fire, including creating a \"Wildfire Action Plan.\"\n*   **Practical Tools:** A self-assessment checklist and resources for further information."
+    },
+    {
+      "title": "Introduction",
+      "start_index": 51,
+      "end_index": 47,
+      "node_id": "0065",
+      "summary": "The partial document is empty and therefore covers no main points."
+    },
+    {
+      "title": "Roofing Materials & Maintenance",
+      "start_index": 47,
+      "end_index": 47,
+      "node_id": "0066",
+      "summary": "This partial document provides a self-assessment checklist for homeowners to create defensible space around their property, focusing on fire safety. It covers specific areas such as roofing, open-eaves, rain gutters, and vents, offering actionable advice. Key recommendations include removing vegetation and combustible debris, maintaining clear distances from roofs and chimneys, inspecting for and sealing gaps, installing spark arrestors, evaluating and replacing non-fire-resistant materials, and ensuring proper vent screening and baffling."
+    },
+    {
+      "title": "Open-Eave Design",
+      "start_index": 47,
+      "end_index": 47,
+      "node_id": "0067",
+      "summary": "The partial document provides a self-assessment checklist for creating defensible space around a property, focusing on fire safety and prevention. It details specific actions for various parts of a house's exterior, including:\n\n*   **Roofing**: Recommendations for removing vegetation debris, inspecting vulnerable areas, clearing overhanging tree limbs, checking for gaps, and installing spark arrestors on chimneys.\n*   **Open-Eave**: Guidance on evaluating and replacing non-fire-resistant soffits, and removing combustible materials from under eaves.\n*   **Rain Gutters**: Instructions for checking and maintaining leaf-guards, replacing damaged components, and regularly removing vegetation debris.\n*   **Vents**: Advice on installing fine metal mesh screens and baffling attic and soffit vents.\n\nThe overall aim is to help homeowners identify and mitigate fire risks related to their house and landscape."
+    },
+    {
+      "title": "Rain Gutters & Leaf-Guards",
+      "start_index": 47,
+      "end_index": 47,
+      "node_id": "0068",
+      "summary": "This partial document provides a self-assessment checklist for homeowners to create defensible space around their property, focusing on fire safety. It covers specific areas such as roofing, open-eaves, rain gutters, and vents, offering actionable advice. Key recommendations include removing vegetation and combustible debris, maintaining clear distances from roofs and chimneys, inspecting for and sealing gaps, installing spark arrestors, evaluating and replacing non-fire-resistant materials, and ensuring proper vent screening and baffling."
+    },
+    {
+      "title": "Vents & Ember Intrusion",
+      "start_index": 47,
+      "end_index": 48,
+      "node_id": "0069",
+      "summary": "This partial document provides a detailed self-assessment checklist and actionable recommendations for homeowners to enhance wildfire preparedness and create defensible space around their property. It covers various structural components and immediate surroundings of a house, offering specific guidance on:\n\n*   **Roofing:** Removing debris, maintaining clearances from tree limbs, sealing gaps, and using spark arrestors.\n*   **Eaves and Gutters:** Evaluating fire resistance of soffits, removing combustible materials, and maintaining leaf-guards and gutters.\n*   **Vents:** Installing fine mesh screens, baffling vents, and keeping areas around vents clear of vegetation and combustibles.\n*   **Fences:** Replacing sections connecting to the house with noncombustible materials, clearing vegetation, and proper storage of firewood.\n*   **Decks:** Preventing storage of combustible materials underneath, creating ember-resistant zones, and applying fire-resistant treatments to joists.\n*   **Windows & Skylights:** Upgrading to multi-pane/tempered glass, installing screens, and managing surrounding vegetation and furniture during wildfire threats.\n*   **Doors & Garages:** Removing doormats, clearing combustibles from the 5-foot zone, and sealing gaps.\n*   **Walls, Sidings, & Coatings:** Avoiding storage of combustible items near sidings and removing vegetation debris from the base.\n\nThe overarching theme is to minimize ignition risk by removing combustible materials, maintaining clearances, and implementing fire-resistant modifications to protect the home from embers and direct flame contact during a wildfire."
+    },
+    {
+      "title": "Windows & Skylights",
+      "start_index": 48,
+      "end_index": 48,
+      "node_id": "0070",
+      "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+    },
+    {
+      "title": "Doors & Garages",
+      "start_index": 48,
+      "end_index": 48,
+      "node_id": "0071",
+      "summary": "This partial document outlines practical strategies for wildfire preparedness and home hardening, focusing on creating ember-resistant zones and minimizing ignition risks around a property. It provides specific recommendations for various exterior components, including:\n\n*   **Fences:** Replacing sections near buildings with noncombustible materials, clearing vegetation debris, maintaining physical condition, and avoiding firewood storage.\n*   **Decks:** Preventing storage of combustible materials underneath, establishing an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists to mitigate ember ignition.\n*   **Vent Openings:** Removing vegetation and combustible items from near vents and within a 5-foot zone around the house.\n*   **Windows & Skylights:** Upgrading to multi-pane tempered glass, installing screens, closing them during wildfire threats, clearing debris, and moving patio furniture away.\n*   **Doors & Garages:** Removing doormats on high-risk days, clearing vegetation and combustibles within 5 feet, and ensuring proper sealing of garage doors.\n*   **Walls, Sidings, & Coatings:** Avoiding storage of combustible items near sidings and removing vegetation debris from the base.\n\nThe overarching goal is to reduce the vulnerability of a home to wildfire ignition, particularly from embers."
+    },
+    {
+      "title": "Walls, Sidings, & Coatings",
+      "start_index": 48,
+      "end_index": 48,
+      "node_id": "0072",
+      "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+    },
+    {
+      "title": "Fences",
+      "start_index": 48,
+      "end_index": 48,
+      "node_id": "0073",
+      "summary": "This partial document provides detailed recommendations for creating an ember-resistant zone around a property to minimize wildfire ignition risk. It covers specific actions for various exterior components, including replacing the first 5 feet of fences connecting to a building with noncombustible material, clearing vegetation and debris from fence bases, and not storing firewood along fences. For decks, it advises against storing combustible materials underneath, creating an ember-resistant zone by removing vegetation, routinely clearing debris, and applying flashing to support joists. The document also emphasizes removing vegetation and combustible items near vent openings, upgrading windows and skylights with multi-pane tempered glass and screens, closing them during wildfire threats, and clearing debris around them. For doors and garages, it recommends removing doormats on high-risk days, clearing combustibles within 5 feet, and sealing garage door gaps. Finally, it advises against storing combustible items near walls and sidings and removing vegetation debris from their base."
+    },
+    {
+      "title": "Decks & Ember Ignition",
+      "start_index": 48,
+      "end_index": 49,
+      "node_id": "0074",
+      "summary": "This partial document provides detailed guidelines for creating a wildfire-resistant home and establishing defensible space. It outlines specific actions for various components of a property, including fences, decks, windows, skylights, doors, garages, walls, sidings, and vent openings, focusing on minimizing ignition risk.\n\nKey recommendations include:\n*   **Removing combustible materials and vegetation:** Clearing debris, pine needles, leaf litter, and other flammable items from around and under structures, near vents, windows, doors, and sidings.\n*   **Replacing or modifying materials:** Suggesting noncombustible materials for fences connecting to buildings, applying metal flashing to deck joists, and using multi-pane/tempered glass windows.\n*   **Maintaining clear zones:** Emphasizing an \"ember-resistant zone\" directly around the house and removing vegetation within 5 feet of structures.\n*   **Operational measures:** Closing windows/skylights, removing doormats, and moving patio furniture during wildfire threats.\n\nThe document further defines three zones for \"Defensible Space\":\n*   **Zone 0 (0-5 feet):** An ember-resistant zone immediately surrounding the house, focusing on non-combustible ground treatment, limited and well-maintained nonwoody plants, and removal of all dead vegetation.\n*   **Zone 1 (up to 30 feet, 50 feet on slopes):** A home protection zone advocating for landscape \"islands\" with hardscape, lean, green, and irrigated vegetation, and removal of dead plants.\n*   **Zone 2 (up to 100 feet):** A thinning zone, recommending native plants for slope stabilization.\n\nCommon to Zones 1 and 2 are guidelines for maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive species, and adhering to seasonal landscape maintenance."
+    },
+    {
+      "title": "Zone 0: The Ember-Resistant Zone (ERZ)",
+      "start_index": 49,
+      "end_index": 49,
+      "node_id": "0075",
+      "summary": "This partial document describes the concept of \"Defensible Space\" around a home, outlining three distinct zones with specific recommendations for fire prevention. Zone 0, the Ember-Resistant Zone (0-5 feet), focuses on using non-combustible materials, limiting plants, and removing all dead vegetation. Zone 1, the Home Protection Zone (up to 30 feet, 50 feet on slopes), suggests landscape planning with vegetation \"islands\" and maintaining lean, green, and well-irrigated plants. Zone 2, the Thinning Zone (up to 100 feet), recommends considering native plants for slope stabilization. Common advice for Zones 1 and 2 includes maintaining proper spacing between plants, removing ladder fuels, planting native species, removing invasive species, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for more information, FAQs, and resources."
+    },
+    {
+      "title": "Zone 1: The Home Protection Zone",
+      "start_index": 49,
+      "end_index": 49,
+      "node_id": "0076",
+      "summary": "This partial document describes the concept of \"Defensible Space\" for fire protection, outlining three distinct zones around a property. It details specific recommendations for each zone: Zone 0 (Ember-Resistant Zone, 0-5 feet) focuses on non-combustible materials and removal of all dead vegetation; Zone 1 (Home Protection Zone, extending 30-50 feet) emphasizes landscape planning with vegetation \"islands\" and well-irrigated, lean plants; and Zone 2 (The Thinning Zone, extending 100 feet) suggests native plants for slope stabilization. Common recommendations for Zones 1 and 2 include maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive grasses, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for additional FAQs and resources."
+    },
+    {
+      "title": "Zone 2: The Reduced Fuel / Thinning Zone",
+      "start_index": 49,
+      "end_index": 35,
+      "node_id": "0077",
+      "summary": "The partial document is empty and does not contain any text or information."
+    },
+    {
+      "title": "Plants",
+      "start_index": 35,
+      "end_index": 35,
+      "nodes": [
+        {
+          "title": "What Is a \u201cFire-Resistant\u201d Plant?",
+          "start_index": 35,
+          "end_index": 35,
+          "node_id": "0079",
+          "summary": "This partial document advocates for the use of California native plants to support local ecology, create wildlife \"bridges\" in developed areas, and encourage community involvement in preservation. It specifically highlights a list of fire-resistant native plants, clarifying that while no plant is fireproof, certain species retain moisture and offer resistance, especially useful for areas cleared of brush. The document provides examples of such plants, categorized as trees and shrubs, including Toyon, Coast Live Oak, Lemonade Berry, Guadalupe Island Rock Daisy, and Sages, detailing their characteristics and benefits like wildlife value, drought resistance, and erosion control."
+        },
+        {
+          "title": "The Habitat Value of a Native Garden",
+          "start_index": 35,
+          "end_index": 36,
+          "node_id": "0080",
+          "summary": "This partial document advocates for the use of California native plants to support local ecology, create wildlife habitats, and connect wildlands. A significant portion focuses on identifying and describing fire-resistant native plants, clarifying that while no plant is fireproof, certain species retain moisture and can reduce fire risk. The document provides a curated list of such plants, categorized into trees, shrubs, and groundcovers, detailing their characteristics, benefits (like drought resistance, erosion control, and wildlife value), and maintenance tips. It also encourages community involvement in preserving native flora and directs readers to a website for a more comprehensive list of fire-resistant native plants."
+        },
+        {
+          "title": "Fire & Invasive Species",
+          "start_index": 36,
+          "end_index": 40,
+          "node_id": "0081",
+          "summary": "This partial document provides guidance on creating defensible space around properties, focusing heavily on plant selection and management to reduce wildfire risk. It highlights specific beneficial plants like sages, dwarf coyote bush, and willowy coyote mint, emphasizing the importance of maintenance for fire safety. A significant portion is dedicated to explaining the dangers of invasive plants, detailing how these non-native species increase fire hazards, harm wildland health by displacing native vegetation and reducing biodiversity, and contribute to erosion and flooding. The document lists and describes numerous common invasive species in Southern California, outlining their specific negative impacts. Finally, it encourages users to utilize an interactive GIS map to understand their specific location's habitat types, past fire history, and local protection plans to better assess and mitigate wildfire vulnerability."
+        }
+      ],
+      "node_id": "0078",
+      "summary": "This partial document advocates for supporting local ecology by planting California native plants to create wildlife \"bridges\" in developed areas and encourages community involvement in preservation. It then focuses on identifying and listing fire-resistant California native plants, clarifying that while no plant is fireproof, some retain moisture and are considered fire-resistant. The purpose of this list is to help place beneficial, fire-resistant, and wildlife-important plants in areas cleared of brush. The document provides examples of such plants, including trees like Toyon and Coast Live Oak, and shrubs like Lemonade Berry, Guadalupe Island Rock Daisy, and various Sages, detailing their characteristics and ecological benefits. It also directs readers to a website for a full list of these plants."
+    },
+    {
+      "title": "Location",
+      "start_index": 40,
+      "end_index": 40,
+      "nodes": [
+        {
+          "title": "No Two Places Alike: Learn About Your Location",
+          "start_index": 40,
+          "end_index": 40,
+          "node_id": "0083",
+          "summary": "This partial document describes an interactive Geographic Information System (GIS) map available on DefensibleSpace.org/location. The map allows users to learn about the unique qualities of their property, including its local habitat types (e.g., Oak Woodland, Coastal Sage Scrub, Chaparral), past fire history, and community jurisdiction and protection plans. The primary goal is to help users understand their vulnerability to wildfire and how their decisions, both individually and as a community, can impact it."
+        }
+      ],
+      "node_id": "0082",
+      "summary": "This partial document describes an interactive Geographic Information System (GIS) map available on DefensibleSpace.org/location. The map allows users to learn about the unique qualities of their property, including its local habitat types (e.g., Oak Woodland, Coastal Sage Scrub, Chaparral), past fire history, and community jurisdiction and protection plans. The primary goal is to help users understand their vulnerability to wildfire and how their decisions, both individually and as a community, can impact it."
+    },
+    {
+      "title": "Community",
+      "start_index": 41,
+      "end_index": 41,
+      "nodes": [
+        {
+          "title": "Organize with Your Neighbors: Community Planning",
+          "start_index": 41,
+          "end_index": 43,
+          "node_id": "0085",
+          "summary": "This partial document emphasizes the critical role of community planning and neighbor collaboration in reducing wildfire vulnerability. It details how individual defensible spaces often overlap with neighboring properties, necessitating a cooperative approach to shared risks. The text highlights that a burning home is the greatest threat to neighbors and stresses the importance of protecting one's own property. It also addresses managing defensible space on undeveloped neighboring parcels, including potential requirements for thinning beyond 100 feet and the need to consult local authorities due to regulations protecting native vegetation. Furthermore, the document advocates for conserving native habitats on larger parcels for ecosystem services. Finally, it underscores the importance of community-wide wildfire preparedness, recommending signing up for emergency alert systems and engaging with initiatives like Fire Safe Councils or Fire Adapted Communities."
+        },
+        {
+          "title": "What to Do Before, During, & After a Fire",
+          "start_index": 43,
+          "end_index": 45,
+          "node_id": "0086",
+          "summary": "This partial document provides comprehensive guidance on wildfire safety, emphasizing the critical role of community-wide cooperation and preparedness. It outlines actions to take \"Before, During, & After a Fire,\" stressing that collective efforts in vegetation management and home hardening across a neighborhood are more effective than individual actions.\n\nKey points covered include:\n*   **Community-level preparedness**: Encouraging neighborhoods to work together to create defensible space, adopt Firewise standards, and engage in Community Wildfire Protection Planning.\n*   **Emergency Alert Systems**: Recommending specific local and county notification systems (e.g., Nixle, NotifyLA, Alert LA County, VC Alert) for receiving critical updates.\n*   **Pre-fire actions**: Details on programs like \"Map Your Neighborhood\" and \"Ready Your LA Neighborhood\" to foster neighbor-to-neighbor readiness and mutual support.\n*   **During-fire response**: Identifying primary emergency response agencies (e.g., CalFire, Forest Service) and community support organizations (e.g., CERT, American Red Cross).\n*   **Post-fire recovery strategies**: Guidance on addressing structure loss, erosion risk, and landscape restoration, again highlighting the importance of community collaboration with agencies.\n*   **Personal Wildfire Action Plan**: Instructions for families to create and practice a personalized plan, aligning with CAL FIRE's \"Ready, Set, Go!\" program, which details steps for being ready (defensible space, home hardening), getting set (evacuation planning), and being ready to go (early evacuation)."
+        },
+        {
+          "title": "Make Your \u201cWildfire Action Plan\u201d Today!",
+          "start_index": 45,
+          "end_index": 47,
+          "node_id": "0087",
+          "summary": "This partial document provides a comprehensive guide for wildfire preparedness, emphasizing the creation of a \"Wildfire Action Plan\" for families and homes, particularly in California. It details CALFIRE's \"Ready, Set, Go!\" program, outlining steps to \"Be Ready\" (defensible space, home hardening), \"Get Set\" (preparing for evacuation, including COVID-19 adaptations), and \"Be Ready to Go!\" (early evacuation). The document includes a checklist for creating an evacuation plan, a family communication plan, and general preparedness measures like emergency supply kits. It also highlights the \"6 P's\" for essential items to gather during immediate evacuation and offers a self-assessment checklist for home and landscape hardening, covering specific actions for roofs, open eaves, rain gutters, and vents to improve fire resistance."
+        }
+      ],
+      "node_id": "0084",
+      "summary": "This partial document emphasizes the critical role of community planning and neighbor collaboration in reducing wildfire vulnerability. It highlights that individual defensible spaces often overlap with neighboring properties, making it essential to work together to understand and mitigate shared risks. The document also stresses that a home itself, if ignited, poses the greatest threat to neighbors due to intense heat and embers, thus protecting one's home from ignition is crucial for community safety."
+    },
+    {
+      "title": "Tools for House & Landscape",
+      "start_index": 47,
+      "end_index": 47,
+      "nodes": [
+        {
+          "title": "Self-Assessment Checklist",
+          "start_index": 47,
+          "end_index": 49,
+          "node_id": "0089",
+          "summary": "The partial document provides a detailed checklist and guidelines for creating defensible space around a home to mitigate wildfire risk. It covers specific recommendations for various parts of a house, including:\n\n*   **Roofing:** Removing debris, trimming overhanging tree limbs, checking for gaps, and installing spark arrestors.\n*   **Open-Eaves:** Evaluating and replacing soffits with fire-resistant materials, and removing combustible debris.\n*   **Rain Gutters:** Ensuring leaf-guards are installed correctly, replacing damaged components, and regularly removing vegetation debris.\n*   **Vents:** Installing non-corrosive metal mesh screens, baffling attic and soffit vents, and clearing vegetation and combustible items from around vent openings.\n*   **Fences:** Replacing the section connecting to the building with noncombustible material, keeping the base clear of debris, and avoiding firewood storage along fences.\n*   **Decks:** Prohibiting storage of combustible materials underneath, creating an ember-resistant zone, routinely removing debris, and applying metal flashing to support joists.\n*   **Windows & Skylights:** Replacing windows with multi-pane tempered glass, installing screens, closing them during wildfire threats, and removing surrounding vegetation debris.\n*   **Doors & Garages:** Removing doormats during high-risk days, clearing vegetation and combustibles within 5 feet, and sealing gaps around garage doors.\n*   **Walls, Sidings, & Coatings:** Avoiding storage of combustible items near sidings and removing vegetation debris from the base.\n\nA significant portion of the document is dedicated to defining and managing **Defensible Space Zones**:\n*   **Zone 0 (0-5 feet):** An ember-resistant zone emphasizing non-combustible ground treatment, limited low-growing plants, and removal of all dead vegetation.\n*   **Zone 1 (up to 30-50 feet):** A home protection zone focusing on landscape \"islands\" with lean, green, and well-irrigated vegetation.\n*   **Zone 2 (up to 100 feet):** A thinning zone for further vegetation management, including native plants for slope stabilization.\n\nGeneral advice for Zones 1 and 2 includes maintaining proper horizontal and vertical spacing between plants, removing ladder fuels, planting native species, removing invasive species, and following seasonal maintenance recommendations. The document also directs readers to DefensibleSpace.org for additional information, FAQs, and resources."
+        }
+      ],
+      "node_id": "0088",
+      "summary": "The partial document provides a self-assessment checklist for creating defensible space around a property, focusing on fire safety and prevention. It details specific actions for various parts of a house's exterior, including:\n\n*   **Roofing**: Recommendations for removing vegetation debris, inspecting vulnerable areas, clearing overhanging tree limbs, checking for gaps, and installing spark arrestors on chimneys.\n*   **Open-Eave**: Guidance on evaluating and replacing non-fire-resistant soffits, and removing combustible materials from under eaves.\n*   **Rain Gutters**: Instructions for checking and maintaining leaf-guards, replacing damaged components, and regularly removing vegetation debris.\n*   **Vents**: Advice on installing fine metal mesh screens and baffling attic and soffit vents.\n\nThe overall aim is to help homeowners identify and mitigate fire risks related to their house and landscape."
+    },
+    {
+      "title": "More",
+      "start_index": 49,
+      "end_index": 49,
+      "nodes": [
+        {
+          "title": "FAQs & Resources",
+          "start_index": 49,
+          "end_index": 51,
+          "node_id": "0091",
+          "summary": "This partial document provides an introduction to the critical importance of wildfire preparedness, particularly in fire-prone regions like Southern California, and offers detailed guidance on creating \"Defensible Space\" around homes. It outlines specific recommendations for three distinct zones: Zone 0 (Ember-Resistant Zone, 0-5 feet), Zone 1 (Home Protection Zone, up to 30-50 feet), and Zone 2 (The Thinning Zone, up to 100 feet). Key instructions include replacing combustible materials, limiting certain types of plants, maintaining proper spacing, removing dead or invasive vegetation, and utilizing native plants. The document also directs readers to DefensibleSpace.org for more resources and encourages sharing the information."
+        }
+      ],
+      "node_id": "0090",
+      "summary": "This partial document describes the concept of \"Defensible Space\" for fire protection, outlining three distinct zones around a property. It details specific recommendations for each zone: Zone 0 (Ember-Resistant Zone, 0-5 feet) focuses on non-combustible materials and removal of all dead vegetation; Zone 1 (Home Protection Zone, extending 30-50 feet) emphasizes landscape planning with vegetation \"islands\" and well-irrigated, lean plants; and Zone 2 (The Thinning Zone, extending 100 feet) suggests native plants for slope stabilization. Common recommendations for Zones 1 and 2 include maintaining proper plant spacing, removing ladder fuels, planting native species, removing invasive grasses, and following seasonal maintenance. The document also directs readers to DefensibleSpace.org for additional FAQs and resources."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "source": "Western Governors' Association - Top 50 Invasive Species in the West",
+  "url": "https://westgov.org/images/editor/WGA_Top_50_Invasive_Species_List_1.pdf",
+  "date": "December 2017",
+  "methodology": "Survey of invasive species coordinators in western states, weighted ranking",
+  "note": "Plant species only extracted (animals, diseases, algae excluded from original Top 50)",
+  "plants": [
+    {
+      "rank": 1,
+      "scientific_name": "Tamarix spp.",
+      "common_name": "Salt Cedar (Tamarisk)",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 2,
+      "scientific_name": "Bromus tectorum",
+      "common_name": "Cheatgrass",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 3,
+      "scientific_name": "Cirsium arvense",
+      "common_name": "Canada Thistle",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 4,
+      "scientific_name": "Cardaria draba",
+      "common_name": "Hoary Cress",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 7,
+      "scientific_name": "Elaeagnus angustifolia",
+      "common_name": "Russian Olive",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 8,
+      "scientific_name": "Euphorbia esula",
+      "common_name": "Leafy Spurge",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 9,
+      "scientific_name": "Sorghum halepense",
+      "common_name": "Johnsongrass",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 11,
+      "scientific_name": "Arundo donax",
+      "common_name": "Giant Reed",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 12,
+      "scientific_name": "Acroptilon repens",
+      "common_name": "Russian Knapweed",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 14,
+      "scientific_name": "Lepidium latifolium",
+      "common_name": "Perennial Pepperweed",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 16,
+      "scientific_name": "Centaurea solstitialis",
+      "common_name": "Yellow Starthistle",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 17,
+      "scientific_name": "Polygonum spp.",
+      "common_name": "Knotweeds",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 18,
+      "scientific_name": "Lespedeza cuneata",
+      "common_name": "Sericea Lespedeza",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 20,
+      "scientific_name": "Lythrum salicaria",
+      "common_name": "Purple Loosestrife",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 21,
+      "scientific_name": "Onopordum acanthium",
+      "common_name": "Scotch Thistle",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 22,
+      "scientific_name": "Isatis tinctoria",
+      "common_name": "Dyer's Woad",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 23,
+      "scientific_name": "Butomus umbellatus",
+      "common_name": "Flowering Rush",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 24,
+      "scientific_name": "Phalaris arundinacea",
+      "common_name": "Reed Canary-Grass",
+      "category": "Terrestrial"
+    },
+    {
+      "rank": 1,
+      "scientific_name": "Myriophyllum spicatum",
+      "common_name": "Eurasian Watermilfoil",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 5,
+      "scientific_name": "Potamogeton crispus",
+      "common_name": "Curly-leaved Pondweed",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 8,
+      "scientific_name": "Lythrum salicaria",
+      "common_name": "Purple Loosestrife",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 9,
+      "scientific_name": "Hydrilla verticillata",
+      "common_name": "Hydrilla",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 15,
+      "scientific_name": "Egeria densa",
+      "common_name": "Brazilian Elodea",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 17,
+      "scientific_name": "Salvinia molesta",
+      "common_name": "Giant Salvinia",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 23,
+      "scientific_name": "Eichhornia crassipes",
+      "common_name": "Water Hyacinth",
+      "category": "Aquatic"
+    },
+    {
+      "rank": 25,
+      "scientific_name": "Phragmites australis",
+      "common_name": "Common Reed",
+      "category": "Aquatic"
+    }
+  ]
+}

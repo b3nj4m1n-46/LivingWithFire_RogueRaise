@@ -1,0 +1,12 @@
+# Git LFS - files over 100MB
+# These are tracked outputs we want available on clone but exceed GitHub's per-file limit.
+
+# Taxonomy backbone CSVs
+database-sources/taxonomy/POWO_WCVP/plants.csv filter=lfs diff=lfs merge=lfs -text
+database-sources/taxonomy/WorldFloraOnline/plants.csv filter=lfs diff=lfs merge=lfs -text
+# Taxonomy backbone DBs
+database-sources/taxonomy/POWO_WCVP/plants.db filter=lfs diff=lfs merge=lfs -text
+database-sources/taxonomy/WorldFloraOnline/plants.db filter=lfs diff=lfs merge=lfs -text
+# Large enriched dataset
+database-sources/traits/MBG_PlantFinder/plants_enriched.csv filter=lfs diff=lfs merge=lfs -text
+database-sources/traits/MBG_PlantFinder/plants_enriched.db filter=lfs diff=lfs merge=lfs -text

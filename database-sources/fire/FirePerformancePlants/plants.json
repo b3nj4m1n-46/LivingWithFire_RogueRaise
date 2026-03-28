@@ -1,0 +1,5412 @@
+[
+  {
+    "common_name": "allegheny serviceberry",
+    "scientific_name": "Amelanchier laevis",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "amelanchier-laevis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "allegheny spurge",
+    "scientific_name": "Pachysandra procumbens",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ1",
+    "slug": "pachysandra-procumbens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "alpine currant",
+    "scientific_name": "Ribes alpinum",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "ribes-alpinum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American beautyberry",
+    "scientific_name": "Callicarpa americana",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "callicarpa-americana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American beech",
+    "scientific_name": "Fagus grandifolia",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fagus-grandifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "American chestnut",
+    "scientific_name": "Castanea dentata",
+    "size_feet": "40'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "castanea-dentata",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American devilwood",
+    "scientific_name": "Osmanthus americanus",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "osmanthus-americanus",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "American elm",
+    "scientific_name": "Ulmus americana",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-americana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "American hazelnut",
+    "scientific_name": "Corylus americana",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "corylus-americana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American holly",
+    "scientific_name": "Ilex opaca",
+    "size_feet": "50'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-opaca",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American mountain-ash",
+    "scientific_name": "Sorbus americana",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "sorbus-americana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "American plum",
+    "scientific_name": "Prunus americana",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "prunus-americana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "American wisteria",
+    "scientific_name": "Wisteria frutescens",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "wisteria-frutescens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "amur honeysuckle",
+    "scientific_name": "Lonicera maacki",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "lonicera-maacki",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "amur maackia",
+    "scientific_name": "Maackia amurensis",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "maackia-amurensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "amur maple",
+    "scientific_name": "Acer ginnala",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-ginnala",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Anglojapanese yew",
+    "scientific_name": "Taxus xmedia",
+    "size_feet": "6'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "taxus-xmedia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "apple",
+    "scientific_name": "Malus pumila",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-pumila",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "apple",
+    "scientific_name": "Malus sylvestris",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-sylvestris",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "apple serviceberry",
+    "scientific_name": "Amelanchier x grandiflora",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "amelanchier-x-grandiflora",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "arborvitae",
+    "scientific_name": "Thuja occidentalis",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "thuja-occidentalis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Arizona cypress",
+    "scientific_name": "Cupressus arizonica var. arizonica",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cupressus-arizonica-var-arizonica",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Arnold's Promise witchhazel",
+    "scientific_name": "Hamamelis x intermedia 'Arnold's Promise'",
+    "size_feet": "6'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "hamamelis-x-intermedia-arnolds-promise",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "arrowwood viburnum",
+    "scientific_name": "Viburnum lentago",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-lentago",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Atlas cedar",
+    "scientific_name": "Cedrus atlantica",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cedrus-atlantica",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "aurora dogwood",
+    "scientific_name": "Cornus x 'Rutban'",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cornus-x-rutban",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Austrian pine",
+    "scientific_name": "Pinus nigra",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-nigra",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "autumn olive",
+    "scientific_name": "Elaeagnus umbellata",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "elaeagnus-umbellata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "baldcypress",
+    "scientific_name": "Taxodium distichum",
+    "size_feet": "100.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "taxodium-distichum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "balsam fir",
+    "scientific_name": "Abies balsamea",
+    "size_feet": "60'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "abies-balsamea",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bamboo",
+    "scientific_name": "Phyllostachys spp.",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "phyllostachys-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "banana",
+    "scientific_name": "Musa spp.",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "musa-spp",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "banana shrub",
+    "scientific_name": "Michelia figo",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "michelia-figo",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "basswood",
+    "scientific_name": "Tilia americana",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "tilia-americana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bay",
+    "scientific_name": "Persea borbonia",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "persea-borbonia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "beaked hazelnut",
+    "scientific_name": "Corylus cornuta",
+    "size_feet": "8'",
+    "firewise_rating": "13",
+    "landscape_zone": "LZ2",
+    "slug": "corylus-cornuta",
+    "firewise_rating_code": null,
+    "firewise_rating_label": "13"
+  },
+  {
+    "common_name": "Beale's mahonia",
+    "scientific_name": "Mahonia bealei",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "mahonia-bealei",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "bearberry",
+    "scientific_name": "Arctostaphlos uva-ursi",
+    "size_feet": "<1'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "arctostaphlos-uvaursi",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "beautybush",
+    "scientific_name": "Kolkwitzia amabilis",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "kolkwitzia-amabilis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Big-leaf holly",
+    "scientific_name": "Ilex montana",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-montana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "bigleaf magnolia",
+    "scientific_name": "Magnolia macrophylla",
+    "size_feet": "30'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-macrophylla",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bird cherry",
+    "scientific_name": "Prunus avium",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-avium",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bitternut hickory",
+    "scientific_name": "Carya cordiformis",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-cordiformis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bittersweet",
+    "scientific_name": "Celastrus orbiculata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "celastrus-orbiculata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "black ash",
+    "scientific_name": "Fraxinus nigra",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black birch",
+    "scientific_name": "Betula lenta",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-lenta",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black chokeberry",
+    "scientific_name": "Aronia melanocarpa",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "aronia-melanocarpa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black gum or sour gum",
+    "scientific_name": "Nyssa sylvatica",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "nyssa-sylvatica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black jetbead",
+    "scientific_name": "Rhodotypos scandens",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhodotypos-scandens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "black locust",
+    "scientific_name": "Robinia pseudoacacia",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "robinia-pseudoacacia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "black maple",
+    "scientific_name": "Acer nigrum",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-nigrum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "black mulberry",
+    "scientific_name": "Morus nigra",
+    "size_feet": "30'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "morus-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black oak",
+    "scientific_name": "Quercus velutina",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-velutina",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black walnut",
+    "scientific_name": "Juglans nigra",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "juglans-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "black willow",
+    "scientific_name": "Salix nigra",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "salix-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "blackhaw viburnum",
+    "scientific_name": "Viburnum prunifolium",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "viburnum-prunifolium",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "blackjack oak",
+    "scientific_name": "Quercus marilandica",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-marilandica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bladdernut",
+    "scientific_name": "Staphylea trifolia",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "staphylea-trifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "blireana plum",
+    "scientific_name": "Prunus x blireana",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-x-blireana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "blue ash",
+    "scientific_name": "Fraxinus quadrangulata",
+    "size_feet": "75'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-quadrangulata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bluebeard",
+    "scientific_name": "Caryopteris xclandoensis",
+    "size_feet": "2'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "caryopteris-xclandoensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "bog laurel",
+    "scientific_name": "Kalmia polifolia",
+    "size_feet": "2'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "kalmia-polifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "bog rosemary",
+    "scientific_name": "Andromeda polifolia",
+    "size_feet": "2'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "andromeda-polifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Boston ivy",
+    "scientific_name": "Parthenocissus tricuspidata",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "parthenocissus-tricuspidata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "bottlebrush",
+    "scientific_name": "Callistemon citrinus",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "callistemon-citrinus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "bottlebrush buckeye",
+    "scientific_name": "Aesculus parviflora",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "aesculus-parviflora",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "boxelder",
+    "scientific_name": "Acer negundo",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-negundo",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "bridalwreath spirea",
+    "scientific_name": "Spirea prunifolia",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "spirea-prunifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bristly locust",
+    "scientific_name": "Robinia hispida",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "robinia-hispida",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bumald spirea",
+    "scientific_name": "Spirea xbulmalda",
+    "size_feet": "4'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "spirea-xbulmalda",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bur oak",
+    "scientific_name": "Quercus macrocarpa",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-macrocarpa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "burford Chinese holly",
+    "scientific_name": "Ilex cornuta 'Burfordii'",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-cornuta-burfordii",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "bush-honeysuckle",
+    "scientific_name": "Diervilla lonicera",
+    "size_feet": "5'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "diervilla-lonicera",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "butterflybush",
+    "scientific_name": "Buddleja davidii",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "buddleja-davidii",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "butternut",
+    "scientific_name": "Juglans cinerea",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "juglans-cinerea",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "buttonbush",
+    "scientific_name": "Cephalanthus occidentalis",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "cephalanthus-occidentalis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "callery pear",
+    "scientific_name": "Pyrus calleryana",
+    "size_feet": "40'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "pyrus-calleryana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Canada serviceberry",
+    "scientific_name": "Amelanchier canadensis",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "amelanchier-canadensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Canadian hemlock",
+    "scientific_name": "Tsuga canadensis",
+    "size_feet": "100.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "tsuga-canadensis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Canary palm",
+    "scientific_name": "Phoenix canariensis",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "phoenix-canariensis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Canby's mountain-lover",
+    "scientific_name": "Paxistima canbyi",
+    "size_feet": "4'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "paxistima-canbyi",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "candytuft",
+    "scientific_name": "Iberis sempervirens",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ1",
+    "slug": "iberis-sempervirens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Carolina allspice",
+    "scientific_name": "Calycanthus floridus",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "calycanthus-floridus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Carolina buckthorn",
+    "scientific_name": "Rhamnus caroliniana",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhamnus-caroliniana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Carolina hemlock",
+    "scientific_name": "Tsuga caroliniana",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "tsuga-caroliniana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Carolina jessamine",
+    "scientific_name": "Gelsemium sempervirens",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "gelsemium-sempervirens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Carolina rhododendron",
+    "scientific_name": "Rhododendron minus",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-minus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Carolina Safire Arizona cypress",
+    "scientific_name": "Cupressus glabra 'Carolina Safire'",
+    "size_feet": "35'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cupressus-glabra-carolina-safire",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Carolina sillverbell",
+    "scientific_name": "Halesia tetraptera",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "halesia-tetraptera",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "castor aralia",
+    "scientific_name": "Kalopanax pictus",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "kalopanax-pictus",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "catawba rhododendron",
+    "scientific_name": "Rhododendron catawbiense",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-catawbiense",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "cedar of Lebanon",
+    "scientific_name": "Cedrus libani",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cedrus-libani",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "chastetree",
+    "scientific_name": "Vitex agnus-castus",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vitex-agnuscastus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "cherry-Laurel",
+    "scientific_name": "Prunus caroliniana",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "prunus-caroliniana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "cherry-laurel",
+    "scientific_name": "Prunus lauracerasus",
+    "size_feet": "5'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "prunus-lauracerasus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "chestnut oak",
+    "scientific_name": "Quercus prinus",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-prinus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Chickasaw plum",
+    "scientific_name": "Prunus angustifolia",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "prunus-angustifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Chinaberry",
+    "scientific_name": "Melia azedarach",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "melia-azedarach",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Chinese chestnut",
+    "scientific_name": "Castanea mollissima",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "castanea-mollissima",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Chinese juniper",
+    "scientific_name": "Juniperus chinensis",
+    "size_feet": "12'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "juniperus-chinensis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Chinese photinia",
+    "scientific_name": "Photinia serrulata",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "photinia-serrulata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Chinese privit",
+    "scientific_name": "Ligustrum sinensis",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ligustrum-sinensis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "chinquapin",
+    "scientific_name": "Castanea pumila",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "castanea-pumila",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "chinquapin oak",
+    "scientific_name": "Quercus muehlenbergii",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-muehlenbergii",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "choke cherry",
+    "scientific_name": "Prunus virginiana",
+    "size_feet": "50'",
+    "firewise_rating": "",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-virginiana",
+    "firewise_rating_code": null,
+    "firewise_rating_label": ""
+  },
+  {
+    "common_name": "cinnamon clethra",
+    "scientific_name": "Clethra acuminata",
+    "size_feet": "6'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "clethra-acuminata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "citrus",
+    "scientific_name": "Citrus spp.",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "citrus-spp",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Coast azalea",
+    "scientific_name": "Rhododendron atlanticum",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-atlanticum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "coast leucothoe",
+    "scientific_name": "Leucothoe axillaris",
+    "size_feet": "5'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "leucothoe-axillaris",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "coast redwood",
+    "scientific_name": "Sequoia sempervirens",
+    "size_feet": "300.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "sequoia-sempervirens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "cockspur hawthorn",
+    "scientific_name": "Crataegus crus-galli",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "crataegus-crusgalli",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Colorado spruce",
+    "scientific_name": "Picea pungens",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "picea-pungens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "common boxwood",
+    "scientific_name": "Buxus sempervirens",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "buxus-sempervirens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "common flowering-quince",
+    "scientific_name": "Chaenomeles speciosa",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "chaenomeles-speciosa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "common juniper",
+    "scientific_name": "Juniperus communis",
+    "size_feet": "12'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "juniperus-communis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "common lilac",
+    "scientific_name": "Syringa vulgaris",
+    "size_feet": "12'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "syringa-vulgaris",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "common pricklyash",
+    "scientific_name": "Zanthoxylum americanum",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "zanthoxylum-americanum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "common privit",
+    "scientific_name": "Ligustrum vulgare",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ligustrum-vulgare",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "common witchhazel",
+    "scientific_name": "Hamamelis virginiana",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "hamamelis-virginiana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "confederate jasmine",
+    "scientific_name": "Trachelospermum jasminoides",
+    "size_feet": "35'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "trachelospermum-jasminoides",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "contorted filbert",
+    "scientific_name": "Corylus avellana 'Contorted'",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "corylus-avellana-contorted",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "contorted willow",
+    "scientific_name": "Salix matsudana 'Tortuosa'",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "salix-matsudana-tortuosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "corktree",
+    "scientific_name": "Phellodendron amurense",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "phellodendron-amurense",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "corneliancherry dogwood",
+    "scientific_name": "Cornus mas",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cornus-mas",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "cottonwood",
+    "scientific_name": "Populus deltoides",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "populus-deltoides",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "crabapple",
+    "scientific_name": "Malus hupehensis",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-hupehensis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "crabapple",
+    "scientific_name": "Malus spectabilis",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-spectabilis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "cranberry cotoneaster",
+    "scientific_name": "Cotoneaster apiculata",
+    "size_feet": "3'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "cotoneaster-apiculata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "crape myrtle",
+    "scientific_name": "Lagerstroemia indica",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "lagerstroemia-indica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "creeping juniper",
+    "scientific_name": "Juniperus horizontalis",
+    "size_feet": "1'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "juniperus-horizontalis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "creeping mahonia",
+    "scientific_name": "Mahonia repens",
+    "size_feet": "2'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "mahonia-repens",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "cross-vine",
+    "scientific_name": "Bignonia capreolata",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "bignonia-capreolata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "cucumber magnolia",
+    "scientific_name": "Magnolia acuminata",
+    "size_feet": "70'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-acuminata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "cumberland azalea",
+    "scientific_name": "Rhododendron bakeri",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-bakeri",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "cutleaf buckthorn",
+    "scientific_name": "Rhamnus frangula 'Asplenifolia'",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "rhamnus-frangula-asplenifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "dahoon holly",
+    "scientific_name": "Ilex cassine",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-cassine",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "daphne",
+    "scientific_name": "Daphne odora",
+    "size_feet": "5'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "daphne-odora",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "dawn redwood",
+    "scientific_name": "Metasequoia glyptostroboides",
+    "size_feet": "75'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "metasequoia-glyptostroboides",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "deerberry",
+    "scientific_name": "Vaccinium stamineum",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vaccinium-stamineum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "deodara cedar",
+    "scientific_name": "Cedrus deodara",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cedrus-deodara",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "devil's walkingstick",
+    "scientific_name": "Aralia spinosa",
+    "size_feet": "30'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aralia-spinosa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "doublefile viburnum",
+    "scientific_name": "Viburnum plicatum var. tomentosum",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "viburnum-plicatum-var-tomentosum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "douglas fir",
+    "scientific_name": "Pseudotsuga menziesii",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pseudotsuga-menziesii",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "downy serviceberry",
+    "scientific_name": "Amelanchier arborea",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "amelanchier-arborea",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "drooping leucothoe",
+    "scientific_name": "Leucothoe fontanesiana",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "leucothoe-fontanesiana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "dutchman's pipe",
+    "scientific_name": "Aristolochia macrophylla",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "aristolochia-macrophylla",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "dwarf fothergilla",
+    "scientific_name": "Fothergilla gardenii",
+    "size_feet": "6'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "fothergilla-gardenii",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "eastern red cedar",
+    "scientific_name": "Juniperus virginiana",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "juniperus-virginiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "elderberry",
+    "scientific_name": "Sambucus canadensis",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "sambucus-canadensis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "empresstree",
+    "scientific_name": "Paulownia tomentosa",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "paulownia-tomentosa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "English holly",
+    "scientific_name": "Ilex aquifolium",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-aquifolium",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "English ivy",
+    "scientific_name": "Hedera helix",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "hedera-helix",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "English oak",
+    "scientific_name": "Quercus robur",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-robur",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "English walnut",
+    "scientific_name": "Juglans regia",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "juglans-regia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "English yew",
+    "scientific_name": "Taxus baccata",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "taxus-baccata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "eucalyptus",
+    "scientific_name": "Eucalyptus spp.",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "eucalyptus-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "European alder",
+    "scientific_name": "Alnus glutinosa",
+    "size_feet": "50'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "alnus-glutinosa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "European beech",
+    "scientific_name": "Fagus sylvatica",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fagus-sylvatica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European cranberry highbush viburnum",
+    "scientific_name": "Viburnum opulus",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-opulus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European euonymus",
+    "scientific_name": "Euonymus europaeus",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "euonymus-europaeus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "European filbert",
+    "scientific_name": "Corylus colurna",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "corylus-colurna",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European fly honeysuckle",
+    "scientific_name": "Lonicera xylosteum",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "lonicera-xylosteum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "European hophornbeam",
+    "scientific_name": "Ostrya carpinifolia",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "ostrya-carpinifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "European hornbeam",
+    "scientific_name": "Carpinus betulus",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "carpinus-betulus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European larch",
+    "scientific_name": "Larix decidua",
+    "size_feet": "50'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "larix-decidua",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "European linden",
+    "scientific_name": "Tilia x 'Euchlora'",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "tilia-x-euchlora",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European mountain-ash",
+    "scientific_name": "Sorbus aucuparia",
+    "size_feet": "12'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "sorbus-aucuparia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "European white birch",
+    "scientific_name": "Betula pendula",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-pendula",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "evergreen eleagnus",
+    "scientific_name": "Elaeagnus pungens",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "elaeagnus-pungens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "evergreen privit",
+    "scientific_name": "Ligustrum lucidum",
+    "size_feet": "20'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "ligustrum-lucidum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "exbury hybrid azalea",
+    "scientific_name": "Rhododendron 'Exbury'",
+    "size_feet": "7'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-exbury",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "fall firebush",
+    "scientific_name": "Euonymus alatus",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "euonymus-alatus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "fig",
+    "scientific_name": "Ficus carica",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "ficus-carica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "firethorn or pyracantha",
+    "scientific_name": "Pyracantha coccinea",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "pyracantha-coccinea",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "five-leaf akebia",
+    "scientific_name": "Akebia quinata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "akebia-quinata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "flame azalea",
+    "scientific_name": "Rhododendron calendulaceum",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-calendulaceum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Florida anise",
+    "scientific_name": "Illicium floridanum",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "illicium-floridanum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Florida torreya",
+    "scientific_name": "Torreya taxifolia",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "torreya-taxifolia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "flowering dogwood",
+    "scientific_name": "Cornus florida",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-florida",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "forsythia",
+    "scientific_name": "Forsythia xintermedia",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "forsythia-xintermedia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "fortune's osmanthus",
+    "scientific_name": "Osmanthus x fortunei",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "osmanthus-x-fortunei",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Foster holly",
+    "scientific_name": "Ilex x attenuata hybrids",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-x-attenuata-hybrids",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "fountaingrass",
+    "scientific_name": "Pennisetum spp.",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pennisetum-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "fragrant honeysuckle",
+    "scientific_name": "Lonicera sempervirens",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "lonicera-sempervirens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "fragrant osmanthus",
+    "scientific_name": "Osmanthus fragrans",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "osmanthus-fragrans",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "fragrant sumac",
+    "scientific_name": "Rhus aromatica",
+    "size_feet": "5'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhus-aromatica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "franklinia",
+    "scientific_name": "Franklinia alatamaha",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "franklinia-alatamaha",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "fraser magnolia",
+    "scientific_name": "Magnolia fraseri",
+    "size_feet": "30'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-fraseri",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "frazer fir",
+    "scientific_name": "Abies frazeri",
+    "size_feet": "60'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "abies-frazeri",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "freeman maple",
+    "scientific_name": "Acer x freemanii",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-x-freemanii",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "fringe flower",
+    "scientific_name": "Loropetalum chinensis",
+    "size_feet": "4'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "loropetalum-chinensis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "fringetree",
+    "scientific_name": "Chionanthus virginicus",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "chionanthus-virginicus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "fullmoon maple",
+    "scientific_name": "Acer japonicum",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-japonicum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "gardenia",
+    "scientific_name": "Gardenia jasminoides",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "gardenia-jasminoides",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "giant cane",
+    "scientific_name": "Arundo donax",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "arundo-donax",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "giant dogwood",
+    "scientific_name": "Cornus controversa",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cornus-controversa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "giant sequoia",
+    "scientific_name": "Sequoiadendron giganteum",
+    "size_feet": "150.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "sequoiadendron-giganteum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "ginkgo",
+    "scientific_name": "Ginkgo biloba",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ginkgo-biloba",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "glossy abelia",
+    "scientific_name": "Abelia grandiflora",
+    "size_feet": "6'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "abelia-grandiflora",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "golden-larch",
+    "scientific_name": "Pseudolarix kaempferi",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pseudolarix-kaempferi",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "goldenchaintree",
+    "scientific_name": "Laburnum x watereri",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "laburnum-x-watereri",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "goldenraintree",
+    "scientific_name": "Koelreuteria paniculata",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "koelreuteria-paniculata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "gordonia",
+    "scientific_name": "Gordonia lasianthus",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "gordonia-lasianthus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "grape",
+    "scientific_name": "Vitus spp.",
+    "size_feet": "100.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "vitus-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "gray dogwood",
+    "scientific_name": "Cornus racemosa",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-racemosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "green ash",
+    "scientific_name": "Fraxinus pennsylvanica",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-pennsylvanica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "grey birch",
+    "scientific_name": "Betula populifolia",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-populifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "grey santolina",
+    "scientific_name": "Santolina chamaecyparis",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "santolina-chamaecyparis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "groundsel tree",
+    "scientific_name": "Baccharis halmifolia",
+    "size_feet": "12'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "baccharis-halmifolia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "hackberry",
+    "scientific_name": "Celtis occidentalis",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "celtis-occidentalis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "hardy orange",
+    "scientific_name": "Poncirus trifoliata",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "poncirus-trifoliata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "harlequin glorybower clerodendron",
+    "scientific_name": "Clerodendron trichotomum",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "clerodendron-trichotomum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "heather",
+    "scientific_name": "Calluna vulgaris",
+    "size_feet": "2'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "calluna-vulgaris",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "hedge maple",
+    "scientific_name": "Acer campestre",
+    "size_feet": "35'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "acer-campestre",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "hercules club",
+    "scientific_name": "Zanthoxylum clava-herculis",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "zanthoxylum-clavaherculis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "high bush blueberry",
+    "scientific_name": "Vaccinium corymbosum",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vaccinium-corymbosum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Himalayan pine",
+    "scientific_name": "Pinus wallichiana",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-wallichiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "hinoki falsecypress",
+    "scientific_name": "Chamaecyparis obtusa",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "chamaecyparis-obtusa",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "honeylocust",
+    "scientific_name": "Gleditsia triacanthos",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "gleditsia-triacanthos",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "hophornbeam",
+    "scientific_name": "Ostrya virginiana",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "ostrya-virginiana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "hornbeam",
+    "scientific_name": "Carpinus caroliniana",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carpinus-caroliniana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "horsechestnut",
+    "scientific_name": "Aesculus hippocastanum",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aesculus-hippocastanum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "horsetail",
+    "scientific_name": "Equisetum hyemale",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "equisetum-hyemale",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "hybrid rose",
+    "scientific_name": "Rosa hybrida",
+    "size_feet": "3'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rosa-hybrida",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "hydrangea",
+    "scientific_name": "Hydrangea macrophylla",
+    "size_feet": "4'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "hydrangea-macrophylla",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "indian coralberry",
+    "scientific_name": "Symphoricarpus orbiculatus",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "symphoricarpus-orbiculatus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Indian hawthorne",
+    "scientific_name": "Raphiolepis indica",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "raphiolepis-indica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "indigo-bush",
+    "scientific_name": "Amorpha fruticosa",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "amorpha-fruticosa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Italian cypress",
+    "scientific_name": "Cupressus sempervirens",
+    "size_feet": "35'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cupressus-sempervirens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "jackman clematis",
+    "scientific_name": "Clematis xjackmanii",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "clematis-xjackmanii",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese aucuba",
+    "scientific_name": "Aucuba japonica",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aucuba-japonica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese barberry",
+    "scientific_name": "Berberis thunbergi",
+    "size_feet": "7'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "berberis-thunbergi",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Japanese black pine",
+    "scientific_name": "Pinus thunbergiana",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-thunbergiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese camellia",
+    "scientific_name": "Camellia japonica",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "camellia-japonica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese cleyera",
+    "scientific_name": "Ternstroemia gymnanthera",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ternstroemia-gymnanthera",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese crabapple",
+    "scientific_name": "Malus floribunda",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-floribunda",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese Crapemyrtle",
+    "scientific_name": "Lagerstroemia fauriei",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "lagerstroemia-fauriei",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Japanese cryptomeria",
+    "scientific_name": "Cryptomeria japonica",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cryptomeria-japonica",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese cunninghamia",
+    "scientific_name": "Cunninghamia lanceolata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cunninghamia-lanceolata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese euonymus",
+    "scientific_name": "Euonymus japonicus",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "euonymus-japonicus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese falsecypress",
+    "scientific_name": "Chamaecyparis pisifera",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "chamaecyparis-pisifera",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese flowering-quince",
+    "scientific_name": "Chaenomeles japonica",
+    "size_feet": "6'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "chaenomeles-japonica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese holly",
+    "scientific_name": "Ilex crenata",
+    "size_feet": "5'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-crenata",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese honeysuckle",
+    "scientific_name": "Lonicera japonica",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "lonicera-japonica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese kerria",
+    "scientific_name": "Kerria japonica",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "kerria-japonica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese knotweed",
+    "scientific_name": "Polygonum japonicum (Fallopia japonica)",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "polygonum-japonicum-%28fallopia-japonica%29",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese maple",
+    "scientific_name": "Acer palmatum",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "acer-palmatum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese pachysandra",
+    "scientific_name": "Pachysandra terminalis",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ1",
+    "slug": "pachysandra-terminalis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Japanese pagodatree",
+    "scientific_name": "Sophora japonica",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "sophora-japonica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese pieris",
+    "scientific_name": "Pieris japonica",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "pieris-japonica",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese pittosporum",
+    "scientific_name": "Pittosporum tobira",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "pittosporum-tobira",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese privit",
+    "scientific_name": "Ligustrum japonicum",
+    "size_feet": "20'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "ligustrum-japonicum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese red pine",
+    "scientific_name": "Pinus densiflora",
+    "size_feet": "20'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-densiflora",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese snowbell",
+    "scientific_name": "Styrax japonicus",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "styrax-japonicus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Japanese stewartia",
+    "scientific_name": "Stewartia pseudocamellia",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "stewartia-pseudocamellia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Japanese torreya",
+    "scientific_name": "Torreya nucifera",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "torreya-nucifera",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese tree lilac",
+    "scientific_name": "Syringa reticulata",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "syringa-reticulata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Japanese white pine",
+    "scientific_name": "Pinus parviflora",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-parviflora",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese yew",
+    "scientific_name": "Taxus cuspidata",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "taxus-cuspidata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Japanese zelkova",
+    "scientific_name": "Zelkova serrata",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "zelkova-serrata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "jasminum",
+    "scientific_name": "Jasminum mudiflorum",
+    "size_feet": "6'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "jasminum-nudiflorum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Johnsongrass",
+    "scientific_name": "Sorghum halepense",
+    "size_feet": "6'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "sorghum-halepense",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "jujuba, Chinese date",
+    "scientific_name": "Ziziphus jujuba",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ziziphus-jujuba",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "kaki persimmon",
+    "scientific_name": "Diospyros kaki",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "diospyros-kaki",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "katsuratyree",
+    "scientific_name": "Cercidiphyllum japonicum",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cercidiphyllum-japonicum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Kentucky coffeetree",
+    "scientific_name": "Gymnocladus dioicus",
+    "size_feet": "75'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "gymnocladus-dioicus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "kiwi",
+    "scientific_name": "Actinidia deliciosa",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "actinidia-deliciosa",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Koreanspice viburnum",
+    "scientific_name": "Viburnum carlesi",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-carlesi",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "kousa dogwood",
+    "scientific_name": "Cornus kousa var. chinensis",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-kousa-var-chinensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "kudzu",
+    "scientific_name": "Pueraria montana",
+    "size_feet": "100.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pueraria-montana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "kureme azalea",
+    "scientific_name": "Rhododendron obtusa",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-obtusa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Kwanzan flowering cherry",
+    "scientific_name": "Prunus serrulata 'Kwanzan'",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-serrulata-kwanzan",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "lacebark elm",
+    "scientific_name": "Ulmus parvifolia",
+    "size_feet": "45'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-parvifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "lacebark pine",
+    "scientific_name": "Pinus bungeana",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-bungeana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "large fothergilla",
+    "scientific_name": "Fothergilla major",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "fothergilla-major",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "largeleaf periwinkle",
+    "scientific_name": "Vinca major",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vinca-major",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "largetoothed aspen",
+    "scientific_name": "Populus grandidentata",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "populus-grandidentata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "laurel oak",
+    "scientific_name": "Quercus laurifolia",
+    "size_feet": "75'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-laurifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "leatherleaf",
+    "scientific_name": "Chamaedaphne calyculata",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "chamaedaphne-calyculata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "leatherleaf viburnum",
+    "scientific_name": "Viburnum rhytidiphyllum",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "viburnum-rhytidiphyllum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "leatherwood",
+    "scientific_name": "Dirca palustris",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "dirca-palustris",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Lemoine",
+    "scientific_name": "Malus purpurea",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-purpurea",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "leyland cypress",
+    "scientific_name": "X Cupressocyparis leylandii",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "x-cupressocyparis-leylandii",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "lily-turf",
+    "scientific_name": "Liriope xmuscari",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "liriope-xmuscari",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "littleleaf boxwood",
+    "scientific_name": "Buxus sinica",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "buxus-sinica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "littleleaf linden",
+    "scientific_name": "Tilia cordata",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "tilia-cordata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "live oak",
+    "scientific_name": "Quercus virginiana",
+    "size_feet": "100.0'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-virginiana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "loblolly pine",
+    "scientific_name": "Pinus taeda",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-taeda",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "lombardy poplar",
+    "scientific_name": "Populus nigra 'Italica'",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "populus-nigra-italica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "London planetree",
+    "scientific_name": "Platanus x acerifolia",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "platanus-x-acerifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "long leaf pine",
+    "scientific_name": "Pinus palustris",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pinus-palustris",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "loquat",
+    "scientific_name": "Eriobotrya japonica",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "eriobotrya-japonica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "low bush blueberry",
+    "scientific_name": "Vaccinium angustifolium",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vaccinium-angustifolium",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "lythrum",
+    "scientific_name": "Lythrum salicaria",
+    "size_feet": "6'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "lythrum-salicaria",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "maiden grass",
+    "scientific_name": "Miscanthus sinensis",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "miscanthus-sinensis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "mapleleaf viburnum",
+    "scientific_name": "Viburnum acerifolia",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-acerifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "may hawthorn",
+    "scientific_name": "Crataegus aestivalis",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "crataegus-aestivalis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "medlar",
+    "scientific_name": "Mespilus germanica",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "mespilus-germanica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "meserve holly",
+    "scientific_name": "Ilex x meserveae hybrids",
+    "size_feet": "5'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-x-meserveae-hybrids",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "mimosa",
+    "scientific_name": "Albizzia julibrissum",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "albizzia-julibrissum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "mockernut hickory",
+    "scientific_name": "Carya tomentosa",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-tomentosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "mockorange",
+    "scientific_name": "Philadelphus coronarius",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "philadelphus-coronarius",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "monarch birch",
+    "scientific_name": "Betula maximowicziana",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-maximowicziana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "morrow honeysuckle",
+    "scientific_name": "Lonicera morrowi",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "lonicera-morrowi",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "mountain pieris",
+    "scientific_name": "Pieris floribunda",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "pieris-floribunda",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "mountain-laurel",
+    "scientific_name": "Kalmia latifolia",
+    "size_feet": "12'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "kalmia-latifolia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "mugo pine",
+    "scientific_name": "Pinus mugo",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "pinus-mugo",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "muhley grass",
+    "scientific_name": "Muhlenbergia spp.",
+    "size_feet": "8'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "muhlenbergia-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "multiflora rose",
+    "scientific_name": "Rosa multiflora",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "rosa-multiflora",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "nandina",
+    "scientific_name": "Nandina domestica",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "nandina-domestica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Nellie Stevens holly",
+    "scientific_name": "Ilex x 'Nellie R. Stevens'",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "ilex-x-nellie-r-stevens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "New Jersey tea",
+    "scientific_name": "Ceanothus americus",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "ceanothus-americus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "ninebark",
+    "scientific_name": "Physocarpus opulifolius",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "",
+    "slug": "physocarpus-opulifolius",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "nippon bridalwreath spirea",
+    "scientific_name": "Spirea nipponica",
+    "size_feet": "7'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "spirea-nipponica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Nootka falsecypress",
+    "scientific_name": "Xanthacyparis nootkatensis",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "xanthacyparis-nootkatensis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "nordmann fir",
+    "scientific_name": "Abies nordmanniana",
+    "size_feet": "100.0'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "abies-nordmanniana",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "northern bayberry",
+    "scientific_name": "Myrica pensylvanica",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "myrica-pensylvanica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "northern catalpa",
+    "scientific_name": "Catalpa speciosa",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "catalpa-speciosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "northern elderberry",
+    "scientific_name": "Sambucus pubens",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "sambucus-pubens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "northern pin oak",
+    "scientific_name": "Quercus ellipsoidalis",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-ellipsoidalis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "northern red oak",
+    "scientific_name": "Quercus borealis",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-borealis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "northern red oak",
+    "scientific_name": "Quercus rubra",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-rubra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "northern white cedar",
+    "scientific_name": "Chamaecyparis thyoides",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "chamaecyparis-thyoides",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Norway maple",
+    "scientific_name": "Acer platanoides",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-platanoides",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Norway spruce",
+    "scientific_name": "Picea abies",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "picea-abies",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "nuttal oak",
+    "scientific_name": "Quercus nuttallii",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-nuttallii",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "oak leaf hydrangea",
+    "scientific_name": "Hydrangea quercifolia",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "hydrangea-quercifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Ohio buckeye",
+    "scientific_name": "Aesculus glabra",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aesculus-glabra",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Oklahoma white redbud",
+    "scientific_name": "Cercis reniformis 'Oklahoma'",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "cercis-reniformis-oklahoma",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "oleander",
+    "scientific_name": "Nerium oleander",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "nerium-oleander",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "olive",
+    "scientific_name": "Olea europaea",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "olea-europaea",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "oregon-grape holly leafed barberry",
+    "scientific_name": "Mahonia aquifolium",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "mahonia-aquifolium",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "oriental arborvitae",
+    "scientific_name": "Platycladnus orientalis",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "platycladnus-orientalis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "osage orange",
+    "scientific_name": "Maclura pomifera",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "maclura-pomifera",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "overcup oak",
+    "scientific_name": "Quercus lyrata",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-lyrata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "p g hydrangea",
+    "scientific_name": "Hydrangea paniculata",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "hydrangea-paniculata",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "pagoda dogwood",
+    "scientific_name": "Cornus alternifolia",
+    "size_feet": "30'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cornus-alternifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "palmetto",
+    "scientific_name": "Sabal palmetto",
+    "size_feet": "80'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "sabal-palmetto",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "pampas grass",
+    "scientific_name": "Cortaderia selloana",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "cortaderia-selloana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "paper mulberry",
+    "scientific_name": "Broussonetia papyrifera",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "broussonetia-papyrifera",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "paper or white birch",
+    "scientific_name": "Betula papyrifera",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-papyrifera",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "paperbark maple",
+    "scientific_name": "Acer griseum",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-griseum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "papyrus",
+    "scientific_name": "Cyperus spp.",
+    "size_feet": "5'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "cyperus-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "parrotia",
+    "scientific_name": "Parrotia persica",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "parrotia-persica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "paw paw",
+    "scientific_name": "Asimina triloba",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "asimina-triloba",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "peach",
+    "scientific_name": "Prunus persica",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-persica",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "pear",
+    "scientific_name": "Pyrus communis",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "pyrus-communis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pearlbush",
+    "scientific_name": "Exocorda racemosa",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "exocorda-racemosa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "pecan",
+    "scientific_name": "Carya illinoensis",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-illinoensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Pekin lilac",
+    "scientific_name": "Syringa pekinensis",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "syringa-pekinensis",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "periwinkle",
+    "scientific_name": "Vinca minor",
+    "size_feet": "<1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ1",
+    "slug": "vinca-minor",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "persimmon",
+    "scientific_name": "Diospyros virginiana",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "diospyros-virginiana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "phragmites grass",
+    "scientific_name": "Phragmites australis",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "phragmites-australis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "piedmont azalea",
+    "scientific_name": "Rhododendron canescens",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-canescens",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pignut hickory",
+    "scientific_name": "Carya glabra",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-glabra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pin oak",
+    "scientific_name": "Quercus palustris",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-palustris",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pinckneya",
+    "scientific_name": "Pinckneya pubens",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "pinckneya-pubens",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pinkshell azalea",
+    "scientific_name": "Rhododendron vaseyi",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-vaseyi",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pinxterbloom azalea",
+    "scientific_name": "Rhododendron periclymenoides",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-periclymenoides",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "pitch pine",
+    "scientific_name": "Pinus rigida",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-rigida",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "plum yew",
+    "scientific_name": "Cephlotaxus harringtonia",
+    "size_feet": "10'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "cephlotaxus-harringtonia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "plumleaf azalea",
+    "scientific_name": "Rhododendron prunifolium",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-prunifolium",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "podocarpus",
+    "scientific_name": "Podocarpus macrophyllus",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "podocarpus-macrophyllus",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "poet's laurel",
+    "scientific_name": "Danae racemosa",
+    "size_feet": "5'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "danae-racemosa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "poison ivy",
+    "scientific_name": "Toxidendron radicans",
+    "size_feet": "25'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "toxidendron-radicans",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "poison sumac",
+    "scientific_name": "Toxidendron vermix",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "toxidendron-vermix",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "pomegranate",
+    "scientific_name": "Punica granatum",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "punica-granatum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "pond cypress",
+    "scientific_name": "Taxodium ascendens",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "taxodium-ascendens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "ponderosa pine",
+    "scientific_name": "Pinus ponderosa",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-ponderosa",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "porcelainberry",
+    "scientific_name": "Ampelopsis brevipedunculata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "ampelopsis-brevipedunculata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Port Orford cedar",
+    "scientific_name": "Chamaecyparis lawsoniana",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "chamaecyparis-lawsoniana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "possum-haw holly",
+    "scientific_name": "Ilex decidua",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-decidua",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "possumhaw viburnum",
+    "scientific_name": "Viburnum nudum",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-nudum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "post oak",
+    "scientific_name": "Quercus stellata",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-stellata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Prairie crabapple",
+    "scientific_name": "Malus ioensis",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-ioensis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "pumpkin ash",
+    "scientific_name": "Fraxinus tomentosa",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-tomentosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "purple beautyberry",
+    "scientific_name": "Callicarpa dichotoma",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "callicarpa-dichotoma",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "purpleleaf plum",
+    "scientific_name": "Prunus cerasifera 'Atropurpurea'",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-cerasifera-atropurpurea",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "pussy willow",
+    "scientific_name": "Salix discolor",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "salix-discolor",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "quaking aspen",
+    "scientific_name": "Populus tremuloides",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "populus-tremuloides",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "red alder",
+    "scientific_name": "Alnus rubra",
+    "size_feet": "40'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "alnus-rubra",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "red buckeye",
+    "scientific_name": "Aesculus pavia",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aesculus-pavia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "red bud crabapple",
+    "scientific_name": "Malus x zumi var. calocarpa",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-x-zumi-var-calocarpa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "red chokeberry",
+    "scientific_name": "Aronia arbutifolia",
+    "size_feet": "12'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "aronia-arbutifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "red horsechestnut",
+    "scientific_name": "Aesculus x carnea",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "aesculus-x-carnea",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "red maple",
+    "scientific_name": "Acer rubrum",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-rubrum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "red mulberry",
+    "scientific_name": "Morus rubra",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "morus-rubra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "red pine",
+    "scientific_name": "Pinus resinosa",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-resinosa",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "red spruce",
+    "scientific_name": "Picea rubens",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "picea-rubens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "red tip",
+    "scientific_name": "Photinia x fraseri",
+    "size_feet": "12'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "photinia-x-fraseri",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "redbud",
+    "scientific_name": "Cercis canadensis",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "cercis-canadensis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "redosier dogwood",
+    "scientific_name": "Cornus sericea",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-sericea",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "redvein ekianthus",
+    "scientific_name": "Enkianthus campanulatus",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "enkianthus-campanulatus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "reed grass",
+    "scientific_name": "Calamagrostis spp.",
+    "size_feet": "15'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "calamagrostis-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "rhodora",
+    "scientific_name": "Rhododendron canadense",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-canadense",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "river birch",
+    "scientific_name": "Betula nigra",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "rock cotoneaster",
+    "scientific_name": "Cotoneaster horizontalis",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "cotoneaster-horizontalis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "rose of sharon",
+    "scientific_name": "Hibiscus syriacus",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "hibiscus-syriacus",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "rosebay rhododendron",
+    "scientific_name": "Rhododendron maximum",
+    "size_feet": "15'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-maximum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "rosemary",
+    "scientific_name": "Rosmarius officinalis",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "rosmarius-officinalis",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "royal palm",
+    "scientific_name": "Roystonea spp.",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "roystonea-spp",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "rugose rose",
+    "scientific_name": "Rosa rugosa",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rosa-rugosa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Russian arborvitae",
+    "scientific_name": "Microbiota decussata",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "microbiota-decussata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Russian olive",
+    "scientific_name": "Elaeagnus angustifolia",
+    "size_feet": "40'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "elaeagnus-angustifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "rusty blackhaw viburnum",
+    "scientific_name": "Viburnum rufidulum",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-rufidulum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "sandcherry",
+    "scientific_name": "Prunus x cistena",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-x-cistena",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "sargent crabapple",
+    "scientific_name": "Malus sargentii",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-sargentii",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "sasanqua camellia",
+    "scientific_name": "Camellis sasanqua",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "camellis-sasanqua",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "sassfras",
+    "scientific_name": "Sassafras albidum",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "sassafras-albidum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "saucer magnolia",
+    "scientific_name": "Magnolia x soulangiana",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-x-soulangiana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "saw palmetto",
+    "scientific_name": "Serenoa repens",
+    "size_feet": "6'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "serenoa-repens",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "sawtooth oak",
+    "scientific_name": "Quercus acutissima",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-acutissima",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "scarlet oak",
+    "scientific_name": "Quercus coccinea",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-coccinea",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Scot's broom",
+    "scientific_name": "Cytisus scoparius",
+    "size_feet": "5'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "cytisus-scoparius",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "scot's pine",
+    "scientific_name": "Pinus sylvestris",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-sylvestris",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "scrub or bear oak",
+    "scientific_name": "Quercus illicifolia",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-illicifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Senegal date palm",
+    "scientific_name": "Phoenix reclinata",
+    "size_feet": "35'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "phoenix-reclinata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "seven son's flower",
+    "scientific_name": "Heptacodium miconioides",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "heptacodium-miconioides",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "shagbark hickory",
+    "scientific_name": "Carya ovata",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-ovata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "shantung maple",
+    "scientific_name": "Acer truncatum",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-truncatum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sheep laurel",
+    "scientific_name": "Kalmia angustifolia",
+    "size_feet": "4'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "kalmia-angustifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "shellbark hickory",
+    "scientific_name": "Carya laciniosa",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "carya-laciniosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "shingle oak",
+    "scientific_name": "Quercus imbricaria",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-imbricaria",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "shining sumac",
+    "scientific_name": "Rhus copallina",
+    "size_feet": "25'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "rhus-copallina",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "shortleaf pine",
+    "scientific_name": "Pinus echinata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pinus-echinata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "shrubby st. johnswort",
+    "scientific_name": "Hypericum prolificum",
+    "size_feet": "4'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "hypericum-prolificum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "shumard oak",
+    "scientific_name": "Quercus shumardii",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-shumardii",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Siberian crabapple",
+    "scientific_name": "Malus baccata",
+    "size_feet": "20'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "malus-baccata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Siberian elm",
+    "scientific_name": "Ulmus pumila",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-pumila",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Siberian peashrub",
+    "scientific_name": "Caragana arborescens",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "caragana-arborescens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "siebold viburnum",
+    "scientific_name": "Viburnum sieboldii",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-sieboldii",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "silky dogwood",
+    "scientific_name": "Cornus amomum",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-amomum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "silver fleece vine",
+    "scientific_name": "Polygonum aubertii",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "polygonum-aubertii",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "silver linden",
+    "scientific_name": "Tilia tomentosa",
+    "size_feet": "45'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "tilia-tomentosa",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "silver maple",
+    "scientific_name": "Acer saccharinum",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-saccharinum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "singleleaf ash",
+    "scientific_name": "Fraxinus ornus 'Rotundifolia'",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-ornus-rotundifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "skimmia",
+    "scientific_name": "Skimmia japonica",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "skimmia-japonica",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "slash pine",
+    "scientific_name": "Pinus elliottii",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "pinus-elliottii",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "slender deutzia",
+    "scientific_name": "Deutzia gracilis",
+    "size_feet": "4'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "deutzia-gracilis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "slippery elm",
+    "scientific_name": "Ulmus rubra",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-rubra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "small-leaf arrowwood viburnum",
+    "scientific_name": "Viburnum obovatum",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-obovatum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "smokebush",
+    "scientific_name": "Cotinus coggygria",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "cotinus-coggygria",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "smooth alder",
+    "scientific_name": "Alnus serrulata",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "alnus-serrulata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "smooth hydrangea",
+    "scientific_name": "Hydrangea arborescens",
+    "size_feet": "6'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "hydrangea-arborescens",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "smooth sumac",
+    "scientific_name": "Rhus glabra",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "rhus-glabra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "smoothleaf elm",
+    "scientific_name": "Ulmus carpinifolia",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-carpinifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "snowberry",
+    "scientific_name": "Symphoricarpus albus",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "symphoricarpus-albus",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "sourwood",
+    "scientific_name": "Oxydendrum arboreum",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "oxydendrum-arboreum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Southern arrowood viburnum",
+    "scientific_name": "Viburnum dentatum",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-dentatum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "southern bush-honeysuckle",
+    "scientific_name": "Diervilla sessifolia",
+    "size_feet": "5'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "diervilla-sessifolia",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "southern catalpa",
+    "scientific_name": "Catalpa bignonioides",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "catalpa-bignonioides",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "southern magnolia",
+    "scientific_name": "Magnolia grandiflora",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-grandiflora",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "southern red oak",
+    "scientific_name": "Quercus falcata",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-falcata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sparkleberry",
+    "scientific_name": "Vaccinium arboreum",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "vaccinium-arboreum",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "speckled alder",
+    "scientific_name": "Alnus incana",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "alnus-incana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "spicebush",
+    "scientific_name": "Lindera benzoin",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "lindera-benzoin",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "spindletree",
+    "scientific_name": "Euonymus americanus",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "euonymus-americanus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "spineless yucca",
+    "scientific_name": "Yucca elephantipes",
+    "size_feet": "2'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "yucca-elephantipes",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "staghorn sumac",
+    "scientific_name": "Rhus typhina",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "rhus-typhina",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "star magnolia",
+    "scientific_name": "Magnolia stellata",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "magnolia-stellata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "stephandra",
+    "scientific_name": "Stephandra incisa",
+    "size_feet": "4'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "stephandra-incisa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "stewartia",
+    "scientific_name": "Stewartia ovata",
+    "size_feet": "15'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "stewartia-ovata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "stone pine",
+    "scientific_name": "Pinus cembra",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-cembra",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "striped maple",
+    "scientific_name": "Acer pensylvanicum",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-pensylvanicum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sugar hackberry",
+    "scientific_name": "Celtis laevigata",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "celtis-laevigata",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "sugar maple or rock maple",
+    "scientific_name": "Acer saccharum",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-saccharum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "summersweet",
+    "scientific_name": "Clethra alnifolia",
+    "size_feet": "4'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "clethra-alnifolia",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "swamp azalea",
+    "scientific_name": "Rhododendron viscosum",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-viscosum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "swamp chestnut oak",
+    "scientific_name": "Quercus michauxii",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-michauxii",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "swamp white oak",
+    "scientific_name": "Quercus bicolor",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-bicolor",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sweet azalea",
+    "scientific_name": "Rhododendron arborescens",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "rhododendron-arborescens",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sweet viburnum",
+    "scientific_name": "Viburnum odoratissimum",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "viburnum-odoratissimum",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "sweetbay magnolia",
+    "scientific_name": "Magnolia virginiana",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-virginiana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "sweetgum",
+    "scientific_name": "Liquidambar styraciflua",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "liquidambar-styraciflua",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "sycamore",
+    "scientific_name": "Platanus occidentalis",
+    "size_feet": "75'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "platanus-occidentalis",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "sycamore maple",
+    "scientific_name": "Acer pseudoplatanus",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-pseudoplatanus",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "tamarack",
+    "scientific_name": "Larix laricina",
+    "size_feet": "50'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "larix-laricina",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "tamarix",
+    "scientific_name": "Tamarix ramosissima",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "tamarix-ramosissima",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "tatarian honeysuckle",
+    "scientific_name": "Lonicera tatarica",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "lonicera-tatarica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "tatarian maple",
+    "scientific_name": "Acer tataricum",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-tataricum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "tea-oil camellia",
+    "scientific_name": "Camellia oleifera",
+    "size_feet": "20'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "camellia-oleifera",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "Texas persimmon",
+    "scientific_name": "Diospyros texana",
+    "size_feet": "25'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "diospyros-texana",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "tree of heaven",
+    "scientific_name": "Ailanthus altissima",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ4",
+    "slug": "ailanthus-altissima",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "trident maple",
+    "scientific_name": "Acer buergeranum",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "acer-buergeranum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "trumpet vine",
+    "scientific_name": "Campsis radicans",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "campsis-radicans",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Tulip tree",
+    "scientific_name": "Magnolia x loebneri",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-x-loebneri",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "tulip-poplar or yellow poplar",
+    "scientific_name": "Liriodendron tulipifera",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "liriodendron-tulipifera",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "two-winged silverbell",
+    "scientific_name": "Halesia diptera",
+    "size_feet": "20'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "halesia-diptera",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "umbrella magnolia",
+    "scientific_name": "Magnolia tripetala",
+    "size_feet": "30'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "magnolia-tripetala",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "umbrella-pine",
+    "scientific_name": "Sciadopitys verticillata",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "sciadopitys-verticillata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Ural false spiraea",
+    "scientific_name": "Sorbaria sorbifolia",
+    "size_feet": "8'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "sorbaria-sorbifolia",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "van houtte bridalwreath spirea",
+    "scientific_name": "Spirea xvanhouttei",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "spirea-xvanhouttei",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "vernal witchhazel",
+    "scientific_name": "Hamamelis vernalis",
+    "size_feet": "12'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "hamamelis-vernalis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "virgin's bower clematis",
+    "scientific_name": "Clematis virginiana",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "clematis-virginiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Virginia creeper",
+    "scientific_name": "Parthenocissus quinquifolia",
+    "size_feet": "30'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "parthenocissus-quinquifolia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Virginia pine",
+    "scientific_name": "Pinus virginiana",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-virginiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Virginia rose",
+    "scientific_name": "Rosa virginiana",
+    "size_feet": "12'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ2",
+    "slug": "rosa-virginiana",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "Virginia sweetspire",
+    "scientific_name": "Itea virginica",
+    "size_feet": "6'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "itea-virginica",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "wafer ash",
+    "scientific_name": "Ptelea trifoliata",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ptelea-trifoliata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Washington hawthorn",
+    "scientific_name": "Crataegus phaenopyrum",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "crataegus-phaenopyrum",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Washington palm",
+    "scientific_name": "Washingtonia robusta",
+    "size_feet": "70'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "washingtonia-robusta",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "water oak",
+    "scientific_name": "Quercus nigra",
+    "size_feet": "40'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-nigra",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "water tupelo",
+    "scientific_name": "Nyssa aquatica",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "nyssa-aquatica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "wax myrtle",
+    "scientific_name": "Myrica cerifera",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "myrica-cerifera",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "weeping forsythia",
+    "scientific_name": "Forsythia suspensa",
+    "size_feet": "8'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "forsythia-suspensa",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "weeping Higan cherry",
+    "scientific_name": "Prunus subhirtella 'Pendula'",
+    "size_feet": "10'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-subhirtella-pendula",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "weeping willow",
+    "scientific_name": "Salix babylonica",
+    "size_feet": "75'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "salix-babylonica",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "weigela",
+    "scientific_name": "Weigela florida",
+    "size_feet": "4'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "weigela-florida",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "western arborvitae",
+    "scientific_name": "Thuja plicata",
+    "size_feet": "100.0'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "thuja-plicata",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "western red cedar",
+    "scientific_name": "Juniperus scopulorum",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "juniperus-scopulorum",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "white ash",
+    "scientific_name": "Fraxinus americana",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "fraxinus-americana",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "white fir",
+    "scientific_name": "Abies concolor",
+    "size_feet": "80'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ4",
+    "slug": "abies-concolor",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "white mulberry",
+    "scientific_name": "Morus alba",
+    "size_feet": "30'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "morus-alba",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "white oak",
+    "scientific_name": "Quercus alba",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-alba",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "white pine",
+    "scientific_name": "Pinus strobus",
+    "size_feet": "75'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "pinus-strobus",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "white poplar",
+    "scientific_name": "Populus alba",
+    "size_feet": "30'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "populus-alba",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "white spruce",
+    "scientific_name": "Picea glauca",
+    "size_feet": "40'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "picea-glauca",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "white willow",
+    "scientific_name": "Salix alba",
+    "size_feet": "100.0'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "salix-alba",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "whitebarked Himalayan birch",
+    "scientific_name": "Betula jacquemontii",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-jacquemontii",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "Whitespire birch",
+    "scientific_name": "Betula platyphylla 'Whitespire'",
+    "size_feet": "35'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-platyphylla-whitespire",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "wild black cherry",
+    "scientific_name": "Prunus serotina",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-serotina",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "willow oak",
+    "scientific_name": "Quercus phellos",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "quercus-phellos",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "willowleaf cotoneaster",
+    "scientific_name": "Cotoneaster salicifolia",
+    "size_feet": "3'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ3",
+    "slug": "cotoneaster-salicifolia",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "winged elm",
+    "scientific_name": "Ulmus alata",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "ulmus-alata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "winter honeysuckle",
+    "scientific_name": "Lonicera fragrantissima",
+    "size_feet": "10'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "lonicera-fragrantissima",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Winter King green hawthorn",
+    "scientific_name": "Crataegus viridis 'Winter King'",
+    "size_feet": "25'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "crataegus-viridis-winter-king",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "winterberry holly",
+    "scientific_name": "Ilex verticillata",
+    "size_feet": "8'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-verticillata",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "wintercreeper euonymus",
+    "scientific_name": "Euonymus fortunei",
+    "size_feet": "<2'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ3",
+    "slug": "euonymus-fortunei",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "wintergreen",
+    "scientific_name": "Gaultheria procumbens",
+    "size_feet": "1'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ1",
+    "slug": "gaultheria-procumbens",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "wintergreen barberry",
+    "scientific_name": "Berberis julianae",
+    "size_feet": "6'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "berberis-julianae",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "wisteria",
+    "scientific_name": "Wisteria floribunda",
+    "size_feet": "50'",
+    "firewise_rating": "NOT Firewise (4)",
+    "landscape_zone": "LZ4",
+    "slug": "wisteria-floribunda",
+    "firewise_rating_code": 4,
+    "firewise_rating_label": "Not Firewise"
+  },
+  {
+    "common_name": "yaupon holly",
+    "scientific_name": "Ilex vomitoria",
+    "size_feet": "12'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "ilex-vomitoria",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "yeddo hawthorne",
+    "scientific_name": "Raphiolepis umbellata",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "raphiolepis-umbellata",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "yellow birch",
+    "scientific_name": "Betula alleghaniensis",
+    "size_feet": "50'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "betula-alleghaniensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "yellow buckeye",
+    "scientific_name": "Aesculus flava",
+    "size_feet": "50'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ4",
+    "slug": "aesculus-flava",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "yellowroot",
+    "scientific_name": "Xanthorhiza simplicissima",
+    "size_feet": "1'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ2",
+    "slug": "xanthorhiza-simplicissima",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "yellowtwig dogwood",
+    "scientific_name": "Cornus sericea 'Flaviramea'",
+    "size_feet": "10'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ2",
+    "slug": "cornus-sericea-flaviramea",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "yellowwood",
+    "scientific_name": "Cladrastis kentukea",
+    "size_feet": "40'",
+    "firewise_rating": "MODERATELY Firewise (2)",
+    "landscape_zone": "LZ3",
+    "slug": "cladrastis-kentukea",
+    "firewise_rating_code": 2,
+    "firewise_rating_label": "Moderately Firewise"
+  },
+  {
+    "common_name": "Yoshino cherry",
+    "scientific_name": "Prunus x yedoensis",
+    "size_feet": "15'",
+    "firewise_rating": "Firewise (1)",
+    "landscape_zone": "LZ3",
+    "slug": "prunus-x-yedoensis",
+    "firewise_rating_code": 1,
+    "firewise_rating_label": "Firewise"
+  },
+  {
+    "common_name": "yucca",
+    "scientific_name": "Yucca filamentosa",
+    "size_feet": "2'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "yucca-filamentosa",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  },
+  {
+    "common_name": "zenobia",
+    "scientific_name": "Zenobia pulverulata",
+    "size_feet": "3'",
+    "firewise_rating": "AT RISK Firewise (3)",
+    "landscape_zone": "LZ2",
+    "slug": "zenobia-pulverulata",
+    "firewise_rating_code": 3,
+    "firewise_rating_label": "At Risk Firewise"
+  }
+]

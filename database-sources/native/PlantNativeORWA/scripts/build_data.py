@@ -1,0 +1,113 @@
+"""
+Build PlantNative.org - Western Oregon & Western Washington native plant list.
+
+Source: PlantNative.org
+URL: https://plantnative.org/rpl-orwa.htm
+Plants: ~75 native species with sun, moisture, and height data
+Region: Western Oregon and Western Washington
+"""
+
+import csv, json, os, sqlite3
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.dirname(SCRIPT_DIR)
+
+# Sun: F=Full, P=Part, S=Shade
+# Moisture: W=Wet, A=Average, D=Dry
+PLANTS = [
+    # Trees
+    {"scientific_name": "Acer circinatum", "common_name": "Vine Maple", "plant_type": "Tree", "sun": "F-S", "moisture": "A-W", "height": "25'"},
+    {"scientific_name": "Acer macrophyllum", "common_name": "Big Leaf Maple", "plant_type": "Tree", "sun": "F-P", "moisture": "A", "height": "30-100'"},
+    {"scientific_name": "Alnus rubra", "common_name": "Red Alder", "plant_type": "Tree", "sun": "F", "moisture": "W", "height": "40-100'"},
+    {"scientific_name": "Arbutus menziesii", "common_name": "Pacific Madrone", "plant_type": "Tree", "sun": "F", "moisture": "A", "height": "40-80'"},
+    {"scientific_name": "Betula papyrifera", "common_name": "Paper Birch", "plant_type": "Tree", "sun": "F-S", "moisture": "A", "height": "80'"},
+    {"scientific_name": "Crataegus douglasii", "common_name": "Black Hawthorn", "plant_type": "Tree", "sun": "F", "moisture": "W", "height": "20-30'"},
+    {"scientific_name": "Cornus nuttallii", "common_name": "Pacific Dogwood", "plant_type": "Tree", "sun": "F-P", "moisture": "A", "height": "30-50'"},
+    {"scientific_name": "Fraxinus latifolia", "common_name": "Oregon Ash", "plant_type": "Tree", "sun": "F", "moisture": "W", "height": "40-75'"},
+    {"scientific_name": "Malus spp.", "common_name": "Crab Apple", "plant_type": "Tree", "sun": "F-P", "moisture": "A-W", "height": "15-35'"},
+    {"scientific_name": "Oemleria cerasiformis", "common_name": "Indian Plum", "plant_type": "Tree", "sun": "F-P", "moisture": "D-A", "height": "16'"},
+    {"scientific_name": "Populus tremuloides", "common_name": "Quaking Aspen", "plant_type": "Tree", "sun": "F", "moisture": "A-W", "height": "40-80'"},
+    {"scientific_name": "Populus trichocarpa", "common_name": "Black Cottonwood", "plant_type": "Tree", "sun": "F", "moisture": "W", "height": "70-100'"},
+    {"scientific_name": "Prunus emarginata", "common_name": "Bitter Cherry", "plant_type": "Tree", "sun": "F-P", "moisture": "A", "height": "20-60'"},
+    {"scientific_name": "Quercus garryana", "common_name": "Oregon White Oak", "plant_type": "Tree", "sun": "F", "moisture": "D-A", "height": "30-100'"},
+    {"scientific_name": "Rhamnus purshiana", "common_name": "Cascara", "plant_type": "Tree", "sun": "F-P", "moisture": "A", "height": "30'"},
+    {"scientific_name": "Salix lasiandra", "common_name": "Pacific Willow", "plant_type": "Tree", "sun": "F", "moisture": "W", "height": "20'"},
+    {"scientific_name": "Abies grandis", "common_name": "Grand Fir", "plant_type": "Tree", "sun": "F-P", "moisture": "D-A", "height": "100-200'"},
+    {"scientific_name": "Abies procera", "common_name": "Noble Fir", "plant_type": "Tree", "sun": "F", "moisture": "", "height": ""},
+    {"scientific_name": "Picea sitchensis", "common_name": "Sitka Spruce", "plant_type": "Tree", "sun": "", "moisture": "", "height": "100-150'"},
+    {"scientific_name": "Pinus ponderosa", "common_name": "Ponderosa Pine", "plant_type": "Tree", "sun": "F", "moisture": "D-W", "height": "60-130'"},
+    {"scientific_name": "Pseudotsuga menziesii", "common_name": "Douglas Fir", "plant_type": "Tree", "sun": "F", "moisture": "D-W", "height": "75-200'"},
+    {"scientific_name": "Sequoiadendron giganteum", "common_name": "Giant Sequoia", "plant_type": "Tree", "sun": "F", "moisture": "A", "height": "200'"},
+    {"scientific_name": "Thuja plicata", "common_name": "Western Redcedar", "plant_type": "Tree", "sun": "P", "moisture": "A-W", "height": "100-175'"},
+    {"scientific_name": "Tsuga heterophylla", "common_name": "Western Hemlock", "plant_type": "Tree", "sun": "F-P", "moisture": "D-A", "height": "125-200'"},
+    # Shrubs
+    {"scientific_name": "Amelanchier alnifolia", "common_name": "Serviceberry", "plant_type": "Shrub", "sun": "F", "moisture": "A", "height": "4-15'"},
+    {"scientific_name": "Arctostaphylos columbiana", "common_name": "Hairy Manzanita", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "10-15'"},
+    {"scientific_name": "Arctostaphylos uva-ursi", "common_name": "Kinnikinnick", "plant_type": "Shrub", "sun": "F-P", "moisture": "A", "height": "12\""},
+    {"scientific_name": "Berberis aquifolium", "common_name": "Tall Oregon Grape", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "8-10'"},
+    {"scientific_name": "Ceanothus velutinus", "common_name": "Snowbrush", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "9'"},
+    {"scientific_name": "Cornus stolonifera", "common_name": "Red-osier Dogwood", "plant_type": "Shrub", "sun": "F-S", "moisture": "W", "height": "15'"},
+    {"scientific_name": "Corylus cornuta var. californica", "common_name": "Western Hazelnut", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "5-12'"},
+    {"scientific_name": "Gaultheria shallon", "common_name": "Salal", "plant_type": "Shrub", "sun": "F-S", "moisture": "A", "height": "6'"},
+    {"scientific_name": "Holodiscus discolor", "common_name": "Ocean Spray", "plant_type": "Shrub", "sun": "P-S", "moisture": "D-W", "height": "3-20'"},
+    {"scientific_name": "Lonicera ciliosa", "common_name": "Western Honeysuckle", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "Vine"},
+    {"scientific_name": "Lonicera involucrata", "common_name": "Twinberry", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "4-8'"},
+    {"scientific_name": "Mahonia nervosa", "common_name": "Creeping Oregon Grape", "plant_type": "Shrub", "sun": "F-S", "moisture": "D-W", "height": "12\""},
+    {"scientific_name": "Philadelphus lewisii", "common_name": "Mock Orange", "plant_type": "Shrub", "sun": "F-P", "moisture": "D-A", "height": "4-10'"},
+    {"scientific_name": "Physocarpus capitatus", "common_name": "Pacific Ninebark", "plant_type": "Shrub", "sun": "F-S", "moisture": "W", "height": "10'"},
+    {"scientific_name": "Rosa gymnocarpa", "common_name": "Bald-hip Rose", "plant_type": "Shrub", "sun": "F", "moisture": "D", "height": "5'"},
+    {"scientific_name": "Rosa woodsii", "common_name": "Wood Rose", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "1-8'"},
+    {"scientific_name": "Ribes sanguineum", "common_name": "Red Flowering Currant", "plant_type": "Shrub", "sun": "F-P", "moisture": "A", "height": "10-35'"},
+    {"scientific_name": "Rosa nutkana", "common_name": "Nootka Rose", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "8-10'"},
+    {"scientific_name": "Rubus spectabilis", "common_name": "Salmonberry", "plant_type": "Shrub", "sun": "F-P", "moisture": "A-W", "height": "12'"},
+    {"scientific_name": "Sambucus racemosa", "common_name": "Red Elderberry", "plant_type": "Shrub", "sun": "F-S", "moisture": "A", "height": "1-8'"},
+    {"scientific_name": "Spiraea douglasii", "common_name": "Western Spirea", "plant_type": "Shrub", "sun": "F-P", "moisture": "A-W", "height": "3-6'"},
+    {"scientific_name": "Symphoricarpos spp.", "common_name": "Snowberry", "plant_type": "Shrub", "sun": "F-P", "moisture": "D-W", "height": "8-20'"},
+    {"scientific_name": "Vaccinium membranaceum", "common_name": "Huckleberry", "plant_type": "Shrub", "sun": "F", "moisture": "A", "height": "2-6'"},
+    {"scientific_name": "Vaccinium ovatum", "common_name": "Evergreen Huckleberry", "plant_type": "Shrub", "sun": "", "moisture": "", "height": "4'"},
+    {"scientific_name": "Vaccinium parvifolium", "common_name": "Red Huckleberry", "plant_type": "Shrub", "sun": "F-P", "moisture": "A", "height": "2-8'"},
+    # Perennials - Sun
+    {"scientific_name": "Aquilegia formosa", "common_name": "Red Columbine", "plant_type": "Perennial", "sun": "F-P", "moisture": "A-W", "height": "3'"},
+    {"scientific_name": "Dodecatheon hendersonii", "common_name": "Shooting Star", "plant_type": "Perennial", "sun": "F", "moisture": "A-W", "height": ""},
+    {"scientific_name": "Erythronium oregonum", "common_name": "White Fawn Lily", "plant_type": "Perennial", "sun": "F-S", "moisture": "A", "height": ""},
+    {"scientific_name": "Lilium columbianum", "common_name": "Tiger Lily", "plant_type": "Perennial", "sun": "F", "moisture": "", "height": ""},
+    {"scientific_name": "Lupinus polyphyllus", "common_name": "Big Leaf Lupine", "plant_type": "Perennial", "sun": "F", "moisture": "A-W", "height": "3-4'"},
+    {"scientific_name": "Sedum oreganum", "common_name": "Oregon Stonecrop", "plant_type": "Perennial", "sun": "F-P", "moisture": "A-W", "height": ""},
+    {"scientific_name": "Sisyrinchium californicum", "common_name": "Yellow-Eyed Grass", "plant_type": "Perennial", "sun": "F-P", "moisture": "W", "height": ""},
+    # Perennials - Shade
+    {"scientific_name": "Cornus canadensis", "common_name": "Dwarf Dogwood", "plant_type": "Perennial", "sun": "S", "moisture": "W", "height": "Low"},
+    {"scientific_name": "Dicentra formosa", "common_name": "Bleeding Heart", "plant_type": "Perennial", "sun": "S", "moisture": "W", "height": "1-2'"},
+    {"scientific_name": "Viola adunca", "common_name": "Early Blue Violet", "plant_type": "Perennial", "sun": "S", "moisture": "W", "height": "4\""},
+]
+
+
+def main():
+    print(f"Plants: {len(PLANTS)}")
+    csv_path = os.path.join(DATA_DIR, "plants.csv")
+    fields = ["scientific_name", "common_name", "plant_type", "sun", "moisture", "height"]
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields); w.writeheader()
+        for p in PLANTS: w.writerow(p)
+    print(f"Wrote {csv_path}")
+
+    json_path = os.path.join(DATA_DIR, "plants.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump({"source": "PlantNative.org - Western Oregon & Western Washington",
+                    "url": "https://plantnative.org/rpl-orwa.htm",
+                    "legend": {"sun": "F=Full, P=Part, S=Shade", "moisture": "W=Wet, A=Average, D=Dry"},
+                    "plants": PLANTS}, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {json_path}")
+
+    db_path = os.path.join(DATA_DIR, "plants.db")
+    if os.path.exists(db_path): os.remove(db_path)
+    conn = sqlite3.connect(db_path); cur = conn.cursor()
+    cur.execute("CREATE TABLE plants (id INTEGER PRIMARY KEY AUTOINCREMENT, scientific_name TEXT, common_name TEXT, plant_type TEXT, sun TEXT, moisture TEXT, height TEXT)")
+    cur.execute("CREATE INDEX idx_sci ON plants(scientific_name)")
+    for p in PLANTS:
+        cur.execute("INSERT INTO plants (scientific_name, common_name, plant_type, sun, moisture, height) VALUES (?,?,?,?,?,?)",
+                    (p["scientific_name"], p["common_name"], p["plant_type"], p["sun"], p["moisture"], p["height"]))
+    conn.commit(); conn.close()
+    print(f"Wrote {db_path}")
+
+if __name__ == "__main__":
+    main()

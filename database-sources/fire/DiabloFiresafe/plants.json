@@ -1,0 +1,1582 @@
+{
+  "plants": [
+    {
+      "scientific_name": "Aeonium decorum",
+      "common_name": "Aeonium",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,38,53"
+    },
+    {
+      "scientific_name": "Aeonium simsii",
+      "common_name": "Aeonium",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,53"
+    },
+    {
+      "scientific_name": "Aesculus",
+      "common_name": "California",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "californica",
+      "common_name": "buckeye",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Agapanthus 'Peter",
+      "common_name": "Lily of the Nile,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Pan'",
+      "common_name": "dwarf Century plant",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,25,37"
+    },
+    {
+      "scientific_name": "Agave victoriae-",
+      "common_name": "Agave",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,53"
+    },
+    {
+      "scientific_name": "Ajuga reptans",
+      "common_name": "Carpet bugle",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Alnus rhombifolia",
+      "common_name": "White alder",
+      "plant_type": "deciduous",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,11,17,25,53"
+    },
+    {
+      "scientific_name": "Aloe arborescens",
+      "common_name": "Torch aloe",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,25,53"
+    },
+    {
+      "scientific_name": "Aloe aristata",
+      "common_name": "Aloe, Dwarf aloe",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,40,41,53"
+    },
+    {
+      "scientific_name": "Aloe brevifolia",
+      "common_name": "Aloe",
+      "plant_type": "succulent",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,40,41,53"
+    },
+    {
+      "scientific_name": "Arbutus menziesii",
+      "common_name": "Madrone",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,17"
+    },
+    {
+      "scientific_name": "Arbutus unedo",
+      "common_name": "Strawberry tree",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,17,25,30,40,41,42,53"
+    },
+    {
+      "scientific_name": "calendula",
+      "common_name": "Silver spreader Thrift, Common thrift Silver spreader Sandhill sage",
+      "plant_type": "evergreen evergreen evergreen",
+      "plant_form": "groundcover shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,10,12,23,28,30,35,36,37,38,42,53 6,11,16,25"
+    },
+    {
+      "scientific_name": "Asarum caudatum",
+      "common_name": "Wild ginger Four-wing saltbush Saltbush",
+      "plant_type": "perennial deciduous",
+      "plant_form": "shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,40,41 5,11,19"
+    },
+    {
+      "scientific_name": "semibaccata",
+      "common_name": "Saltbush",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Callistemon",
+      "common_name": "Weeping",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "viminalis",
+      "common_name": "bottlebrush Trumpet vine, Trumpet creeper",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Carpobrotus",
+      "common_name": "Ice plant,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "edulis",
+      "common_name": "Hottentot fig, Sea fig Blueblossom Red valerian, Jupiter's beard Snow in summer Carob, St. John's beard",
+      "plant_type": "succulent evergreen evergreen",
+      "plant_form": "groundcover shrub groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,9,10,11,23,24,28,31,35,36,37,53 11,14,15 7,10,17,24,30,37,39,40,41,53"
+    },
+    {
+      "scientific_name": "Cercis occidentalis",
+      "common_name": "Western redbud Orchid rockrose, Purple rockrose",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,15,17,25,30,34,40,41,42,53"
+    },
+    {
+      "scientific_name": "Cistus villosus",
+      "common_name": "Purple rockrose,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "prostratus",
+      "common_name": "Prostrate",
+      "plant_type": "evergreen",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,19,22,37"
+    },
+    {
+      "scientific_name": "(C.salviifolius)",
+      "common_name": "rockrose",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Citrus spp.",
+      "common_name": "Citrus",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,12,30,34,40,41"
+    },
+    {
+      "scientific_name": "Convolvulus",
+      "common_name": "Bush morning",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,30,32,39,40,41,42,53"
+    },
+    {
+      "scientific_name": "cneorum",
+      "common_name": "glory",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Coprosma kirkii",
+      "common_name": "Creeping coprosma Likiano",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "40,41,53"
+    },
+    {
+      "scientific_name": "Cotoneaster",
+      "common_name": "Bearberry",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "dammerii",
+      "common_name": "cotoneaster",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Crassula argentea",
+      "common_name": "Jade plant",
+      "plant_type": "succulent",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,25,33"
+    },
+    {
+      "scientific_name": "Crassula lactea",
+      "common_name": "Crassula Crassula",
+      "plant_type": "succulent succulent",
+      "plant_form": "groundcover groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,9,10,25,36,53 7,9,10,25,36,38"
+    },
+    {
+      "scientific_name": "Crassula tetragona",
+      "common_name": "Crassula White trailing ice plant Wild yellow iris, African iris",
+      "plant_type": "succulent",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,36,53 37,39,,40,41,42,53"
+    },
+    {
+      "scientific_name": "Dietes vegeta",
+      "common_name": "Fortnight lily",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,11,12,25,40,41"
+    },
+    {
+      "scientific_name": "longifolius",
+      "common_name": "Monkey flower",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,17,25,40,41,42,53"
+    },
+    {
+      "scientific_name": "Drosanthemum",
+      "common_name": "Ice plant, Rosea",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "floribundum rosea",
+      "common_name": "ice plant Rosea ice plant",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "42,53 7,9,10,18,23,24,25,28,36,39,40,41,53"
+    },
+    {
+      "scientific_name": "Drosanthemum",
+      "common_name": "Drosanthemum,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "speciosum",
+      "common_name": "Dew flower",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Duchesnea indica",
+      "common_name": "Mock strawberry Dymondia",
+      "plant_type": "perennial evergreen",
+      "plant_form": "groundcover groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,25,40,41 8,9,25"
+    },
+    {
+      "scientific_name": "Erigeron",
+      "common_name": "Santa Barbara",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "karvinskianus",
+      "common_name": "daisy, Fleabane Yerba santa, Hairy yerba santa Golden yarrow California poppy Winter creeper, Common winter creeper",
+      "plant_type": "perennial perennial evergreen",
+      "plant_form": "shrub shrub groundcover shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "5,13,19 40,41,53 8,9,11,12,25,42,53 7,10,30,41"
+    },
+    {
+      "scientific_name": "Feijoa sellowiana",
+      "common_name": "Pineapple guava Creeping red fescue Wild strawberry, Sand strawberry, ornamental",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "89,11,12,17,25,30,40, 41,42,53 41,53"
+    },
+    {
+      "scientific_name": "Fraxinus spp.",
+      "common_name": "Ash",
+      "plant_type": "deciduous",
+      "plant_form": "tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "18,34,40,41"
+    },
+    {
+      "scientific_name": "Fremontodendron",
+      "common_name": "Fremontia,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "spp.",
+      "common_name": "Flannel bush Showy Island snapdragon, Hummingbird flower",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "leucolaena (G.",
+      "common_name": "Trailing",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,11,12,23,24,25,27,28,35,36,37,"
+    },
+    {
+      "scientific_name": "uniflora)",
+      "common_name": "ganzania",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": "38,39,40,41,42,53"
+    },
+    {
+      "scientific_name": "(G.ringens",
+      "common_name": "Trailing",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,11,12,23,24,25,27,28,35,36,37,"
+    },
+    {
+      "scientific_name": "leucolaena)",
+      "common_name": "ganzania Gum",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": "38,39,40,41,42,53"
+    },
+    {
+      "scientific_name": "Grindelia stricta",
+      "common_name": "plant,Coastal wild gum",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "40,41,53"
+    },
+    {
+      "scientific_name": "Grindelia stricta",
+      "common_name": "Coastal wild",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "venulosa",
+      "common_name": "gum Licorice plant, Curry plant",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Hemerocallis spp.",
+      "common_name": "Daylily Red yucca Island alum root, Coral bells Evergreen",
+      "plant_type": "or evergreen",
+      "plant_form": "shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,14,25,40,41 9,25,40,41"
+    },
+    {
+      "scientific_name": "Iberis",
+      "common_name": "candytuft,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "sempervirens",
+      "common_name": "Edging candytuft Pacific coast iris, Douglas iris Bladderpod, Bladderbush, Burrofat",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "6,16,53"
+    },
+    {
+      "scientific_name": "Kniphofia uvaria",
+      "common_name": "Red hot poker Trailing ice",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,17,25,40,41"
+    },
+    {
+      "scientific_name": "Lampranthus",
+      "common_name": "plant, bush",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "aurantiacus",
+      "common_name": "gold, bush ice plant",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Lampranthus",
+      "common_name": "Redondo",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "filicaulis",
+      "common_name": "creeper Trailing ice plant",
+      "plant_type": "succulent",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7 ,9,10,11,22,24,25,38,42,53"
+    },
+    {
+      "scientific_name": "Lantana camara &",
+      "common_name": "Trailing lantana,",
+      "plant_type": "evergreen",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "cultivars",
+      "common_name": "Yellow sage",
+      "plant_type": "or annual",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Ligustrum",
+      "common_name": "Texas privet",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,30,40,41"
+    },
+    {
+      "scientific_name": "Limonium perezii",
+      "common_name": "rosemary, Sea lavender Carpet grass, Lippia",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,14,25,30,40,41,53"
+    },
+    {
+      "scientific_name": "Liriope gigantea",
+      "common_name": "Giant turf lily",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,25,40,41"
+    },
+    {
+      "scientific_name": "Lonicera japonica",
+      "common_name": "Hall's",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "'Halliana'",
+      "common_name": "honeysuckle",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Macadamia",
+      "common_name": "Macadamia nut,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "hybrids",
+      "common_name": "Queensland nut Creeping mahonia",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Malephora",
+      "common_name": "Ice plant,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "crocea",
+      "common_name": "Croceum ice plant Yellow trailing ice plant New Zealand Christmas tree,Pohutukawa Monkey flower Creeping boobyalla, Myoporum Wax myrtle, Pacific wax",
+      "plant_type": "succulent evergreen perennial evergreen",
+      "plant_form": "groundcover tree shrub groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,12,18,30,40,41,42,53 11,17,15,25,40,41,42,53"
+    },
+    {
+      "scientific_name": "Myrica californica",
+      "common_name": "myrtle, California wax myrtle Nerine",
+      "plant_type": "evergreen bulb",
+      "plant_form": "shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,17 8,9,11,25"
+    },
+    {
+      "scientific_name": "oleander",
+      "common_name": "Oleander",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Oenothera",
+      "common_name": "Mexican evening",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "berlandieri",
+      "common_name": "primrose",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Osteospermum",
+      "common_name": "Trailing South",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "fruticosum",
+      "common_name": "African daisy, Freeway daisy Ivy geranium",
+      "plant_type": "perennial perennial",
+      "plant_form": "groundcover groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Lippia",
+      "common_name": "Lippia Dwarf karo",
+      "plant_type": "perennial evergreen",
+      "plant_form": "groundcover shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,10,11,12,23,28,35,36,40,21,41 25,40,41"
+    },
+    {
+      "scientific_name": "Pittosporum tobira",
+      "common_name": "Wheeler's mock orange Aspen,",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,12,25,40,41"
+    },
+    {
+      "scientific_name": "Populus spp.",
+      "common_name": "Cottonwood, Poplar Quaking aspen Purslane tree, Elephant's food",
+      "plant_type": "deciduous deciduous",
+      "plant_form": "tree tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,18 9,11,15"
+    },
+    {
+      "scientific_name": "tabernaemontanii",
+      "common_name": "Spring cinquefoil Holly-leaved cherry",
+      "plant_type": "evergreen",
+      "plant_form": "groundcover",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,37,40,41,53"
+    },
+    {
+      "scientific_name": "Prunus lyonii",
+      "common_name": "Catalina cherry Plum, Peach, Cherry, Apricot, Evergreen cherry",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "5,8,9,11,12,13,25,37,40,41,53"
+    },
+    {
+      "scientific_name": "Punica granatum",
+      "common_name": "Pomegranate",
+      "plant_type": "deciduous",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,30,40,41,42,53"
+    },
+    {
+      "scientific_name": "Punica granatum",
+      "common_name": "Dwarf",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "'Nana'",
+      "common_name": "pomegranate Pyracantha, Firethorn Encina, Coast live oak, California live oak",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Rhamnus",
+      "common_name": "Italian",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "alaternus",
+      "common_name": "buckthorn Coffeeberry Spiny redberry, Redberry, Hollyleaf redberry, Red- berried buckthorn Western azalea",
+      "plant_type": "evergreen evergreen",
+      "plant_form": "shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,11,12,15,17,25,26,30,53 17,40,41"
+    },
+    {
+      "scientific_name": "Rhus integrifolia",
+      "common_name": "Lemonade berry",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,12,13,14,15,22,26,37,40,41,53"
+    },
+    {
+      "scientific_name": "Rhus lancea",
+      "common_name": "African sumac Evergreen currant, Catalina perfume Sonoma sage, Creeping sage",
+      "plant_type": "evergreen evergreen",
+      "plant_form": "tree shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,11,12,26,37,40,41 8,9,11,15,17,25,30,53 42,53"
+    },
+    {
+      "scientific_name": "Santolina",
+      "common_name": "Santolina,",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "chamaecyparissus",
+      "common_name": "Lavender, Gray lavender Fan flower Peruvian pepper tree, California pepper tree Brazilian pepper tree Goldmoss sedum",
+      "plant_type": "perennial evergreen",
+      "plant_form": "groundcover tree",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,11,12,25 5,9,11,13,17,22,25,30,37,40,41,53"
+    },
+    {
+      "scientific_name": "Sedum album",
+      "common_name": "Green stonecrop",
+      "plant_type": "succulent",
+      "plant_form": "creeper",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,10,53"
+    },
+    {
+      "scientific_name": "Sedum brevifolium",
+      "common_name": "Stonecrop Stonecrop, Sedum Brown bean, Pork and beans Stonecrop Blue ice plant Senecio, Dusty miller, Blue- chalksticks",
+      "plant_type": "succulent succulent succulent succulent",
+      "plant_form": "groundcover groundcover shrub shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "7,9,24,25 11,15,25 9,10,25 7,24,40,41,53"
+    },
+    {
+      "scientific_name": "Simmondsia",
+      "common_name": "Pignut, Jojoba,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "chinensis",
+      "common_name": "Goatnut Yellow-eyed grass, Blue-eyed grass",
+      "plant_type": "perennial",
+      "plant_form": "grass",
+      "fire_rating": "Fire-Resistant",
+      "references": "11,15,40,41,53"
+    },
+    {
+      "scientific_name": "Sisyrinchium",
+      "common_name": "Yellow-eyed",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "californicum",
+      "common_name": "grass Potato vine Purple nightshade",
+      "plant_type": "or",
+      "plant_form": "vine",
+      "fire_rating": "Fire-Resistant",
+      "references": "8,9,12,17,26,30,37,40,41"
+    },
+    {
+      "scientific_name": "Strelitzia reginae",
+      "common_name": "Bird of paradise Waxberry,",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "27,40,41"
+    },
+    {
+      "scientific_name": "Symphoricarpos",
+      "common_name": "Creeping",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "mollis",
+      "common_name": "snowberry, Trip vine",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Tecomaria",
+      "common_name": "Cape",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "capensis",
+      "common_name": "honeysuckle Mother of thyme, Creeping thyme",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Fire-Resistant",
+      "references": "9,10,23,36,40,41"
+    },
+    {
+      "scientific_name": "Thymus",
+      "common_name": "Woolly thyme,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "pseudolanuginosus",
+      "common_name": "Thyme",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Fire-Resistant",
+      "references": ""
+    },
+    {
+      "scientific_name": "Trichostema",
+      "common_name": "Woolly blue",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "lanatum",
+      "common_name": "curls, Romero",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Trifolium",
+      "common_name": "O'Connor's",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "fragiferum",
+      "common_name": "legume",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Tulbaghia violacea",
+      "common_name": "Society garlic",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "8,9,25,40,41"
+    },
+    {
+      "scientific_name": "Vinca major",
+      "common_name": "Periwinkle Dwarf periwinkle",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Highly Flammable",
+      "references": "7,9,10,11,20,23,24,30,34,36,38,"
+    },
+    {
+      "scientific_name": "Vinca minor",
+      "common_name": "myrtle, Dwarf running myrtle California",
+      "plant_type": "perennial",
+      "plant_form": "groundcover",
+      "fire_rating": "Highly Flammable",
+      "references": "7,10,11,23,24,28,30,36,38,39,53"
+    },
+    {
+      "scientific_name": "Zauschneria",
+      "common_name": "fuschia,",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "californica",
+      "common_name": "Hummingbird flower",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Abies spp.",
+      "common_name": "Fir",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,8,40,41"
+    },
+    {
+      "scientific_name": "Adenostoma",
+      "common_name": "Greasewood",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "3,4,8,9,30,40,41,42"
+    },
+    {
+      "scientific_name": "fasciculatum",
+      "common_name": "chamise",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Adenostoma",
+      "common_name": "Red shanks",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "8,9,30,42"
+    },
+    {
+      "scientific_name": "Coprosma",
+      "common_name": "Prostrate",
+      "plant_type": "evergreen",
+      "plant_form": "groundcover",
+      "fire_rating": "Highly Flammable",
+      "references": "9,25,53"
+    },
+    {
+      "scientific_name": "pumila",
+      "common_name": "coprosma",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Cortaderia",
+      "common_name": "Pampas",
+      "plant_type": "evergreen",
+      "plant_form": "grass",
+      "fire_rating": "Highly Flammable",
+      "references": "4,8,9,40"
+    },
+    {
+      "scientific_name": "selloana",
+      "common_name": "grass",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Eriogonum",
+      "common_name": "California",
+      "plant_type": "perennial",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "4,40,41,42"
+    },
+    {
+      "scientific_name": "fasciculatum",
+      "common_name": "buckwheat",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Eucalyptus",
+      "common_name": "Eucalyptus",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,9,8"
+    },
+    {
+      "scientific_name": "globulus",
+      "common_name": "globulus, Blue gum",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Larix spp.",
+      "common_name": "Larch",
+      "plant_type": "deciduous",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "8,40,41"
+    },
+    {
+      "scientific_name": "Lonicera",
+      "common_name": "Japanese",
+      "plant_type": "evergreen",
+      "plant_form": "vine",
+      "fire_rating": "Highly Flammable",
+      "references": "8,40,41"
+    },
+    {
+      "scientific_name": "japonica",
+      "common_name": "honeysuckle",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Palms",
+      "common_name": "Palm",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "8,40,41"
+    },
+    {
+      "scientific_name": "Picea spp.",
+      "common_name": "Spruce",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,8,40,41"
+    },
+    {
+      "scientific_name": "Pickeringia",
+      "common_name": "Chaparral",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "8,40,41"
+    },
+    {
+      "scientific_name": "montana",
+      "common_name": "pea",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Pseudotsuga",
+      "common_name": "Douglas-fir",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,40,41"
+    },
+    {
+      "scientific_name": "Spartium",
+      "common_name": "Spanish",
+      "plant_type": "evergreen",
+      "plant_form": "shrub",
+      "fire_rating": "Highly Flammable",
+      "references": "4,40,41"
+    },
+    {
+      "scientific_name": "junceum",
+      "common_name": "broom",
+      "plant_type": "",
+      "plant_form": "",
+      "fire_rating": "Highly Flammable",
+      "references": ""
+    },
+    {
+      "scientific_name": "Taxus spp.",
+      "common_name": "Yew",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,40,41"
+    },
+    {
+      "scientific_name": "Thuja spp.",
+      "common_name": "Arborvitae",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "4,8,40,41"
+    },
+    {
+      "scientific_name": "Tsuga spp.",
+      "common_name": "Hemlock",
+      "plant_type": "evergreen",
+      "plant_form": "tree",
+      "fire_rating": "Highly Flammable",
+      "references": "8,40,41"
+    }
+  ],
+  "references": [
+    {
+      "ref_number": "1",
+      "author": "California",
+      "title": "Fire Safe: Inside",
+      "year": "Date",
+      "publisher": "California",
+      "summary": "Defines fire retardant"
+    },
+    {
+      "ref_number": "2",
+      "author": "Gaidula, Peter",
+      "title": "Wildland Fuel",
+      "year": "1976",
+      "publisher": "California",
+      "summary": "This reference does"
+    },
+    {
+      "ref_number": "3",
+      "author": "Tarbes, J.A.",
+      "title": "Physical",
+      "year": "1980",
+      "publisher": "San Francisco State",
+      "summary": "Defines fire"
+    },
+    {
+      "ref_number": "4",
+      "author": "Sunset",
+      "title": "Big Job #1:",
+      "year": "1992",
+      "publisher": "Lane Magazine and",
+      "summary": "Defines highly"
+    },
+    {
+      "ref_number": "5",
+      "author": "Sunset",
+      "title": "Brush Clearing",
+      "year": "1968",
+      "publisher": "Lane Magazine and",
+      "summary": "Describes fire"
+    },
+    {
+      "ref_number": "6",
+      "author": "California",
+      "title": "Landscape for",
+      "year": "1989",
+      "publisher": "CSFM Journal, No.",
+      "summary": "Defines flammable"
+    },
+    {
+      "ref_number": "7",
+      "author": "City of Los",
+      "title": "Green Belts for",
+      "year": "Date",
+      "publisher": "City of Los Angeles,",
+      "summary": "The term fire"
+    },
+    {
+      "ref_number": "8",
+      "author": "East Bay",
+      "title": "Firescape:",
+      "year": "1995",
+      "publisher": "Community Services",
+      "summary": "Defines flammable or"
+    },
+    {
+      "ref_number": "9",
+      "author": "Brende and",
+      "title": "List of More and",
+      "year": "Date",
+      "publisher": "Brende and Shapiro",
+      "summary": "This reference"
+    },
+    {
+      "ref_number": "10",
+      "author": "Gilmer,",
+      "title": "California",
+      "year": "1994",
+      "publisher": "Taylor Publishing",
+      "summary": "Plants are grouped"
+    },
+    {
+      "ref_number": "11",
+      "author": "California",
+      "title": "Fire-Safe",
+      "year": "Date",
+      "publisher": "Santa Clara Ranger",
+      "summary": "A list of plants is"
+    },
+    {
+      "ref_number": "12",
+      "author": "Berkeley",
+      "title": "Fire Resistant",
+      "year": "1991",
+      "publisher": "Berkeley",
+      "summary": "Defines fire resistant"
+    },
+    {
+      "ref_number": "13",
+      "author": "Maire, Richard",
+      "title": "Landscape to",
+      "year": "1962",
+      "publisher": "University of",
+      "summary": "Fire retardance is not"
+    },
+    {
+      "ref_number": "14",
+      "author": "Northeast",
+      "title": "Final Habitat",
+      "year": "1990",
+      "publisher": "Northeast Ridge,",
+      "summary": "This reference states"
+    },
+    {
+      "ref_number": "15",
+      "author": "D'Alcamo,",
+      "title": "Appropriate",
+      "year": "Date",
+      "publisher": "East Bay Chapter,",
+      "summary": "Supplies a list of"
+    },
+    {
+      "ref_number": "16",
+      "author": "Red Shingle &",
+      "title": "The Green",
+      "year": "1988",
+      "publisher": "Red Cedar Shingle &",
+      "summary": "This references bases"
+    },
+    {
+      "ref_number": "17",
+      "author": "Phoenix Team",
+      "title": "After the Vision",
+      "year": "1996",
+      "publisher": "Phoenix Team of the",
+      "summary": "This reference"
+    },
+    {
+      "ref_number": "18",
+      "author": "Morris,",
+      "title": "Design and",
+      "year": "Date",
+      "publisher": "Country Fire",
+      "summary": "This reference"
+    },
+    {
+      "ref_number": "19",
+      "author": "Brush Fire",
+      "title": "Make it Safe to",
+      "year": "Date",
+      "publisher": "Brush Fire Safety",
+      "summary": "This reference"
+    },
+    {
+      "ref_number": "20",
+      "author": "Radtke, Klaus",
+      "title": "A Homeowner's",
+      "year": "1993",
+      "publisher": "County of Los",
+      "summary": "Fire retardance was"
+    },
+    {
+      "ref_number": "21",
+      "author": "Radtke, Klaus",
+      "title": "Living More",
+      "year": "Date",
+      "publisher": "U.S. Dept. of",
+      "summary": "Fire retardance was"
+    },
+    {
+      "ref_number": "22",
+      "author": "Maire, Richard",
+      "title": "Landscape for",
+      "year": "1969",
+      "publisher": "University of",
+      "summary": "Refers to Los Angeles"
+    },
+    {
+      "ref_number": "23",
+      "author": "Grounds",
+      "title": "Flirting With Fire",
+      "year": "1988",
+      "publisher": "Grounds",
+      "summary": "Erosion control was"
+    },
+    {
+      "ref_number": "24",
+      "author": "County of Los",
+      "title": "Fire Retardant",
+      "year": "1970",
+      "publisher": "County of Los",
+      "summary": "Bases fire retardance"
+    },
+    {
+      "ref_number": "25",
+      "author": "Santa Barbara",
+      "title": "Firescape",
+      "year": "Date",
+      "publisher": "Santa Barbara City",
+      "summary": "This reference offers"
+    },
+    {
+      "ref_number": "26",
+      "author": "Coate, Barrie",
+      "title": "Water-",
+      "year": "1990",
+      "publisher": "East Bay Municipal",
+      "summary": "Only offers a list of"
+    },
+    {
+      "ref_number": "27",
+      "author": "Rice, Carol",
+      "title": "Effects of",
+      "year": "1991",
+      "publisher": "Wildland Resource",
+      "summary": "Lists species with the"
+    },
+    {
+      "ref_number": "28",
+      "author": "City of San",
+      "title": "Fire Resistive",
+      "year": "1996",
+      "publisher": "The City of San",
+      "summary": "Gives a list of"
+    },
+    {
+      "ref_number": "29",
+      "author": "Beatty,",
+      "title": "Designing",
+      "year": "1991",
+      "publisher": "Department of",
+      "summary": "Rates plants fire"
+    },
+    {
+      "ref_number": "30",
+      "author": "Harlass,",
+      "title": "How to",
+      "year": "1993",
+      "publisher": "Nursery Manager,",
+      "summary": "Defines a fire"
+    },
+    {
+      "ref_number": "31",
+      "author": "Orinda Fire",
+      "title": "Protect Your",
+      "year": "Date",
+      "publisher": "Orinda Fire",
+      "summary": "Offers a few fire"
+    },
+    {
+      "ref_number": "32",
+      "author": "California",
+      "title": "Fire Safe,",
+      "year": "Date",
+      "publisher": "California",
+      "summary": "Classifies fire"
+    },
+    {
+      "ref_number": "33",
+      "author": "City of Santa",
+      "title": "City of Santa",
+      "year": "Date",
+      "publisher": "City of Santa",
+      "summary": "Defines fire resistant"
+    },
+    {
+      "ref_number": "34",
+      "author": "Bowker, Mike",
+      "title": "High Danger",
+      "year": "1995",
+      "publisher": "Motorland/CSAA,",
+      "summary": "Considers that fire"
+    },
+    {
+      "ref_number": "35",
+      "author": "South County",
+      "title": "Protecting Your",
+      "year": "Date",
+      "publisher": "South County Fire",
+      "summary": "Offers only a list of"
+    },
+    {
+      "ref_number": "36",
+      "author": "Sunset",
+      "title": "Protecting Your",
+      "year": "1983",
+      "publisher": "Lane Publishing",
+      "summary": "Lists succulents as"
+    },
+    {
+      "ref_number": "37",
+      "author": "Department",
+      "title": "Plants for",
+      "year": "1979",
+      "publisher": "State of California,",
+      "summary": "Offers a list of"
+    },
+    {
+      "ref_number": "38",
+      "author": "LeMay, David",
+      "title": "Recommended",
+      "year": "1978",
+      "publisher": "San Luis Obispo,",
+      "summary": "Rates species of"
+    },
+    {
+      "ref_number": "39",
+      "author": "Martin-",
+      "title": "A Homeowner's",
+      "year": "Date",
+      "publisher": "San Luis Obispo,",
+      "summary": "Lists fire retardant"
+    },
+    {
+      "ref_number": "40",
+      "author": "Moritz, Ray;",
+      "title": "Pyrophytic vs.",
+      "year": "1996",
+      "publisher": "University of",
+      "summary": "Defines fire resistant"
+    },
+    {
+      "ref_number": "41",
+      "author": "Moritz, Ray",
+      "title": "Pyrophytic vs.",
+      "year": "1995",
+      "publisher": "San Rafael Fire",
+      "summary": "Defines fire resistant"
+    },
+    {
+      "ref_number": "42",
+      "author": "Perry, Bob",
+      "title": "Trees and",
+      "year": "1989",
+      "publisher": "Land Design",
+      "summary": "Fire retardance was"
+    },
+    {
+      "ref_number": "43",
+      "author": "Ellefson,",
+      "title": "Xeriscape",
+      "year": "1992",
+      "publisher": "Macmillian",
+      "summary": "Offers plant lists only"
+    },
+    {
+      "ref_number": "44",
+      "author": "Brenzel,",
+      "title": "Sunset Western",
+      "year": "1995",
+      "publisher": "Menlo Park, CA:",
+      "summary": "This reference was"
+    },
+    {
+      "ref_number": "45",
+      "author": "U.S. Dept. of",
+      "title": "Plant Materials",
+      "year": "1976",
+      "publisher": "U.S Dept. of",
+      "summary": "Offers information on"
+    },
+    {
+      "ref_number": "46",
+      "author": "Deering,",
+      "title": "A Study of",
+      "year": "1955",
+      "publisher": "Davis, CA:",
+      "summary": "Offers plant lists only"
+    },
+    {
+      "ref_number": "47",
+      "author": "International",
+      "title": "Proceedings of",
+      "year": "1977",
+      "publisher": "Seattle, WA: The",
+      "summary": "Offers species"
+    },
+    {
+      "ref_number": "48",
+      "author": "Edmuson,",
+      "title": "Plant Materials",
+      "year": "1976",
+      "publisher": "U.S Dept. of",
+      "summary": "Offers plant lists only"
+    },
+    {
+      "ref_number": "49",
+      "author": "Resource",
+      "title": "Windbreaks",
+      "year": "1988",
+      "publisher": "Sacramento, CA:",
+      "summary": "Offers plant lists only"
+    },
+    {
+      "ref_number": "50",
+      "author": "Lenz, Lee W.;",
+      "title": "California Native",
+      "year": "1981",
+      "publisher": "Rancho Santa Ana",
+      "summary": "Offers plant lists only"
+    },
+    {
+      "ref_number": "51",
+      "author": "Nehrling,",
+      "title": "Easy Gardening",
+      "year": "1975",
+      "publisher": "New York: Dover",
+      "summary": "Defines drought as"
+    },
+    {
+      "ref_number": "52",
+      "author": "Hazlewood,",
+      "title": "A Handbook of",
+      "year": "1968",
+      "publisher": "Sydney, Australia:",
+      "summary": "Defines drought"
+    },
+    {
+      "ref_number": "53",
+      "author": "Orange",
+      "title": "Report of the",
+      "year": "1994",
+      "publisher": "Developed by the",
+      "summary": "Defines plants that"
+    },
+    {
+      "ref_number": "54",
+      "author": "Perry, Bob",
+      "title": "Landscape",
+      "year": "1992",
+      "publisher": "Claremont, CA :",
+      "summary": "Categorizes"
+    },
+    {
+      "ref_number": "55",
+      "author": "Hickman,",
+      "title": "The Jepson",
+      "year": "1993",
+      "publisher": "University of",
+      "summary": "Provides information"
+    },
+    {
+      "ref_number": "56",
+      "author": "The Staff of",
+      "title": "Hortus Third: A",
+      "year": "1976",
+      "publisher": "New York, NY:",
+      "summary": "Provides detailed"
+    },
+    {
+      "ref_number": "57",
+      "author": "Costello, L.R.;",
+      "title": "Water Use",
+      "year": "1994",
+      "publisher": "Half Moon Bay, CA:",
+      "summary": "Provides"
+    }
+  ]
+}

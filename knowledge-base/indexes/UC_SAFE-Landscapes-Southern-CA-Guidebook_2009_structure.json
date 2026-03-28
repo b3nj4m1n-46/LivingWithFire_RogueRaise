@@ -1,0 +1,206 @@
+{
+  "doc_name": "UC_SAFE-Landscapes-Southern-CA-Guidebook_2009.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "start_index": 1,
+      "end_index": 6,
+      "node_id": "0000",
+      "summary": "This partial document is a guidebook titled \"S.A.F.E. LANDSCAPES: Sustainable and Fire-Safe Landscapes In The Wildland Urban Interface\" for Southern California. It provides comprehensive guidelines for residents living in the Wildland Urban Interface (WUI) \u2013 areas where urban development meets natural vegetation \u2013 to create and maintain landscapes that are both environmentally friendly and resistant to wildfires.\n\nThe main points covered include:\n\n1.  **Introduction to SAFE Landscapes and the WUI:** Defining the project's purpose, the concept of sustainable and fire-safe landscapes, and what the Wildland Urban Interface is, highlighting the inherent wildfire risks in these areas.\n2.  **Ecological Context of Southern California:** Discussing the region's Mediterranean climate, natural fire regimes, specific habitats, the influence of climate change on fire, and the impact of invasive plants on wildland health.\n3.  **Strategies for Fire-Resistant Homes and Landscapes:** Providing practical advice on making buildings safe in the WUI, establishing defensible space around properties, and implementing fire-safe landscaping techniques, including managing brush, fuel, and vegetation.\n4.  **Seasonal Guide to Fire-Safe Practices:** Offering a detailed breakdown of fire-safe landscape maintenance activities recommended for each season (Spring, Summer, Fall, Winter).\n5.  **Resources and Preparedness:** Including a chronology of Southern California wildfires, references, websites, books, and a removable worksheet for emergency contacts, emphasizing personal responsibility for safety and evacuation preparedness.\n\nThe document stresses that wildfires are an inevitable part of the Southern California environment and aims to equip residents with the knowledge and tools to reduce, though not eliminate, the risk of fire damage to their homes and properties."
+    },
+    {
+      "title": "Introduction",
+      "start_index": 6,
+      "end_index": 6,
+      "nodes": [
+        {
+          "title": "SAFE Landscapes",
+          "start_index": 6,
+          "end_index": 6,
+          "nodes": [
+            {
+              "title": "What is the Wildland Urban Interface?",
+              "start_index": 6,
+              "end_index": 7,
+              "node_id": "0003",
+              "summary": "This partial document introduces the SAFE (Sustainable And Fire SafE) Landscapes project, a collaborative effort providing guidelines for creating fire-safe and environmentally friendly landscapes in the wildland-urban interface (WUI). It emphasizes individual responsibility for wildfire preparedness, detailing actions like using fire-resistant building materials, establishing defensible space, and having an evacuation plan. The document defines the WUI as the area where urban development meets natural vegetation, highlighting its inherent risks beyond just wildfire, such as wildlife interactions and natural disasters. It also discusses sustainability in the WUI, advocating for practices that protect both human lives/property and natural habitats, including the use of native, low-maintenance, and fire-safe plants to conserve water, reduce chemical use, and preserve biodiversity."
+            },
+            {
+              "title": "Sustainability",
+              "start_index": 7,
+              "end_index": 7,
+              "node_id": "0004",
+              "summary": "This partial document defines sustainable development, applying it specifically to the wildland-urban interface (WUI) areas of Southern California. It emphasizes the dual goal of protecting people, property, and natural habitats, highlighting the importance of native plants for biodiversity in California. The text then details how sustainable fire-safe landscaping practices contribute to this goal by conserving water, limiting harmful chemicals, avoiding invasive species, and utilizing easy-to-care-for native or California-friendly plants that protect neighboring habitats."
+            }
+          ],
+          "node_id": "0002",
+          "summary": "This partial document introduces the \"SAFE (Sustainable And Fire SafE) Landscapes Project,\" a collaborative initiative providing guidelines for creating and maintaining fire-safe, environmentally friendly landscapes in the wildland-urban interface (WUI). It emphasizes that fire safety in the WUI is a shared responsibility, starting with fire-resistant home construction, good practices to prevent fires, and a family fire response plan. The document stresses the importance of developing a fire-resistant landscape and establishing defensible space to reduce fire risk and aid firefighters. It defines the WUI as the area where urban development meets natural vegetation, highlighting wildfire as a primary risk, alongside other hazards like wildlife interactions, floods, and landslides. It also mentions the classification of WUI areas into fire hazard severity zones and the requirement for managing vegetative fuels near buildings. The overall message is that while fire risk cannot be eliminated in the WUI, preparation and proactive measures can significantly reduce damage and ensure safety."
+        }
+      ],
+      "node_id": "0001",
+      "summary": "This partial document introduces the \"SAFE (Sustainable And Fire SafE) Landscapes Project,\" a collaborative initiative providing guidelines for creating and maintaining fire-safe, environmentally friendly landscapes in the wildland-urban interface (WUI). It emphasizes that fire safety in the WUI is a shared responsibility, starting with fire-resistant home construction, good practices to prevent fires, and a family fire response plan. The document stresses the importance of developing a fire-resistant landscape and establishing defensible space to reduce fire risk and aid firefighters. It defines the WUI as the area where urban development meets natural vegetation, highlighting wildfire as a primary risk, alongside other hazards like wildlife interactions, floods, and landslides. It also mentions the classification of WUI areas into fire hazard severity zones and the requirement for managing vegetative fuels near buildings. The overall message is that while fire risk cannot be eliminated in the WUI, preparation and proactive measures can significantly reduce damage and ensure safety."
+    },
+    {
+      "title": "Climate, Fire, and Habitat in Southern California",
+      "start_index": 8,
+      "end_index": 8,
+      "nodes": [
+        {
+          "title": "Mediterranean Climates and Plant Adaptations",
+          "start_index": 8,
+          "end_index": 8,
+          "node_id": "0006",
+          "summary": "The partial document describes Mediterranean climates, focusing on their characteristics (winter rains, dry/hot summers) and global distribution, particularly in Southern California. It highlights the unique plant adaptations found in these regions, especially their resilience and specific responses to wildfires, such as re-sprouting, fire-activated seeds, and \"fire followers.\" The text then introduces the concept of \"fire regimes,\" defining their key elements (spatial, temporal, intensity, and severity), and elaborates on the spatial aspect by categorizing fires into ground, surface, and crown fires based on where they occur within the vegetation."
+        },
+        {
+          "title": "Fire Regimes",
+          "start_index": 8,
+          "end_index": 9,
+          "node_id": "0007",
+          "summary": "This partial document describes the Mediterranean climate of Southern California, detailing its global distribution and the unique adaptations of its plant communities to dry summers and fire. It thoroughly explains the concept of \"fire regimes,\" breaking down their spatial (ground, surface, crown fires), intensity, severity, and temporal aspects (season, frequency, ignition sources), emphasizing how human activity influences fires in Southern California and how altered fire frequencies can lead to habitat degradation. Finally, it introduces Southern California habitats, specifically focusing on Chaparral, outlining its characteristics, dominant plant species, and its natural resilience to specific fire frequencies, while cautioning against the negative effects of unnaturally frequent fires."
+        },
+        {
+          "title": "Southern California Habitats",
+          "start_index": 9,
+          "end_index": 12,
+          "node_id": "0008",
+          "summary": "This partial document describes key concepts related to fire regimes in Southern California, including definitions of fire intensity, severity, temporal aspects, and frequency, as well as the phenomenon of \"type conversion\" due to altered fire frequencies. It then provides detailed descriptions of several major Southern California habitats: Chaparral, Sage scrub, Oak woodlands and savannahs, Montane forest, Desert montane, and Riparian Forest. For each habitat, it outlines characteristic vegetation, natural fire behavior, historical fire return intervals, and how human impacts, invasive species, or environmental changes (like drought and disease) are altering their fire susceptibility and resilience. Finally, the document touches upon the impact of climate change on fire in Southern California, predicting more severe droughts, changes in precipitation, reduced water availability, and longer fire seasons."
+        },
+        {
+          "title": "Fire and Climate Change in Southern California",
+          "start_index": 12,
+          "end_index": 13,
+          "node_id": "0009",
+          "summary": "The partial document discusses two primary environmental concerns in Southern California: the impacts of **climate change on fire risk** and the problems associated with **invasive plants**.\n\nIt explains how global warming is leading to more severe droughts, reduced snow-pack and water availability, higher summer temperatures, and longer fire seasons in the region.\n\nAdditionally, it details how invasive plants escape cultivated areas to displace native vegetation, degrade wildlife habitat, fuel wildfires, contribute to soil erosion, and cause waterway issues like clogging and increased flooding. The document also advises readers on avoiding invasive species in fire-safe landscaping and provides resources for identifying them."
+        },
+        {
+          "title": "Invasive Plants and Wildland Health",
+          "start_index": 13,
+          "end_index": 15,
+          "node_id": "0010",
+          "summary": "This partial document covers two main topics: the detrimental effects of invasive plants on wildland health and the importance of fire-resistant homes and landscapes. It explains how invasive plants spread, displace native vegetation, reduce wildlife habitat, and contribute to wildfires, soil erosion, and flooding, advising readers to avoid them in fire-safe landscaping and providing resources for identification. The document then details the Wildland Urban Interface Building Standard (Chapter 7A) of the California Building Code, outlining specific requirements for exterior building materials and construction methods to enhance a home's resistance to wildfires, emphasizing the need for defensible space and code-compliant building practices."
+        }
+      ],
+      "node_id": "0005",
+      "summary": "This partial document describes Mediterranean climates, focusing on Southern California, characterized by winter rains and dry, hot summers. It highlights the unique plant adaptations in these regions, which are prone to large wildfires, including mechanisms for moisture retention and post-fire regeneration such as re-sprouting, smoke-activated seeds, and \"fire follower\" annuals. The document then introduces the concept of \"fire regimes,\" explaining that these habitats are adapted to specific fire patterns, and details the spatial aspects of fire, categorizing them into ground, surface, and crown fires based on their location within the vegetation."
+    },
+    {
+      "title": "Fire-resistant Homes and Landscapes",
+      "start_index": 15,
+      "end_index": 15,
+      "nodes": [
+        {
+          "title": "Safe Buildings in the WUI",
+          "start_index": 15,
+          "end_index": 19,
+          "node_id": "0012",
+          "summary": "This partial document provides comprehensive guidance on protecting homes and properties from wildfires, focusing on both building construction and landscape management. It introduces Chapter 7A of the California Building Code, which outlines new standards for homes in wildfire-prone areas, applicable to new constructions and remodels.\n\nKey points covered include:\n*   **Building Materials and Construction:** Detailed recommendations for fire-resistant features for various parts of a home, including:\n    *   **Roofs:** Emphasizing Class A fire ratings, sealing gaps, and regular cleaning to prevent ember ignition.\n    *   **Vents:** Requiring ember and flame-resistant designs (e.g., 1/8-inch mesh screens) or unvented options, and suggesting temporary covers during a fire threat.\n    *   **Decks:** Advising the use of fire-performance-compliant materials, avoiding storage of combustibles, and cleaning gaps to prevent ignition.\n    *   **Windows:** Prioritizing dual-pane windows with at least one pane of tempered glass for increased resistance to breaking, and recommending temporary covers.\n    *   **Siding:** Promoting noncombustible or ignition-resistant materials to prevent vertical flame spread and penetration, and advising against storing combustibles near the house.\n*   **Siting/Location:** Recommendations for building new homes away from high-risk areas like ridge tops, canyons, and saddles.\n*   **Defensible Space and Fire-Safe Landscaping:** Guidelines for creating and maintaining a \"defensible space\" of at least 100 feet around structures. This includes:\n    *   Maintaining horizontal and vertical separation between plants.\n    *   Eliminating \"ladder fuels\" that allow fire to climb.\n    *   Choosing fire-resistant plants (while acknowledging all plants can burn).\n    *   Regular irrigation and removal of dead debris.\n    *   Incorporating hardscape elements as fuel breaks.\n    *   Keeping combustible items (e.g., firewood, propane tanks) away from the home.\n*   **General Preparedness:** Suggestions like posting visible address signs and maintaining clear entry roadways for emergency access.\n*   **Resources:** Provides links to Chapter 7A of the California Building Code, a handbook of compliant products, and other wildfire mitigation guides.\n\nThe document stresses that home survival in a wildfire is a \"package deal,\" directly linking building design and materials with the selection and maintenance of near-home vegetation."
+        },
+        {
+          "title": "Defensible Space",
+          "start_index": 19,
+          "end_index": 19,
+          "node_id": "0013",
+          "summary": "This partial document provides guidelines and information on creating and maintaining defensible space and fire-safe landscapes to reduce wildfire risk. It outlines specific steps such as establishing a 100-foot defensible space around structures, preserving well-spaced vegetation, eliminating ladder fuels, and designing landscapes with horizontal and vertical plant separation. The document also emphasizes choosing fire-resistant plants, proper irrigation, regular removal of flammable debris, incorporating hardscape as fuel breaks, and keeping combustible items away from the home. It defines defensible space as a critical area for firefighter safety and highlights the importance of year-round property maintenance to minimize fuel near structures."
+        },
+        {
+          "title": "Fire-safe Landscaping",
+          "start_index": 19,
+          "end_index": 20,
+          "node_id": "0014",
+          "summary": "The partial document provides comprehensive guidelines and explanations regarding defensible space and fire-safe landscaping to mitigate wildfire risk. It outlines specific steps for creating a defensible space of at least 100 feet around structures, including maintaining well-spaced vegetation and eliminating ladder fuels. The text details how to design and maintain fire-safe landscapes by ensuring horizontal and vertical separation of plants, choosing fire-resistant species, proper irrigation, regular removal of flammable debris, and incorporating hardscape elements as fuel breaks. It also defines defensible space as an area where vegetation is managed to decrease fire hazard and aid firefighters. Finally, it clarifies various terms related to vegetation management (e.g., clearance, mitigation) emphasizing that the goal is selective removal of hazardous fuels, not complete eradication, to balance fire safety with erosion control and wildlife habitat."
+        },
+        {
+          "title": "Brush, Fuel, and Vegetation",
+          "start_index": 20,
+          "end_index": 20,
+          "node_id": "0015",
+          "summary": "The document defines and explains terms related to brush, fuel, and vegetation management, including clearance, maintenance, and mitigation. It clarifies that these terms refer to vegetation maintenance aimed at minimizing fire transmission to structures, emphasizing selective removal of highly flammable plants rather than complete eradication. The text also highlights that effective clearance should still preserve some well-spaced and pruned vegetation to prevent erosion and provide wildlife habitat."
+        }
+      ],
+      "node_id": "0011",
+      "summary": "This partial document describes the importance of protecting homes and property from fire, particularly in wildfire-prone areas, by focusing on building from the house outwards. It introduces Chapter 7A (the Wildland Urban Interface Building Standard) of the California Building Code, which dictates how new homes are built and can guide remodeling for existing homes in these areas.\n\nThe document highlights that a home's ability to survive a wildfire correlates with its location, the maintenance of near-home vegetation (defensible space), and the exterior building materials used. It then details specific Chapter 7A requirements for exterior materials and construction methods, including:\n*   Defined fire ratings for roof coverings.\n*   Requirements for plugging gaps in roof coverings.\n*   The need for tempered glass in dual-pane windows.\n*   Limits on energy released from burning deck boards.\n*   Vents in eaves and soffits designed to resist embers and flames.\n*   Siding classifications (noncombustible, ignition-resistant, or fire-tested).\n\nFinally, it mentions the availability of a link to Chapter 7A and a handbook listing compliant products. The overall theme emphasizes creating fire-resistant homes and landscapes through code-compliant building materials and defensible space guidelines."
+    },
+    {
+      "title": "A Seasonal Guide to Fire-Safe Landscapes",
+      "start_index": 21,
+      "end_index": 22,
+      "nodes": [
+        {
+          "title": "Spring",
+          "start_index": 22,
+          "end_index": 28,
+          "node_id": "0017",
+          "summary": "This partial document provides a comprehensive guide to seasonal property maintenance and disaster preparedness, primarily focusing on fire hazard reduction and water-wise landscaping.\n\nKey points covered include:\n*   **Early Spring Maintenance:** Advice on irrigation system check-ups, deep watering for drought tolerance, composting green waste, and grasscycling.\n*   **Fire Preparedness:** Detailed instructions for reducing fire hazards on properties, such as weed removal, clearing debris, creating a wildfire action plan, securing homes, and maintaining clear zones around fuel sources.\n*   **Fire Hazard Reduction Responsibilities:** Explanation of brush clearance, weed abatement, and fuel modification requirements, emphasizing property owner responsibility and the importance of contacting local fire departments.\n*   **Disaster Preparedness for Pets:** Guidance on creating emergency kits for pets, arranging alternative housing during evacuations, and special considerations for large animals.\n*   **Environmental Considerations:** Warnings about disturbing bird nests during fuel management activities and advice on erosion control techniques to prevent mudslides.\n*   **Fuel Modification and Landscape Management:** Recommendations for fire-resistant landscaping, maintaining defensible space, proper plant spacing, and regular maintenance like watering and removing dead growth.\n*   **Problem Plants:** Identification and control methods for various invasive plant species (e.g., Artichoke Thistle, Castor Bean, Ivies, Iceplants) that can contribute to fire hazards or ecological damage, along with suggestions for non-invasive alternatives.\n*   **Summer Maintenance and Vacation Safety:** Tips for summer vegetation care, avoiding leaf blowers, and measures to ensure a home is fire-safe when on vacation.\n*   **High-Risk Weather Awareness:** Information on Santa Ana winds, Red Flag warnings, the dangers of fireworks, and the critical importance of evacuating when ordered during wildfires.\n*   **Late Summer/Fall Planning:** Advice on planning for fall planting, using deep-rooted plants for erosion control, and proper pruning techniques for plant health and fire resistance."
+        },
+        {
+          "title": "Summer",
+          "start_index": 28,
+          "end_index": 32,
+          "node_id": "0018",
+          "summary": "This partial document provides comprehensive guidance on sustainable and fire-safe landscaping, alongside emergency preparedness. It covers planning for fall planting, proper pruning techniques for plant health, and identifying characteristics of fire-resistant versus flammable plants. Specific invasive and highly flammable \"problem plants\" like Brooms, Myoporum, Tree of Heaven, and Mexican Fan Palms are highlighted with removal strategies and alternatives. The document also details how to create drought-tolerant landscapes, emphasizing water conservation, erosion control, and fire resistance through plant selection and maintenance. Finally, it includes essential information on family fire drills and assembling an emergency supply kit for household safety."
+        },
+        {
+          "title": "Fall",
+          "start_index": 32,
+          "end_index": 36,
+          "node_id": "0019",
+          "summary": "This partial document provides a comprehensive guide to drought-tolerant landscaping and fire safety, particularly relevant for Southern California. It details how to create water-saving, environmentally friendly landscapes using low-water-use and native plants, efficient irrigation, and mulching. The text emphasizes the complementary nature of water conservation and fire-safe landscaping, offering practical advice on plant selection, grouping plants by irrigation needs, and maintaining landscapes to reduce fire risk.\n\nKey sections include:\n*   **Drought-Tolerant Landscaping Principles:** Benefits, design techniques, and characteristics of suitable plants.\n*   **Plant Selection:** Recommendations for native Southern California and Mediterranean-climate plants, alongside warnings about invasive non-native species.\n*   **Fire Safety Integration:** How drought-tolerant landscapes can also be fire-resistant, with advice on maintenance, fuel breaks, and general fire season preparedness.\n*   **Problem Plants:** Identification and management of specific invasive species that pose environmental and fire risks.\n*   **Seasonal Considerations:** Brief notes on winter soil care and crucial holiday tree fire safety tips for the home.\n\nOverall, the document aims to educate readers on creating sustainable, water-efficient, and fire-safe outdoor spaces while highlighting the economic and environmental benefits of such practices."
+        },
+        {
+          "title": "Winter",
+          "start_index": 36,
+          "end_index": 40,
+          "node_id": "0020",
+          "summary": "This partial document covers several key aspects related to fire safety, environmental management, and post-fire recovery in Southern California, particularly during the winter season.\n\nMain points include:\n\n*   **Winter Environmental Care:** Guidance on soil care, erosion prevention in burned areas, and slope stabilization using deep-rooted vegetation during the winter rainy season.\n*   **Holiday Fire Safety:** Detailed instructions for preventing Christmas tree fires, covering tree selection, proper care (watering, placement away from heat), safe disposal, and inspecting outdoor lights.\n*   **Winter Plant Management:** Advice on protecting plants from frost (which can create fire hazards), the benefits of applying organic mulches in winter for soil health and fire hazard reduction, and strategies for weed control, including removing invasive species.\n*   **Post-Fire Erosion and Recovery:** Comprehensive information on managing erosion from winter rains in burned areas, including short-term measures (water channeling, sandbags) and long-term recovery strategies (allowing native vegetation to recover, controlling invasive plants, and cautious replanting).\n*   **Problematic Plant Species:** Identification of specific plants (Pines, Junipers, Cypress, Pampasgrass, Arundo, Tamarisk) that are highly flammable or invasive, along with recommendations for their management or avoidance in fire-prone zones.\n*   **Southern California Wildfire Chronology:** A historical record of significant wildfires in the region, detailing their dates, locations, and impact on structures and acreage."
+        }
+      ],
+      "node_id": "0016",
+      "summary": "This partial document, titled \"A SEASONAL GUIDE TO FIRE-SAFE LANDSCAPING,\" provides practical advice for creating and maintaining a fire-resistant landscape, particularly focusing on early spring activities and general fire preparedness. It recommends specific fire-resistant plants, emphasizes proper irrigation for drought tolerance, and suggests composting greenwaste and grasscycling. The document also outlines crucial fire preparedness steps, including timely weed removal, clearing debris, having a wildfire action plan, preparing window/vent covers, properly locating fuel sources, keeping outdoor areas clutter-free, and ensuring water reservoirs and emergency supplies are ready."
+    },
+    {
+      "title": "Chronology of Southern California Wildfires",
+      "start_index": 40,
+      "end_index": 42,
+      "node_id": "0021",
+      "summary": "This partial document provides a chronological list of significant wildfires in Southern California, detailing their start date, name, county, number of structures lost, and acres burned, organized by month from January to December. Following this chronology, it offers a comprehensive list of reference websites related to wildfire information, prevention, conservation, and emergency services in California."
+    },
+    {
+      "title": "References",
+      "start_index": 42,
+      "end_index": 42,
+      "nodes": [
+        {
+          "title": "Websites",
+          "start_index": 42,
+          "end_index": 43,
+          "node_id": "0023",
+          "summary": "This partial document provides a comprehensive list of reference materials, categorized into websites and books. The main points covered are:\n\n1.  **Wildfire Management and Safety:** Numerous resources are listed for wildfire prevention, mitigation, response, and ecology, including government agencies (CAL FIRE, various county fire departments, National Forests), non-profits (Fire-Safe Council, Firewise Communities), and research centers.\n2.  **California Native Plants and Invasive Species:** The document offers extensive references for identifying, cultivating, and managing California native plants, as well as information on invasive plant species and weed management.\n3.  **Land Management and Conservation:** Resources related to open space conservancies, national parks, and various environmental and landscape architecture organizations are provided, often with a focus on California's unique ecosystems like chaparral.\n4.  **Horticulture and Landscape Design:** Several books and websites offer guidance on gardening practices, plant selection, and irrigation needs specifically tailored for California's climate and native flora."
+        },
+        {
+          "title": "Books",
+          "start_index": 43,
+          "end_index": 44,
+          "node_id": "0024",
+          "summary": "This partial document contains a list of reference books primarily focused on California's native plants, invasive species, gardening, fire ecology, chaparral, and water management for landscaping. It also includes a list of individuals and their affiliations who are part of a \"Safe Landscapes Advisory Committee,\" representing various organizations involved in fire safety, landscape architecture, conservation, agriculture, and natural resource management, predominantly within California."
+        }
+      ],
+      "node_id": "0022",
+      "summary": "This partial document is a list of reference websites. The websites cover a wide range of topics primarily focused on wildfires, fire safety, prevention, and mitigation, including resources from various fire departments, fire-safe councils, and wildfire research centers. Additionally, it includes links to organizations involved in land management, conservation, native plants, invasive species, open space preservation, and emergency preparedness, with a strong emphasis on California-specific entities and national forests within the state."
+    },
+    {
+      "title": "Credits",
+      "start_index": 44,
+      "end_index": 45,
+      "node_id": "0025",
+      "summary": "The partial document covers two main points:\n\n1.  **SAFE LANDSCAPES Advisory COMMITTEE:** It lists the members of an advisory committee, including individuals and organizations from various fire departments (local, county, state), landscape architecture and planning departments, conservation agencies, agricultural and weed management offices, watershed councils, national park services, and university extensions. This section highlights expertise and collaboration in fire safety, land management, and environmental conservation.\n2.  **Emergency Preparedness Information:** It provides a detailed template for personal and family emergency information. This includes critical details such as emergency meeting points, out-of-state contacts, health care provider information, medication lists, pet details, and locations of essential services (fire station, police station, emergency room, Red Cross shelter) and hazardous substances at home. The purpose is to facilitate quick access to vital information during an emergency for family members and first responders."
+    },
+    {
+      "title": "Removable worksheet \u2013 contacts in the event of a fire",
+      "start_index": 45,
+      "end_index": 45,
+      "node_id": "0026",
+      "summary": "This partial document outlines a comprehensive emergency information form designed for families. It covers essential personal and family contact details, including names, addresses, phone numbers, and email. It also requests critical health information such as healthcare provider details, medication lists with dosages and prescription numbers, and pet information including special needs and veterinarian contacts. Furthermore, the document prompts for emergency preparedness details like designated meeting places, out-of-state contacts, children's school locations, and the locations and phone numbers of nearest emergency services (fire station, police station, emergency room, Red Cross shelter), as well as any hazardous substances on the property. Instructions are provided to fill out the form, make copies for a disaster kit, and post one in the kitchen for quick reference by family members and firefighters."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "doc_name": "WSU_Deer-Resistant-Plants-Eastern-WA.pdf",
+  "structure": [
+    {
+      "title": "C063 DEER RESISTANT PLANTS",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Fencing",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0001",
+          "summary": "This partial document provides information on managing deer damage to plants, particularly for gardeners in eastern Washington. It describes deer browsing habits, their seasonal diet, and factors influencing their plant preferences. The document then outlines various methods to deter deer, including:\n*   Shifting landscaping to deer-resistant plants.\n*   Using different types of fencing (net-type wire, chicken wire, board fences/hedges) with specific height and installation recommendations.\n*   Employing exclusion devices like welded-wire mesh cylinders, plastic mesh tubes for seedlings, and chicken wire laid on the ground.\n*   Mentioning commercial deer repellents and home remedies like deodorant soap.\n\nThe document also includes contact information for the WSU Extension Master Gardener Program."
+        },
+        {
+          "title": "Exclusion devices",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "This partial document, originating from the WSU Extension Spokane County Master Gardener Program, focuses on strategies for managing deer damage to gardens and landscapes. It introduces deer as \"browsers\" that consume the growing tips of plants, explaining their seasonal dietary shifts and factors influencing their plant preferences. The document then details several methods for preventing deer from damaging plants, including:\n*   **Fencing:** Described as the most consistently effective tool, with specific recommendations for height and type (e.g., 8-foot wire fencing, 5.5-foot board fences).\n*   **Exclusion Devices:** Such as welded-wire mesh cylinders for individual trees and shrubs, plastic mesh tubes for seedlings, and chicken wire laid on the ground.\n*   **Repellents:** Mentioning commercial options (often blood/bone meal based) and home remedies like deodorant soap, along with a resource for comparing commercial repellents."
+        },
+        {
+          "title": "Commercial deer repellents",
+          "start_index": 1,
+          "end_index": 2,
+          "node_id": "0003",
+          "summary": "This document provides comprehensive information on managing deer damage to plants, particularly focusing on methods to deter deer from gardens and landscapes. It begins by describing deer browsing habits, seasonal dietary changes, and factors influencing their plant preferences. The main points covered include various prevention and control strategies: detailed guidance on effective fencing types and heights, the use of exclusion devices for individual plants, a discussion of commercial and home-made deer repellents, and scare tactics. A significant portion of the document is dedicated to listing \"deer-resistant\" plants, categorized by annuals/biennials, evergreen shrubs, deciduous shrubs, and herbs/vegetables, offering gardeners specific plant choices to minimize deer interest. The document also includes contact information for the WSU Extension Master Gardener Program and a non-discrimination statement."
+        },
+        {
+          "title": "Scare tactics",
+          "start_index": 2,
+          "end_index": 2,
+          "node_id": "0004",
+          "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides guidance on deterring deer from gardens. It briefly mentions methods like repellents (e.g., human hair, egg/water mixture) and scare tactics (e.g., motion-activated lights, radios, sprinklers), noting their varying degrees of success and temporary nature. The main focus is on coexisting with deer by planting \"deer-resistant\" species, which are generally less appealing to them. The document then provides extensive, categorized lists of \"best bet\" plants, including Annuals/Biennials, Evergreen Shrubs, Deciduous Shrubs, and Herbs and Vegetables, that tend to keep deer disinterested."
+        },
+        {
+          "title": "\u201cDeer -resistant\u201d (or close to it!) plants*",
+          "start_index": 2,
+          "end_index": 2,
+          "nodes": [
+            {
+              "title": "Annuals/ Biennials:",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0006",
+              "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides guidance on deterring deer from gardens. It briefly mentions methods like repellents (e.g., human hair, egg/water mixture) and scare tactics (e.g., motion-activated lights, radios, sprinklers), noting their varying degrees of success and temporary nature. The main focus is on coexisting with deer by planting \"deer-resistant\" species, which are generally less appealing to them. The document then provides extensive, categorized lists of \"best bet\" plants, including Annuals/Biennials, Evergreen Shrubs, Deciduous Shrubs, and Herbs and Vegetables, that tend to keep deer disinterested."
+            },
+            {
+              "title": "Deciduous Shrubs:",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0007",
+              "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides guidance on deterring deer from gardens. It briefly mentions methods like repellents (e.g., human hair, egg/water mixture) and scare tactics (e.g., motion-activated lights, radios, sprinklers), noting their varying degrees of success and temporary nature. The main focus is on coexisting with deer by planting \"deer-resistant\" species, which are generally less appealing to them. The document then provides extensive, categorized lists of \"best bet\" plants, including Annuals/Biennials, Evergreen Shrubs, Deciduous Shrubs, and Herbs and Vegetables, that tend to keep deer disinterested."
+            },
+            {
+              "title": "Evergreen Shrubs:",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0008",
+              "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides strategies for deterring deer from gardens. It discusses various methods such as using repellents like human hair or egg/water mixtures, and scare tactics involving motion-activated lights, radios, or sprinklers. The main focus, however, is on coexisting with deer by planting \"deer-resistant\" species. The document includes extensive categorized lists of plants considered \"best bets\" for discouraging deer, covering Annuals/Biennials, Evergreen Shrubs, Deciduous Shrubs, and Herbs and Vegetables."
+            },
+            {
+              "title": "Herbs and Vegetables:",
+              "start_index": 2,
+              "end_index": 3,
+              "node_id": "0009",
+              "summary": "This partial document, titled \"Deer Resistant Plants,\" provides strategies for coexisting with deer. It begins by discussing various methods to discourage deer, including repellents (like human hair or egg/water mixtures) and scare tactics (such as motion-activated lights, radios, or sprinklers), noting their varying degrees of success and temporary nature. The main focus is on utilizing \"deer-resistant\" plants, which are species deer tend to avoid. The document then provides extensive, categorized lists of these plants, including Annuals/Biennials, Evergreen Shrubs, Herbs and Vegetables, Deciduous Shrubs, Trees (with a note about protecting young trees), and Perennials/Bulbs. It concludes by advising that if existing plants are preferred or if deer still consume the listed plants, other deterrent methods should be employed."
+            },
+            {
+              "title": "Trees (when young, must be protected from deer):",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0010",
+              "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides a list of plant species categorized as generally resistant to deer. It includes two main sections: \"Trees\" and \"Perennials/Bulbs,\" each listing various scientific and common names of plants. A specific note advises protecting young trees from deer. The document also suggests using other methods to discourage deer if the listed plants are not effective or if one prefers to keep existing plants. The plant list is adapted from the Washington Department Fish and Wildlife and Backyard Wildlife Sanctuary Program."
+            },
+            {
+              "title": "Perennials/Bulbs:",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0011",
+              "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides a list of plant species categorized as generally resistant to deer. It includes two main sections: \"Trees\" and \"Perennials/Bulbs,\" each listing various scientific and common names of plants. A specific note advises protecting young trees from deer. The document also suggests using other methods to discourage deer if the listed plants are not effective or if one prefers to keep existing plants. The plant list is adapted from the Washington Department Fish and Wildlife and Backyard Wildlife Sanctuary Program."
+            }
+          ],
+          "node_id": "0005",
+          "summary": "This partial document, titled \"C063 \u2013 Deer Resistant Plants,\" provides guidance on deterring deer from gardens. It briefly mentions methods like repellents (e.g., human hair, egg/water mixture) and scare tactics (e.g., motion-activated lights, radios, sprinklers), noting their varying degrees of success and temporary nature. The main focus is on coexisting with deer by planting \"deer-resistant\" species, which are generally less appealing to them. The document then provides extensive, categorized lists of \"best bet\" plants, including Annuals/Biennials, Evergreen Shrubs, Deciduous Shrubs, and Herbs and Vegetables, that tend to keep deer disinterested."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "This partial document, originating from the WSU Extension Spokane County Master Gardener Program, focuses on strategies for managing deer damage to gardens and landscapes. It introduces deer as \"browsers\" that consume the growing tips of plants, explaining their seasonal dietary shifts and factors influencing their plant preferences. The document then details several methods for preventing deer from damaging plants, including:\n*   **Fencing:** Described as the most consistently effective tool, with specific recommendations for height and type (e.g., 8-foot wire fencing, 5.5-foot board fences).\n*   **Exclusion Devices:** Such as welded-wire mesh cylinders for individual trees and shrubs, plastic mesh tubes for seedlings, and chicken wire laid on the ground.\n*   **Repellents:** Mentioning commercial options (often blood/bone meal based) and home remedies like deodorant soap, along with a resource for comparing commercial repellents."
+    }
+  ]
+}

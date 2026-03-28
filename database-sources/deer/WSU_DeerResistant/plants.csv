@@ -1,0 +1,83 @@
+scientific_name,common_name,plant_type,deer_resistant
+Ageratum,Ageratum,Annuals/Biennials,True
+Antirrhinum,Snapdragon,Annuals/Biennials,True
+Aquilegia spp.,Columbine,Annuals/Biennials,True
+Calendula,Calendula,Annuals/Biennials,True
+Campanula medium,Canterbury Bell,Annuals/Biennials,True
+Cosmos,Cosmos,Annuals/Biennials,True
+Cynoglossum amabile,Chinese Forget-me-not,Annuals/Biennials,True
+Digitalis,Foxglove,Annuals/Biennials,True
+Euphorbia marginata,Snow-on-the-mountain,Annuals/Biennials,True
+Helianthus annuus,Sunflower,Annuals/Biennials,True
+Jacobaea maritima,Dusty Miller,Annuals/Biennials,True
+Lobularia maritima,Sweet Alyssum,Annuals/Biennials,True
+Mirabilis jalapa,Four O'clock,Annuals/Biennials,True
+Papaver spp.,Poppy,Annuals/Biennials,True
+Artemisia tridentata,Sagebrush,Evergreen Shrubs,True
+Berberis,Evergreen Barberry,Evergreen Shrubs,True
+Buxus spp.,Boxwood,Evergreen Shrubs,True
+Ericameria nauseosa,Rabbitbrush,Evergreen Shrubs,True
+Ilex spp.,Holly,Evergreen Shrubs,True
+Juniperus,Juniper,Evergreen Shrubs,True
+Mahonia,Oregon Grape,Evergreen Shrubs,True
+Pinus mugo,Mugo Pine,Evergreen Shrubs,True
+Rhododendron,Rhododendron (not azaleas),Evergreen Shrubs,True
+Sambucus racemosa,Red Elderberry,Evergreen Shrubs,True
+Spiraea,Spirea,Evergreen Shrubs,True
+Allium schoenoprasum,Chives,Herbs/Vegetables,True
+Lavandula,Lavender,Herbs/Vegetables,True
+Mentha,Mint,Herbs/Vegetables,True
+Origanum vulgare,Oregano,Herbs/Vegetables,True
+Rosmarinus officinalis,Rosemary,Herbs/Vegetables,True
+Salvia officinalis,Sage,Herbs/Vegetables,True
+Thymus,Thyme,Herbs/Vegetables,True
+Berberis thunbergii,Japanese Barberry,Deciduous Shrubs,True
+Buddleja davidii,Butterfly Bush,Deciduous Shrubs,True
+Cornus sericea,Red-Osier Dogwood,Deciduous Shrubs,True
+Cotoneaster,Cotoneaster,Deciduous Shrubs,True
+Forsythia,Forsythia,Deciduous Shrubs,True
+Philadelphus lewisii,Mock Orange,Deciduous Shrubs,True
+Potentilla fruticosa,Shrubby Cinquefoil,Deciduous Shrubs,True
+Ribes aureum,Golden Currant,Deciduous Shrubs,True
+Rosa rugosa,Rugosa Rose,Deciduous Shrubs,True
+Syringa vulgaris,Lilac,Deciduous Shrubs,True
+Abies,Fir,Trees,True
+Acer,Maple,Trees,True
+Cedrus,Cedar,Trees,True
+Corylus spp.,Hazelnut/Filbert,Trees,True
+Cotinus coggygria,Smoke Tree,Trees,True
+Picea,Spruce,Trees,True
+Pinus,Pine,Trees,True
+Prunus virginiana,Chokecherry,Trees,True
+Pseudotsuga menziesii,Douglas Fir,Trees,True
+Quercus,Oak,Trees,True
+Rhus,Sumac,Trees,True
+Robinia pseudoacacia,Black Locust,Trees,True
+Achillea spp.,Yarrow,Perennials/Bulbs,True
+Aquilegia,Columbine,Perennials/Bulbs,True
+Armeria maritima,Sea Thrift,Perennials/Bulbs,True
+Asclepias tuberosa,Butterfly Weed,Perennials/Bulbs,True
+Campanula rotundifolia,Bluebells,Perennials/Bulbs,True
+Cerastium tomentosum,Snow-in-summer,Perennials/Bulbs,True
+Clematis spp.,Clematis,Perennials/Bulbs,True
+Coreopsis spp.,Coreopsis,Perennials/Bulbs,True
+Delphinium spp.,Larkspur,Perennials/Bulbs,True
+Dicentra,Bleeding Heart,Perennials/Bulbs,True
+Erysimum,Wallflower,Perennials/Bulbs,True
+Ferns,Ferns,Perennials/Bulbs,True
+Gaillardia,Blanket Flower,Perennials/Bulbs,True
+Helleborus,Hellebore,Perennials/Bulbs,True
+Hemerocallis spp.,Daylily,Perennials/Bulbs,True
+Heuchera,Coral Bells,Perennials/Bulbs,True
+Iris,Iris,Perennials/Bulbs,True
+Lavandula spica,English Lavender,Perennials/Bulbs,True
+Liatris spicata,Gay Feather,Perennials/Bulbs,True
+Linum usitatissimum,Flax,Perennials/Bulbs,True
+Lupinus spp.,Lupine,Perennials/Bulbs,True
+Paeonia spp.,Peony,Perennials/Bulbs,True
+Phlox subulata,Creeping Phlox,Perennials/Bulbs,True
+Rudbeckia hirta,Black-eyed Susan,Perennials/Bulbs,True
+Symphoricarpos,Snowberry,Perennials/Bulbs,True
+Trillium spp.,Trillium,Perennials/Bulbs,True
+Yucca,Yucca,Perennials/Bulbs,True
+Zantedeschia spp.,Calla Lily,Perennials/Bulbs,True

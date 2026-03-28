@@ -1,0 +1,572 @@
+{
+  "source": "Shaw Nature Reserve / Missouri Botanical Garden: Native Plants for a Deer Resistant Garden",
+  "methodology": "Three-year study in Wildwood, Missouri with heavy deer over-population",
+  "browse_scale": {
+    "No Browse": "Deer do not eat this plant",
+    "Light Browse": "Minor/occasional browsing",
+    "Medium Browse": "Moderate browsing damage",
+    "Complete Browse": "Deer consume entirely"
+  },
+  "plants": [
+    {
+      "scientific_name": "Erysimum capitatum",
+      "common_name": "Western wallflower",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Yarrow",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Glandularia canadensis",
+      "common_name": "Rose verbena",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Adiantum pedatum",
+      "common_name": "Maidenhair fern",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Helenium autumnale",
+      "common_name": "Autumn sneezeweed",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Agastache nepetoldes",
+      "common_name": "Giant hyssop",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Hibiscus lasiocarpos",
+      "common_name": "Woolly rose mallow",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Allium stellatum",
+      "common_name": "Fall glade onion",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Iris virginica",
+      "common_name": "Blue flag iris",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Amsonia ciliata",
+      "common_name": "Feathery blue star",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Juncus effusus",
+      "common_name": "Soft rush",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Amsonia illustris",
+      "common_name": "Shining blue star",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Lobelia cardinalis",
+      "common_name": "Cardinal flower",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Andropogon gerardii",
+      "common_name": "Big bluestem",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Mimulus ringens",
+      "common_name": "Monkeyflower",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Asclepias incarnata",
+      "common_name": "Swamp milkweed",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Monarda bradburiana",
+      "common_name": "Bradbury beebalm",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Asclepias viridis",
+      "common_name": "Spider milkweed",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Onoclea sensibilis",
+      "common_name": "Sensitive fern",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Asclepias tuberosa",
+      "common_name": "Butterfly flower",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Palafoxia callosa",
+      "common_name": "Palafoxia",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Callicarpa americana",
+      "common_name": "Beautyberry",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Panicum virgatum",
+      "common_name": "Switchgrass",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Carex annectens",
+      "common_name": "Yellow-fruited sedge",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Penstemon digitalis",
+      "common_name": "Smooth beard-tongue",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Carex muskingumensis",
+      "common_name": "Palm sedge",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Physostegia virginiana",
+      "common_name": "Obedient plant",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Carex stricta",
+      "common_name": "Tussock sedge",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Polemonium reptans",
+      "common_name": "Jacob's ladder",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Coreopsis tinctoria",
+      "common_name": "Plains coreopsis",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Pycnanthemum pilosum",
+      "common_name": "Hairy mtn mint",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Delphinium exaltatum",
+      "common_name": "Tall larkspur",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Pycnanthemum tenuifolium",
+      "common_name": "Slender mtn mint",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Elymus canadensis",
+      "common_name": "Canada wild rye",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Pycnanthemum virginianum",
+      "common_name": "Mountain mint",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Eryngium yuccifolium",
+      "common_name": "Rattlesnake master",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Salvia azurea",
+      "common_name": "Blue salvia",
+      "deer_browse": "No Browse"
+    },
+    {
+      "scientific_name": "Schizachyrium scoprium",
+      "common_name": "Little bluestem",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Scutellaria incana",
+      "common_name": "Hoary skullcap",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Aquilegia canadensis",
+      "common_name": "Wild columbine",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Scutellaria ovata",
+      "common_name": "Heart-leaved skullcap",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Aster oblongifolius",
+      "common_name": "Aromatic aster",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Sedum ternatum",
+      "common_name": "Wild stonecrop",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Aster oolentangiensis",
+      "common_name": "Sky blue aster",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Senecio obovatus",
+      "common_name": "Round-leaved ragwort",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Aster patens",
+      "common_name": "Purple daisy",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Senna marilandica",
+      "common_name": "Wild senna",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Blephilia ciliata",
+      "common_name": "Ohio horsemint",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Solidago drummondii",
+      "common_name": "Cliff goldenrod",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Chelone obliqua",
+      "common_name": "Rosy turtlehead",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Sporobolus heterolepis",
+      "common_name": "Prairie dropseed",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Coreopsis lanceolata",
+      "common_name": "Lance-leaved coreopsis",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Verbesina helianthoides",
+      "common_name": "Yellow wingstem",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Echinacea simulata",
+      "common_name": "Glade coneflower",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Vernonia arkansana",
+      "common_name": "Arkansas ironweed",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Helianthus maximilianii",
+      "common_name": "Maximilian sunflower",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Veronicastrum virginicum",
+      "common_name": "Culver's root",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Heliopsis helianthoides",
+      "common_name": "False sunflower",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Heuchera richardsonii",
+      "common_name": "Prairie alumroot",
+      "deer_browse": "Light Browse"
+    },
+    {
+      "scientific_name": "Phlox paniculata",
+      "common_name": "Garden phlox",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Aruncus dioicus",
+      "common_name": "Goatsbeard",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Polystichum acrostichoides",
+      "common_name": "Christmas fern",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Baptisia australis",
+      "common_name": "Blue wild indigo",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Ruellia humilis",
+      "common_name": "Hairy wild petunia",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Eupatorium purpureum",
+      "common_name": "Joe pye weed",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Rudbeckia fulgida",
+      "common_name": "Orange coneflower",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Grindelia lanceolata",
+      "common_name": "Gum plant",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Rudbeckia subtomentosa",
+      "common_name": "Sweet coneflower",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Liatris pycnostachya",
+      "common_name": "Prairie blazing star",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Solidago caesia",
+      "common_name": "Blue-stemed goldenrod",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Lobelia siphilitica",
+      "common_name": "Blue lobelia",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Solidago nemoralis",
+      "common_name": "Missouri goldenrod",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Monarda fistulosa",
+      "common_name": "Wild bergamot",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Silena regia",
+      "common_name": "Royal catchfly",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Solidago riddellii",
+      "common_name": "Riddell's goldenrod",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Stylophorum diphyllum",
+      "common_name": "Celandine poppy",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Zizia aurea",
+      "common_name": "Golden Alexander",
+      "deer_browse": "Very Light Browse (Tasted)"
+    },
+    {
+      "scientific_name": "Lespedeza capitata",
+      "common_name": "Round-head bushclover",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Amorpha canescens",
+      "common_name": "Leadplant",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Prunus americana",
+      "common_name": "Ameran plum",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Aster linariifolius",
+      "common_name": "Stiff-leaved aster",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Ratibida pinnata",
+      "common_name": "Grayhead coneflower",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Rosa species",
+      "common_name": "Rose",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Aster turbinellus",
+      "common_name": "Prairie aster",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Silphium terebinthinaceum",
+      "common_name": "Prairie dock",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Bignonia capreolata",
+      "common_name": "Cross vine",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Viburnum species",
+      "common_name": "Viburnum",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Boltonia asteroides",
+      "common_name": "False aster",
+      "deer_browse": "Medium Browse"
+    },
+    {
+      "scientific_name": "Celastrus scandens",
+      "common_name": "Bittersweet",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Dalea purpurea",
+      "common_name": "Purple prairie clover",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Callirhroe bushii",
+      "common_name": "Bush's poppy mallow",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Echinacea purpurea",
+      "common_name": "Purple coneflower",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Ceanothus americanus",
+      "common_name": "New Jersey tea",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Helianthus occidentalis",
+      "common_name": "Western sunflower",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Cephalanthus occidentalis",
+      "common_name": "Buttonbush",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Ilex verticillata",
+      "common_name": "Winterberry holly",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Echinacea paradoxa",
+      "common_name": "Yellow coneflower",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Iris cristata",
+      "common_name": "Dwarf crested iris",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Oenothera macrocarpa",
+      "common_name": "MO eve. primrose",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Rudbeckia missouriensis",
+      "common_name": "MO black-eyed Susan",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Silphium integrefolium",
+      "common_name": "Rosinweed",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Solidago rigida",
+      "common_name": "Stiff goldenrod",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Silphium laciniatum",
+      "common_name": "Compass plant",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Spigelia marilandica",
+      "common_name": "Indian pink",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Tradescantia ohiensis",
+      "common_name": "Ohio spiderwort",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Tradescantia subaspera",
+      "common_name": "Zigzag spiderwort",
+      "deer_browse": "Complete Browse"
+    },
+    {
+      "scientific_name": "Aronia melanocarpa",
+      "common_name": "Black Chokeberry",
+      "deer_browse": "Heavy Browse"
+    },
+    {
+      "scientific_name": "Campsis radicans",
+      "common_name": "Trumpet creeper",
+      "deer_browse": "Heavy Browse"
+    },
+    {
+      "scientific_name": "Coreopsis tripteris",
+      "common_name": "Tall coreopsis",
+      "deer_browse": "Heavy Browse"
+    },
+    {
+      "scientific_name": "Echinacea pallida",
+      "common_name": "Pale purple coneflower",
+      "deer_browse": "Heavy Browse"
+    },
+    {
+      "scientific_name": "Helianthus mollis",
+      "common_name": "Ashy sunflower",
+      "deer_browse": "Heavy Browse"
+    },
+    {
+      "scientific_name": "Hydrangea arborescens",
+      "common_name": "Wild hydrangea",
+      "deer_browse": "Heavy Browse"
+    }
+  ]
+}

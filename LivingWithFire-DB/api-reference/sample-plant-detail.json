@@ -1,0 +1,799 @@
+{
+  "data": {
+    "id": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+    "genus": "Abelia (syn Linnaea)",
+    "species": "spp.",
+    "subspeciesVarieties": "& hybrids",
+    "commonName": "Abelia",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Abelia"
+    ],
+    "notes": null,
+    "lastUpdated": "2025-05-17T01:46:30.677Z",
+    "images": [],
+    "values": [
+      {
+        "id": "71310d96-3044-4a5d-ba44-8afa48a1331a",
+        "attributeId": "b908b170-70c9-454d-a2ed-d86f98cb3de1",
+        "attributeName": "Home Ignition Zone (HIZ)",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "03",
+        "resolved": {
+          "id": "03",
+          "value": "10-30",
+          "raw": "03",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "a56bc051-3a62-4171-be4c-064cbfc9ee37",
+        "attributeId": "b908b170-70c9-454d-a2ed-d86f98cb3de1",
+        "attributeName": "Home Ignition Zone (HIZ)",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "04",
+        "resolved": {
+          "id": "04",
+          "value": "30-100",
+          "raw": "04",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "c567405b-7c40-4822-a462-dd99ce65b3a4",
+        "attributeId": "b908b170-70c9-454d-a2ed-d86f98cb3de1",
+        "attributeName": "Home Ignition Zone (HIZ)",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "05",
+        "resolved": {
+          "id": "05",
+          "value": "50-100",
+          "description": "Idaho ascribes fire-resistant plants to this area. No other source does this.",
+          "raw": "05",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "b5666a1f-8348-47b3-89df-43ec11fb3443",
+        "attributeId": "70dcbd81-352d-4678-8d8a-f3bd51f1bab6",
+        "attributeName": "Character Score",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "6",
+        "resolved": {
+          "value": "6",
+          "raw": "6",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "e8a85cf3-a60a-44f1-9e43-d1d876b3cff0",
+        "attributeId": "d996587c-383b-4dc6-a23c-239b7de7e47b",
+        "attributeName": "List Choice",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "04",
+        "resolved": {
+          "id": "04",
+          "value": "Consider",
+          "raw": "04",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "159c6099-af98-411e-8483-52f02dbed80b",
+        "attributeId": "34b147da-613b-4df7-8eb9-76fd10e1d7ae",
+        "attributeName": "Flammability Notes",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "Refer to Abelia x grandiflora. No cited evidence on flammability or claims of \"fire resistance\" for the entire genus. The plant character score suggests it is moderately flammable.",
+        "resolved": {
+          "value": "Refer to Abelia x grandiflora. No cited evidence on flammability or claims of \"fire resistance\" for the entire genus. The plant character score suggests it is moderately flammable.",
+          "raw": "Refer to Abelia x grandiflora. No cited evidence on flammability or claims of \"fire resistance\" for the entire genus. The plant character score suggests it is moderately flammable.",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "c24c2145-3bc8-4af3-8518-78ba90406d19",
+        "attributeId": "2cba404d-a80a-4cfd-abd9-c475237a06ec",
+        "attributeName": "Risk Reduction Notes - Best Practices",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "Short low flammability plants (<2 ft tall) are a better choice. Do not grow flammable plants under this plant. Prune base branches up 1 to 6 feet depending on plant size. Only grow on burnable mulches that are 10 or more feet from buildings. Remove dead and fine debris often. Papery or loose materials on a plant act as a fuel ladder. Plant at least 10 ft away from buildings. On flat ground, space 2 times the mature height of the plant. Increase spacing distance on slopes. A plant that has waxy leaves, contains volatile chemicals, or retains dead material can burn intensely and explosively. Avoid placing burnable mulch under the plant and remove other plants growing under it. If planted within 30 ft of a building, isolate it or replace with a less flammable plant.",
+        "resolved": {
+          "value": "Short low flammability plants (<2 ft tall) are a better choice. Do not grow flammable plants under this plant. Prune base branches up 1 to 6 feet depending on plant size. Only grow on burnable mulches that are 10 or more feet from buildings. Remove dead and fine debris often. Papery or loose materials on a plant act as a fuel ladder. Plant at least 10 ft away from buildings. On flat ground, space 2 times the mature height of the plant. Increase spacing distance on slopes. A plant that has waxy leaves, contains volatile chemicals, or retains dead material can burn intensely and explosively. Avoid placing burnable mulch under the plant and remove other plants growing under it. If planted within 30 ft of a building, isolate it or replace with a less flammable plant.",
+          "raw": "Short low flammability plants (<2 ft tall) are a better choice. Do not grow flammable plants under this plant. Prune base branches up 1 to 6 feet depending on plant size. Only grow on burnable mulches that are 10 or more feet from buildings. Remove dead and fine debris often. Papery or loose materials on a plant act as a fuel ladder. Plant at least 10 ft away from buildings. On flat ground, space 2 times the mature height of the plant. Increase spacing distance on slopes. A plant that has waxy leaves, contains volatile chemicals, or retains dead material can burn intensely and explosively. Avoid placing burnable mulch under the plant and remove other plants growing under it. If planted within 30 ft of a building, isolate it or replace with a less flammable plant.",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "7ee0c32b-56e8-47a8-90d4-7230361cabc2",
+        "attributeId": "505b81d5-3365-45c4-aba3-d54c2bfbe040",
+        "attributeName": "<2 ft tall",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "true",
+        "resolved": {
+          "value": true,
+          "raw": "true",
+          "type": "boolean"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "f1af4489-aabe-4514-af91-8b1c1e43f004",
+        "attributeId": "0e4faff5-7cff-4eb9-aac1-e23f2a9bf9ec",
+        "attributeName": "7",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "02",
+        "resolved": {
+          "id": "02",
+          "value": "2",
+          "raw": "02",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "eea4767e-2e7b-43e2-a684-bcbd35340b69",
+        "attributeId": "f2b3dbce-3d74-449e-9c9f-d246198e015a",
+        "attributeName": "9",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "01",
+        "resolved": {
+          "id": "01",
+          "value": "1",
+          "raw": "01",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "be782f8c-eb4f-4a36-b269-3223c8425f04",
+        "attributeId": "31de65e9-c9e1-465b-afe6-93b3e28224e4",
+        "attributeName": "13",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "02",
+        "resolved": {
+          "id": "02",
+          "value": "2",
+          "raw": "02",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "c1c29634-3810-45e5-8227-5d814905ceac",
+        "attributeId": "c6e248cc-e70d-4ba3-bbb6-73cc27c333ea",
+        "attributeName": "20",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "01",
+        "resolved": {
+          "id": "01",
+          "value": "1",
+          "raw": "01",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "95c53db8-c85e-4af2-ab49-39a687c53367",
+        "attributeId": "ef9be401-1500-471b-bf8f-b11936d6d047",
+        "attributeName": "Shrub",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "true",
+        "resolved": {
+          "value": true,
+          "raw": "true",
+          "type": "boolean"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "5c4204ba-eebe-476f-804b-560875d4787e",
+        "attributeId": "f2ed9581-6d15-47ff-93c0-4259bccce5e1",
+        "attributeName": "Evergreen",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "true",
+        "resolved": {
+          "value": true,
+          "raw": "true",
+          "type": "boolean"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "e2e6758f-884f-493e-9dbc-a2674780325a",
+        "attributeId": "5d642c32-436d-4075-bbb9-39794bae07d1",
+        "attributeName": "Min Mature Height",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "3",
+        "resolved": {
+          "value": "3",
+          "raw": "3",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "6f17b59c-79e5-421e-a942-e483870d57a2",
+        "attributeId": "7692e4d8-9e4d-42b2-bdf3-5b386feeecfb",
+        "attributeName": "Max Mature Height",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "18",
+        "resolved": {
+          "value": "18",
+          "raw": "18",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "4d166d01-ceed-4f2d-8a00-3bfbd96eb9f7",
+        "attributeId": "86a95833-886a-42bf-b149-c3754e9d913a",
+        "attributeName": "Flower Color",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "01",
+        "resolved": {
+          "id": "01",
+          "value": "White/Cream/Green",
+          "raw": "01",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "204e027f-257b-47c8-86f4-7c90c34ad7c5",
+        "attributeId": "86a95833-886a-42bf-b149-c3754e9d913a",
+        "attributeName": "Flower Color",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "04",
+        "resolved": {
+          "id": "04",
+          "value": "Pink, Rose, Red, Brown",
+          "raw": "04",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "5914cdde-91d8-41c0-9daa-e71de4b4f6f6",
+        "attributeId": "7096a9cc-3435-4e14-a1c4-eb9e95f0850f",
+        "attributeName": "Light Needs",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "01",
+        "resolved": {
+          "id": "01",
+          "value": "Full Sun",
+          "description": "Prefers full sun 6 or more hours/day",
+          "raw": "01",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "04cbbeb3-cfaa-4864-b473-13c8ed64953c",
+        "attributeId": "7096a9cc-3435-4e14-a1c4-eb9e95f0850f",
+        "attributeName": "Light Needs",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "02",
+        "resolved": {
+          "id": "02",
+          "value": "Part Sun/Part Shade",
+          "raw": "02",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "1040b3d9-211c-4161-bd72-c1f0e27cf08b",
+        "attributeId": "ff75e529-5b5c-4461-8191-0382e33a4bd5",
+        "attributeName": "Benefits",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "01",
+        "resolved": {
+          "id": "01",
+          "value": "Pollinator friendly",
+          "raw": "01",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "17599d97-3f1e-4562-924f-ea572c175ac1",
+        "attributeId": "ff75e529-5b5c-4461-8191-0382e33a4bd5",
+        "attributeName": "Benefits",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "03",
+        "resolved": {
+          "id": "03",
+          "value": "Pollinator food",
+          "raw": "03",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "924d9036-8a02-4c11-9856-502e75758323",
+        "attributeId": "dab353f5-defe-4f12-9a3a-f2f7d9aef428",
+        "attributeName": "Wildlife Sum",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "02",
+        "resolved": {
+          "id": "02",
+          "value": "Agree natives?",
+          "raw": "02",
+          "type": "enum"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "77ae82ab-dd1e-4f70-8bb9-1c45092d74ca",
+        "attributeId": "e8686d2e-fe16-440e-bc70-af4a0328cd05",
+        "attributeName": "Wildlife Sum (Calculated)",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "1",
+        "resolved": {
+          "value": "1",
+          "raw": "1",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "0b2d011b-887c-46bb-b86f-24dfee2ae13d",
+        "attributeId": "b1000001-0001-4000-8000-000000000001",
+        "attributeName": "Has Flammability Rating",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "1",
+        "resolved": {
+          "value": "1",
+          "raw": "1",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Flammability = Consider (04)",
+        "metadata": null
+      },
+      {
+        "id": "11fcdb14-194e-4499-a3ad-abd8c4e3736d",
+        "attributeId": "b2150aec-75ac-4b4b-aeb1-c339c5da563c",
+        "attributeName": "Plant Structure",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "a274f684-39d6-4103-84d1-0eadd98719df",
+        "sourceValue": "x",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "46b33a38-d47e-4b0f-9c22-583019c7f0c1",
+        "attributeId": "ff75e529-5b5c-4461-8191-0382e33a4bd5",
+        "attributeName": "Benefits",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "32870c87-a60b-48be-9a02-bd2662a46c41",
+        "sourceValue": "x",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "803fe1ad-797e-44d4-9167-787abbcbe9af",
+        "attributeId": "a8b73bcb-a997-4778-8415-13493a61b40d",
+        "attributeName": "Flammability",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "e7cbdf82-ed7a-46a1-8eff-f1a7a7cde553",
+        "sourceValue": "F",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "2440dec6-2fe0-47bf-822e-e81d2c8d9c7b",
+        "attributeId": "b2150aec-75ac-4b4b-aeb1-c339c5da563c",
+        "attributeName": "Plant Structure",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "32870c87-a60b-48be-9a02-bd2662a46c41",
+        "sourceValue": "x",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "2aa7dd31-250e-4369-9082-ab5d3a6d19cc",
+        "attributeId": "af3e70d2-dc9c-4027-a09f-15d7d8b0dd10",
+        "attributeName": "Drought Tolerant",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "1617d5c6-c0d7-48c0-b3dd-84d4a9a51b38",
+        "sourceValue": "N",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "9c665fd7-e945-471f-85c4-8578b480f3d3",
+        "attributeId": "af3e70d2-dc9c-4027-a09f-15d7d8b0dd10",
+        "attributeName": "Drought Tolerant",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": null,
+        "resolved": {
+          "value": null,
+          "raw": null,
+          "type": "text"
+        },
+        "sourceId": "32870c87-a60b-48be-9a02-bd2662a46c41",
+        "sourceValue": "x",
+        "urls": null,
+        "notes": null,
+        "metadata": null
+      },
+      {
+        "id": "415632c4-944f-4e55-8977-24d04cfbcf95",
+        "attributeId": "b1000001-0001-4000-8000-000000000002",
+        "attributeName": "Has Water Amount",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Water Amount = 04",
+        "metadata": null
+      },
+      {
+        "id": "fc2fafa7-a72c-49a4-8801-a1b217c765e8",
+        "attributeId": "b1000001-0001-4000-8000-000000000003",
+        "attributeName": "Has Drought Tolerant",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Drought Tolerant = 03",
+        "metadata": null
+      },
+      {
+        "id": "85e08528-67a9-4ca8-9cfd-07322cad2457",
+        "attributeId": "b1000001-0001-4000-8000-000000000004",
+        "attributeName": "Has Native Status",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Native Status = 01",
+        "metadata": null
+      },
+      {
+        "id": "24d37f42-d6a4-4bee-8f5f-95a3190a65bf",
+        "attributeId": "b1000001-0001-4000-8000-000000000005",
+        "attributeName": "Has Deer Resistance",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if has ANY Deer Resistance value",
+        "metadata": null
+      },
+      {
+        "id": "8a509291-a2b3-4e95-b6cc-f9aae1cf2a90",
+        "attributeId": "b1000001-0001-4000-8000-000000000006",
+        "attributeName": "Wildlife Sum Component",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "1",
+        "resolved": {
+          "value": "1",
+          "raw": "1",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: Wildlife Sum value",
+        "metadata": null
+      },
+      {
+        "id": "0ba7a6f7-8590-4c28-b95e-c9cdae00736e",
+        "attributeId": "b1000001-0001-4000-8000-000000000007",
+        "attributeName": "Has Landscape Use",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Landscape Use = 03",
+        "metadata": null
+      },
+      {
+        "id": "a2bca505-e778-4ec1-8142-40d30afb24d5",
+        "attributeId": "b1000001-0001-4000-8000-000000000008",
+        "attributeName": "Has Erosion Control",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Erosion Control = 03",
+        "metadata": null
+      },
+      {
+        "id": "0cd62bd8-ab52-4600-81ee-de66e9495638",
+        "attributeId": "b1000001-0001-4000-8000-000000000009",
+        "attributeName": "Invasive Component",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: Invasive value (0 to -3)",
+        "metadata": null
+      },
+      {
+        "id": "09ed1643-a5e6-4047-8680-28224518047e",
+        "attributeId": "b1000001-0001-4000-8000-000000000010",
+        "attributeName": "Has Soils Rating",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Soils = 03",
+        "metadata": null
+      },
+      {
+        "id": "cce2969b-bba8-43c0-8303-146bddab4ec6",
+        "attributeId": "b1000001-0001-4000-8000-000000000011",
+        "attributeName": "Has Availability",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Availability = 03",
+        "metadata": null
+      },
+      {
+        "id": "b0e949ac-d311-41b8-bec4-01636720686c",
+        "attributeId": "b1000001-0001-4000-8000-000000000012",
+        "attributeName": "Has Easy to Grow",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Easy to Grow = 03",
+        "metadata": null
+      },
+      {
+        "id": "c647fbb3-cde5-43c3-81ba-22935975e68f",
+        "attributeId": "b1000001-0001-4000-8000-000000000013",
+        "attributeName": "Has Edible Plant",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Edible Plant = 03",
+        "metadata": null
+      },
+      {
+        "id": "12fd378e-9b54-4eba-9751-68a4b3b09d94",
+        "attributeId": "b1000001-0001-4000-8000-000000000014",
+        "attributeName": "Has Climate Rating",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "0",
+        "resolved": {
+          "value": "0",
+          "raw": "0",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: 1 if Climate = 03",
+        "metadata": null
+      },
+      {
+        "id": "2581203c-fa68-49e3-ab11-b3587f60444a",
+        "attributeId": "b1000001-0001-4000-8000-000000000015",
+        "attributeName": "Value Sum Total",
+        "plantId": "5b2ca061-b5b7-40fa-9941-269c17c52413",
+        "rawValue": "2",
+        "resolved": {
+          "value": "2",
+          "raw": "2",
+          "type": "text"
+        },
+        "sourceId": null,
+        "sourceValue": null,
+        "urls": null,
+        "notes": "Calculated: Sum of all Value Sum components",
+        "metadata": null
+      }
+    ]
+  }
+}

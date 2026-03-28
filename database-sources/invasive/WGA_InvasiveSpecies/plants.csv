@@ -1,0 +1,27 @@
+rank,scientific_name,common_name,category
+1,Tamarix spp.,Salt Cedar (Tamarisk),Terrestrial
+2,Bromus tectorum,Cheatgrass,Terrestrial
+3,Cirsium arvense,Canada Thistle,Terrestrial
+4,Cardaria draba,Hoary Cress,Terrestrial
+7,Elaeagnus angustifolia,Russian Olive,Terrestrial
+8,Euphorbia esula,Leafy Spurge,Terrestrial
+9,Sorghum halepense,Johnsongrass,Terrestrial
+11,Arundo donax,Giant Reed,Terrestrial
+12,Acroptilon repens,Russian Knapweed,Terrestrial
+14,Lepidium latifolium,Perennial Pepperweed,Terrestrial
+16,Centaurea solstitialis,Yellow Starthistle,Terrestrial
+17,Polygonum spp.,Knotweeds,Terrestrial
+18,Lespedeza cuneata,Sericea Lespedeza,Terrestrial
+20,Lythrum salicaria,Purple Loosestrife,Terrestrial
+21,Onopordum acanthium,Scotch Thistle,Terrestrial
+22,Isatis tinctoria,Dyer's Woad,Terrestrial
+23,Butomus umbellatus,Flowering Rush,Terrestrial
+24,Phalaris arundinacea,Reed Canary-Grass,Terrestrial
+1,Myriophyllum spicatum,Eurasian Watermilfoil,Aquatic
+5,Potamogeton crispus,Curly-leaved Pondweed,Aquatic
+8,Lythrum salicaria,Purple Loosestrife,Aquatic
+9,Hydrilla verticillata,Hydrilla,Aquatic
+15,Egeria densa,Brazilian Elodea,Aquatic
+17,Salvinia molesta,Giant Salvinia,Aquatic
+23,Eichhornia crassipes,Water Hyacinth,Aquatic
+25,Phragmites australis,Common Reed,Aquatic

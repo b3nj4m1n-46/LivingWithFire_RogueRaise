@@ -1,0 +1,75 @@
+{
+  "doc_name": "IdahoFirewise_Garden-Plant-Database_2026.pdf",
+  "structure": [
+    {
+      "title": "Annual",
+      "start_index": 1,
+      "end_index": 1,
+      "node_id": "0000",
+      "summary": "This partial document is a list of plants for an \"Idaho Firewise Garden,\" last updated in January 2026. It serves to evaluate plant performance from various growers and includes details such as plant type (primarily bulbs, with one annual), botanical name, cultivar, common name, and the specific grower or source for each entry. Some entries also include additional comments about the plant's characteristics or placement."
+    },
+    {
+      "title": "Bulb",
+      "start_index": 1,
+      "end_index": 2,
+      "node_id": "0001",
+      "summary": "This partial document is a plant list for an \"Idaho Firewise Garden,\" last updated in January 2026. Its primary purpose is to evaluate plant performance from various growers. The list is presented in a table format, detailing plant type, botanical name, cultivar, common name, grower/source, and additional comments. It covers a range of plant types, including annuals, numerous bulb species (such as Allium, Iris, Narcissus, and Tulipa), various grasses (like Blue Grama, Buffalograss, and Idaho Fescue), and a selection of groundcovers (including Greek Yarrow, Alpine Rock Thyme, and Ice Plant)."
+    },
+    {
+      "title": "Grass",
+      "start_index": 2,
+      "end_index": 2,
+      "node_id": "0002",
+      "summary": "This partial document is a list of plants for an \"Idaho Firewise Garden,\" last updated in January 2026. It serves to evaluate plant performance from various growers and sources. The list is presented in a table format, detailing plant type (such as Bulb, Grass, and Groundcover), botanical name, cultivar, common name, and specific comments regarding their planting location, maintenance, or characteristics."
+    },
+    {
+      "title": "Groundcover",
+      "start_index": 2,
+      "end_index": 6,
+      "node_id": "0003",
+      "summary": "This partial document is a detailed inventory or catalog of plants for the \"Idaho Firewise Garden,\" last updated in January 2026. It lists various plant species, primarily focusing on groundcovers and perennials, but also including some bulbs and grasses. For each entry, the document provides the plant type, botanical name, cultivar, common name, the grower or source, the total number of plants on site, and specific comments regarding their performance, growing conditions, location within the garden, or maintenance tips. A key aspect highlighted is the duplication of some species to evaluate plant performance from different growers, indicating a research or trial garden context."
+    },
+    {
+      "title": "Perennial",
+      "start_index": 6,
+      "end_index": 14,
+      "node_id": "0004",
+      "summary": "This partial document is a detailed inventory or catalog of plants for the \"Idaho Firewise Garden,\" last updated in January 2026. It lists various plant species, categorized by type (Groundcover, Perennial, Shrub), providing their botanical names, cultivars, common names, the total number on site, and their grower or source. A key feature is the inclusion of \"Comments\" for many entries, offering specific care instructions, planting locations, characteristics, and notes relevant to firewise landscaping, such as oil content or suitability for certain zones. The document also mentions that some species are duplicated to evaluate plant performance across different growers."
+    },
+    {
+      "title": "Shrub",
+      "start_index": 14,
+      "end_index": 17,
+      "node_id": "0005",
+      "summary": "This partial document is a detailed, updated plant list for an \"Idaho Firewise Garden,\" last revised in January 2026. It catalogs various plant species, including perennials, shrubs, and trees, providing their botanical names, cultivars, common names, and the grower or source. For each entry, it specifies the total quantity on site and includes important comments regarding characteristics such as growth habits, water requirements, oil content, suitability for specific HIZ zones, native status, pollinator attraction, and general care instructions. The document also notes that some species are duplicated to facilitate the evaluation of plant performance across different growers."
+    },
+    {
+      "title": "Shrub/Tree",
+      "start_index": 17,
+      "end_index": 17,
+      "node_id": "0006",
+      "summary": "This partial document is a plant inventory or catalog for the \"Idaho Firewise Garden,\" last updated in January 2026. It lists various plant species, categorized by type (Shrub, Shrub/Tree, Tree), along with their botanical names, cultivars, common names, the total number on site, and their respective growers or sources. The document also includes comments for some entries, providing details on characteristics, care instructions, or performance notes (e.g., \"Xeric only,\" \"attracts wildlife,\" \"Remove any winter die-back in late spring,\" \"Native, tough tree\"). The list is explicitly used for evaluating plant performance from different growers."
+    },
+    {
+      "title": "Tree",
+      "start_index": 17,
+      "end_index": 18,
+      "node_id": "0007",
+      "summary": "This partial document is a detailed inventory of plants for an \"Idaho Firewise Garden,\" last updated in January 2026. It lists various plant species categorized by type (Shrub, Shrub/Tree, Tree, and Vine), providing their botanical names, cultivars, common names, total quantity on site, and the grower or source. Crucially, it includes specific comments for many entries, offering insights into plant performance, care requirements (e.g., winter die-back, watering needs), characteristics (e.g., xeric, native, drought tolerant, semi-evergreen), wildlife attraction, and potential issues like invasiveness or aggressive spreading. The document also notes that some species are duplicated to evaluate performance from different growers and provides a key for abbreviations used for the growers/sources."
+    },
+    {
+      "title": "Vine",
+      "start_index": 18,
+      "end_index": 18,
+      "node_id": "0008",
+      "summary": "This partial document is an inventory or evaluation list for an \"Idaho Firewise Garden,\" last updated in January 2026. It details various plant species, categorized by type (e.g., Tree, Vine), providing their botanical and common names, the grower or source, the total quantity on site, and specific comments. These comments often highlight characteristics relevant to a firewise garden, such as drought tolerance, semi-evergreen nature, growth habits (e.g., aggressive spreading, invasiveness), and care instructions. The document also includes a section defining abbreviations used for various organizations and nurseries mentioned as growers or sources. Some species are intentionally duplicated to facilitate performance evaluation across different growers."
+    },
+    {
+      "title": "Abbreviations",
+      "start_index": 18,
+      "end_index": 18,
+      "node_id": "0009",
+      "summary": "This partial document is a list of plants for an \"Idaho Firewise Garden,\" last updated in January 2026. It details various trees and vines, including their botanical and common names, the grower or source, and specific comments regarding their performance, firewise suitability, growth habits (e.g., drought tolerance, invasiveness), and maintenance needs. The document also includes a key for abbreviations used, primarily identifying various universities, nurseries, and organizations. The purpose of the list appears to be for evaluating plant performance from different growers."
+    }
+  ]
+}

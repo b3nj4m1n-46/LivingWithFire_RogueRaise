@@ -1,0 +1,245 @@
+{
+  "source": "Marion County SWCD / Heather Holm - Wildflowers for Beneficial Insects",
+  "url": "https://www.pollinatorsnativeplants.com/resources.html",
+  "insect_categories": [
+    "lacewings",
+    "syrphid_flies",
+    "tachinid_flies",
+    "soldier_beetles",
+    "thynid_wasps",
+    "mason_potter_wasps",
+    "yellowjackets",
+    "paper_wasps",
+    "bumble_bees",
+    "long_horned_bees",
+    "leafcutter_bees",
+    "mining_bees",
+    "sweat_bees"
+  ],
+  "plants": [
+    {
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Common Yarrow",
+      "pollen_nectar": "P, N",
+      "attracts": "lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Arnoglossum atriplicifolium",
+      "common_name": "Pale Indianlantain",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Asclepias syriaca",
+      "common_name": "Common Milkweed",
+      "pollen_nectar": "N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Asclepias incarnata",
+      "common_name": "Swamp Milkweed",
+      "pollen_nectar": "N",
+      "attracts": "tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 10
+    },
+    {
+      "scientific_name": "Ceanothus americanus",
+      "common_name": "New Jersey Tea",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, mining_bees, sweat_bees",
+      "insect_count": 8
+    },
+    {
+      "scientific_name": "Coreopsis palmata",
+      "common_name": "Plains Coreopsis",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Dalea purpurea",
+      "common_name": "Purplerairie Clover",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Doellingeria umbellata",
+      "common_name": "Flat-topped Aster",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Erigeron strigosus",
+      "common_name": "Daisy Fleabane",
+      "pollen_nectar": "P, N",
+      "attracts": "lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, paper_wasps, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Eryngium yuccifolium",
+      "common_name": "Rattlesnake Master",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Eupatorium perfoliatum",
+      "common_name": "Common Boneset",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 12
+    },
+    {
+      "scientific_name": "Euphorbia corollata",
+      "common_name": "Flowering Spurge",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, leafcutter_bees, sweat_bees",
+      "insect_count": 8
+    },
+    {
+      "scientific_name": "Euthamia graminifolia",
+      "common_name": "Grass-leaved Goldenrod",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, mining_bees, sweat_bees",
+      "insect_count": 10
+    },
+    {
+      "scientific_name": "Helenium autumnale",
+      "common_name": "Sneezeweed",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 10
+    },
+    {
+      "scientific_name": "Heliopsis helianthoides",
+      "common_name": "False Sunflower or Smooth Oxeye",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Monarda fistulosa",
+      "common_name": "Wild Bergamot",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, soldier_beetles, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 8
+    },
+    {
+      "scientific_name": "Parthenium integrifolium",
+      "common_name": "Wild Quinine",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, thynid_wasps, mason_potter_wasps, paper_wasps, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 8
+    },
+    {
+      "scientific_name": "Pycnanthemum tenuifolium",
+      "common_name": "Slender Mountain Mint",
+      "pollen_nectar": "N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Pycnanthemum virginianum",
+      "common_name": "Virginia Mountain Mint",
+      "pollen_nectar": "N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 12
+    },
+    {
+      "scientific_name": "Ratibida pinnata",
+      "common_name": "Yellow or Gray-headed Coneflower",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Rudbeckia hirta",
+      "common_name": "Black-eyed Susan",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 10
+    },
+    {
+      "scientific_name": "Rudbeckia subtomentosa",
+      "common_name": "Sweet Black-eyed Susan",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 9
+    },
+    {
+      "scientific_name": "Solidago rigida",
+      "common_name": "Stiff Goldenrod",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 12
+    },
+    {
+      "scientific_name": "Symphyotrichum lanceolatum",
+      "common_name": "Panicled Aster",
+      "pollen_nectar": "P, N",
+      "attracts": "lacewings, syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 13
+    },
+    {
+      "scientific_name": "Symphyotrichum lateriflorum",
+      "common_name": "Calico Aster",
+      "pollen_nectar": "P, N",
+      "attracts": "lacewings, syrphid_flies, tachinid_flies, soldier_beetles, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 12
+    },
+    {
+      "scientific_name": "Symphyotrichum novae-angliae",
+      "common_name": "New England Aster",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 6
+    },
+    {
+      "scientific_name": "Tradescantia ohiensis",
+      "common_name": "Ohio Spiderwort",
+      "pollen_nectar": "P",
+      "attracts": "syrphid_flies, soldier_beetles, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 6
+    },
+    {
+      "scientific_name": "Verbena hastata",
+      "common_name": "Blue Vervain",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 10
+    },
+    {
+      "scientific_name": "Verbesina alternifolia",
+      "common_name": "Wingstem",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, soldier_beetles, thynid_wasps, mason_potter_wasps, yellowjackets, paper_wasps, bumble_bees, long_horned_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 11
+    },
+    {
+      "scientific_name": "Vernonia gigantea",
+      "common_name": "Tall Ironweed",
+      "pollen_nectar": "P, N",
+      "attracts": "bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 4
+    },
+    {
+      "scientific_name": "Veronicastrum virginicum",
+      "common_name": "Culver’s Root",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, tachinid_flies, soldier_beetles, bumble_bees, long_horned_bees, leafcutter_bees, sweat_bees",
+      "insect_count": 7
+    },
+    {
+      "scientific_name": "Zizia aurea",
+      "common_name": "Golden Alexanders",
+      "pollen_nectar": "P, N",
+      "attracts": "syrphid_flies, mason_potter_wasps, paper_wasps, bumble_bees, leafcutter_bees, mining_bees, sweat_bees",
+      "insect_count": 7
+    }
+  ]
+}

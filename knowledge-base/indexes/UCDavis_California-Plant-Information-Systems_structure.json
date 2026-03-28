@@ -1,0 +1,324 @@
+{
+  "doc_name": "UCDavis_California-Plant-Information-Systems.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "start_index": 1,
+      "end_index": 5,
+      "node_id": "0000",
+      "summary": "This partial document introduces \"CAPIS: California Plant Information Systems,\" a senior project by Brenna Castro from UC Davis, Landscape Architecture, completed in Spring 2012. The project addresses the complexity landscape architects face in selecting plants, particularly California natives, due to the lack of a comprehensive, searchable resource. It analyzes the plant selection process, identifies existing resource shortcomings, and proposes CAPIS as a new database and dynamic website. CAPIS aims to improve accessibility to information about California native plants, compiling relevant data into a single resource to facilitate plant selection and encourage the use of natives in landscape design."
+    },
+    {
+      "title": "Abstract",
+      "start_index": 5,
+      "end_index": 6,
+      "node_id": "0001",
+      "summary": "The partial document describes the challenges landscape architects face in selecting plants, particularly California native plants, due to the lack of a comprehensive and easily accessible information resource. It highlights that despite a growing trend to design with native plants, existing resources are inadequate. The document then introduces a project that analyzes the plant selection process and identifies shortcomings in current information availability. This analysis culminates in the creation of a new database called CAPIS (California Plant Information Systems), which is accessed via a dynamic website. CAPIS aims to improve the accessibility of information about California native plants for landscape architects, serving as a centralized tool to aid in plant selection and promote the use of native species."
+    },
+    {
+      "title": "Dedication",
+      "start_index": 6,
+      "end_index": 7,
+      "node_id": "0002",
+      "summary": "This partial document consists of a dedication and an acknowledgements section. The dedication expresses gratitude to the author's family, friends, classmates, peers, and a specific individual named Anna, for their love, support, inspiration, and companionship. The acknowledgements section thanks various individuals for their specific contributions, including committee members for encouragement and expertise, a mentor for guidance and resources, and several others for technical assistance with database management, plant maintenance categorization, and PHP problem-solving."
+    },
+    {
+      "title": "Acknowledgements",
+      "start_index": 7,
+      "end_index": 8,
+      "node_id": "0003",
+      "summary": "The partial document includes acknowledgements to individuals for their support, insight, and technical assistance in areas such as database management, PHP, and understanding plant maintenance. It then presents a detailed table of contents, outlining a document that covers project goals, definitions, and an in-depth exploration of plant selection, including design philosophy, aesthetic and ecological goals, and the role of California native plants. The document reviews existing botanical, horticultural, and commercial databases, as well as print resources. A significant portion is dedicated to methodology, detailing data collection, building a database using MySQL with SQL and data modeling, and website management, including web standards and coding languages. Finally, it discusses meeting project and personal goals, future directions, project significance, and includes references and appendices such as a glossary and plant list."
+    },
+    {
+      "title": "List of Images",
+      "start_index": 8,
+      "end_index": 11,
+      "node_id": "0004",
+      "summary": "This partial document outlines a project focused on developing a searchable database and website for plant selection, specifically emphasizing California native plants, to aid landscape architecture students and professionals. It covers the foundational understanding of plant selection, including design philosophy, aesthetic and ecological goals, and how California natives meet these criteria. The document reviews existing botanical, horticultural, and commercial plant resources, then details the methodology for data collection, building the database (using MySQL and SQL), and managing the website (including web standards and coding languages). Finally, it discusses the project's success in meeting its goals, its personal significance, future directions, and overall importance. The included list of images further illustrates various plant characteristics, examples of California flora, and screenshots of the developed database and website interface."
+    },
+    {
+      "title": "Preface",
+      "start_index": 11,
+      "end_index": 13,
+      "node_id": "0005",
+      "summary": "The partial document describes the motivation behind and introduction of the California Plant Information Systems (CAPIS) project. It highlights the author's frustration as a landscape architecture student with the lack of efficient tools for plant selection, particularly for California flora, necessitating extensive cross-referencing of existing resources. This led to the development of CAPIS, a searchable online database of California native plants. CAPIS is designed to aid landscape architects and students in plant selection by allowing searches based on site-specific and design-specific criteria. The CAPIS website also functions as an information network, linking users to other databases, plant images, care information, and commercial availability, ultimately aiming to streamline the selection process and encourage the use of native plants."
+    },
+    {
+      "title": "Introduction",
+      "start_index": 13,
+      "end_index": 14,
+      "node_id": "0006",
+      "summary": "The document describes the CAPIS (California Plant Information Systems) project, an online searchable database of California native plants. It is designed for landscape architects and students to aid in plant selection, offering search capabilities based on both site-specific and design-specific criteria. The CAPIS website also functions as an information network, linking users to other databases, plant images, care information, and commercial availability, with the goal of encouraging native plant use.\n\nThe project's development involved a thorough understanding of the plant selection process, identifying shortcomings in current resources, and defining plant selection goals, particularly for California native plants. This analysis led to a review of existing resources to identify gaps, which CAPIS aims to fill. The database was developed to provide relevant plant characteristics, images, and links, and a dynamic website was built to offer public access, allowing users to query the database and access a comprehensive network of information. The overarching aim is to make information about California native plants more accessible to landscape architects, students, and related professionals."
+    },
+    {
+      "title": "Project Goals",
+      "start_index": 14,
+      "end_index": 15,
+      "node_id": "0007",
+      "summary": "This partial document outlines the goals and development of the CAPIS project, which aims to improve the plant selection process for landscape architects, students, and related professionals, particularly concerning California native plants. It details the project's initial phase of understanding plant selection goals, analyzing how California native plants meet these goals, and identifying gaps in existing resources. The document then describes the development of the CAPIS database to address these shortcomings, providing plant characteristics, images, and links. Finally, it introduces the www.california-plant.com website as a dynamic platform for public access to the database and a network linking to other relevant resources. The text also includes basic definitions for key terms like \"California Native Plant,\" \"Database,\" and \"Dynamic website.\""
+    },
+    {
+      "title": "Definitions",
+      "start_index": 15,
+      "end_index": 17,
+      "node_id": "0008",
+      "summary": "The partial document provides basic definitions for key terms such as \"California Native Plant,\" \"Database,\" and \"Dynamic website,\" noting that a comprehensive glossary is available in an appendix. It then transitions into a discussion of planting design philosophy, introducing the concept of \"form follows function\" and explaining how planting design creates architectural frameworks for outdoor spaces using plants. The text describes planting design as a two-part process involving planting layout and plant selection, where plants serve as functional elements to create spaces for human use."
+    },
+    {
+      "title": "Understanding Plant Selection",
+      "start_index": 17,
+      "end_index": 17,
+      "nodes": [
+        {
+          "title": "Planting design philosophy",
+          "start_index": 17,
+          "end_index": 19,
+          "node_id": "0010",
+          "summary": "This partial document describes the philosophy and process of planting design, emphasizing how plants are used to create functional and aesthetic outdoor spaces. It introduces planting design as a two-part process: planting layout (using plants as \"green building blocks\" to define spaces based on form and size) and plant selection. The text highlights that plant selection must first meet functional needs, such as ecological suitability (\"right plant, right place\"), but also extends to broader goals for a more dynamic and successful outcome. It details Piet Oudolf's strategy of creating and cross-referencing lists of plants based on various criteria (ecology, aesthetics, pragmatic goals like attracting pollinators). Finally, the document delves into the aesthetic goals of plant selection, discussing how plant combinations create visual interest, mood, and user experience through elements like visual continuity, interaction with light, and the balance between harmony and creative tension."
+        },
+        {
+          "title": "Goals of plant selection",
+          "start_index": 19,
+          "end_index": 19,
+          "nodes": [
+            {
+              "title": "Aesthetics",
+              "start_index": 19,
+              "end_index": 21,
+              "node_id": "0012",
+              "summary": "This partial document outlines the key considerations and goals in plant selection, focusing on two main aspects: aesthetics and ecology.\n\nFor **aesthetics**, it explains how landscape architects create beautiful and functional spaces by considering plants' visual character, including flower and seedhead shapes, leaf shape and texture, and color. It discusses how these elements contribute to visual interest, mood, and a dynamic user experience, emphasizing the importance of understanding both ephemeral and permanent visual qualities and how they change throughout a plant's life cycle and across seasons.\n\nFor **ecology**, the document stresses the importance of selecting plants that will thrive in specific site conditions, including climate (temperature, rainfall, exposure) and site-specific factors (soil, light). It argues that understanding site ecology reduces the need for human intervention (e.g., water, fertilizer, pesticides), thereby lessening the environmental impact. Additionally, it highlights how plant choices can positively interact with local and regional wildlife, enhancing the overall ecological function and aesthetic interest of a landscape. The text frequently references the work and philosophy of Oudolf in both aesthetic and ecological considerations."
+            },
+            {
+              "title": "Ecology",
+              "start_index": 21,
+              "end_index": 22,
+              "node_id": "0013",
+              "summary": "The partial document discusses key considerations for plant selection in landscape design, emphasizing the creation of dynamic, year-round interest through understanding plant life cycles and their attractiveness to wildlife. A major focus is on the ecological aspect of planting design, defining it as how plants function within their environment. This includes crucial factors like climate (temperature, rainfall, exposure) and site-specific conditions (soil, light) to ensure plant survival and minimize human intervention (reducing water, fertilizer, pesticide use). The text also highlights the positive impact of plant selection on regional ecology by attracting local fauna and serving as ecological bridges. Finally, it introduces the necessity of understanding specific plant characteristics for effective design, beginning with \"Habit,\" which categorizes plants into types like trees, shrubs, herbaceous plants, groundcovers, and vines."
+            },
+            {
+              "title": "Characteristics of Interest",
+              "start_index": 22,
+              "end_index": 26,
+              "node_id": "0014",
+              "summary": "This partial document focuses on the critical aspects of plant selection for planting design, emphasizing both aesthetic and ecological goals. It details a comprehensive list of \"Characteristics of Interest\" that designers must consider for each plant species. These characteristics include:\n\n*   **Physical attributes:** Habit (e.g., trees, shrubs, groundcovers), form (overall shape), mature height and width, foliage texture and color, flower color and season, fruit prominence, and decorative bark.\n*   **Functional and environmental requirements:** Special characters (e.g., pollinator attraction, scent, spines), climate requirements (USDA and Sunset zones), native range (Jepson bioregions), sun, water, and soil requirements, and stress tolerance (e.g., drought, clay soil, air pollution).\n\nThe document also highlights how California native plants effectively meet plant selection goals, noting their ability to create naturalistic planting themes, offer a wider variety of combinations, and provide a diverse palette due to California's rich biodiversity."
+            }
+          ],
+          "node_id": "0011",
+          "summary": "The partial document discusses the process of plant selection, emphasizing the need to cross-reference lists based on site ecology, aesthetic goals, and pragmatic considerations like attracting pollinators. It highlights that a thorough understanding of these criteria is essential before selection. The text then delves into \"Aesthetics\" as a primary goal of plant selection, explaining how landscape architects aim to create beautiful and functional spaces with visual interest, dynamic user experiences, and specific moods. It details how different plant combinations, considering visual character, light interaction, harmony, and tension, contribute to the overall aesthetic and mood of a site."
+        },
+        {
+          "title": "How California natives meet plant selection goals",
+          "start_index": 26,
+          "end_index": 26,
+          "nodes": [
+            {
+              "title": "Aesthetics",
+              "start_index": 26,
+              "end_index": 27,
+              "node_id": "0016",
+              "summary": "This partial document discusses the benefits and considerations of using California native plants in landscape design. It highlights their aesthetic advantages, noting how their natural characteristics (e.g., smaller flower-to-foliage ratio, subdued colors) create naturalistic themes and blend smoothly into diverse palettes. The document also emphasizes the ecological benefits, explaining that native plants are well-adapted to local climatic conditions, soils, and pests, leading to reduced water, fertilizer, and pesticide use, while simultaneously supporting beneficial insects and local wildlife. Finally, it addresses the debate between using strictly native plants versus including naturalized species, cautioning against the high risk of non-native horticultural plants becoming invasive."
+            },
+            {
+              "title": "Site ecology",
+              "start_index": 27,
+              "end_index": 27,
+              "node_id": "0017",
+              "summary": "The partial document discusses plant selection, focusing on the ecological benefits and challenges associated with native plants. It highlights that native plants are well-adapted to local climates, soils, and pests, leading to reduced needs for irrigation, fertilizers, and pesticides, while also supporting beneficial insects and local wildlife. The text then introduces a debate, acknowledging arguments that a strict native plant palette might limit visual impact or not always benefit wildlife, suggesting a broader inclusion of \"naturalized\" plants. However, it counters this by emphasizing the significant risk of non-native horticultural species becoming invasive if they escape cultivation, identifying the horticulture trade as a primary pathway for such introductions."
+            },
+            {
+              "title": "Local ecology",
+              "start_index": 27,
+              "end_index": 28,
+              "node_id": "0018",
+              "summary": "The partial document discusses plant selection, contrasting the benefits of native plants with the risks of non-native species. It highlights that native plants are well-adapted to local climates, soils, and pests, leading to reduced water, fertilizer, and pesticide needs, while also supporting local wildlife and pollinators. The text then addresses the debate around restricting plant palettes to natives, warning that non-native horticultural species, though often vigorous, can become invasive \"transformer species\" that significantly alter natural ecosystems and cause economic damage. It emphasizes that the horticulture trade is a major pathway for invasive plant introductions and urges landscape professionals to carefully consider their plant choices to prevent ecological disruption, particularly advocating for the use of native species."
+            }
+          ],
+          "node_id": "0015",
+          "summary": "This partial document discusses how California native plants fulfill aesthetic goals in plant selection. It highlights that native or wild plants offer a different character to gardens, allowing for a wider variety of combinations due to their smaller flower-to-foliage ratio and lack of bred-for-impact features. This enables them to blend smoothly into diverse plant palettes and create naturalistic planting themes. The text also emphasizes California's biodiversity, which provides a varied native plant palette suitable for different planting moods, drawing from the state's diverse ecological communities."
+        }
+      ],
+      "node_id": "0009",
+      "summary": "This partial document discusses the philosophy of planting design, emphasizing the principle of \"form follows function\" where plant forms are intentionally chosen to create functional outdoor spaces that meet specific needs. It describes planting design as a process that builds an \"architectural framework\" for outdoor areas using plants as elements like floors, walls, and ceilings. The document further breaks down planting design into two main parts: planting layout, which focuses on plant placement for creating human-use spaces, and plant selection."
+    },
+    {
+      "title": "Review of Existing Resources",
+      "start_index": 29,
+      "end_index": 30,
+      "nodes": [
+        {
+          "title": "Botanical databases",
+          "start_index": 30,
+          "end_index": 32,
+          "node_id": "0020",
+          "summary": "The partial document reviews existing plant information resources, categorizing them into botanical and horticultural databases. It critically analyzes their utility for landscape architects, highlighting significant limitations and gaps.\n\n**Main points covered:**\n\n1.  **Overview of Existing Resources:** Introduces various plant databases and lists, including those from nurseries, printed materials, and specialized botanical sources.\n2.  **Critique of Botanical Databases:**\n    *   Primarily designed for the scientific community, focusing on taxonomy, ecology, and detailed botanical characteristics (e.g., Jepson Interchange, CalFlora, USDA PLANTS database).\n    *   Deemed of limited use to landscape architects due to overly technical information, lack of design-oriented data, and search functionalities that often yield overwhelming or irrelevant results.\n    *   Acknowledges their benefit in providing reliable scientific information and ecological data.\n3.  **Critique of Horticultural Databases:**\n    *   More relevant to landscape architects as they focus on practical site requirements (soil, water, light), mature size, plant form, and other general characteristics (e.g., California Natives Wiki).\n    *   While valuable for plant selection, they also have limitations, such as incomplete search criteria, requiring extensive cross-referencing, or missing critical information like USDA or Sunset Zones.\n4.  **Identification of Gaps:** The analysis consistently identifies shortcomings in existing resources, indicating a need for a new database that better serves the specific criteria and search needs of landscape architects."
+        },
+        {
+          "title": "Horticultural databases",
+          "start_index": 32,
+          "end_index": 34,
+          "node_id": "0021",
+          "summary": "This partial document reviews various existing resources for plant information, categorizing them into botanical/academic, horticultural, and commercial databases. It discusses the characteristics, strengths, and, critically, the limitations of each type of resource, particularly from the perspective of landscape architects and professionals needing specific plant selection criteria.\n\nThe document highlights academic resources like The Jepson Manual and CalFlora for their scientific nature and focus on California flora. It then delves into horticultural databases, explaining their focus on site requirements and plant characteristics, and evaluating specific examples such as the California Natives Wiki, Arboretum All-Stars, and Sunset Plant Finder. For each, it details their search capabilities, geographical scope, and target audience, often pointing out deficiencies like limited search criteria, narrow plant selection, or suitability for home gardeners rather than professionals. Finally, it examines commercial databases sponsored by nurseries, noting their comprehensive search options but also their inherent limitation of being restricted to the nursery's available stock.\n\nOverall, the document emphasizes the challenges in finding a single, comprehensive resource that meets all criteria for selecting plants, especially California natives, for professional landscape design."
+        },
+        {
+          "title": "Commercial databases",
+          "start_index": 34,
+          "end_index": 35,
+          "node_id": "0022",
+          "summary": "The partial document reviews existing resources for plant selection, evaluating their strengths and weaknesses. It critiques a general plant book for its broad scope, inclusion of non-native species for California, and narrative format that hinders information retrieval. The document then examines commercial databases sponsored by nurseries, noting their comprehensive search capabilities for cultural and design criteria, but highlighting limitations such as results being restricted by nursery stock and not always focusing on California native plants. Finally, it discusses print plant lists and recommendations, acknowledging their trustworthiness due to authoritative authorship, but pointing out their impracticality for discovering new plants for specific needs due to unwieldy volume or insufficient specificity. The overall theme is the difficulty in finding appropriate plant information, especially for California natives and specific design criteria, across various existing resource types."
+        },
+        {
+          "title": "Print: lists and recommendations",
+          "start_index": 35,
+          "end_index": 37,
+          "node_id": "0023",
+          "summary": "The partial document reviews existing resources for selecting California native plants, highlighting their limitations. It discusses how nurseries, while some specialize in native plants, often lack comprehensive search tools to filter by native status or local availability. The text then critically examines print sources, acknowledging their reliability and authoritative nature but emphasizing their inflexibility, lack of searchability, and inefficiency for discovering new plants tailored to specific site or design criteria. It also briefly mentions commercial databases, noting their comprehensive search capabilities but also their lack of restriction to California natives and dependence on nursery stock. Finally, the document establishes a clear definition of a \"California native plant\" as one growing naturally in the state before 1769, underscoring its importance for the project's database (CAPIS) which aims to be a resource for appropriate native plants in built environments."
+        }
+      ],
+      "node_id": "0019",
+      "summary": "The partial document reviews existing resources for plant selection, categorizing them into several types: botanical databases, horticultural databases, wholesale/commercial nursery databases, and printed plant lists. It highlights that botanical databases, while scientifically detailed, are of limited use to landscape architects due to their focus on taxonomy, ecology, and minute botanical characteristics rather than design-specific criteria. The document provides examples of each type of resource and notes that an analysis of these sources identifies gaps that a proposed new project database aims to fill."
+    },
+    {
+      "title": "Methods",
+      "start_index": 37,
+      "end_index": 37,
+      "nodes": [
+        {
+          "title": "Data collection",
+          "start_index": 37,
+          "end_index": 37,
+          "nodes": [
+            {
+              "title": "Pant list",
+              "start_index": 37,
+              "end_index": 39,
+              "node_id": "0026",
+              "summary": "This partial document outlines the methodology for compiling the CAPIS (California Plant Information System) database, focusing on the selection and data collection processes for California native plants. It defines what constitutes a \"California native plant\" for the project, referencing established botanical definitions. The document details strict inclusion and exclusion criteria, ensuring plants are truly native, non-invasive (excluding species identified by Cal-IPC or BAEDN), and appropriate for use in the built environment, primarily by being commercially available and suitable for cultivation. It lists the various sources used to generate the CAPIS plant list, including the UC Davis Arboretum All-Stars, specific horticultural books, and regional plant lists, with verification by expert committee members. Finally, it specifies the types of data collected for each plant, encompassing basic taxonomic information and important site and design criteria relevant to landscape architects."
+            },
+            {
+              "title": "Plant data",
+              "start_index": 39,
+              "end_index": 41,
+              "node_id": "0027",
+              "summary": "This partial document describes the methodology for compiling and structuring the CAPIS (California Plant Information System) database. It details the process of generating the plant list, drawing from sources like the UC Davis Arboretum All-Stars, \"Plants for California Landscapes,\" and various native plant guides, with an emphasis on verifying native status, non-invasiveness, and suitability for landscape use. The document then outlines the specific plant data collected, including taxonomic, site, and design criteria, and identifies the diverse sources used for this information (e.g., Jepson Manual, Sunset Western Garden Book, Las Pilitas Nursery). It also covers the inclusion of multimedia, such as photos sourced from CalPhotos, and links to external resources. Finally, the document explains the database's technical architecture, specifying its implementation using MySQL as a relational database with a primary `plant_info` table and the potential for linked tables."
+            }
+          ],
+          "node_id": "0025",
+          "summary": "This partial document defines what constitutes a California native plant, referencing specific historical context and botanical definitions. It also outlines the purpose of CAPIS (California Plant Information System) as a resource for landscape architects and related professionals, emphasizing the importance of including only actual California native plants that are suitable for built environments. The text appears to be part of a \"methods\" section, discussing data collection and plant list criteria."
+        },
+        {
+          "title": "Building the database",
+          "start_index": 41,
+          "end_index": 41,
+          "nodes": [
+            {
+              "title": "Software and coding: MySQL with SQL",
+              "start_index": 41,
+              "end_index": 42,
+              "node_id": "0029",
+              "summary": "The partial document describes the methods used for the CAPIS (California Plant Information System) project, focusing on its visual and data infrastructure. It details the sourcing, display, and crediting of plant images, primarily from CalPhotos and the California Native Plants Wiki, including permission protocols. It also outlines how plant availability information (nurseries, seed/plant forms) is provided via the California Native Plant Link Exchange. A significant portion is dedicated to the \"Building the Database\" section, explaining that CAPIS is a relational database system built using MySQL with SQL. The text elaborates on the concept of relational databases, the benefits of choosing this system (flexibility, web integration, complex queries, data optimization), and MySQL's role as a free Relational Database Management System for creating, managing, and enabling dynamic web access to the CAPIS database, which currently consists of a single table (`plant_info`)."
+            },
+            {
+              "title": "Data modeling",
+              "start_index": 42,
+              "end_index": 45,
+              "node_id": "0030",
+              "summary": "The partial document describes the technical implementation of the CAPIS project, focusing on its database system and website management. It details the choice of MySQL as a relational database management system for CAPIS, highlighting its benefits such as flexibility, data optimization, and integration with web applications. The document explains how MySQL is used for creating the CAPIS database, managing tables, and manipulating data using SQL.\n\nIt then covers the data modeling for CAPIS, noting its simple structure with a single `plant_info` table due to minimal data redundancy. The various data types used within this table are explained, including String, Integer, Enum, and Set, with examples of their application for plant characteristics.\n\nFinally, the document discusses the CAPIS website management, emphasizing its adherence to current web standards for improved compatibility and code efficiency. It outlines the coding languages used\u2014HTML5 for page structure, CSS3 for appearance and layout, and PHP5 for connecting to and querying the database, as well as creating dynamic content."
+            }
+          ],
+          "node_id": "0028",
+          "summary": "The partial document describes the methods used for gathering and presenting plant information, focusing on two main areas:\n\n1.  **Visual and Availability Information**: It details how plant photos are sourced (primarily CalPhotos, California Native Plants Wiki), displayed (194x130 pixels, showing key characteristics), credited, and the permissions required for their use. It also explains how plant availability information (nurseries, seed/plant forms) is provided via the California Native Plant Link Exchange.\n2.  **Database Structure (CAPIS System)**: It outlines the technical aspects of building the CAPIS system using MySQL with SQL. This includes describing it as a relational database, detailing the core `plant_info` table which uses scientific names as unique identifiers, and explaining how one-to-one and many-to-one relationships between tables are established and managed with metadata."
+        },
+        {
+          "title": "Website management",
+          "start_index": 45,
+          "end_index": 45,
+          "nodes": [
+            {
+              "title": "Web standards",
+              "start_index": 45,
+              "end_index": 45,
+              "node_id": "0032",
+              "summary": "The partial document describes the website management practices for the CAPIS site, focusing on its adherence to current web standards. It explains that using web standards, based on W3C recommendations, improves website compatibility across different browsers, reduces redundant code, and makes the code easier to manage. The document then details the specific up-to-date coding languages used for the CAPIS website: HTML5 for defining content and page structure, CSS3 for controlling element appearance and page layout, and PHP5 for database interaction and creating dynamic content."
+            },
+            {
+              "title": "Coding languages",
+              "start_index": 45,
+              "end_index": 48,
+              "node_id": "0033",
+              "summary": "This partial document describes the technical aspects of the CAPIS website (www.california-plant.com), focusing on its adherence to web standards and the coding languages used.\n\nMain points covered include:\n*   **Web Standards:** The CAPIS site is built using current World Wide Web Consortium (W3C) web standards to ensure compatibility across browsers, reduce redundant code, and improve code readability and maintainability.\n*   **Coding Languages:**\n    *   **HTML5:** Used for defining website content, identifying elements, and building page structure (e.g., using tags like `<header>` and `<section>`).\n    *   **CSS3:** Used for specifying the appearance and layout of elements defined in HTML, ensuring consistent styling across the site (e.g., font, size, color, positioning).\n    *   **PHP5:** Employed for creating dynamic website content, connecting to a MySQL database, translating user inputs from HTML forms into SQL queries, and displaying query results back as HTML.\n*   **Dynamic Website Functionality:** The CAPIS system features dynamic pages that respond to user input (e.g., through search forms), allowing users to query the database for specific information.\n*   **Key Website Components:** The document details the structure of the CAPIS website, which includes both static and dynamic pages. Specific dynamic pages like the Plant Search page, Query Results page, Plant Page template, and List by Name page are described, highlighting how they enable user interaction with the plant database."
+            },
+            {
+              "title": "Parts of the information system",
+              "start_index": 48,
+              "end_index": 50,
+              "node_id": "0034",
+              "summary": "The partial document describes the technical foundation and detailed structure of the CAPIS (California Plant Information System) website. It explains how HTML templates and PHP variables are used to generate web pages. The document then outlines the CAPIS website's eight pages, categorizing them into four dynamic pages and four static pages.\n\nIt elaborates on the dynamic pages, including the Plant Search page for customizable queries, the Query Results page for displaying search outcomes, the Plant Page template for individual plant details, and the List by Name page which allows users to browse and sort plants alphabetically by common or scientific name.\n\nThe static pages are also detailed: the Home page, the About page which describes the project and its uses, the Selection Criteria page which explains search parameters and provides external resource links, and the Learn More page. The Learn More page is highlighted as crucial for defining CAPIS as a comprehensive information system, as it integrates links to various external resources like other databases, image sites, and care guides, making it more than just a plant search tool."
+            }
+          ],
+          "node_id": "0031",
+          "summary": "The partial document describes the website management practices for the CAPIS site, focusing on its adherence to current web standards. It explains that using web standards, based on W3C recommendations, improves website compatibility across different browsers, reduces redundant code, and makes the code easier to manage. The document then details the specific up-to-date coding languages used for the CAPIS website: HTML5 for defining content and page structure, CSS3 for controlling element appearance and page layout, and PHP5 for database interaction and creating dynamic content."
+        }
+      ],
+      "node_id": "0024",
+      "summary": "This partial document defines what constitutes a California native plant, referencing specific historical context and botanical definitions. It also outlines the purpose of CAPIS (California Plant Information System) as a resource for landscape architects and related professionals, emphasizing the importance of including only actual California native plants that are suitable for built environments. The text appears to be part of a \"methods\" section, discussing data collection and plant list criteria."
+    },
+    {
+      "title": "Discussion",
+      "start_index": 51,
+      "end_index": 51,
+      "nodes": [
+        {
+          "title": "Meeting project goals",
+          "start_index": 51,
+          "end_index": 52,
+          "node_id": "0036",
+          "summary": "The partial document discusses the shortcomings of existing plant selection tools, which often separate aesthetics and ecology, lack integrated search criteria, or overwhelm users. It then introduces the CAPIS database as a solution, highlighting its comprehensive yet streamlined plant search page that integrates site and design criteria, offers specialized search options (e.g., flood tolerance, native range), and improves usability. The document also describes the CAPIS website's design philosophy, emphasizing its simplicity, functionality, focus on efficient database access, and adherence to web standards for accessibility and future flexibility. Finally, it mentions how the project met personal goals for the author, including learning about California flora and improving plant selection skills."
+        },
+        {
+          "title": "Meeting personal goals",
+          "start_index": 52,
+          "end_index": 54,
+          "node_id": "0037",
+          "summary": "The partial document describes the CAPIS database and website, highlighting its streamlined plant search functionality with diverse criteria (site and design, flood tolerance, native range, serpentine tolerance) and its simple, functional, and standards-compliant design focused on ease of use and future expandability. It then details the author's personal and professional growth achieved through the project, including enhanced knowledge of California flora, development of technical skills in database management and web development (PHP, SQL, HTML, CSS), and experience working with experts. Finally, the document outlines future development plans for CAPIS, such as expanding the plant list to include naturalized species, integrating name synonymy for improved search, and adding comprehensive plant descriptions."
+        },
+        {
+          "title": "Direction for the future",
+          "start_index": 54,
+          "end_index": 55,
+          "node_id": "0038",
+          "summary": "This partial document describes the author's personal and professional growth gained from working on the CAPIS project, highlighting increased confidence and skill development. The main focus, however, is on \"Further Development\" for the CAPIS project, which is currently in a prototype phase. It outlines several detailed suggestions for enhancing the CAPIS database, including: expanding the plant list to include naturalized species with filtering options; integrating scientific and common name synonyms for improved searchability; adding plant descriptions (though noted as low priority); incorporating information on plant maintenance needs, acknowledging the complexities of categorization; introducing additional specialty search criteria like salt tolerance and flowering month, with a caution about maintaining usability; and providing data on the invasive potential of species. The document also touches on the challenges and considerations for implementing these proposed features."
+        }
+      ],
+      "node_id": "0035",
+      "summary": "The document discusses the general separation of aesthetics and ecology in most plant selection tools, noting that databases often focus exclusively on either ecological/botanical aspects or horticultural/garden performance. It highlights that many existing databases fail to integrate multiple search criteria effectively or, conversely, overwhelm landscape architects with irrelevant information. The text also mentions that the project identified significant gaps in current database selection processes, specifically from the perspective of a landscape architect's plant selection needs."
+    },
+    {
+      "title": "Project Significance",
+      "start_index": 56,
+      "end_index": 57,
+      "node_id": "0039",
+      "summary": "The partial document describes the significance of CAPIS, a plant selection tool designed primarily for landscape architects and related professionals, but also available to the general public. CAPIS aims to simplify the plant selection process, promote informed and responsible choices, and specifically encourage the use of California native plants for their ecological and aesthetic benefits. It is presented as an easy-to-use resource that compiles information from various respected sources. The document also includes a comprehensive list of references, indicating the diverse sources of information, including plant nurseries, botanical databases, academic publications, and horticultural guides, that underpin the CAPIS project."
+    },
+    {
+      "title": "References",
+      "start_index": 57,
+      "end_index": 59,
+      "node_id": "0040",
+      "summary": "This partial document primarily covers two main areas: a list of references and a glossary of terms. The references section includes a wide array of sources related to California native plants, planting design, horticulture, invasive species, and web development technologies (HTML, CSS, MySQL, PHP). The glossary defines key terms pertinent to both California native plants and the web development and database technologies mentioned in the references, such as \"California Native Plant,\" \"Database,\" \"Dynamic website,\" \"MySQL,\" \"PHP,\" and \"SQL.\""
+    },
+    {
+      "title": "Appendix A: Glossary",
+      "start_index": 59,
+      "end_index": 60,
+      "node_id": "0041",
+      "summary": "This partial document is a glossary, identified as \"appendix A\", which defines key terms. The definitions cover concepts related to web development (e.g., Dynamic website, HTML Form, PHP, Semantic markup, Style sheet), database management (e.g., Database, Relational database, MySQL, SQL), and a specific ecological term (California Native Plant)."
+    },
+    {
+      "title": "Appendix B: Plant List",
+      "start_index": 60,
+      "end_index": 61,
+      "node_id": "0042",
+      "summary": "The partial document is Appendix B, which contains a list of plants."
+    }
+  ]
+}

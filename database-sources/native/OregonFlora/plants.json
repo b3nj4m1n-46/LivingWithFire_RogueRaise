@@ -1,0 +1,3380 @@
+{
+  "source": "Oregon Flora Project, Oregon State University",
+  "url": "https://oregonflora.org/pages/flora-of-oregon.php",
+  "note": "Supplement to Flora of Oregon Volumes 1 & 2. The main Flora covers ~4,380 taxa but is not available as a downloadable dataset.",
+  "accepted_taxa": [
+    {
+      "scientific_name": "Cardamine occulta",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carduus crispus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carex comans",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carex mesochorea",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carex pumila",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carpobrotus edulis",
+      "family": "Aizoaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carum carvi",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Celastrus orbiculatus",
+      "family": "Celastraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centaurea × kleinii",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centaurea × psammogena",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centaurea calcitrapa",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centaurea iberica",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centaurea nigrescens",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Centella erecta",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chaerophyllum temulum",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chamaemelum mixtum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chamaesyce prostrata",
+      "family": "Euphorbiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chamaesyce serpens",
+      "family": "Euphorbiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium capitatum var. capitatum",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium incanum var. occidentale",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium incognitum",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium murale",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium polyspermum var. acutifolium",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium strictum var. glaucophyllum",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium subglabrum",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chenopodium vulvaria",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Chloris radiata",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cicer arietinum",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cirsium ochrocentrum var. ochrocentrum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cladoraphis cyperoides",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cnidium monnieri",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Coreopsis rosea",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Coriandrum sativum",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cornus obliqua",
+      "family": "Cornaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cornus sessilis",
+      "family": "Cornaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cosmos bipinnatus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cotinus coggygria",
+      "family": "Anacardiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cotula mexicana",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Crepis tectorum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Crocus kotschyanus",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Crocus tommasinianus",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cucumis anguria",
+      "family": "Cucurbitaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cycladenia humilis var. humilis",
+      "family": "Apocynaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cyclospermum leptophyllum",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cynodon × magennisii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cyperus aggregatus",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cyperus fuscus",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cyperus odoratus",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Delosperma cooperi",
+      "family": "Aizoaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Dichanthelium commutatum var. commutatum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Dichelostemma volubile",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Diplotaxis muralis",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Dipsacus laciniatus",
+      "family": "Dipsacaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Doronicum plantagineum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Dracunculus vulgaris",
+      "family": "Araceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Dysphania multifida",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Echinochloa colona",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Echinochloa crus-pavonis var. crus-pavonis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Echinocystis lobata",
+      "family": "Cucurbitaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Echium candicans",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Echium vulgare",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Eichhornia crassipes",
+      "family": "Pontederiaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Elaeagnus commutata",
+      "family": "Elaeagnaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Eleusine tristachya",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Elymus ciliaris",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Elymus tsukushiensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Eragrostis pectinacea var. miserrima",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Erica carnea",
+      "family": "Ericaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Erigeron karvinskianus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Escallonia rubra",
+      "family": "Escalloniaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Euonymus europaeus",
+      "family": "Celastraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Euonymus fortunei",
+      "family": "Celastraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Euphorbia characias",
+      "family": "Euphorbiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Euphorbia dentata",
+      "family": "Euphorbiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Euthamia graminifolia",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Filago pyramidata var. pyramidata",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Filago vulgaris",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Frankenia pulverulenta",
+      "family": "Frankeniaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Fritillaria eastwoodiae",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Fritillaria purdyi",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gaillardia × grandiflora",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gaillardia pulchella",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Galanthus nivalis",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Galinsoga parviflora",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gladiolus communis",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gleditsia triacanthos",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gypsophila elegans",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Gypsophila pilosa",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hackelia mundula",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hedera colchica",
+      "family": "Araliaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Helenium puberulum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Helianthus petiolaris",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Helianthus tuberosus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hemerocallis fulva",
+      "family": "Xanthorrhoeaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hemerocallis minor",
+      "family": "Xanthorrhoeaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Heracleum mantegazzianum",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hesperocyparis macrocarpa",
+      "family": "Cupressaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hesperocyparis sargentii",
+      "family": "Cupressaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hieracium piloselloides",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hieracium sabaudum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hoita macrostachya",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hyacinthoides × massartiana",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Inula britannica",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Iris orientalis",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Iris tenuissima",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Juncus pylaei",
+      "family": "Juncaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Juniperus chinensis",
+      "family": "Cupressaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Knautia arvensis",
+      "family": "Dipsacaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Kniphofia uvaria",
+      "family": "Xanthorrhoeaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Laburnum anagyroides",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lactuca canadensis",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lactuca ludoviciana",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lagurus ovatus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lapsanastrum apogonoides",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lathyrus nissolia",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lathyrus odoratus",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lathyrus sativus",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lathyrus vernus",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Layia carnosa",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Layia chrysanthemoides",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Layia fremontii",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Layia platyglossa",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Layia septentrionalis",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leontodon autumnalis var. pratensis",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lepidium graminifolium",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lepidium pinnatifidum",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lepidium ruderale",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leucanthemum × superbum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leucanthemum maximum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leucojum aestivum",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leymus × multiflorus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Leymus racemosus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lithodora diffusa ssp. diffusa",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lobelia cardinalis",
+      "family": "Campanulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lobelia erinus",
+      "family": "Campanulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lobelia pedunculata",
+      "family": "Campanulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lolium × hybridum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lolium rigidum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lonicera japonica",
+      "family": "Caprifoliaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lonicera maackii",
+      "family": "Caprifoliaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lonicera subspicata var. denudata",
+      "family": "Caprifoliaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lonicera tatarica",
+      "family": "Caprifoliaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lotus subbiflorus var. subbiflorus",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Marah fabacea",
+      "family": "Cucurbitaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Marah watsonii",
+      "family": "Cucurbitaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Matthiola incana",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Medicago falcata",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Medicago turbinata",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Mercurialis annua",
+      "family": "Euphorbiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Miscanthus sinensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Muilla transmontana",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Murdannia keisak",
+      "family": "Commelinaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Muscari armeniacum",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Myosotis ramosissima",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Myosotis sylvatica",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Myosoton aquaticum",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Myrrhis odorata",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Narcissus × incomparabilis",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Narcissus × odorus",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Narcissus tazetta",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Nasturtium × sterile",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Neslia paniculata",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Oncosiphon suffruticosum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Ononis spinosa ssp. maritima",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Onopordum tauricum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Opuntia humifusa",
+      "family": "Cactaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Ornithogalum nutans",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Panicum virgatum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Paronychia franciscana",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pennisetum orientale",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pennisetum villosum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Petasites fragrans",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Petasites japonicus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phalaris caroliniana",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phalaris minor",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phedimus spurius",
+      "family": "Crassulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phleum arenarium",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phleum paniculatum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phleum subulatum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phormium tenax",
+      "family": "Xanthorrhoeaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phyllodoce breweri",
+      "family": "Ericaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phyllostachys vivax",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pimpinella saxifraga",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pinus monophylla",
+      "family": "Pinaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pistia stratiotes",
+      "family": "Araceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Alopecurus arundinaceus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carduus cinereus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carex agastachys",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Festuca lemanii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; previously misidentified as F. lemanii or F. ovina",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Phyllostachys nigra var. henonis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pinus pinaster",
+      "family": "Pinaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Poa iconia var. iconia",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; previously misidentified as P. bulbosa ssp. vivipara",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Trillium chloropetalum",
+      "family": "Melanthiaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; previously misidentified as T. kurabayashii",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "× Aegilotriticum sancti-andreae",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "× Agropogon lutosus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "× Schedololium holmbergii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Acanthospermum hispidum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Achillea filipendulina",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Achillea ptarmica",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Adiantum shastense",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Aegopodium podagraria",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Agropyron fragile",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Agrostis × murbeckii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Allium cratericola",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Allium fimbriatum var. fimbriatum",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Allium hoffmanii",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Allium membranaceum",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Alnus glutinosa",
+      "family": "Betulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amaranthus deflexus",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amaranthus hypochondriacus",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amaranthus palmeri",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amaranthus viridis",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amaryllis belladonna",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Ambrosia grayi",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Ambrosia trifida",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amelichloa caudata",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Amorpha californica",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Anchusa capensis",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Anthyllis vulneraria",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Apium graveolens",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arctostaphylos mewukka ssp. mewukka",
+      "family": "Ericaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arctotheca calendula",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arenaria montana",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Aristolochia macrophylla",
+      "family": "Aristolochiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Armoracia rusticana",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Artemisia abrotanum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arthraxon hispidus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arundo donax",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Asarum hartwegii",
+      "family": "Aristolochiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Asclepias solanoana",
+      "family": "Apocynaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Asplenium bulbiferum",
+      "family": "Aspleniaceae",
+      "group": "Pteridophytes",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Astragalus cicer",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Astragalus drummondii",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Atriplex hymenelytra",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Atriplex oblongifolia",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Baccharis salicifolia ssp. salicifolia",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Balsamorhiza lanata",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Berberis julianae",
+      "family": "Berberidaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Berberis vulgaris",
+      "family": "Berberidaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Beta vulgaris",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Betula × utahensis",
+      "family": "Betulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Bouteloua dactyloides",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Bouteloua gracilis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Brachypodium distachyon",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Brachypodium pinnatum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Brassica elongata",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Brodiaea minor",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Bromus madritensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Bupleurum odontites",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Bupleurum rotundifolium",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Butomus umbellatus",
+      "family": "Butomaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calendula officinalis",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calycanthus occidentalis",
+      "family": "Calycanthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calystegia sepium ssp. erratica",
+      "family": "Convolvulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Cardamine flexuosa",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Planodes virginicum",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Polypogon australis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Polypogon fugax",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pseudosasa japonica",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Puccinellia simplex",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Quercus palustris",
+      "family": "Fagaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Quercus robur",
+      "family": "Fagaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Quercus rubra",
+      "family": "Fagaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Rapistrum rugosum",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Romulea rosea var. australis",
+      "family": "Iridaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Rorippa indica",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Rudbeckia hirta var. pulcherrima",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sagina alexandrae",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sagina japonica",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sagittaria graminea ssp. graminea",
+      "family": "Alismataceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sagittaria platyphylla",
+      "family": "Alismataceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Salsola kali ssp. pontica",
+      "family": "Amaranthaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sasa palmata",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Schoenoplectiella saximontana",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Schoenoplectus × kuekenthalianus",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Secale strictum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sedum acre",
+      "family": "Crassulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sedum thartii",
+      "family": "Crassulaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Semiarundinaria fastuosa",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Senecio × albescens",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Senecio cineraria",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Senecio viscosus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Setaria faberi",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Setaria parviflora",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Setaria viridis var. major",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Silene dichotoma",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Silene pendula",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sisymbrium orientale",
+      "family": "Brassicaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Spartina densiflora",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; potentially invasive",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Spergularia bocconi",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Spergularia media var. media",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Spergularia villosa",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sphaeropteris cooperi",
+      "family": "Cyatheaceae",
+      "group": "Pteridophytes",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sporobolus indicus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sporobolus niliacus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Symphyotrichum novae-angliae",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Tagetes patula",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Taxodium distichum var. distichum",
+      "family": "Cupressaceae",
+      "group": "Gymnosperms",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Tetragonia tetragonioides",
+      "family": "Aizoaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Thelesperma megapotamicum",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Thinopyrum junceum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Thinopyrum pycnanthum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Torilis henryi",
+      "family": "Apiaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Tradescantia fluminensis",
+      "family": "Commelinaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Trifolium echinatum",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Trifolium retusum",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Trifolium suffocatum",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Trifolium tomentosum",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Triglochin palustris",
+      "family": "Juncaginaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Tripidium ravennae",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Tulipa sylvestris",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Typha × glauca",
+      "family": "Typhaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, naturalized",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; = T.  latifolia (native) x T. angustifolia (exotic); potentially invasive",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Urochloa mutica",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Vaccinium corymbosum",
+      "family": "Ericaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Veratrum fimbriatum",
+      "family": "Melanthiaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Verbesina encelioides",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Vicia faba",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Vicia lathyroides",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Zea mays ssp. mays",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Zinnia violacea",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "exotic, not naturalized",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Agrostis blasdalei",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Agrostis swalalahos",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "new to science, taxon published after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Allium dictuon",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Arctostaphylos × oblongifolia",
+      "family": "Ericaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence mentioned in Flora of Oregon under A. viscida but not named; = A. canescens x A. viscida",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Asplenium trichomanes ssp. quadrivalens",
+      "family": "Aspleniaceae",
+      "group": "Pteridophytes",
+      "origin": "native",
+      "comments": "Oregon occurrence mentioned in Flora of Oregon under A. trichomanes ssp. trichomanes",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calamagrostis utsutsuensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "new to science, taxon published after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Carex vespertina",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; previously submerged within C. inops.",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Eleocharis coloradoensis",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Equisetum × nelsonii",
+      "family": "Equisetaceae",
+      "group": "Pteridophytes",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; = E. hyemale x E. variegatum",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Eremogone congesta var. subcongesta",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Fritillaria camschatcensis",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence mentioned in Flora of Oregon; see errata for full description",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Hackelia bella",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Huperzia miyoshiana",
+      "family": "Lycopodiaceae",
+      "group": "Pteridophytes",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lilium rubescens",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Myriopteris covillei",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pinus ponderosa var. cunninghamia",
+      "family": "Pinaceae",
+      "group": "Gymnosperms",
+      "origin": "native",
+      "comments": "new to science, taxon published after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Poa glauca ssp. glauca",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Poa mansfieldii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "new to science, taxon published after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Prosartes parvifolia",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence inadvertently missed in Flora of Oregon; refer to Flora of Oregon errata",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Psorothamnus polydenius",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Quercus × morehus",
+      "family": "Fagaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon; = Q. kelloggii x Q. wislzeni",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Sedum rupicola",
+      "family": "Crassulaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Stephanomeria pauciflora",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Thermopsis robusta",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "origin": "native",
+      "comments": "Oregon occurrence discovered after publication of Flora of Oregon",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Brodiaea nana",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calochortus amabilis",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calochortus luteus",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Calochortus persistens",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Elodea bifoliata",
+      "family": "Hydrocharitaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Erythronium multiscapideum",
+      "family": "Liliaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Lygodesmia juncea",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Muhlenbergia rigens",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Najas guadalupensis var. guadalupensis",
+      "family": "Hydrocharitaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Pinus muricata",
+      "family": "Pinaceae",
+      "group": "Gymnosperms",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    },
+    {
+      "scientific_name": "Triteleia peduncularis",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "origin": "uncertain",
+      "comments": "",
+      "source": "AcceptedTaxa_NotTreatedInFlora"
+    }
+  ],
+  "taxonomic_changes": [
+    {
+      "scientific_name": "Acorus calamus",
+      "family": "Acoraceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "misapplied to Acorus americanus",
+      "flora_page": "Volume 1, Page 129",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum lemmonii ssp. lemmonii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma lemmonii ssp. lemmonii",
+      "flora_page": "Volume 1, Page 343",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum occidentale ssp. californicum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma occidentalis ssp. californica",
+      "flora_page": "Volume 1, Page 345",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum occidentale ssp. pubescens",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma occidentalis ssp. pubescens",
+      "flora_page": "Volume 1, Page 345",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Acroptilon repens",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Rhaponticum repens",
+      "flora_page": "Volume 2, Page 164",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Adiantum aleuticum",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "Accepted",
+      "flora_page": "Volume 1, Page 97",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Thinopyrum ponticum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Thinopyrum obtusiflorum",
+      "flora_page": "Volume 1, Page 485",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Bromus carinatus var. marginatus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Bromus sitchensis var. marginatus",
+      "flora_page": "Volume 1, Page 369",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Ammophila arenaria ssp. arenaria",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Calamagrostis arenaria ssp. arenaria",
+      "flora_page": "Volume 1, Page 358",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus tomentellus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria tomentella",
+      "flora_page": "Volume 2, Page 267",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus gormanii",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria gormanii",
+      "flora_page": "Volume 2, Page 266",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus ledophyllus var. ledophyllus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria ledophylla var. ledophylla",
+      "flora_page": "Volume 2, Page 267",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus elegans",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria elegans",
+      "flora_page": "Volume 2, Page 265",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus vialis",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria vialis",
+      "flora_page": "Volume 2, Page 267",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Blechnum spicant",
+      "family": "Blechnaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Struthiopteris spicant",
+      "flora_page": "Volume 1, Page 70",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Botrychium lunaria",
+      "family": "Ophioglossaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "misapplied to Botrychium neolunaria",
+      "flora_page": "Volume 1, Page 90",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Bromus carinatus var. carinatus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Bromus sitchensis var. carinatus",
+      "flora_page": "Volume 1, Page 368",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Bromus maritimus",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Bromus sitchensis var. maritimus",
+      "flora_page": "Volume 1, Page 372",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Bromus sitchensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Accepted",
+      "flora_page": "Volume 1, Page 373",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Carex brevicaulis",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "illegitimate name; replaced with Carex zikae",
+      "flora_page": "Volume 1, Page 192",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Carex inops ssp. inops",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Carex inops",
+      "flora_page": "Volume 1, Page 206",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Centaurea stoebe ssp. micranthos",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Centaurea stoebe",
+      "flora_page": "Volume 2, Page 216",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Cheilanthes feei",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Myriopteris gracilis",
+      "flora_page": "Volume 1, Page 99",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Cheilanthes gracillima",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Myriopteris gracillima",
+      "flora_page": "Volume 1, Page 99",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Cheilanthes intertexta",
+      "family": "Pteridaceae",
+      "group": "Pteridophytes",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Myriopteris intertexta",
+      "flora_page": "Volume 1, Page 99",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Dichelostemma capitatum ssp. capitatum",
+      "family": "Asparagaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Dipterostemon capitatus ssp. capitatus",
+      "flora_page": "Volume 1, Page 159",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Lupinus sabinianus",
+      "family": "Fabaceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "orthographic variant; correctly spelled Lupinus sabineanus",
+      "flora_page": "Volume 2, Page 706",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum hendersonii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma hendersonii",
+      "flora_page": "Volume 1, Page 343",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum hymenoides",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma hymenoides",
+      "flora_page": "Volume 1, Page 343",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Scribneria bolanderi",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Deschampsia bolanderi",
+      "flora_page": "Volume 1, Page 476",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum nelsonii ssp. nelsonii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma nelsonii ssp. nelsonii",
+      "flora_page": "Volume 1, Page 344",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum pinetorum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma pinetorum",
+      "flora_page": "Volume 1, Page 345",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum thurberianum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma thurberiana",
+      "flora_page": "Volume 1, Page 346",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum webberi",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma webberi",
+      "flora_page": "Volume 1, Page 347",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Trisetum canescens",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Graphephorum canescens",
+      "flora_page": "Volume 1, Page 487",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Trisetum cernuum",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Graphephorum cernuum",
+      "flora_page": "Volume 1, Page 487",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Trillium kurabayashii",
+      "family": "Melanthiaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Accepted or misapplied to T. chloropetalum (esp. in Willamette Valley)",
+      "flora_page": "Volume 1, Page 315",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Trisetum wolfii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Graphephorum wolfii",
+      "flora_page": "Volume 1, Page 488",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Silene campanulata ssp. glandulosa",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "illegitimate name; replaced with Silene greenei ssp. greenei",
+      "flora_page": "Volume 2, Page 569",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum wallowaense",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma wallowaensis",
+      "flora_page": "Volume 1, Page 347",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Ammophila breviligulata ssp. breviligulata",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Calamagrostis breviligulata ssp. breviligulata",
+      "flora_page": "Volume 1, Page 358",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus breweri",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria breweri",
+      "flora_page": "Volume 2, Page 265",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum nelsonii ssp. dorei",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma nelsonii ssp. dorei",
+      "flora_page": "Volume 1, Page 344",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum nevadense",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma nevadensis",
+      "flora_page": "Volume 1, Page 344",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Calamagrostis tacomensis",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Accepted or misapplied to C. utsutsuensis",
+      "flora_page": "Volume 1, Page 378",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum nelsonii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma nelsonii",
+      "flora_page": "Volume 1, Page 344",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum occidentale",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma occidentalis",
+      "flora_page": "Volume 1, Page 345",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Schoenoplectus mucronatus",
+      "family": "Cyperaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Schoenoplectiella mucronata",
+      "flora_page": "Volume 1, Page 251",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Achnatherum richardsonii",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Eriocoma richardsonii",
+      "flora_page": "Volume 1, Page 346",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Allium obtusum var. obtusum",
+      "family": "Amaryllidaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Excluded (does not occur in Oregon)",
+      "flora_page": "Volume 1, Page 141",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Calamagrostis tweedyi",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Greeneochloa tweedyi",
+      "flora_page": "Volume 1, Page 379",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus glabratus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria glabrata",
+      "flora_page": "Volume 2, Page 266",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Poa laxa",
+      "family": "Poaceae",
+      "group": "Monocotyledons",
+      "was_status": "Accepted",
+      "now_status": "misapplied to Poa wallowensis",
+      "flora_page": "Volume 1, Page 458",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Lonicera cauriana",
+      "family": "Caprifoliaceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Lonicera caerulea",
+      "flora_page": "Volume 2, Page 537",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Cryptantha intermedia var. hendersonii",
+      "family": "Boraginaceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Ambiguous",
+      "flora_page": "Volume 2, Page 398",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Packera streptanthifolia",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Accepted",
+      "flora_page": "Volume 2, Page 324",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus ledophyllus",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria ledophylla",
+      "flora_page": "Volume 2, Page 266",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Eucephalus ledophyllus var. covillei",
+      "family": "Asteraceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "Synonym of Doellingeria ledophylla var. covillei",
+      "flora_page": "Volume 2, Page 267",
+      "source": "Flora_ChangeSincePublication"
+    },
+    {
+      "scientific_name": "Sagina subulata",
+      "family": "Caryophyllaceae",
+      "group": "Dicotyledons",
+      "was_status": "Accepted",
+      "now_status": "illegitimate name; replaced with Sagina alexandrae",
+      "flora_page": "Volume 2, Page 563",
+      "source": "Flora_ChangeSincePublication"
+    }
+  ]
+}
