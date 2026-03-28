@@ -1,6 +1,6 @@
 # Bootstrap Warrants — Convert Production Values to Warrants
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P0 (critical)
 > **Depends on:** 001-dolt-setup (staging DB with production data), 002-genkit-setup (Genkit tools for DB access)
 > **Blocks:** All Phase 2 tasks (internal conflict scan, external analysis, specialist agents)
@@ -216,3 +216,33 @@ Write `genkit/src/scripts/bootstrap-warrants.ts` that:
    LIMIT 10;
    -- Should return results — these are the internal conflicts waiting to be classified
    ```
+
+## Implementation Notes
+
+**Implemented by:** Claude Code (2026-03-28)
+
+### Deviations from Spec
+
+1. **COALESCE for NULL values:** 26,889 values had NULL in `value` but `source_value = 'x'` — these are boolean presence markers on parent category attributes (e.g., "Bloom & Flower" = yes, this plant has bloom data). Used `COALESCE(value, source_value)` to preserve them as warrants rather than silently dropping evidence.
+
+2. **Source table schema differs from spec:** The `sources` table uses `region` (not `fire_region`) and `notes` (not `source_type`). The script maps `sources.notes` → `source_methodology` and `sources.region` → `source_region`.
+
+3. **Avoided LEFT JOIN to sources:** DoltgreSQL panics on LEFT JOINs with NULL foreign keys. The script pre-loads all 103 sources into a Map and looks up source metadata in-memory instead.
+
+4. **Added `batch_id` backfill step:** After inserting all warrants, the script sets `batch_id` on all bootstrapped warrants so they're linked to the analysis_batches record.
+
+5. **Idempotent re-run:** Script clears previous bootstrap warrants and batch records before inserting, so it can be safely re-run.
+
+### Files Created/Modified
+- `genkit/src/scripts/bootstrap-warrants.ts` — bootstrap script
+- `genkit/package.json` — added `"bootstrap"` npm script
+
+### Verification Results (actual)
+- Warrant count: 94,903 (1:1 match with values)
+- NULL required fields: 0
+- NULL plant_genus: 0
+- NULL attribute_name: 0
+- Ceanothus velutinus: multiple warrants confirmed
+- Analysis batch: status=completed, warrants_created=94,903, plants_matched=1,361
+- Dolt commit: "bootstrap: 94903 production values converted to warrants"
+- Internal conflicts found: Mahonia aquifolium (18 warrants for Flammability), many plants with 13-15 warrants per attribute

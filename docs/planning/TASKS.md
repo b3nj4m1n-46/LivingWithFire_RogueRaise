@@ -25,13 +25,14 @@
 > **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/001-dolt-setup.md`
 > **Note:** Used DoltgreSQL (PostgreSQL protocol) instead of Dolt (MySQL protocol). Schema corrections documented in task spec — `sources` table has 12 cols not 7, `"values"` requires quoting, ENUMs replaced with VARCHAR.
 
-### Genkit Setup
-- [ ] **T08** (15 min) Initialize Genkit project: `npm install genkit @genkit-ai/core` + model plugins
-- [ ] **T09** (15 min) Configure model plugins (Claude via `@genkit-ai/anthropic` and/or Gemini via `@genkit-ai/google`)
-- [ ] **T10** (15 min) Create shared Genkit tools: `lookupProductionPlant`, `getDataDictionary`, `getSourceMetadata`
-- [ ] **T11** (10 min) Create DoltgreSQL query tool for Genkit flows (use `pg` client, port 5433)
+### Genkit Setup — ✅ COMPLETED (`5e9ea2b`)
+- [x] **T08** Initialize Genkit project in `genkit/` with ESM (`"type": "module"`), deps: genkit, @genkit-ai/anthropic, zod, pg
+- [x] **T09** Configured Anthropic plugin (conditional init — works without API key for DB-only testing). Models: Haiku 4.5 (bulk), Sonnet 4.6 (quality)
+- [x] **T10** Created shared tools: `lookupProductionPlant`, `getDatasetContext`, `getSourceMetadata` + barrel export with `allTools`
+- [x] **T11** Created `queryDolt` tool with `pg` pool on port 5433, parameterized SQL
 
-> **Depends on:** T07 (DoltgreSQL running) ✅
+> **Completed:** 2026-03-28 | **Task spec:** `docs/tasks/completed/002-genkit-setup.md`
+> **Note:** DoltgreSQL compatibility gotchas documented — no ILIKE, no LEFT JOIN on nullable FKs, must quote `"values"`. Smoke test script at `genkit/src/test-tools.ts`.
 
 ### Bootstrap Existing Warrants
 - [ ] **T12** (30 min) Convert existing production `values` into warrants: each existing value → warrant with `warrant_type: 'existing'`, preserving source_id provenance
@@ -40,7 +41,7 @@
 > **Depends on:** T04 ✅, T06 ✅
 > **Critical:** This is what makes internal conflict detection possible.
 
-**Milestone: Lunch Day 1** — ~~Dolt running~~ ✅, Genkit configured, production values bootstrapped as warrants
+**Milestone: Lunch Day 1** — ~~Dolt running~~ ✅, ~~Genkit configured~~ ✅, production values bootstrapped as warrants
 
 ---
 
@@ -52,13 +53,13 @@
 - [ ] **T16** (15 min) Add fuzzy match fallback (Levenshtein)
 - [ ] **T17** (10 min) Test against FirePerformancePlants (541 plants)
 
-> **Depends on:** T10-T11
+> **Depends on:** T10-T11 ✅ — **Ready to start**
 
 ### Schema Mapper Agent
 - [ ] **T18** (30 min) Implement `mapSchemaFlow`: read DATA-DICTIONARY.md, suggest column→attribute mappings
 - [ ] **T19** (15 min) Build rating scale crosswalk generator
 
-> **Depends on:** T10
+> **Depends on:** T10 ✅ — **Ready to start**
 
 ### Conflict Classifier Agent
 - [ ] **T20** (45 min) Implement `classifyConflictFlow`: compare warrants per plant+attribute, classify conflict type

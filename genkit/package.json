@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "tsx src/test-tools.ts"
+    "test": "tsx src/test-tools.ts",
+    "bootstrap": "tsx src/scripts/bootstrap-warrants.ts"
   },
   "dependencies": {
     "@genkit-ai/anthropic": "^0.2.0",
