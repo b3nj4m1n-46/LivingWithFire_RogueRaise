@@ -33,24 +33,40 @@ export default async function DashboardPage() {
         pendingSyncCount={data.pendingSyncCount}
         internalAuditConflictCount={data.internalAuditConflictCount}
       />
-      {lowCoverageCount > 0 && (
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium text-muted-foreground">
-              Coverage Gaps
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold">{lowCoverageCount}</p>
-            <p className="mt-1 text-xs text-muted-foreground">
-              attribute{lowCoverageCount === 1 ? "" : "s"} below 50% coverage
-            </p>
-            <Button variant="outline" size="xs" className="mt-2" nativeButton={false} render={<Link href="/coverage" />}>
-              View coverage dashboard
-            </Button>
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <Card size="sm">
+          <CardContent className="py-3">
+            <p className="text-xs text-muted-foreground">Plants</p>
+            <p className="text-xl font-bold">{coverage[0]?.totalPlants?.toLocaleString() ?? "—"}</p>
           </CardContent>
         </Card>
-      )}
+        <Card size="sm">
+          <CardContent className="py-3">
+            <p className="text-xs text-muted-foreground">Avg Coverage</p>
+            <p className="text-xl font-bold">
+              {coverage.length > 0
+                ? `${(Math.round((coverage.reduce((s, a) => s + a.coveragePct, 0) / coverage.length) * 10) / 10)}%`
+                : "—"}
+            </p>
+          </CardContent>
+        </Card>
+        <Card size="sm">
+          <CardContent className="py-3">
+            <p className="text-xs text-muted-foreground">Low Coverage Attrs</p>
+            <p className={`text-xl font-bold ${lowCoverageCount > 0 ? "text-yellow-600 dark:text-yellow-400" : ""}`}>
+              {lowCoverageCount}
+            </p>
+          </CardContent>
+        </Card>
+        <Card size="sm">
+          <CardContent className="py-3">
+            <p className="text-xs text-muted-foreground">Pending Conflicts</p>
+            <p className={`text-xl font-bold ${data.conflicts.pending > 0 ? "text-yellow-600 dark:text-yellow-400" : ""}`}>
+              {data.conflicts.pending}
+            </p>
+          </CardContent>
+        </Card>
+      </div>
       {data.topConflictingPairs.length > 0 && (
         <Card>
           <CardHeader className="pb-2">

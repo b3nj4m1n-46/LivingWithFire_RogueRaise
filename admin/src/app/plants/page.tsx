@@ -11,7 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { OperationsToolbar } from "./operations-toolbar";
-import { CoverageSummaryCards } from "./coverage-summary";
+import { PlantTabs } from "./plants-tabs";
 
 export const dynamic = "force-dynamic";
 
@@ -21,6 +21,7 @@ interface PageProps {
     page?: string;
     sort?: string;
     order?: string;
+    tab?: string;
   }>;
 }
 
@@ -69,18 +70,15 @@ export default async function PlantsPage({ searchParams }: PageProps) {
     return "bg-green-500";
   }
 
-  return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Plants</h2>
-      <CoverageSummaryCards />
-
+  const browseContent = (
+    <>
       <div className="flex items-center justify-between gap-2">
         <form method="get" action="/plants" className="flex gap-2">
           <input
             type="text"
             name="search"
             defaultValue={search}
-            placeholder="Search by scientific or common name…"
+            placeholder="Search by scientific or common name\u2026"
             className="flex h-9 w-full max-w-sm rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
           />
           <Button type="submit" variant="outline">
@@ -157,7 +155,7 @@ export default async function PlantsPage({ searchParams }: PageProps) {
                     </TableCell>
                     <TableCell>
                       {plant.common_name ?? (
-                        <span className="text-muted-foreground">—</span>
+                        <span className="text-muted-foreground">&mdash;</span>
                       )}
                     </TableCell>
                     <TableCell className="text-right">
@@ -179,7 +177,7 @@ export default async function PlantsPage({ searchParams }: PageProps) {
                     <TableCell className="text-muted-foreground text-sm">
                       {plant.last_updated
                         ? new Date(plant.last_updated).toLocaleDateString()
-                        : "—"}
+                        : "\u2014"}
                     </TableCell>
                     <TableCell>
                       <Button variant="default" size="sm" nativeButton={false} render={<Link href={`/plants/${plant.id}`} />}>
@@ -218,7 +216,12 @@ export default async function PlantsPage({ searchParams }: PageProps) {
           </div>
         </div>
       )}
+    </>
+  );
 
+  return (
+    <div className="space-y-6">
+      <PlantTabs browseContent={browseContent} />
     </div>
   );
 }

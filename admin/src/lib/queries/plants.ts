@@ -78,13 +78,19 @@ export async function fetchPlantList(
          p.genus,
          p.species,
          p.common_name,
-         (SELECT COUNT(*)::int FROM "values" WHERE plant_id = p.id) AS attribute_count,
-         (SELECT COUNT(DISTINCT attribute_id)::int
-          FROM "values"
-          WHERE plant_id = p.id AND attribute_id IN (${keyPlaceholders})
-         ) AS filled_key_attributes,
+         COALESCE(ac.cnt, 0)::int AS attribute_count,
+         COALESCE(kc.cnt, 0)::int AS filled_key_attributes,
          p.last_updated
        FROM plants p
+       LEFT JOIN (
+         SELECT plant_id, COUNT(*)::int AS cnt FROM "values" GROUP BY plant_id
+       ) ac ON ac.plant_id = p.id
+       LEFT JOIN (
+         SELECT plant_id, COUNT(DISTINCT attribute_id)::int AS cnt
+         FROM "values"
+         WHERE attribute_id IN (${keyPlaceholders})
+         GROUP BY plant_id
+       ) kc ON kc.plant_id = p.id
        ${mainWhere}
        ${orderClause}
        LIMIT $${mainParamIndex} OFFSET $${mainParamIndex + 1}`,
