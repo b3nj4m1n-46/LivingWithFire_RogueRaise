@@ -2,7 +2,7 @@
 
 > **Status:** TODO
 > **Priority:** P2 (normal)
-> **Depends on:** 015-synthesis-agent (claims must exist to sync), 016-dolt-version-control-ui (commit tracking)
+> **Depends on:** 015-synthesis-agent (claims must exist to sync), 016-dolt-version-control-ui (commit tracking), 017-extract-agent-prompts
 > **Blocks:** None
 
 ## Problem
