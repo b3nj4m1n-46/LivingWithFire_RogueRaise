@@ -1,9 +1,10 @@
 # Synthesis Agent — Merge Warrants into Production Claims
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P0 (critical)
 > **Depends on:** 012-warrant-claim-curation (claim view UI + synthesis stub exists)
 > **Blocks:** None, but completes the core curation workflow end-to-end
+> **Commit:** `c623c84` — Add synthesis agent (015) with Genkit flow, Anthropic API route, and shared extractJSON utility
 
 ## Problem
 
