@@ -6,47 +6,64 @@ A plant data collection and admin tooling project for building a fire-wise, wild
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  40 Source Datasets (866K+ records)                         │
-│  database-sources/{fire,deer,water,native,invasive,...}     │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │   Genkit Agent Pipeline  │
-          │   genkit/src/flows/      │
-          │                          │
-          │  matchPlantFlow          │  ← Exact + synonym + fuzzy matching
-          │  mapSchemaFlow           │  ← AI column→attribute mapping
-          │  bulkEnhanceFlow         │  ← Warrant creation from sources
-          │  classifyConflictFlow    │  ← 8-type conflict detection
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │  DoltgreSQL Staging DB   │  ← Version-controlled PostgreSQL
-          │  Port 5433               │
-          │                          │
-          │  94,903 warrants         │  ← Bootstrapped from production
-          │  + external warrants     │  ← From FIRE-01, WATER-01, ...
-          │  + conflicts detected    │  ← Internal + external
-          │  + claims (curated)      │  ← Admin-approved values
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │  Admin Portal (Next.js)  │  ← localhost:3000
-          │  admin/                  │
-          │                          │
-          │  Dashboard               │  ← Stats, batches, severity breakdown
-          │  Source Pipeline         │  ← Upload CSV, AI dictionary, run pipeline
-          │  Claim Curation          │  ← Warrant cards, synthesis, approval
-          │  Conflict Queue          │  ← Filterable, research, batch ops
-          │  History                 │  ← Dolt commit log, diff viewer
-          └────────────┬────────────┘
-                       │
-          ┌────────────▼────────────┐
-          │  Production DB (Neon)    │  ← 1,361 curated plants
-          │  lwf-api.vercel.app      │  ← Public-facing REST API
-          └─────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph sources ["Source Data (866K+ records)"]
+        datasets["40 Source Datasets\ndatabase-sources/{fire,deer,water,...}"]
+        kb["52 Knowledge Base Documents\nknowledge-base/*.pdf"]
+    end
+
+    subgraph indexing ["Knowledge Indexing"]
+        pageindex["PageIndex\nStructure + keyword indexes"]
+    end
+
+    subgraph pipeline ["Genkit Agent Pipeline"]
+        match["matchPlantFlow\nExact + synonym + fuzzy matching"]
+        map["mapSchemaFlow\nAI column → attribute mapping"]
+        enhance["bulkEnhanceFlow\nWarrant creation from sources"]
+        classify["classifyConflictFlow\n8-type conflict detection"]
+        match --> map --> enhance --> classify
+    end
+
+    subgraph staging ["DoltgreSQL Staging DB (version-controlled)"]
+        warrants["Warrants\nSource evidence records"]
+        conflicts["Conflicts\nDetected disagreements"]
+        claims["Claims\nApproved curated values"]
+    end
+
+    subgraph admin ["Admin Portal (Next.js)"]
+        upload["Source Pipeline\nUpload CSV → AI dictionary → run"]
+        curation["Claim Curation\nWarrant cards, AI synthesis, approval"]
+        conflictq["Conflict Queue\nResearch context, specialist analysis"]
+        history["History\nDolt commit log, diff viewer"]
+    end
+
+    subgraph specialists ["AI Specialists (Anthropic Claude)"]
+        rating["Rating Conflict Specialist"]
+        scope["Scope Conflict Specialist"]
+        synth["Synthesis Agent\nMerge warrants → production claim"]
+    end
+
+    prod["Production DB (Neon PostgreSQL)\n1,361 curated plants\nlwf-api.vercel.app"]
+
+    %% Data flow
+    datasets --> upload
+    datasets --> pipeline
+    kb --> pageindex
+    pageindex --> conflictq
+    pipeline --> staging
+    warrants --> curation
+    conflicts --> conflictq
+
+    %% Admin curation loop
+    conflictq --> specialists
+    specialists --> staging
+    curation --> synth
+    synth --> claims
+
+    %% Production sync
+    claims -->|"Approve + Dolt commit"| staging
+    staging -->|"Sync / Push"| prod
 ```
 
 ## Project Components
