@@ -56,8 +56,9 @@ RULES:
 | Tool | Description |
 |------|-------------|
 | `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for a specified dataset folder. Returns rating scales, methodology, geographic scope. |
-| `searchDocumentIndex` | **PageIndex search.** Loads `knowledge-base/indexes/manifest.json`, finds relevant documents by keyword match on doc_name and section titles/summaries. Returns matching sections with summaries. |
-| `navigateDocumentTree` | **PageIndex deep read.** Given a specific document index file and node_id, returns that section's full summary and all children. Used to drill into a specific part of a document. |
+| `searchDocumentIndex` | **PageIndex search.** Loads `knowledge-base/indexes/manifest.json`, finds relevant documents by keyword match on doc_name and section titles/summaries. Returns matching sections with summaries, page ranges (`startPage`/`endPage`), and supports pagination via `offset`. |
+| `navigateDocumentTree` | **PageIndex deep read.** Given a specific document index file and node_id, returns that section's full summary, page range (`startPage`/`endPage`), and all children with their page ranges. Used to drill into a specific part of a document. |
+| `readDocumentPages` | **PDF page reader.** Extracts actual text from a knowledge-base PDF for a given page range (1-indexed, max 10 pages per call, max 30K chars). Use after search/navigate when the summary is insufficient and you need the original source material. |
 
 
 The flow resolves dataset folders, loads context for both sources, searches the document index (5 hits), then navigates the top 3 hits deeper via `navigateDocumentTree`. Returns structured `datasetFindings` and `documentFindings` arrays in addition to the standard verdict/recommendation/analysis/confidence. Appends findings JSON to `specialist_analysis` in DB.
@@ -71,16 +72,28 @@ The flow resolves dataset folders, loads context for both sources, searches the 
 // 3. Search section titles and summaries for keywords
 //    (plant name, attribute name, methodology terms)
 // 4. Return top N matching sections with:
-//    - doc_name, section title, node_id, page range, summary
-// 5. Agent can then call navigateDocumentTree for deeper exploration
+//    - doc_name, section title, node_id, startPage, endPage, relevanceScore, summary
+// 5. Supports pagination via offset parameter (default 0)
+// 6. Agent can then call navigateDocumentTree for deeper exploration
+//    or readDocumentPages to read the actual PDF text
 ```
 
 **`navigateDocumentTree`** implementation:
 ```typescript
 // 1. Load specific _structure.json file
 // 2. Find node by node_id
-// 3. Return: title, summary, page range, and all children summaries
+// 3. Return: title, summary, startPage, endPage, and all children with their page ranges
 // This lets the agent "drill down" into an appendix or subsection
+```
+
+**`readDocumentPages`** implementation:
+```typescript
+// 1. Takes a PDF filename + startPage + endPage (1-indexed, inclusive)
+// 2. Reads the PDF from knowledge-base/ using pdf-parse
+// 3. Extracts text for the requested page range
+// 4. Constraints: max 10 pages per call, max 30,000 chars output
+// 5. Returns: documentFile, startPage, endPage, totalPages, text, truncated
+// Use when section summaries are insufficient and you need the original source material
 ```
 
 **PageIndex tree structure** (each `_structure.json`):
@@ -224,6 +237,8 @@ const ResearchOutput = z.object({
 | No DATA-DICTIONARY.md for a source | Report methodology undocumented; lower confidence |
 | Rating scale not defined in dictionary | Report ambiguity; flag for admin |
 | No PageIndex match for plant/attribute | Report only dataset findings; note document gap |
-| PageIndex summary is vague/unhelpful | Note low confidence; recommend admin check original PDF |
+| PageIndex summary is vague/unhelpful | Use `readDocumentPages` to read the actual PDF text for the section's page range; note low confidence if text is also unclear |
+| PDF text extraction fails | Fall back to summary from index; note that original PDF could not be read |
+| PDF text is too long (>30K chars) | Output is truncated with notice; narrow the page range and retry |
 | Multiple datasets map to same source_id | Cross-reference all and report combined context |
 | Index tree has no relevant sections | Search broader terms (genus instead of species, category instead of specific attribute) |

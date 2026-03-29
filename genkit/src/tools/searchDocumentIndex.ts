@@ -112,6 +112,10 @@ export const searchDocumentIndex = ai.defineTool(
         .optional()
         .default(10)
         .describe('Maximum results to return (default 10)'),
+      offset: z
+        .number()
+        .optional()
+        .describe('Number of results to skip for pagination (default 0)'),
     }),
     outputSchema: z.object({
       results: z.array(
@@ -123,6 +127,8 @@ export const searchDocumentIndex = ai.defineTool(
           nodeId: z.string(),
           relevanceScore: z.number(),
           sourceDocument: z.string(),
+          startPage: z.number(),
+          endPage: z.number(),
         }),
       ),
       totalMatches: z.number(),
@@ -150,6 +156,8 @@ export const searchDocumentIndex = ai.defineTool(
       nodeId: string;
       relevanceScore: number;
       sourceDocument: string;
+      startPage: number;
+      endPage: number;
     }> = [];
 
     for (const [filename, doc] of idx.documents) {
@@ -177,6 +185,8 @@ export const searchDocumentIndex = ai.defineTool(
             nodeId: node.node_id,
             relevanceScore: total,
             sourceDocument,
+            startPage: node.start_index,
+            endPage: node.end_index,
           });
         }
       }
@@ -186,7 +196,7 @@ export const searchDocumentIndex = ai.defineTool(
     scored.sort((a, b) => b.relevanceScore - a.relevanceScore);
 
     return {
-      results: scored.slice(0, input.maxResults),
+      results: scored.slice(input.offset ?? 0, (input.offset ?? 0) + input.maxResults),
       totalMatches: scored.length,
     };
   },

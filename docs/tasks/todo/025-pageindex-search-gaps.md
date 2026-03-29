@@ -1,6 +1,6 @@
 # PageIndex Search Gaps — Surface Page Ranges, Add PDF Reading, Add Pagination
 
-> **Status:** TODO
+> **Status:** COMPLETE
 > **Priority:** P1 (important)
 > **Depends on:** 008-research-tools (existing search/navigate tools)
 > **Blocks:** None (but improves accuracy of research, scope, rating, and synthesis agents)

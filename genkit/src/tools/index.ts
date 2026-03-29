@@ -10,6 +10,7 @@ export { getWarrantGroups } from './warrantGroups.js';
 export { writeConflict } from './writeConflict.js';
 export { searchDocumentIndex } from './searchDocumentIndex.js';
 export { navigateDocumentTree } from './navigateDocumentTree.js';
+export { readDocumentPages } from './readDocumentPages.js';
 
 // Convenience array for flows that want all tools available
 import { queryDolt as _queryDolt } from './dolt.js';
@@ -24,6 +25,7 @@ import { getWarrantGroups as _getWarrantGroups } from './warrantGroups.js';
 import { writeConflict as _writeConflict } from './writeConflict.js';
 import { searchDocumentIndex as _searchDocumentIndex } from './searchDocumentIndex.js';
 import { navigateDocumentTree as _navigateDocumentTree } from './navigateDocumentTree.js';
+import { readDocumentPages as _readDocumentPages } from './readDocumentPages.js';
 
 export const allTools = [
   _queryDolt,
@@ -38,4 +40,5 @@ export const allTools = [
   _writeConflict,
   _searchDocumentIndex,
   _navigateDocumentTree,
+  _readDocumentPages,
 ];

@@ -55,10 +55,14 @@ export const navigateDocumentTree = ai.defineTool(
           title: z.string(),
           summary: z.string(),
           hasChildren: z.boolean(),
+          startPage: z.number(),
+          endPage: z.number(),
         }),
       ),
       parentTitle: z.string().nullable(),
       depth: z.number(),
+      startPage: z.number(),
+      endPage: z.number(),
     }),
   },
   async (input) => {
@@ -72,6 +76,8 @@ export const navigateDocumentTree = ai.defineTool(
         children: [],
         parentTitle: null,
         depth: 0,
+        startPage: 0,
+        endPage: 0,
       };
     }
 
@@ -84,6 +90,8 @@ export const navigateDocumentTree = ai.defineTool(
         children: [],
         parentTitle: null,
         depth: 0,
+        startPage: 0,
+        endPage: 0,
       };
     }
 
@@ -94,6 +102,8 @@ export const navigateDocumentTree = ai.defineTool(
       title: child.title,
       summary: child.summary,
       hasChildren: (child.nodes?.length ?? 0) > 0,
+      startPage: child.start_index,
+      endPage: child.end_index,
     }));
 
     return {
@@ -102,6 +112,8 @@ export const navigateDocumentTree = ai.defineTool(
       children,
       parentTitle,
       depth,
+      startPage: node.start_index,
+      endPage: node.end_index,
     };
   },
 );

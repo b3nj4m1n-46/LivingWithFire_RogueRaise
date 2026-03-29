@@ -5,6 +5,7 @@ import { ai, MODELS } from '../config.js';
 import { getDatasetContext } from '../tools/datasetContext.js';
 import { searchDocumentIndex } from '../tools/searchDocumentIndex.js';
 import { navigateDocumentTree } from '../tools/navigateDocumentTree.js';
+import { readDocumentPages } from '../tools/readDocumentPages.js';
 import { doltPool } from '../tools/dolt.js';
 import { extractJSON } from '../utils/extractJSON.js';
 import { loadPrompt } from '../prompts/load.js';
@@ -106,7 +107,7 @@ export const researchConflictFlow = ai.defineFlow(
       maxResults: 5,
     });
 
-    // Step 3: Navigate top 3 document hits for deeper context
+    // Step 3: Navigate top 3 document hits for deeper context, read PDF pages
     const docFindings: string[] = [];
     const topHits = kbResults.slice(0, 3);
 
@@ -116,13 +117,37 @@ export const researchConflictFlow = ai.defineFlow(
           indexFile: hit.documentFile,
           nodeId: hit.nodeId,
         });
-        docFindings.push(
-          `### ${hit.sectionTitle} (from ${hit.documentFile})\n` +
+
+        const pageInfo = detail.startPage && detail.endPage
+          ? ` (pp. ${detail.startPage}-${detail.endPage})`
+          : '';
+
+        let finding =
+          `### ${hit.sectionTitle}${pageInfo} (from ${hit.documentFile})\n` +
           `Summary: ${detail.summary.slice(0, 500)}\n` +
           (detail.children.length > 0
             ? `Subsections: ${detail.children.map((c) => c.title).join(', ')}`
-            : ''),
-        );
+            : '');
+
+        // Read actual PDF pages for the top hit when page range is narrow enough
+        if (hit.startPage && hit.endPage && hit.endPage - hit.startPage <= 5) {
+          try {
+            // Derive PDF filename from the index filename (remove _structure.json suffix)
+            const pdfName = hit.documentFile.replace(/_structure\.json$/, '.pdf');
+            const pageContent = await readDocumentPages({
+              documentFile: pdfName,
+              startPage: hit.startPage,
+              endPage: hit.endPage,
+            });
+            if (pageContent.text && !pageContent.text.startsWith('Error')) {
+              finding += `\n\nSource text (pp. ${pageContent.startPage}-${pageContent.endPage}):\n${pageContent.text.slice(0, 2000)}`;
+            }
+          } catch {
+            // PDF read is best-effort; fall back to summary only
+          }
+        }
+
+        docFindings.push(finding);
       } catch {
         docFindings.push(`### ${hit.sectionTitle}\n${hit.sectionSummary}`);
       }
