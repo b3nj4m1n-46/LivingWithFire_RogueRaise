@@ -54,6 +54,7 @@ export interface DashboardData {
   unreviewedLatestBatchCount: number;
   pendingSyncCount: number;
   topConflictingPairs: TopConflictingPair[];
+  internalAuditConflictCount: number;
 }
 
 export async function fetchDashboardData(): Promise<DashboardData> {
@@ -73,6 +74,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     mappingTotal,
     mappingByStatus,
     topPairs,
+    internalAuditPending,
   ] = await Promise.all([
     queryOne<{ count: string }>("SELECT COUNT(*) as count FROM warrants"),
     query<{ warrant_type: string; count: string }>(
@@ -120,6 +122,9 @@ export async function fetchDashboardData(): Promise<DashboardData> {
        ORDER BY count DESC
        LIMIT 5`
     ),
+    queryOne<{ count: string }>(
+      "SELECT COUNT(*) as count FROM conflicts WHERE conflict_mode = 'internal' AND status = 'pending'"
+    ),
   ]);
 
   return {
@@ -164,5 +169,6 @@ export async function fetchDashboardData(): Promise<DashboardData> {
       source_b: r.source_b,
       count: Number(r.count),
     })),
+    internalAuditConflictCount: Number(internalAuditPending?.count ?? 0),
   };
 }

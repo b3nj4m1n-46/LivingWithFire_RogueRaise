@@ -16,6 +16,7 @@ interface SummaryCardsProps {
   datasets: DatasetStats;
   mappingStats: MappingStats;
   pendingSyncCount: number;
+  internalAuditConflictCount: number;
 }
 
 function severityVariant(severity: string) {
@@ -43,6 +44,7 @@ export function SummaryCards({
   datasets,
   mappingStats,
   pendingSyncCount,
+  internalAuditConflictCount,
 }: SummaryCardsProps) {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-6">
@@ -184,6 +186,32 @@ export function SummaryCards({
           ) : (
             <p className="mt-2 text-xs text-muted-foreground">
               All claims synced
+            </p>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Audit Issues */}
+      <Card>
+        <CardHeader className="pb-2">
+          <CardTitle className="text-sm font-medium text-muted-foreground">
+            Audit Issues
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-3xl font-bold">
+            {internalAuditConflictCount.toLocaleString()}
+          </p>
+          {internalAuditConflictCount > 0 ? (
+            <Link
+              href="/conflicts?conflictMode=internal"
+              className="mt-2 inline-block text-xs text-primary hover:underline"
+            >
+              Review audit findings
+            </Link>
+          ) : (
+            <p className="mt-2 text-xs text-muted-foreground">
+              No issues found
             </p>
           )}
         </CardContent>

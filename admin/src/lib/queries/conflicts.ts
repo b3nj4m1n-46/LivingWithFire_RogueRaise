@@ -35,6 +35,7 @@ export interface ConflictListFilters {
   status?: string;
   severity?: string;
   conflictType?: string;
+  conflictMode?: string;
   attributeCategory?: string;
   sourceDataset?: string;
   sourceA?: string;
@@ -48,6 +49,7 @@ export interface ConflictFilterOptions {
   statuses: string[];
   severities: string[];
   conflictTypes: string[];
+  conflictModes: string[];
   attributeCategories: string[];
   sourceDatasets: string[];
 }
@@ -89,6 +91,12 @@ export async function fetchConflictsList(
   if (filters.conflictType) {
     conditions.push(`c.conflict_type = $${paramIndex}`);
     params.push(filters.conflictType);
+    paramIndex++;
+  }
+
+  if (filters.conflictMode) {
+    conditions.push(`c.conflict_mode = $${paramIndex}`);
+    params.push(filters.conflictMode);
     paramIndex++;
   }
 
@@ -209,7 +217,7 @@ export async function fetchConflictWarrants(
 // ── Filter Options ──────────────────────────────────────────────────────
 
 export async function fetchConflictFilterOptions(): Promise<ConflictFilterOptions> {
-  const [statuses, severities, conflictTypes, attributeCategories, sourceDatasets] =
+  const [statuses, severities, conflictTypes, conflictModes, attributeCategories, sourceDatasets] =
     await Promise.all([
       query<{ status: string }>(
         "SELECT DISTINCT status FROM conflicts ORDER BY status"
@@ -219,6 +227,9 @@ export async function fetchConflictFilterOptions(): Promise<ConflictFilterOption
       ),
       query<{ conflict_type: string }>(
         "SELECT DISTINCT conflict_type FROM conflicts ORDER BY conflict_type"
+      ),
+      query<{ conflict_mode: string }>(
+        "SELECT DISTINCT conflict_mode FROM conflicts ORDER BY conflict_mode"
       ),
       query<{ category: string }>(
         `SELECT DISTINCT
@@ -247,6 +258,7 @@ export async function fetchConflictFilterOptions(): Promise<ConflictFilterOption
     statuses: statuses.map((r) => r.status),
     severities: severities.map((r) => r.severity),
     conflictTypes: conflictTypes.map((r) => r.conflict_type),
+    conflictModes: conflictModes.map((r) => r.conflict_mode),
     attributeCategories: attributeCategories.map((r) => r.category),
     sourceDatasets: sourceDatasets.map((r) => r.source),
   };

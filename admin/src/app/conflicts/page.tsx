@@ -21,6 +21,7 @@ export default async function ConflictsPage({
     status: params.status,
     severity: params.severity,
     conflictType: params.conflictType,
+    conflictMode: params.conflictMode,
     attributeCategory: params.attributeCategory,
     sourceDataset: params.sourceDataset,
     sourceA: params.sourceA,

@@ -25,6 +25,7 @@ export default async function DashboardPage() {
         datasets={data.datasets}
         mappingStats={data.mappingStats}
         pendingSyncCount={data.pendingSyncCount}
+        internalAuditConflictCount={data.internalAuditConflictCount}
       />
       {data.topConflictingPairs.length > 0 && (
         <Card>

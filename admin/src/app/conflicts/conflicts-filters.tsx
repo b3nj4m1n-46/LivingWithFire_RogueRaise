@@ -57,6 +57,7 @@ export function ConflictsFilters({
     currentFilters.status ||
     currentFilters.severity ||
     currentFilters.conflictType ||
+    currentFilters.conflictMode ||
     currentFilters.attributeCategory ||
     currentFilters.sourceDataset ||
     hasSourcePair;
@@ -121,6 +122,23 @@ export function ConflictsFilters({
           {options.conflictTypes.map((t) => (
             <SelectItem key={t} value={t}>
               {t.replace(/_/g, " ")}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
+
+      {/* Conflict Mode filter */}
+      <Select
+        value={currentFilters.conflictMode ?? ""}
+        onValueChange={(val) => updateFilter("conflictMode", val || undefined)}
+      >
+        <SelectTrigger>
+          <SelectValue placeholder="Mode" />
+        </SelectTrigger>
+        <SelectContent>
+          {options.conflictModes.map((m) => (
+            <SelectItem key={m} value={m}>
+              {m.replace(/_/g, " ")}
             </SelectItem>
           ))}
         </SelectContent>
