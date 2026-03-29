@@ -95,7 +95,7 @@ LivinWitFire/
 │   │   ├── fusion-bridge.ts     # Subprocess bridge to Genkit flows
 │   │   ├── index-bridge.ts      # Subprocess bridge to PageIndex pipeline
 │   │   └── queries/             # Type-safe query functions per domain
-│   └── .env.local               # DoltgreSQL connection config
+│   └── .env.local               # (removed — env consolidated to root .env)
 │
 ├── genkit/                      # Genkit agent pipeline
 │   ├── src/flows/               # 12 Genkit flows (match, map, enhance, classify, specialists, synthesize, indexDocument)

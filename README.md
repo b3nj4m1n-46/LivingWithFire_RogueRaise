@@ -325,29 +325,66 @@ Every data operation is tracked as a Dolt commit with full diff history.
 ### Prerequisites
 
 - **Node.js** 18+ and npm
-- **DoltgreSQL** v0.55.6+ ([install guide](https://docs.dolthub.com/introduction/installation))
+- **DoltgreSQL** v0.55.6+ (the PostgreSQL-compatible Dolt server)
 - **Python 3.9+** (for dataset build scripts only)
 - **Anthropic API key** (optional — pipeline works without it for DB-only operations)
 
-### 1. Start DoltgreSQL
+### Install DoltgreSQL
 
+DoltgreSQL is a separate binary from Dolt — it's the PostgreSQL-wire-compatible server that the admin portal connects to.
+
+**Windows:**
+1. Download the latest release from [github.com/dolthub/doltgresql/releases](https://github.com/dolthub/doltgresql/releases) (`doltgresql-windows-amd64.zip`)
+2. Extract `doltgres.exe` and place it somewhere on your PATH (e.g., `C:\Users\<you>\bin`)
+3. Add that directory to your PATH if needed:
+   ```powershell
+   [Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path", "User") + ";C:\Users\<you>\bin", "User")
+   ```
+4. Restart your terminal and verify: `doltgres --version`
+
+**macOS / Linux:**
 ```bash
-# First time: init the database
-cd path/to/dolt-data
-doltgresql --data-dir . --port 5433
-
-# The staging DB (lwf_staging) should already be initialized
-# If starting fresh, run the bootstrap scripts (see below)
+curl -sL https://github.com/dolthub/doltgresql/releases/latest/download/install.sh | bash
+doltgres --version
 ```
 
-### 2. Set Up the Genkit Pipeline
+### Configure Environment
+
+All environment variables live in a single `.env` file at the repo root (gitignored):
+
+```bash
+cp .env.example .env
+# Edit .env with your values
+```
+
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `ANTHROPIC_API_KEY` | No | Enables AI-powered flows (synthesis, specialist analysis, schema mapping) |
+| `DOLT_CONNECTION_STRING` | Yes | DoltgreSQL connection (default: `postgresql://doltgres:lwf@localhost:5433/lwf_staging`) |
+| `NEON_DATABASE_URL` | No | Production database connection (only for sync) |
+
+### Quick Start
+
+The staging database (`lwf-staging/`) is already initialized in the repo. Start everything with one command:
+
+```bash
+npm run dev
+```
+
+This starts DoltgreSQL on port 5433 and the admin portal on `http://localhost:3000`.
+
+To start them separately (useful for seeing logs in dedicated terminals):
+
+```bash
+npm run dev:dolt   # DoltgreSQL on port 5433
+npm run dev:front  # Admin portal on http://localhost:3000
+```
+
+### Set Up the Genkit Pipeline
 
 ```bash
 cd genkit
 npm install
-
-# Optional: set Anthropic API key for AI-powered flows
-export ANTHROPIC_API_KEY=sk-ant-...
 
 # Run the pipeline scripts
 npm run bootstrap          # Convert production values to warrants
@@ -357,35 +394,6 @@ npm run analyze:water01    # Process WATER-01 through full pipeline
 npm run test-matcher       # Validate plant matching
 npm test                   # Smoke test all tools
 ```
-
-### 3. Start the Admin Portal
-
-```bash
-cd admin
-npm install
-
-# Configure DoltgreSQL connection (defaults should work)
-# Edit .env.local if needed:
-#   DOLT_HOST=localhost
-#   DOLT_PORT=5433
-#   DOLT_DATABASE=lwf_staging
-#   DOLT_USER=root
-#   DOLT_PASSWORD=
-
-npm run dev
-# Portal available at http://localhost:3000
-```
-
-### Environment Variables
-
-| Variable | Where | Required | Default | Purpose |
-|----------|-------|----------|---------|---------|
-| `ANTHROPIC_API_KEY` | `genkit/`, `admin/` | No | — | Enables AI-powered flows and admin API routes (synthesis, specialist analysis, schema mapping, conflict classification) |
-| `DOLT_HOST` | `admin/.env.local` | No | `localhost` | DoltgreSQL host |
-| `DOLT_PORT` | `admin/.env.local` | No | `5433` | DoltgreSQL port |
-| `DOLT_DATABASE` | `admin/.env.local` | No | `lwf_staging` | Staging database name |
-| `DOLT_USER` | `admin/.env.local` | No | `root` | DoltgreSQL user |
-| `DOLT_PASSWORD` | `admin/.env.local` | No | (empty) | DoltgreSQL password |
 
 ---
 
@@ -400,7 +408,7 @@ LivinWitFire/
 │   ├── src/app/                 # App Router pages + API routes
 │   ├── src/components/          # shadcn/ui components
 │   ├── src/lib/                 # DB connection + query functions
-│   └── .env.local               # DoltgreSQL connection config
+│   └── next.config.ts           # Loads root .env via dotenv
 ├── genkit/                      # Genkit agent pipeline
 │   ├── src/flows/               # 12 Genkit flows (incl. indexDocumentFlow)
 │   ├── src/tools/               # 13 reusable tools

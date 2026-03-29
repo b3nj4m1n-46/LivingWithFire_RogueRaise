@@ -1,0 +1,9 @@
+{
+  "name": "livinwitfire",
+  "private": true,
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ./start-dev.ps1",
+    "dev:dolt": "cd lwf-staging && doltgres",
+    "dev:front": "cd admin && npm run dev"
+  }
+}
