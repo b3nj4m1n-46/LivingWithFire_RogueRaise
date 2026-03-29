@@ -6,7 +6,8 @@ const BRIDGE_SCRIPT = resolve(GENKIT_DIR, "src", "scripts", "fusion-bridge.ts");
 
 export async function callFusionBridge<T>(
   action: string,
-  payload: Record<string, unknown>
+  payload: Record<string, unknown>,
+  timeout = 300_000
 ): Promise<T> {
   return new Promise((resolve, reject) => {
     const child = execFile(
@@ -14,7 +15,7 @@ export async function callFusionBridge<T>(
       ["tsx", BRIDGE_SCRIPT],
       {
         cwd: GENKIT_DIR,
-        timeout: 300_000, // 5 min for LLM calls
+        timeout, // default 5 min, longer for full-analysis
         env: { ...process.env },
         maxBuffer: 10 * 1024 * 1024, // 10MB for large mapping results
         shell: true, // Required on Windows for npx

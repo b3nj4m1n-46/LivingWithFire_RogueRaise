@@ -7,7 +7,9 @@
 
 # ----- Source files (PDFs, ZIPs, XLSX, HTML originals) -----
 # Reproducible from URLs documented in each folder's README.md
-**/Sources/
+database-sources/**/Sources/
+knowledge-base/**/Sources/
+LivingWithFire-DB/Sources/
 
 # ----- Scraping temp files -----
 scrape_progress.json
