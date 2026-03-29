@@ -1,9 +1,10 @@
 # 028a — Production Plant Browser
 
-> **Status:** TODO
+> **Status:** COMPLETE
 > **Priority:** P2 (normal)
 > **Depends on:** None (read-only, zero risk)
 > **Blocks:** 028c (plant detail page), 028d (manual entry)
+> **Commit:** `af3e170` — Add production plant browser page (task 028a)
 
 ## Problem
 
@@ -89,3 +90,8 @@ Add "Plants" nav item to `admin/src/components/sidebar-nav.tsx` in the `navItems
 4. Pagination: navigate to page 2, verify different plants shown
 5. Sidebar "Plants" link is active when on `/plants`
 6. TypeScript compiles clean (`npx tsc --noEmit`)
+
+## Implementation Notes
+
+- **Family column omitted:** The spec listed "family" as a table column, but family is not stored in the production database — neither as a column on `plants` nor as an EAV attribute in `values`. The column was dropped from the implementation.
+- **Extra sort column:** `attribute_count` was added as a sortable column beyond the spec, since it's useful for curators to find sparsely-populated plants.
