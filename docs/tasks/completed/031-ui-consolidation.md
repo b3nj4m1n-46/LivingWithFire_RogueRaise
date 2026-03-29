@@ -1,9 +1,10 @@
 # 031 — Consolidate Admin Portal Navigation
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P1 (important)
 > **Depends on:** None
 > **Blocks:** 032 (agent operations panel lives inside new Quality section)
+> **Commit:** 249d106
 
 ## Problem
 

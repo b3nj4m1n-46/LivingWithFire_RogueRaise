@@ -28,6 +28,7 @@ import {
 import { Button } from "@/components/ui/button";
 import type { AttributeCoverage, PlantCompleteness } from "@/lib/queries/coverage";
 import type { EnrichmentSummaryRow, SourceBreakdown } from "@/lib/queries/enrichment";
+import { OperationsTab } from "./operations-tab";
 
 // ── Types ───────────────────────────────────────────────────────────────
 
@@ -587,6 +588,7 @@ export function CoverageClient() {
         <TabsTrigger value="attributes">Attribute Coverage</TabsTrigger>
         <TabsTrigger value="plants">Plant Completeness</TabsTrigger>
         <TabsTrigger value="enrichment">Enrichment Opportunities</TabsTrigger>
+        <TabsTrigger value="operations">Operations</TabsTrigger>
       </TabsList>
 
       <TabsContent value="attributes">
@@ -599,6 +601,10 @@ export function CoverageClient() {
 
       <TabsContent value="enrichment">
         <EnrichmentTab />
+      </TabsContent>
+
+      <TabsContent value="operations">
+        <OperationsTab />
       </TabsContent>
     </Tabs>
   );

@@ -23,6 +23,7 @@ import { mapSchemaFlow } from '../flows/mapSchemaFlow.js';
 import { matchPlantFlow } from '../flows/matchPlantFlow.js';
 import { bulkEnhanceFlow } from '../flows/bulkEnhanceFlow.js';
 import { classifyConflictFlow } from '../flows/classifyConflictFlow.js';
+import { synthesizeClaimFlow } from '../flows/synthesizeClaimFlow.js';
 import { parseCSV } from '../utils/csv.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -70,7 +71,24 @@ interface FullAnalysisInput {
   batchId: string;
 }
 
-type BridgeInput = MapInput | PreviewInput | ExecuteInput | FullAnalysisInput;
+interface ClassifyExistingInput {
+  action: 'classify-existing';
+  batchId: string;
+  mode: 'internal' | 'cross_source';
+  plantIds?: string[];
+  attributeFilter?: string;
+  runSpecialists?: boolean;
+}
+
+interface BulkSynthesizeInput {
+  action: 'bulk-synthesize';
+  batchId: string;
+  plantIds?: string[];
+  attributeFilter?: string;
+  limit?: number;
+}
+
+type BridgeInput = MapInput | PreviewInput | ExecuteInput | FullAnalysisInput | ClassifyExistingInput | BulkSynthesizeInput;
 
 async function buildPlantInputs(datasetFolder: string, datasetName: string) {
   const csvPath = resolve(REPO_ROOT, datasetFolder, 'plants.csv');
@@ -370,6 +388,323 @@ async function handleFullAnalysis(input: FullAnalysisInput) {
   };
 }
 
+async function handleClassifyExisting(input: ClassifyExistingInput) {
+  const steps: Record<string, { status: string; detail?: string }> = {
+    classifying: { status: 'pending' },
+    committing: { status: 'pending' },
+  };
+
+  // Step 1: Classify
+  steps.classifying.status = 'running';
+  await updateStepProgress(input.batchId, 'classifying', steps);
+
+  const classifyResult = await classifyConflictFlow({
+    mode: input.mode,
+    plantIds: input.plantIds,
+    attributeFilter: input.attributeFilter,
+    batchId: input.batchId,
+    runSpecialists: input.runSpecialists ?? false,
+  });
+
+  steps.classifying = {
+    status: 'completed',
+    detail: `${classifyResult.summary.total} conflicts classified`,
+  };
+  await updateStepProgress(input.batchId, 'classifying', steps);
+
+  // Update batch stats
+  const client1 = await doltPool.connect();
+  try {
+    await client1.query(
+      'UPDATE analysis_batches SET conflicts_detected = $1 WHERE id = $2',
+      [classifyResult.summary.total, input.batchId],
+    );
+  } finally {
+    client1.release();
+  }
+
+  // Step 2: Dolt commit
+  steps.committing.status = 'running';
+  await updateStepProgress(input.batchId, 'committing', steps);
+
+  const client2 = await doltPool.connect();
+  let commitHash = '';
+  try {
+    await client2.query(`SELECT dolt_add('.')`);
+    await client2.query(
+      `SELECT dolt_commit('-m', $1)`,
+      [`agent-ops: classify — ${classifyResult.summary.total} conflicts`],
+    );
+    const logResult = await client2.query(
+      'SELECT commit_hash FROM dolt_log ORDER BY date DESC LIMIT 1',
+    );
+    commitHash = logResult.rows[0].commit_hash;
+  } finally {
+    client2.release();
+  }
+
+  steps.committing = { status: 'completed', detail: commitHash.slice(0, 8) };
+  await updateStepProgress(input.batchId, 'committing', steps);
+
+  return {
+    conflictsDetected: classifyResult.summary.total,
+    conflictSummary: classifyResult.summary,
+    commitHash,
+  };
+}
+
+async function handleBulkSynthesize(input: BulkSynthesizeInput) {
+  const limit = input.limit ?? 100;
+  const steps: Record<string, { status: string; detail?: string }> = {
+    querying: { status: 'pending' },
+    synthesizing: { status: 'pending' },
+    writing: { status: 'pending' },
+    committing: { status: 'pending' },
+  };
+
+  // Step 1: Find unsynthesized plant-attribute pairs
+  steps.querying.status = 'running';
+  await updateStepProgress(input.batchId, 'querying', steps);
+
+  const client0 = await doltPool.connect();
+  let pairs: Array<{
+    plant_id: string;
+    attribute_id: string;
+    plant_name: string;
+    attribute_name: string;
+  }>;
+  try {
+    let pairsQuery = `
+      SELECT w.plant_id, w.attribute_id,
+             CONCAT(w.plant_genus, ' ', COALESCE(w.plant_species, '')) AS plant_name,
+             w.attribute_name
+      FROM warrants w
+      LEFT JOIN claims c ON c.plant_id = w.plant_id AND c.attribute_id = w.attribute_id
+      WHERE c.id IS NULL
+        AND w.status != 'rejected'
+    `;
+    const params: unknown[] = [];
+    let paramIdx = 1;
+
+    if (input.plantIds && input.plantIds.length > 0) {
+      const placeholders = input.plantIds.map(() => `$${paramIdx++}`).join(', ');
+      pairsQuery += ` AND w.plant_id IN (${placeholders})`;
+      params.push(...input.plantIds);
+    }
+    if (input.attributeFilter) {
+      pairsQuery += ` AND w.attribute_name = $${paramIdx++}`;
+      params.push(input.attributeFilter);
+    }
+
+    pairsQuery += `
+      GROUP BY w.plant_id, w.attribute_id, w.plant_genus, w.plant_species, w.attribute_name
+      HAVING COUNT(*) >= 2
+      ORDER BY COUNT(*) DESC
+      LIMIT $${paramIdx}
+    `;
+    params.push(limit);
+
+    const result = await client0.query(pairsQuery, params);
+    pairs = result.rows;
+  } finally {
+    client0.release();
+  }
+
+  steps.querying = { status: 'completed', detail: `${pairs.length} pairs found` };
+  await updateStepProgress(input.batchId, 'querying', steps);
+
+  if (pairs.length === 0) {
+    // Nothing to synthesize
+    steps.synthesizing = { status: 'completed', detail: 'No pairs to synthesize' };
+    steps.writing = { status: 'completed', detail: 'Nothing to write' };
+    steps.committing = { status: 'completed', detail: 'Skipped' };
+    await updateStepProgress(input.batchId, 'committing', steps);
+    return { claimsGenerated: 0, pairsProcessed: 0, pairsSkipped: 0, commitHash: '' };
+  }
+
+  // Step 2: Synthesize each pair
+  steps.synthesizing.status = 'running';
+  await updateStepProgress(input.batchId, 'synthesizing', steps);
+
+  const synthResults: Array<{
+    pair: typeof pairs[0];
+    output: Awaited<ReturnType<typeof synthesizeClaimFlow>>;
+    warrantIds: string[];
+  }> = [];
+  let pairsSkipped = 0;
+
+  for (let i = 0; i < pairs.length; i++) {
+    const pair = pairs[i];
+    try {
+      // Fetch warrants for this pair
+      const client = await doltPool.connect();
+      let warrants;
+      let conflicts;
+      let prodVal;
+      try {
+        const wResult = await client.query(
+          `SELECT id, "value",
+                  source_value AS "sourceValue", value_context AS "valueContext",
+                  source_dataset AS "sourceDataset", source_id_code AS "sourceIdCode",
+                  source_methodology AS "sourceMethodology", source_region AS "sourceRegion",
+                  source_year AS "sourceYear", source_reliability AS "sourceReliability",
+                  warrant_type AS "warrantType", match_confidence AS "matchConfidence"
+           FROM warrants
+           WHERE plant_id = $1 AND attribute_id = $2 AND status != 'rejected'
+           ORDER BY source_dataset`,
+          [pair.plant_id, pair.attribute_id],
+        );
+        warrants = wResult.rows;
+
+        const cResult = await client.query(
+          `SELECT id, conflict_type AS "conflictType", severity, status,
+                  specialist_verdict AS "specialistVerdict",
+                  specialist_analysis AS "specialistAnalysis",
+                  specialist_recommendation AS "specialistRecommendation",
+                  value_a AS "valueA", value_b AS "valueB",
+                  source_a AS "sourceA", source_b AS "sourceB"
+           FROM conflicts
+           WHERE plant_id = $1 AND attribute_name = $2`,
+          [pair.plant_id, pair.attribute_name],
+        );
+        conflicts = cResult.rows;
+
+        const pvResult = await client.query(
+          `SELECT "value" FROM "values" WHERE plant_id = $1 AND attribute_id = $2 LIMIT 1`,
+          [pair.plant_id, pair.attribute_id],
+        );
+        prodVal = pvResult.rows[0]?.value ?? null;
+      } finally {
+        client.release();
+      }
+
+      if (warrants.length < 2) {
+        pairsSkipped++;
+        continue;
+      }
+
+      const output = await synthesizeClaimFlow({
+        plantId: pair.plant_id,
+        plantName: pair.plant_name.trim(),
+        attributeId: pair.attribute_id,
+        attributeName: pair.attribute_name,
+        warrants,
+        conflicts,
+        productionValue: prodVal,
+      });
+
+      synthResults.push({
+        pair,
+        output,
+        warrantIds: warrants.map((w: { id: string }) => w.id),
+      });
+
+      // Update progress periodically
+      if ((i + 1) % 5 === 0 || i === pairs.length - 1) {
+        steps.synthesizing.detail = `${synthResults.length} synthesized, ${pairsSkipped} skipped (${i + 1}/${pairs.length})`;
+        await updateStepProgress(input.batchId, 'synthesizing', steps);
+      }
+    } catch (err) {
+      console.error(`[bulk-synthesize] Error on pair ${pair.plant_id}/${pair.attribute_id}:`, err);
+      pairsSkipped++;
+    }
+  }
+
+  steps.synthesizing = {
+    status: 'completed',
+    detail: `${synthResults.length} synthesized, ${pairsSkipped} skipped`,
+  };
+  await updateStepProgress(input.batchId, 'synthesizing', steps);
+
+  // Step 3: Write claims to DB
+  steps.writing.status = 'running';
+  await updateStepProgress(input.batchId, 'writing', steps);
+
+  const client3 = await doltPool.connect();
+  try {
+    for (const { pair, output, warrantIds } of synthResults) {
+      // Generate claim ID
+      const idResult = await client3.query("SELECT gen_random_uuid()::text AS id");
+      const claimId = idResult.rows[0].id;
+
+      await client3.query(
+        `INSERT INTO claims (
+          id, status, plant_id, attribute_id, plant_name, attribute_name,
+          categorical_value, synthesized_text, confidence, confidence_reasoning,
+          warrant_count
+        ) VALUES ($1, 'draft', $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
+        [
+          claimId,
+          pair.plant_id,
+          pair.attribute_id,
+          pair.plant_name.trim(),
+          pair.attribute_name,
+          output.categorical_value,
+          output.synthesized_text,
+          output.confidence,
+          output.confidence_reasoning,
+          warrantIds.length,
+        ],
+      );
+
+      // Link warrants via claim_warrants junction table
+      for (const wId of warrantIds) {
+        const cwId = await client3.query("SELECT gen_random_uuid()::text AS id");
+        await client3.query(
+          `INSERT INTO claim_warrants (id, claim_id, warrant_id) VALUES ($1, $2, $3)`,
+          [cwId.rows[0].id, claimId, wId],
+        );
+      }
+    }
+  } finally {
+    client3.release();
+  }
+
+  steps.writing = { status: 'completed', detail: `${synthResults.length} claims written` };
+  await updateStepProgress(input.batchId, 'writing', steps);
+
+  // Update batch stats
+  const clientStats = await doltPool.connect();
+  try {
+    await clientStats.query(
+      'UPDATE analysis_batches SET claims_generated = $1 WHERE id = $2',
+      [synthResults.length, input.batchId],
+    );
+  } finally {
+    clientStats.release();
+  }
+
+  // Step 4: Dolt commit
+  steps.committing.status = 'running';
+  await updateStepProgress(input.batchId, 'committing', steps);
+
+  const client4 = await doltPool.connect();
+  let commitHash = '';
+  try {
+    await client4.query(`SELECT dolt_add('.')`);
+    await client4.query(
+      `SELECT dolt_commit('-m', $1)`,
+      [`agent-ops: synthesize — ${synthResults.length} claims`],
+    );
+    const logResult = await client4.query(
+      'SELECT commit_hash FROM dolt_log ORDER BY date DESC LIMIT 1',
+    );
+    commitHash = logResult.rows[0].commit_hash;
+  } finally {
+    client4.release();
+  }
+
+  steps.committing = { status: 'completed', detail: commitHash.slice(0, 8) };
+  await updateStepProgress(input.batchId, 'committing', steps);
+
+  return {
+    claimsGenerated: synthResults.length,
+    pairsProcessed: pairs.length,
+    pairsSkipped,
+    commitHash,
+  };
+}
+
 // --- Main ---
 
 async function main() {
@@ -390,6 +725,12 @@ async function main() {
         break;
       case 'full-analysis':
         result = await handleFullAnalysis(input);
+        break;
+      case 'classify-existing':
+        result = await handleClassifyExisting(input);
+        break;
+      case 'bulk-synthesize':
+        result = await handleBulkSynthesize(input);
         break;
       default:
         throw new Error(`Unknown action: ${(input as { action: string }).action}`);
