@@ -214,6 +214,7 @@ Next.js 16 admin portal with shadcn/ui for data steward curation workflow.
 | `/claims/[plantId]/[attributeId]` | Claim view — warrant cards, selection, synthesis, approval |
 | `/conflicts` | Conflict queue — filterable table with inline expansion, research, batch ops |
 | `/matrix` | Conflict matrix — cross-source heatmap visualization |
+| `/coverage` | Coverage dashboard — attribute gaps, plant completeness, enrichment opportunities |
 | `/warrants` | Warrant browser |
 | `/fusion` | Fusion — schema mapping review and batch execution |
 | `/fusion/[batchId]` | Fusion batch detail — mapping config review and crosswalk editing |

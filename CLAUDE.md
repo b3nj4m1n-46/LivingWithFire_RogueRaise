@@ -79,6 +79,7 @@ LivinWitFire/
 │   │   ├── claims/              # Claim curation — warrant cards, synthesis, approval
 │   │   ├── conflicts/           # Conflict queue — filterable, research, batch ops
 │   │   ├── matrix/              # Cross-source conflict heatmap
+│   │   ├── coverage/            # Coverage dashboard — attribute gaps, plant completeness, enrichment
 │   │   ├── warrants/            # Warrant browser
 │   │   ├── fusion/              # Schema mapping review and batch execution
 │   │   ├── sync/                # Preview and push to production

@@ -1,9 +1,10 @@
 # 030b — Coverage Dashboard UI
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P1 (important)
 > **Depends on:** 030a (coverage & enrichment backend)
 > **Blocks:** None
+> **Commit:** d3cd33d
 
 ## Problem
 
