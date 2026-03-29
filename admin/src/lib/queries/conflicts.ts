@@ -249,6 +249,25 @@ export async function updateConflictStatus(
   return rows[0] || null;
 }
 
+// ── Update Specialist Verdict ───────────────────────────────────────────
+
+export async function updateSpecialistVerdict(
+  id: string,
+  verdict: string,
+  analysis: string,
+  recommendation: string
+): Promise<{ id: string } | null> {
+  const rows = await query<{ id: string }>(
+    `UPDATE conflicts
+     SET specialist_verdict = $1, specialist_analysis = $2,
+         specialist_recommendation = $3, status = 'annotated', annotated_at = NOW()
+     WHERE id = $4
+     RETURNING id`,
+    [verdict, analysis, recommendation, id]
+  );
+  return rows[0] || null;
+}
+
 // ── Batch Update ────────────────────────────────────────────────────────
 
 export async function batchUpdateConflictStatus(

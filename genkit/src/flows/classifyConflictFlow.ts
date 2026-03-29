@@ -2,6 +2,8 @@ import { z } from 'zod';
 import { ai, MODELS } from '../config.js';
 import { getWarrantGroups } from '../tools/warrantGroups.js';
 import { writeConflictsBatch, type ConflictInput } from '../tools/writeConflict.js';
+import { ratingConflictFlow, type SpecialistInput } from './ratingConflictFlow.js';
+import { scopeConflictFlow } from './scopeConflictFlow.js';
 
 // --- Types ---
 
@@ -250,6 +252,7 @@ const flowInput = z.object({
   sourceDataset: z.string().optional().describe('For external mode: which new dataset'),
   batchId: z.string().optional(),
   dryRun: z.boolean().optional().describe('If true, classify but do not write to DB'),
+  runSpecialists: z.boolean().optional().describe('If true, dispatch specialist flows after classification'),
 });
 
 const classifiedConflictSchema = z.object({
@@ -411,6 +414,9 @@ export const classifyConflictFlow = ai.defineFlow(
       return c;
     }));
 
+    // Map conflictId → WarrantPair for specialist dispatch
+    const pairMap = new Map<string, WarrantPair>();
+
     // Step 4: LLM batched classification
     const totalBatches = Math.ceil(needsLLM.length / LLM_BATCH_SIZE);
 
@@ -531,7 +537,65 @@ export const classifyConflictFlow = ai.defineFlow(
         }
       }
 
+      // Track pairs for specialist dispatch
+      for (let i = 0; i < batchConflicts.length; i++) {
+        const cid = batchConflicts[i].conflictId;
+        if (cid) {
+          const pairIdx = ((classifications[i]?.pairIndex ?? 1) - 1);
+          const pair = batchPairs[pairIdx];
+          if (pair) pairMap.set(cid, pair);
+        }
+      }
+
       allConflicts.push(...batchConflicts);
+    }
+
+    // Step 4.5: Optional specialist dispatch (non-blocking)
+    if (input.runSpecialists && !dryRun) {
+      const dispatchable = allConflicts.filter(
+        (c) =>
+          c.conflictId &&
+          (c.specialistRoute === 'ratingConflictFlow' || c.specialistRoute === 'scopeConflictFlow'),
+      );
+
+      if (dispatchable.length > 0) {
+        console.log(`Dispatching ${dispatchable.length} conflicts to specialist flows...`);
+
+        const results = await Promise.allSettled(
+          dispatchable.map(async (conflict) => {
+            const pair = pairMap.get(conflict.conflictId!);
+            if (!pair) return;
+
+            const specialistInput: SpecialistInput = {
+              conflictId: conflict.conflictId!,
+              plantName: conflict.plantName,
+              attributeName: conflict.attributeName,
+              valueA: conflict.valueA,
+              valueB: conflict.valueB,
+              sourceA: conflict.sourceA,
+              sourceB: conflict.sourceB,
+              sourceDatasetA: pair.warrantA.sourceDataset,
+              sourceDatasetB: pair.warrantB.sourceDataset,
+              sourceMethodologyA: pair.warrantA.sourceMethodology ?? null,
+              sourceMethodologyB: pair.warrantB.sourceMethodology ?? null,
+              sourceRegionA: pair.warrantA.sourceRegion ?? null,
+              sourceRegionB: pair.warrantB.sourceRegion ?? null,
+              classifierExplanation: conflict.classifierExplanation,
+              conflictType: conflict.conflictType,
+            };
+
+            if (conflict.specialistRoute === 'ratingConflictFlow') {
+              return ratingConflictFlow(specialistInput);
+            } else {
+              return scopeConflictFlow(specialistInput);
+            }
+          }),
+        );
+
+        const succeeded = results.filter((r) => r.status === 'fulfilled').length;
+        const failed = results.filter((r) => r.status === 'rejected').length;
+        console.log(`Specialist dispatch: ${succeeded} succeeded, ${failed} failed.`);
+      }
     }
 
     // Step 5: Build summary
