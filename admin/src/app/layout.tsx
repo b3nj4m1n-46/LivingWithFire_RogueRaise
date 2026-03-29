@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SidebarNav } from "@/components/sidebar-nav";
+import { SaveChangesButton } from "@/components/save-changes-button";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,7 +32,13 @@ export default function RootLayout({
     >
       <body className="flex h-full">
         <SidebarNav />
-        <main className="flex-1 overflow-y-auto p-6">{children}</main>
+        <div className="flex flex-1 flex-col overflow-hidden">
+          <header className="flex items-center justify-end border-b px-6 py-2">
+            <SaveChangesButton />
+          </header>
+          <main className="flex-1 overflow-y-auto p-6">{children}</main>
+        </div>
+        <Toaster />
       </body>
     </html>
   );
