@@ -60,6 +60,7 @@ export function ClaimViewClient({
   const [approvalNotes, setApprovalNotes] = useState("");
   const [synthesisResult, setSynthesisResult] = useState<{
     synthesized_text: string;
+    categorical_value: string | null;
     confidence: string;
     confidence_reasoning: string;
   } | null>(null);
@@ -126,7 +127,7 @@ export function ClaimViewClient({
           attributeName,
           warrantIds,
           synthesizedText: synthesisResult?.synthesized_text ?? null,
-          categoricalValue: null,
+          categoricalValue: synthesisResult?.categorical_value ?? null,
           confidence: synthesisResult?.confidence ?? "MODERATE",
           confidenceReasoning: synthesisResult?.confidence_reasoning ?? null,
           approvalNotes: approvalNotes || null,

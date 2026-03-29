@@ -5,6 +5,7 @@ import { ai, MODELS } from '../config.js';
 import { getDatasetContext } from '../tools/datasetContext.js';
 import { searchDocumentIndex } from '../tools/searchDocumentIndex.js';
 import { doltPool } from '../tools/dolt.js';
+import { extractJSON } from '../utils/extractJSON.js';
 import { specialistInput, type SpecialistInput } from './ratingConflictFlow.js';
 
 // Repo root is three levels up from genkit/src/flows/
@@ -55,34 +56,6 @@ async function resolveDatasetFolder(sourceDataset: string): Promise<string | nul
   return null;
 }
 
-function extractJSON(text: string): unknown {
-  try {
-    return JSON.parse(text);
-  } catch {
-    // continue
-  }
-
-  const fenced = text.match(/```(?:json)?\s*\n?([\s\S]*?)```/);
-  if (fenced) {
-    try {
-      return JSON.parse(fenced[1]);
-    } catch {
-      // continue
-    }
-  }
-
-  const firstBrace = text.indexOf('{');
-  const lastBrace = text.lastIndexOf('}');
-  if (firstBrace !== -1 && lastBrace > firstBrace) {
-    try {
-      return JSON.parse(text.slice(firstBrace, lastBrace + 1));
-    } catch {
-      // continue
-    }
-  }
-
-  throw new Error(`Could not extract JSON from LLM response:\n${text.slice(0, 500)}`);
-}
 
 // --- Prompt ---
 

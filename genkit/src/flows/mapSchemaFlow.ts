@@ -5,6 +5,7 @@ import { ai, MODELS } from '../config.js';
 import { getDatasetContext } from '../tools/datasetContext.js';
 import { getProductionAttributes } from '../tools/productionAttributes.js';
 import { sampleSourceData } from '../tools/sampleSourceData.js';
+import { extractJSON } from '../utils/extractJSON.js';
 
 const REPO_ROOT = resolve(import.meta.dirname, '..', '..');
 
@@ -94,38 +95,6 @@ function formatSampleRows(headers: string[], rows: Record<string, string>[]): st
   return [headerLine, sep, ...dataLines].join('\n');
 }
 
-/** Extract JSON from an LLM response that may include markdown fencing or preamble. */
-function extractJSON(text: string): unknown {
-  // Try direct parse
-  try {
-    return JSON.parse(text);
-  } catch {
-    // continue
-  }
-
-  // Try fenced JSON block
-  const fenced = text.match(/```(?:json)?\s*\n?([\s\S]*?)```/);
-  if (fenced) {
-    try {
-      return JSON.parse(fenced[1]);
-    } catch {
-      // continue
-    }
-  }
-
-  // Try brace extraction
-  const first = text.indexOf('{');
-  const last = text.lastIndexOf('}');
-  if (first !== -1 && last > first) {
-    try {
-      return JSON.parse(text.slice(first, last + 1));
-    } catch {
-      // continue
-    }
-  }
-
-  throw new Error(`Could not extract JSON from LLM response:\n${text.slice(0, 500)}`);
-}
 
 // --- Flow ---
 

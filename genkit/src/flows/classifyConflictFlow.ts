@@ -4,6 +4,7 @@ import { getWarrantGroups } from '../tools/warrantGroups.js';
 import { writeConflictsBatch, type ConflictInput } from '../tools/writeConflict.js';
 import { ratingConflictFlow, type SpecialistInput } from './ratingConflictFlow.js';
 import { scopeConflictFlow } from './scopeConflictFlow.js';
+import { extractJSON } from '../utils/extractJSON.js';
 
 // --- Types ---
 
@@ -79,45 +80,6 @@ const GROUP_FETCH_LIMIT = 500;
 
 // --- Helpers ---
 
-/** Extract JSON from LLM text that may include markdown fencing or preamble. */
-function extractJSON(text: string): unknown {
-  try {
-    return JSON.parse(text);
-  } catch {
-    // continue
-  }
-
-  const fenced = text.match(/```(?:json)?\s*\n?([\s\S]*?)```/);
-  if (fenced) {
-    try {
-      return JSON.parse(fenced[1]);
-    } catch {
-      // continue
-    }
-  }
-
-  const first = text.indexOf('[');
-  const last = text.lastIndexOf(']');
-  if (first !== -1 && last > first) {
-    try {
-      return JSON.parse(text.slice(first, last + 1));
-    } catch {
-      // continue
-    }
-  }
-
-  const firstBrace = text.indexOf('{');
-  const lastBrace = text.lastIndexOf('}');
-  if (firstBrace !== -1 && lastBrace > firstBrace) {
-    try {
-      return JSON.parse(text.slice(firstBrace, lastBrace + 1));
-    } catch {
-      // continue
-    }
-  }
-
-  throw new Error(`Could not extract JSON from LLM response:\n${text.slice(0, 500)}`);
-}
 
 /** Check if a value is effectively null/empty. */
 function isNullish(val: string | null | undefined): boolean {

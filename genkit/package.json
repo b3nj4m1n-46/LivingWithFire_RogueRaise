@@ -10,7 +10,8 @@
     "test-matcher": "tsx src/scripts/test-matcher.ts",
     "internal-scan": "tsx src/scripts/internal-conflict-scan.ts",
     "analyze:fire01": "tsx src/scripts/external-analysis.ts database-sources/fire/FirePerformancePlants",
-    "analyze:water01": "tsx src/scripts/external-analysis.ts database-sources/water/WUCOLS"
+    "analyze:water01": "tsx src/scripts/external-analysis.ts database-sources/water/WUCOLS",
+    "test-synthesis": "tsx src/scripts/test-synthesis.ts"
   },
   "dependencies": {
     "@genkit-ai/anthropic": "^0.2.0",
