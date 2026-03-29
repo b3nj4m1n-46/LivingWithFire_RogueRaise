@@ -5,6 +5,9 @@
 # is available on clone. Only ignore raw source downloads and temp files.
 # Files over 100MB are handled by Git LFS (see .gitattributes).
 
+# ----- Environment variables (secrets) -----
+.env
+
 # ----- Source files (PDFs, ZIPs, XLSX, HTML originals) -----
 # Reproducible from URLs documented in each folder's README.md
 database-sources/**/Sources/
@@ -29,7 +32,6 @@ __MACOSX/
 __pycache__/
 *.pyc
 *.pyo
-.env
 venv/
 
 # ----- DoltgreSQL staging database (local dev only) -----
@@ -44,7 +46,6 @@ genkit/dist/
 # ----- Admin portal (Next.js) -----
 admin/node_modules/
 admin/.next/
-admin/.env.local
 
 # ----- Temp/cache -----
 *.tmp

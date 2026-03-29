@@ -23,11 +23,10 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 CSV_DIR = os.path.join(REPO_ROOT, "LivingWithFire-DB")
 
-DB_HOST = os.environ.get("DOLT_HOST", "localhost")
-DB_PORT = int(os.environ.get("DOLT_PORT", "5433"))
-DB_NAME = os.environ.get("DOLT_DB", "lwf_staging")
-DB_USER = os.environ.get("DOLT_USER", "postgres")
-DB_PASS = os.environ.get("DOLT_PASS", "password")
+DOLT_CONNECTION_STRING = os.environ.get(
+    "DOLT_CONNECTION_STRING",
+    "postgresql://postgres:password@localhost:5433/lwf_staging",
+)
 
 # Import order respects FK relationships
 TABLES = [
@@ -59,13 +58,7 @@ def quote_id(name):
 
 def connect():
     """Connect to DoltgreSQL."""
-    conn = psycopg2.connect(
-        host=DB_HOST,
-        port=DB_PORT,
-        dbname=DB_NAME,
-        user=DB_USER,
-        password=DB_PASS,
-    )
+    conn = psycopg2.connect(DOLT_CONNECTION_STRING)
     conn.autocommit = True
     return conn
 
@@ -207,7 +200,7 @@ def main():
     print("=" * 60)
     print("DoltgreSQL Staging Database Import")
     print(f"  Source:  {CSV_DIR}")
-    print(f"  Target:  postgresql://{DB_USER}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
+    print(f"  Target:  {DOLT_CONNECTION_STRING}")
     print("=" * 60)
 
     # Connect

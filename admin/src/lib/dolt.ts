@@ -1,11 +1,9 @@
 import { Pool } from "pg";
 
 const pool = new Pool({
-  host: process.env.DOLT_HOST || "localhost",
-  port: parseInt(process.env.DOLT_PORT || "5433"),
-  database: process.env.DOLT_DATABASE || "lwf_staging",
-  user: process.env.DOLT_USER || "root",
-  password: process.env.DOLT_PASSWORD || "",
+  connectionString:
+    process.env.DOLT_CONNECTION_STRING ||
+    "postgresql://root:@localhost:5433/lwf_staging",
 });
 
 /**
