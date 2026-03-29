@@ -161,12 +161,21 @@
 - [x] All 6 specialist agents implemented (Rating, Scope, Taxonomy, Research, Temporal + stubs)
 - [x] Knowledge Base RAG via PageIndex (searchDocumentIndex + navigateDocumentTree tools)
 
+### Also Built (not in original plan)
+- [x] Confidence scoring — per-source reliability weights, UI, synthesis integration (task 024)
+- [x] PageIndex search gaps — page ranges, PDF reading, pagination (task 025)
+- [x] SHA256 source manifests for data provenance auditing
+- [x] Consolidated env config to single root .env file
+- [x] Agent prompt extraction into standalone .md templates (task 017)
+
 ### Deferred
 - [ ] Bulk column addition workflow
 - [ ] All 40 datasets processed (proof: 2-3 datasets analyzed)
 - [ ] Batch warrant curation (one-at-a-time curation only)
 - [ ] Local model inference via Ollama (tested, too slow — using Anthropic API instead)
 - [ ] Source Collection Automation — URL queue, auto-download (PRD P2)
+- [ ] Dashboard "Datasets Mapped" summary card (task 026 — specced, future)
+- [ ] PageIndex in-repo integration pipeline (task 027 — specced, future)
 
 ### If Running Behind
 - Day 1 PM: Skip WUCOLS, just do FirePerformancePlants as proof
@@ -175,9 +184,9 @@
 - Synthesis Agent is non-negotiable — it's the demo climax
 
 ### If Running Ahead
-- Process more datasets (show scale: "we analyzed 40 databases in the background")
-- Implement more specialist agents beyond Rating + Scope
-- Add batch warrant curation
-- Wire PageIndex RAG into Research Agent (post-hackathon priority)
-- Add the Table Fusion drag-and-drop UI
-- Production sync to Neon (post-hackathon priority)
+- [ ] Process more datasets (show scale: "we analyzed 40 databases in the background")
+- [x] Implement more specialist agents beyond Rating + Scope (task 020)
+- [ ] Add batch warrant curation
+- [x] Wire PageIndex RAG into Research Agent (tasks 008, 025)
+- [x] Add the Table Fusion drag-and-drop UI (task 021)
+- [x] Production sync to Neon (task 018)
