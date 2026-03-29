@@ -12,12 +12,14 @@ export default async function FusionPage() {
   let datasets: DatasetInfo[] = [];
   let batches: FusionBatch[] = [];
   try {
-    [datasets, batches] = await Promise.all([
-      fetchAvailableDatasets(),
-      fetchFusionBatches(),
-    ]);
+    datasets = await fetchAvailableDatasets();
   } catch {
-    // Render with empty data — the client can still trigger mapping
+    // Filesystem issue — truly empty
+  }
+  try {
+    batches = await fetchFusionBatches();
+  } catch {
+    // DB unavailable — show datasets without batch history
   }
 
   return (

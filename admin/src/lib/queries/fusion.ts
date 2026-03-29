@@ -2,6 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import { resolve, basename } from "node:path";
 import { query, queryOne } from "@/lib/dolt";
 import crypto from "node:crypto";
+import { DB_SOURCES, parseDatasetMeta } from "@/lib/dataset-meta";
 
 // --- Types ---
 
@@ -62,35 +63,6 @@ export interface MappingConfig {
   };
 }
 
-// --- Helpers ---
-
-const REPO_ROOT = resolve(process.cwd(), "..");
-const DB_SOURCES = resolve(REPO_ROOT, "database-sources");
-const SOURCE_ID_RE = /\*\*Source ID:\*\*\s*`([^`]+)`/;
-const PLANTS_RE = /\*\*Plants:\*\*\s*(\d[\d,]*)/;
-
-async function parseDatasetMeta(
-  folder: string
-): Promise<{ sourceId: string; plantCount: number | null }> {
-  const ddPath = resolve(folder, "DATA-DICTIONARY.md");
-  const readmePath = resolve(folder, "README.md");
-
-  const [dd, readme] = await Promise.all([
-    readFile(ddPath, "utf-8").catch(() => ""),
-    readFile(readmePath, "utf-8").catch(() => ""),
-  ]);
-
-  const idMatch = SOURCE_ID_RE.exec(dd) ?? SOURCE_ID_RE.exec(readme);
-  const sourceId = idMatch?.[1] ?? "UNKNOWN";
-
-  const countMatch = PLANTS_RE.exec(readme);
-  const plantCount = countMatch
-    ? parseInt(countMatch[1].replace(/,/g, ""), 10)
-    : null;
-
-  return { sourceId, plantCount };
-}
-
 // --- Query Functions ---
 
 export async function fetchAvailableDatasets(): Promise<DatasetInfo[]> {
@@ -129,25 +101,29 @@ export async function fetchAvailableDatasets(): Promise<DatasetInfo[]> {
     }
   }
 
-  // Enrich with latest batch info
-  const batches = await query<{
-    source_dataset: string;
-    id: string;
-    status: string;
-  }>(
-    `SELECT DISTINCT ON (source_dataset) source_dataset, id, status
-     FROM analysis_batches
-     ORDER BY source_dataset, started_at DESC`
-  );
+  // Enrich with latest batch info (non-fatal — DB may be unavailable)
+  try {
+    const batches = await query<{
+      source_dataset: string;
+      id: string;
+      status: string;
+    }>(
+      `SELECT DISTINCT ON (source_dataset) source_dataset, id, status
+       FROM analysis_batches
+       ORDER BY source_dataset, started_at DESC`
+    );
 
-  const batchMap = new Map(batches.map((b) => [b.source_dataset, b]));
+    const batchMap = new Map(batches.map((b) => [b.source_dataset, b]));
 
-  for (const ds of datasets) {
-    const batch = batchMap.get(ds.name);
-    if (batch) {
-      ds.lastBatchId = batch.id;
-      ds.lastBatchStatus = batch.status;
+    for (const ds of datasets) {
+      const batch = batchMap.get(ds.name);
+      if (batch) {
+        ds.lastBatchId = batch.id;
+        ds.lastBatchStatus = batch.status;
+      }
     }
+  } catch {
+    // DB unavailable — return datasets without batch info
   }
 
   return datasets.sort((a, b) => a.category.localeCompare(b.category));

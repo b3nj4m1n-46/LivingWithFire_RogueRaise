@@ -38,7 +38,7 @@ export default async function SourcesPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold">Sources</h2>
+        <h2 className="text-2xl font-bold">Data Set Sources</h2>
         <Link href="/sources/upload">
           <Button>Upload New Source</Button>
         </Link>

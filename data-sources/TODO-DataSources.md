@@ -15,7 +15,7 @@
 | 3 | FLAMITS - Global Plant Flammability Traits Database (downloadable) | https://datadryad.org/dataset/doi:10.5061/dryad.h18931zr3 | **Done** | `FLAMITS` |
 | 4 | NIST/USDA/Forest Service Experimental Flammability Studies (34 ornamental shrubs) | https://www.srs.fs.usda.gov/pubs/ja/ja_long004.pdf | **Done** | `NIST_USDA_Flammability` |
 | 5 | UC Forest Products Lab (July 1997) - literature review of fire ratings | https://www.firesafemonterey.org/plant-lists.html | **Done** | `UCForestProductsLab` |
-| 6 | Bethke et al. 2016 UCCE San Diego - Research Literature Review | https://ucanr.edu/sites/SaratogaHort/files/235710.pdf | **Done** | `BethkeUCCE2016` |
+| 6 | Bethke et al. 2016 UCCE San Diego - Research Literature Review | https://ucanr.edu/sites/SaratogaHort/files/235710.pdf | **Removed** *(reference only)* | `BethkeUCCE2016` |
 
 > **Note on #6:** Appendix I references a "Fire Resistant Plant Lists Database" (2,572 plant records in an Excel file) that has not been located. The original hosting path (`ucanr.edu/sites/SaratogaHort/files/`) has been restructured and the Wayback Machine has no archived xlsx files from that directory.
 
@@ -31,10 +31,10 @@
 
 | # | Database / Source | URL | Status | Folder |
 |---|---|---|---|---|
-| 7 | S.A.F.E. LANDSCAPES - Southern CA Guidebook (UC Coop Ext, 2009) | https://ucanr.edu/sites/safelandscapes/files/93415.pdf | **Done** *(no tables)* | `SAFELandscapes` |
+| 7 | S.A.F.E. LANDSCAPES - Southern CA Guidebook (UC Coop Ext, 2009) | https://ucanr.edu/sites/safelandscapes/files/93415.pdf | **Removed** *(no data tables)* | `SAFELandscapes` |
 | 8 | Firescaping Your Home - Edwards & Scheliger, Timber Press 2023 (BOOK) | https://sites.google.com/view/firescapingyourhome/book-overview | **Done** | `FirescapingBook` |
 | 9 | Fire-resistant Plants for Home Landscapes - Oregon State Ext (PNW-590, Oct 2023) | https://extension.oregonstate.edu/pub/pnw-590 | **Done** | `OSU_PNW590` |
-| 10 | Selecting Firewise Shrubs - UF IFAS / US Forest Service (2011) | https://www.srs.fs.usda.gov/factsheet/pdf/selecting_firewise_shrubs.pdf | **Skipped** *(server 302s; overlaps NIST_USDA)* | `UF_IFAS_FirewiseShrubs` |
+| 10 | Selecting Firewise Shrubs - UF IFAS / US Forest Service (2011) | https://www.srs.fs.usda.gov/factsheet/pdf/selecting_firewise_shrubs.pdf | **Removed** *(overlaps NIST_USDA)* | `UF_IFAS_FirewiseShrubs` |
 
 ---
 
@@ -147,7 +147,7 @@
 
 | # | Database / Source | URL | Status | Folder |
 |---|---|---|---|---|
-| 50 | Oregon Association of Nurseries | *(web-scraped)* | **Done** | `OrAssocNurseries` |
+| 50 | Oregon Association of Nurseries | *(web-scraped)* | **Removed** *(nursery directory)* | `OrAssocNurseries` |
 
 ---
 
@@ -163,12 +163,12 @@
 
 | Category | Datasets |
 |----------|----------|
-| Fire Resistance | FirePerformancePlants, IdahoFirewise, FLAMITS, NIST_USDA_Flammability, UCForestProductsLab, BethkeUCCE2016, OaklandFireSafe, DiabloFiresafe, SAFELandscapes, FirescapingBook, OSU_PNW590, UF_IFAS_FirewiseShrubs |
+| Fire Resistance | FirePerformancePlants, IdahoFirewise, FLAMITS, NIST_USDA_Flammability, UCForestProductsLab, OaklandFireSafe, DiabloFiresafe, FirescapingBook, OSU_PNW590 |
 | Deer Resistance | RutgersDeerResistance, NCSU_DeerResistant, MissouriBotanicalDeer, WSU_DeerResistant, CSU_DeerDamage, CornellDeerResistance |
 | Plant Traits/Taxonomy | NCSU database, MBG_PlantFinder, POWO_WCVP, WorldFloraOnline, USDA_PLANTS |
 | Water/Drought | WUCOLS, UtahCWEL, OSU_DroughtTolerant |
 | Pollinators | XercesPollinator, PollinatorPartnership, NRCS_Pollinator |
 | Birds/Wildlife | TallamyBirdPlants |
-| Native Plants | LBJ_Wildflower, PlantNativeORWA, OregonFlora, OrAssocNurseries |
+| Native Plants | LBJ_Wildflower, PlantNativeORWA, OregonFlora |
 | Invasiveness | FederalNoxiousWeeds, USDA_InvasiveSpecies, WGA_InvasiveSpecies, USGS_RIIS, CalIPC_Invasive |
 | Deferred | AudubonBirdPlants |

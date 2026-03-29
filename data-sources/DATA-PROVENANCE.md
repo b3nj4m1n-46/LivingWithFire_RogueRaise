@@ -24,13 +24,13 @@ This ensures every data point retains provenance back to its original source.
 | FIRE-03 | `FLAMITS` | Cui, X., Alam, M.A., Perry, G.L.W., Paterson, A.M., Wyse, S.V., Curran, T.J. 2020. "Green firebreaks as a management tool for wildfires: Lessons from China." Journal of Environmental Management 233:329-336. Data: https://datadryad.org/dataset/doi:10.5061/dryad.h18931zr3 | 2026-03-25 |
 | FIRE-04 | `NIST_USDA_Flammability` | Ganteaume, A., Jappiot, M., Lampin, C., Curt, T., Labussiere, J. "Flammability of Some Ornamental Species in Wildland-Urban Interface in Southeastern France." USDA Forest Service. https://www.srs.fs.usda.gov/pubs/ja/ja_long004.pdf | 2026-03-25 |
 | FIRE-05 | `UCForestProductsLab` | University of California Forest Products Laboratory. "Fire-Resistant/Fire-Prone Plant Lists." July 1997. FireSafe Monterey. https://www.firesafemonterey.org/plant-lists.html | 2026-03-25 |
-| FIRE-06 | `BethkeUCCE2016` | Bethke, J., Bell, C., Gonzales, J., Lima, L., Long, A., MacDonald, C. 2016. "Research Literature Review of Plant Flammability Testing, Fire-Resistant Plant Lists and Relevance of a Plant Flammability Key." UCCE San Diego. https://ucanr.edu/sites/SaratogaHort/files/235710.pdf | 2026-03-25 |
+| FIRE-06 | ~~`BethkeUCCE2016`~~ | Bethke, J., Bell, C., Gonzales, J., Lima, L., Long, A., MacDonald, C. 2016. "Research Literature Review of Plant Flammability Testing, Fire-Resistant Plant Lists and Relevance of a Plant Flammability Key." UCCE San Diego. https://ucanr.edu/sites/SaratogaHort/files/235710.pdf | 2026-03-25 | *(Removed — reference only, no plant data)* |
 | FIRE-07 | `DiabloFiresafe` | Diablo Firesafe Council. "Fire-Resistant and Highly Flammable Plant Lists." Based on UC Forest Products Laboratory, July 1997. | 2026-03-25 |
 | FIRE-08 | `OaklandFireSafe` | Oakland Fire Safe Council (OFSC). "Fire-Resistant and Fire-Prone Plant Lists." Spreadsheet. | 2026-03-25 |
-| FIRE-09 | `SAFELandscapes` | UC ANR. "S.A.F.E. LANDSCAPES: Sustainable and Fire-Safe Landscapes in the Wildland-Urban Interface." https://ucanr.edu/sites/safelandscapes/files/93415.pdf | 2026-03-25 |
+| FIRE-09 | ~~`SAFELandscapes`~~ | UC ANR. "S.A.F.E. LANDSCAPES: Sustainable and Fire-Safe Landscapes in the Wildland-Urban Interface." https://ucanr.edu/sites/safelandscapes/files/93415.pdf | 2026-03-25 | *(Removed — no plant data)* |
 | FIRE-10 | `FirescapingBook` | Edwards, A. and Schleiger, R. 2023. *Firescaping Your Home: A Manual for Readiness in Wildfire Country.* Hachette Book Group. | 2026-03-25 |
 | FIRE-11 | `OSU_PNW590` | Lommen, A. 2023. "Fire-Resistant Plants for Home Landscapes." Oregon State University Extension, PNW-590. https://extension.oregonstate.edu/catalog/pub/pnw-590 | 2026-03-25 |
-| FIRE-12 | `UF_IFAS_FirewiseShrubs` | Hermansen-Báez, A., Crandall, R.M., Zipperer, W.C., Long, A.J., Behm, A.L., McKinstry, D., Andreu, A. "Fire in the Wildland-Urban Interface: Selecting Firewise Shrubs to Reduce Wildfire Risk." UF/IFAS Extension, Publication FOR272. (Data in FIRE-04) | 2026-03-25 |
+| FIRE-12 | ~~`UF_IFAS_FirewiseShrubs`~~ | Hermansen-Báez, A., Crandall, R.M., Zipperer, W.C., Long, A.J., Behm, A.L., McKinstry, D., Andreu, A. "Fire in the Wildland-Urban Interface: Selecting Firewise Shrubs to Reduce Wildfire Risk." UF/IFAS Extension, Publication FOR272. (Data in FIRE-04) | 2026-03-25 | *(Removed — no plant data, overlaps NIST_USDA)* |
 
 ## Deer Resistance
 
@@ -82,7 +82,7 @@ This ensures every data point retains provenance back to its original source.
 | NATIVE-01 | `LBJ_Wildflower` | Lady Bird Johnson Wildflower Center. "Native Plants of North America." University of Texas at Austin. https://www.wildflower.org/plants/ | 2026-03-25 |
 | NATIVE-02 | `PlantNativeORWA` | PlantNative.org. "Recommended Native Plant List: Western Oregon & Western Washington." https://plantnative.org/rpl-orwa.htm | 2026-03-25 |
 | NATIVE-03 | `OregonFlora` | Oregon Flora Project. "Flora of Oregon." Oregon State University. https://oregonflora.org/ | 2026-03-25 |
-| NATIVE-04 | `OrAssocNurseries` | Oregon Association of Nurseries. Plant directory. | 2026-03-25 |
+| NATIVE-04 | ~~`OrAssocNurseries`~~ | Oregon Association of Nurseries. Plant directory. | 2026-03-25 | *(Removed — nursery directory, not plant data)* |
 
 ## Invasiveness
 

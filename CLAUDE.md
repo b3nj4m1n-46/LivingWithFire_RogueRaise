@@ -2,9 +2,9 @@
 
 ## What Is This Project?
 
-**LivinWitFire** is a plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). It contains 41 plant databases with 866,000+ records harvested from federal agencies, universities, extension services, and conservation organizations — plus a production database (`LivingWithFire-DB`) with 1,361 curated plants powering a public-facing app.
+**LivinWitFire** is a plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). It contains 37 plant databases with 866,000+ records harvested from federal agencies, universities, extension services, and conservation organizations — plus a production database (`LivingWithFire-DB`) with 1,361 curated plants powering a public-facing app.
 
-The **admin portal** (in development) uses AI agents to fuse the 41 source databases into the production DB through a Claim/Warrant evidence curation model. See `docs/planning/PRD.md` for the full vision.
+The **admin portal** (in development) uses AI agents to fuse the 37 source databases into the production DB through a Claim/Warrant evidence curation model. See `docs/planning/PRD.md` for the full vision.
 
 ## Repository Structure
 
@@ -135,15 +135,15 @@ LivinWitFire/
 │   ├── index_pdf.py             # CLI: index a single PDF → knowledge-base/indexes/
 │   └── index_all_pdfs.sh        # Batch: index all unindexed PDFs with parallelism
 │
-├── database-sources/            # 41 source datasets, organized by category
-│   ├── fire/                    # 12 fire resistance datasets (FIRE-01 through FIRE-12)
+├── database-sources/            # 37 source datasets, organized by category
+│   ├── fire/                    # 9 fire resistance datasets
 │   ├── deer/                    # 6 deer resistance datasets (DEER-01 through DEER-06)
 │   ├── traits/                  # 2 plant trait datasets (TRAIT-01, TRAIT-02)
 │   ├── taxonomy/                # 3 taxonomy backbones (TAXON-01 through TAXON-03)
 │   ├── water/                   # 3 water/drought datasets (WATER-01, WATER-02, DROUGHT-01)
 │   ├── pollinators/             # 3 pollinator datasets (POLL-01 through POLL-03)
 │   ├── birds/                   # 2 bird/wildlife datasets (BIRD-01 + Audubon)
-│   ├── native/                  # 4 native plant datasets (NATIVE-01 through NATIVE-04)
+│   ├── native/                  # 3 native plant datasets
 │   └── invasive/                # 5 invasiveness datasets (INVAS-01 through INVAS-05)
 │       └── DatasetName/         # Each dataset folder follows this pattern:
 │           ├── README.md        # Source, citation, field definitions, data quality notes
@@ -193,14 +193,14 @@ Every dataset has a unique Source ID (e.g., `FIRE-01`, `DEER-03`, `INVAS-04`) de
 
 | Category | Prefix | Datasets | Key Fields |
 |----------|--------|----------|------------|
-| Fire Resistance | `FIRE-` | 12 | firewise_rating, flammability, fire_resistance |
+| Fire Resistance | `FIRE-` | 9 | firewise_rating, flammability, fire_resistance |
 | Deer Resistance | `DEER-` | 6 | deer_rating, deer_rating_code, deer_browse |
 | Plant Traits | `TRAIT-` | 2 | type, family, zone, height, spread, sun, water, bloom |
 | Taxonomy | `TAXON-` | 3 | family, genus, species, lifeform, climate, native_to |
 | Water/Drought | `WATER-`/`DROUGHT-` | 3 | water_use, plant_factor, ET0, drought_tolerance |
 | Pollinators | `POLL-` | 3 | pollinators, bloom, flower_color, host_plant |
 | Birds | `BIRD-` | 1 | lepidoptera_species, bird_value (genus-level) |
-| Native Plants | `NATIVE-` | 4 | state, sun, moisture, height |
+| Native Plants | `NATIVE-` | 3 | state, sun, moisture, height |
 | Invasiveness | `INVAS-` | 5 | degree_of_establishment, cal_ipc_rating, category |
 
 ## The Three Taxonomy Backbones

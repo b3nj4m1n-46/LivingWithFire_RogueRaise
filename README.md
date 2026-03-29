@@ -1,14 +1,14 @@
 # LivinWitFire — Plant Data Fusion Platform for Fire-Wise Landscaping
 
-**41 plant databases** | **866,000+ records** | **AI-powered data curation** | **Version-controlled staging**
+**37 plant databases** | **866,000+ records** | **AI-powered data curation** | **Version-controlled staging**
 
-A plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). Includes an AI agent pipeline and admin portal for fusing 41 source databases into a production database using a Claim/Warrant evidence curation model.
+A plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). Includes an AI agent pipeline and admin portal for fusing 37 source databases into a production database using a Claim/Warrant evidence curation model.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    docs["40 Source\nDatasets"]
+    docs["36 Source\nDatasets"]
     kb["52 Research\nDocuments"]
 
     kb --> PageIndex --> KnowledgeDB[(Knowledge\nBase)]
@@ -41,35 +41,35 @@ flowchart LR
 
 ### 1. Source Datasets (`database-sources/`)
 
-40 datasets harvested from federal agencies, universities, extension services, and conservation organizations, spanning **8 categories**:
+36 datasets harvested from federal agencies, universities, extension services, and conservation organizations, spanning **8 categories**:
 
 | Category | Datasets | Key Question Answered |
 |----------|----------|----------------------|
-| 🔥 Fire Resistance | 10 | Is this plant fire-resistant or flammable? |
+| 🔥 Fire Resistance | 9 | Is this plant fire-resistant or flammable? |
 | 🦌 Deer Resistance | 6 | Will deer eat this plant? |
 | 🌱 Plant Traits & Taxonomy | 5 | What are its growing requirements? |
 | 💧 Water Need & Drought | 4 | How much water does it need? |
 | 🐝 Pollinators | 4 | Does it support bees, butterflies, hummingbirds? |
 | 🐦 Birds & Wildlife | 1 | Does it support bird populations? |
-| 🌿 Native Plants | 5 | Is it native to Oregon/California/Washington? |
+| 🌿 Native Plants | 3 | Is it native to Oregon/California/Washington? |
 | ⚠️ Invasiveness | 5 | Is it invasive or noxious? |
 
 ## How the Data Is Organized
 
 ### Folder Structure
 
-All 40 source datasets live under `database-sources/`, organized by category:
+All 36 source datasets live under `database-sources/`, organized by category:
 
 ```
 database-sources/
-├── fire/                  # 12 fire resistance datasets
+├── fire/                  # 9 fire resistance datasets
 ├── deer/                  # 6 deer resistance datasets
 ├── traits/                # 2 plant trait datasets
 ├── taxonomy/              # 3 taxonomy backbones
 ├── water/                 # 3 water/drought datasets
 ├── pollinators/           # 3 pollinator datasets
 ├── birds/                 # 2 bird/wildlife datasets
-├── native/                # 4 native plant datasets
+├── native/                # 3 native plant datasets
 └── invasive/              # 5 invasiveness datasets
 ```
 
@@ -122,13 +122,10 @@ Three datasets exceed 100K records and skip JSON output due to file size:
 | `database-sources/fire/FLAMITS` | 40 vars | 🔥 Fire | Global Plant Flammability Traits Database |
 | `database-sources/fire/NIST_USDA_Flammability` | 34 | 🔥 Fire | NIST/USDA/Forest Service (34 shrubs tested) |
 | `database-sources/fire/UCForestProductsLab` | 164 | 🔥 Fire | UC Forest Products Lab 1997 (57 refs) |
-| `database-sources/fire/BethkeUCCE2016` | 12 meta | 🔥 Fire | Bethke et al. UCCE Literature Review |
 | `database-sources/fire/DiabloFiresafe` | 140 | 🔥 Fire | Diablo Firesafe Council |
 | `database-sources/fire/OaklandFireSafe` | 212 | 🔥 Fire | Oakland Fire Safe Council |
-| `database-sources/fire/SAFELandscapes` | — | 🔥 Fire | SAFE Landscapes So. CA (README only) |
 | `database-sources/fire/FirescapingBook` | 180 | 🔥 Fire | Edwards & Schleiger 2023 |
 | `database-sources/fire/OSU_PNW590` | 133 | 🔥 Fire | OSU PNW-590 Fire-Resistant Plants |
-| `database-sources/fire/UF_IFAS_FirewiseShrubs` | — | 🔥 Fire | UF/IFAS Firewise Shrubs (ref to NIST) |
 | `database-sources/deer/RutgersDeerResistance` | 326 | 🦌 Deer | Rutgers NJ Ag Experiment Station |
 | `database-sources/deer/NCSU_DeerResistant` | 727 | 🦌 Deer | NC State Extension Gardener Toolbox |
 | `database-sources/deer/MissouriBotanicalDeer` | 112 | 🦌 Deer | Missouri Botanical Garden / Shaw Reserve |
@@ -150,7 +147,6 @@ Three datasets exceed 100K records and skip JSON output due to file size:
 | `database-sources/native/LBJ_Wildflower` | 1,000 | 🌿 Native | Lady Bird Johnson Wildflower Center (OR/WA/CA) |
 | `database-sources/native/PlantNativeORWA` | 59 | 🌿 Native | PlantNative.org Western OR & WA |
 | `database-sources/native/OregonFlora` | 355 | 🌿 Native | Oregon Flora Project (supplements) |
-| `database-sources/native/OrAssocNurseries` | 833 | 🌿 Native | Oregon Association of Nurseries |
 | `database-sources/invasive/FederalNoxiousWeeds` | 112 | ⚠️ Invasive | USDA APHIS Federal Noxious Weed List |
 | `database-sources/invasive/USDA_InvasiveSpecies` | 30 | ⚠️ Invasive | USDA National Invasive Species Info Center |
 | `database-sources/invasive/WGA_InvasiveSpecies` | 26 | ⚠️ Invasive | Western Governors Association Top 50 |

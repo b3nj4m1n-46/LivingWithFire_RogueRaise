@@ -18,11 +18,11 @@
 | 3 | Fire - Top Tier | FLAMITS – Global Plant Flammability Traits Database | `FLAMITS` | ✅ Done |
 | 4 | Fire - Top Tier | NIST/USDA/Forest Service Flammability Studies (34 shrubs) | `NIST_USDA_Flammability` | ✅ Done |
 | 5 | Fire - Top Tier | UC Forest Products Laboratory, July 1997 | `UCForestProductsLab` | ✅ Done |
-| 6 | Fire - Top Tier | Bethke et al. 2016 UCCE Literature Review | `BethkeUCCE2016` | ✅ Done |
-| 7 | Fire - 2nd Tier | S.A.F.E. LANDSCAPES – Southern California Guidebook | `SAFELandscapes` | ✅ Done |
+| 6 | Fire - Top Tier | Bethke et al. 2016 UCCE Literature Review | `BethkeUCCE2016` | ❌ Removed — reference only |
+| 7 | Fire - 2nd Tier | S.A.F.E. LANDSCAPES – Southern California Guidebook | `SAFELandscapes` | ❌ Removed — no data tables |
 | 8 | Fire - 2nd Tier | Firescaping Your Home – Edwards & Schleiger 2023 | `FirescapingBook` | ✅ Done |
 | 9 | Fire - 2nd Tier | Fire-resistant Plants for Home Landscapes (OSU PNW-590) | `OSU_PNW590` | ✅ Done |
-| 10 | Fire - 2nd Tier | Selecting Firewise Shrubs (UF/IFAS) | `UF_IFAS_FirewiseShrubs` | ✅ Done |
+| 10 | Fire - 2nd Tier | Selecting Firewise Shrubs (UF/IFAS) | `UF_IFAS_FirewiseShrubs` | ❌ Removed — overlaps NIST_USDA |
 | 11 | Deer Resistance | Rutgers NJ Agricultural Experiment Station | `RutgersDeerResistance` | ✅ Done |
 | 12 | Deer Resistance | NC Extension Gardener Toolbox (deer-resistant tag) | `NCSU_DeerResistant` | ✅ Done |
 | 13 | Deer Resistance | Missouri Botanical Garden – Deer Browse Handout | `MissouriBotanicalDeer` | ✅ Done |
@@ -73,4 +73,4 @@
 | `DiabloFiresafe` | Diablo Firesafe Council (same UC methodology as #5) | 140 |
 | `OaklandFireSafe` | Oakland Fire Safe Council XLSX | 212 |
 | `TallamyBirdPlants` | Doug Tallamy – Plant genera ranked by bird/wildlife value | 42 |
-| `OrAssocNurseries` | Oregon Association of Nurseries | 833 |
+| ~~`OrAssocNurseries`~~ | Oregon Association of Nurseries | ❌ Removed — nursery directory, not plant data |
