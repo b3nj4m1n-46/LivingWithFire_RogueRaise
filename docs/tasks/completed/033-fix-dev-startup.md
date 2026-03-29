@@ -53,4 +53,4 @@ Additionally, the DoltgreSQL credentials in `config.yaml` (`doltgres:lwf`) were 
 - Admin portal loads at http://localhost:3000 without "database does not exist" error
 
 ## Commit Reference
-<!-- filled in after commit -->
+- `076fd62` — Fix dev startup: npm shim, DoltgreSQL credentials, and missing database
