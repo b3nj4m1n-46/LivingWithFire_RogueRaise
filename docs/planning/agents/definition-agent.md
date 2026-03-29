@@ -1,7 +1,10 @@
 # Definition Agent
 
-**Genkit Flow:** `definitionConflictFlow`
+**Genkit Flow:** `definitionConflictFlow` | **Source:** `genkit/src/flows/definitionConflictFlow.ts`
 **Priority:** P1
+**Model:** None — **STUB implementation** (no LLM call)
+
+> **Implementation Status:** This flow is currently a stub. It loads DATA-DICTIONARY.md from both source datasets, builds a human-review analysis string, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
 
 ## Role
 
@@ -43,21 +46,32 @@ OUTPUT: Clear explanation of the definitional difference, with both definitions 
 
 | Tool | Description |
 |------|-------------|
-| `getDataDictionary` | Load source term definitions |
-| `getProductionAttributeDefinition` | Get how production defines this attribute |
-| `searchDefinitions` | Search all DATA-DICTIONARYs for how a term is defined across sources |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for both source dataset folders |
 
 ## Input/Output
 
+Uses shared `SpecialistInput` (from `ratingConflictFlow.ts`) as input.
+
+**Current stub output** (hardcoded):
+```typescript
+{
+  verdict: "NUANCED",
+  recommendation: "HUMAN_DECIDE",
+  analysis: string, // human-review analysis built from both DATA-DICTIONARYs
+  confidence: 0,
+}
+```
+
+**Planned output** (when LLM integration is added — schema below preserved as design target):
 ```typescript
 const DefinitionConflictOutput = z.object({
-  conflictId: z.string(),
-  term: z.string(), // the contested term
+  // ... shared specialist fields (verdict, recommendation, analysis, confidence) plus:
+  term: z.string(),
   definitionA: z.object({
     source: z.string(),
     definition: z.string(),
-    quantitative: z.boolean(), // does this source quantify the term?
-    measure: z.string().optional(), // e.g., "ET0 plant factor < 0.4"
+    quantitative: z.boolean(),
+    measure: z.string().optional(),
   }),
   definitionB: z.object({
     source: z.string(),
@@ -65,11 +79,8 @@ const DefinitionConflictOutput = z.object({
     quantitative: z.boolean(),
     measure: z.string().optional(),
   }),
-  productionDefinition: z.string(), // how production currently defines it
-  isRealConflict: z.boolean(), // true = disagree even under same def; false = definition mismatch
-  explanation: z.string(),
-  recommendation: z.enum(["ALIGN_TO_PRODUCTION_DEF", "KEEP_BOTH_WITH_CONTEXT", "PROPOSE_NEW_DEFINITION", "HUMAN_DECIDE"]),
-  recommendationReasoning: z.string(),
+  productionDefinition: z.string(),
+  isRealConflict: z.boolean(),
 });
 ```
 

@@ -1,7 +1,8 @@
 # Synthesis Agent
 
-**Genkit Flow:** `synthesizeClaimFlow`
+**Genkit Flow:** `synthesizeClaimFlow` | **Source:** `genkit/src/flows/synthesizeClaimFlow.ts`
 **Priority:** P0 — Core of the Claim/Warrant model
+**Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 
 ## Role
 
@@ -44,9 +45,11 @@ TONE: Authoritative but honest about uncertainty. This data guides homeowners ma
 
 | Tool | Description |
 |------|-------------|
-| `getAttributeDefinition` | Get production attribute schema (value_type, allowed values) |
-| `getWarrantDetails` | Get full warrant data including source metadata |
-| `getExistingClaim` | Get the current production value if one exists (for comparison) |
+| `getProductionAttributes` | Returns attribute metadata including `value_type` and `values_allowed` for validation |
+| `getWarrantGroups` | Retrieves warrant details for the plant+attribute combination |
+| `searchDocumentIndex` | Searches knowledge-base indexes for additional context |
+
+The flow loads attribute metadata (value type + allowed values), searches the knowledge base, then calls the LLM with an inline prompt. Validates `categorical_value` against `valuesAllowed`. Assigns `warrant_weights` (`primary`/`supporting`/`contextual`).
 
 ## Input Schema
 
@@ -76,13 +79,12 @@ const SynthesizeInput = z.object({
 
 ```typescript
 const SynthesizeOutput = z.object({
-  categoricalValue: z.string().optional(), // if attribute expects a category
-  synthesizedText: z.string(), // full synthesis with citations
+  synthesized_text: z.string(), // full synthesis with citations
+  categorical_value: z.string().optional(), // validated against attribute's valuesAllowed
   confidence: z.enum(["HIGH", "MODERATE", "LOW"]),
-  confidenceReasoning: z.string(),
-  warrantsCited: z.array(z.string()), // warrant IDs used
-  changesFromCurrent: z.string().optional(), // what changed vs existing production value
-  suggestedNotes: z.string().optional(), // additional context for the production notes field
+  confidence_reasoning: z.string(),
+  sources_cited: z.array(z.string()), // source names used
+  warrant_weights: z.record(z.string(), z.enum(["primary", "supporting", "contextual"])), // warrant_id → weight
 });
 ```
 

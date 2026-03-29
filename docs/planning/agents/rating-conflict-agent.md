@@ -1,7 +1,10 @@
 # Rating Conflict Agent
 
-**Genkit Flow:** `ratingConflictFlow`
+**Genkit Flow:** `ratingConflictFlow` | **Source:** `genkit/src/flows/ratingConflictFlow.ts`
 **Priority:** P0 — Most common conflict type
+**Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
+
+> **Note:** This flow defines and exports the shared `specialistInput` Zod schema and `SpecialistInput`/`SpecialistOutput` types used as the common input schema by all other specialist flows.
 
 ## Role
 
@@ -49,9 +52,10 @@ OUTPUT: Clear explanation of whether the conflict is real, why sources disagree,
 
 | Tool | Description |
 |------|-------------|
-| `getDataDictionary` | Load a source's DATA-DICTIONARY.md |
-| `getRatingCrosswalk` | Load rating scale crosswalk from DATASET-MAPPINGS.md |
-| `getSourceMetadata` | Get source methodology, region, year, sample size |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for both source dataset folders. Extracts Source ID via regex. |
+| `searchDocumentIndex` | Searches 45+ knowledge-base document indexes for corroborating evidence (5 results) |
+
+The flow resolves dataset folder paths from source names, loads context for both sources, searches the knowledge base, then calls the LLM with a detailed inline prompt. Handles `SCALE_MISMATCH` conflicts with an extra scale-reconciliation instruction. Validates verdict/recommendation enums, clamps confidence to [0,1], retries JSON parse once, and writes result to DB.
 
 ## Input Schema
 
@@ -94,7 +98,7 @@ const RatingConflictOutput = z.object({
     methodology: z.string(),
     reasoning: z.string(),
   }),
-  recommendation: z.enum(["PREFER_A", "PREFER_B", "KEEP_BOTH", "NEEDS_RESEARCH", "HUMAN_DECIDE"]),
+  recommendation: z.enum(["PREFER_A", "PREFER_B", "KEEP_BOTH", "KEEP_BOTH_WITH_CONTEXT", "NEEDS_RESEARCH", "HUMAN_DECIDE"]),
   recommendationReasoning: z.string(),
   normalizedComparison: z.object({
     scaleUsed: z.string(),

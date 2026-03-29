@@ -1,7 +1,9 @@
 # Schema Mapper Agent
 
-**Genkit Flow:** `mapSchemaFlow`
+**Genkit Flow:** `mapSchemaFlow` | **Source:** `genkit/src/flows/mapSchemaFlow.ts`
 **Priority:** P1 — Required for Table Fusion UI
+**Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
+**Prompt:** `genkit/src/prompts/map-schema.md`
 
 ## Role
 
@@ -41,10 +43,11 @@ RULES:
 
 | Tool | Description |
 |------|-------------|
-| `getProductionAttributes` | Returns the full attribute hierarchy with definitions |
-| `getExistingMappings` | Returns previously approved mappings from DATASET-MAPPINGS.md |
-| `readDataDictionary` | Reads a source dataset's DATA-DICTIONARY.md |
-| `sampleSourceData` | Returns first N rows of a source CSV for pattern recognition |
+| `getProductionAttributes` | Returns the full 125-attribute production hierarchy with parent category, `value_type`, `values_allowed`, `selection_type`. Optionally filtered by top-level category. |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for the source dataset folder |
+| `sampleSourceData` | Reads source CSV, returns `headers`, `sampleRows` (default 10), `totalRows`, and up to 20 `uniqueValues` per column |
+
+The flow loads dataset context, production attributes, and sample data in parallel, then calls the LLM with the `map-schema.md` prompt template. All `targetAttributeId` values are validated against the live production schema. Retries once on JSON parse failure.
 
 ## Input Schema
 

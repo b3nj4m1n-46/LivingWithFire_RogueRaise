@@ -1,7 +1,10 @@
 # Methodology Agent
 
-**Genkit Flow:** `methodologyConflictFlow`
+**Genkit Flow:** `methodologyConflictFlow` | **Source:** `genkit/src/flows/methodologyConflictFlow.ts`
 **Priority:** P1
+**Model:** None — **STUB implementation** (no LLM call)
+
+> **Implementation Status:** This flow is currently a stub. It loads DATA-DICTIONARY.md from both source datasets, surfaces methodology strings from `sourceMethodologyA`/`B`, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
 
 ## Role
 
@@ -42,16 +45,28 @@ OUTPUT: Explanation of how methodology differences explain the conflict, with as
 
 | Tool | Description |
 |------|-------------|
-| `getDataDictionary` | Load source methodology description |
-| `getSourceMetadata` | Get study design, sample size, conditions |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for both source dataset folders |
 
 ## Input/Output
 
+Uses shared `SpecialistInput` (from `ratingConflictFlow.ts`) as input.
+
+**Current stub output** (hardcoded):
+```typescript
+{
+  verdict: "NUANCED",
+  recommendation: "HUMAN_DECIDE",
+  analysis: string, // surfaces methodology strings from both DATA-DICTIONARYs
+  confidence: 0,
+}
+```
+
+**Planned output** (when LLM integration is added — schema below preserved as design target):
 ```typescript
 const MethodologyConflictOutput = z.object({
-  conflictId: z.string(),
+  // ... shared specialist fields (verdict, recommendation, analysis, confidence) plus:
   methodologyA: z.object({
-    type: z.string(), // "experimental", "literature_review", "field_observation", etc.
+    type: z.string(),
     description: z.string(),
     strengths: z.array(z.string()),
     limitations: z.array(z.string()),
@@ -64,9 +79,6 @@ const MethodologyConflictOutput = z.object({
     limitations: z.array(z.string()),
     applicabilityScore: z.number().min(1).max(5),
   }),
-  explanation: z.string(),
-  recommendation: z.enum(["PREFER_A", "PREFER_B", "KEEP_BOTH", "NEEDS_RESEARCH", "HUMAN_DECIDE"]),
-  recommendationReasoning: z.string(),
 });
 ```
 

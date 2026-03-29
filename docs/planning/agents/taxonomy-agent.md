@@ -1,7 +1,10 @@
 # Taxonomy Agent
 
-**Genkit Flow:** `taxonomyConflictFlow`
+**Genkit Flow:** `taxonomyConflictFlow` | **Source:** `genkit/src/flows/taxonomyConflictFlow.ts`
 **Priority:** P0 — Foundational for accurate matching
+**Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
+**Prompt:** `genkit/src/prompts/taxonomy-conflict.md`
+**Conflict Type:** `GRANULARITY_MISMATCH` (renamed from `TAXONOMY_CONFLICT`)
 
 ## Role
 
@@ -42,35 +45,28 @@ OUTPUT: Clear statement of whether the names refer to the same taxon, with backb
 
 | Tool | Description |
 |------|-------------|
-| `queryPOWO` | Search POWO/WCVP for a scientific name — returns accepted name, synonyms, family |
-| `queryWFO` | Search World Flora Online — returns accepted name, synonyms, status |
-| `queryUSDA` | Search USDA PLANTS — returns symbol, accepted name, synonyms |
-| `fuzzyTaxonMatch` | Phonetic/Levenshtein matching for misspelled names |
+| `resolveSynonym` | Resolves both plant names against 3 SQLite taxonomy backbones (USDA_PLANTS, POWO_WCVP, WorldFloraOnline). Returns accepted name, synonym chain, source, and confidence. |
+| `fuzzyMatchPlant` | Fallback when synonym resolution fails — uses `fastest-levenshtein` for close name matches |
+
+The flow uses the shared `SpecialistInput` type (defined in `ratingConflictFlow.ts`). It resolves synonyms for both plant names via the backbone tool; falls back to fuzzy match if resolution fails. Then calls `MODELS.bulk` with the `taxonomy-conflict.md` prompt template.
 
 ## Input/Output
 
+Uses shared `SpecialistInput` as input. Output extends shared `SpecialistOutput` with a `taxonomyAnalysis` object:
+
 ```typescript
-const TaxonomyConflictOutput = z.object({
-  conflictId: z.string(),
-  nameA: z.string(),
-  nameB: z.string(),
-  resolution: z.enum([
-    "SAME_TAXON", // confirmed same plant, different names
-    "DIFFERENT_TAXA", // genuinely different plants
-    "GENUS_SPECIES_MISMATCH", // one is genus, one is species
-    "CULTIVAR_SPECIES_MISMATCH", // one is cultivar, one is species
-    "UNRESOLVED", // can't determine from backbones
-  ]),
-  acceptedName: z.string().optional(), // per POWO/WFO
-  evidence: z.object({
-    powoResult: z.string().optional(),
-    wfoResult: z.string().optional(),
-    usdaResult: z.string().optional(),
-  }),
-  explanation: z.string(),
-  productionNameUpdateProposal: z.string().optional(), // if production uses outdated name
-});
+// Shared specialist output fields: verdict, recommendation, analysis, confidence
+// Plus taxonomy-specific extension:
+taxonomyAnalysis: {
+  resolution: "SAME_TAXON" | "DIFFERENT_TAXA" | "GENUS_SPECIES_MISMATCH" | "CULTIVAR_SPECIES_MISMATCH" | "UNRESOLVED",
+  nameA: string,
+  nameB: string,
+  acceptedName: string | null,
+  backboneEvidence: string, // which backbone(s) confirmed the resolution
+}
 ```
+
+The `taxonomyAnalysis` JSON is appended to `specialist_analysis` in the DB.
 
 ## Example
 

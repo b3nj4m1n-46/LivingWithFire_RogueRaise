@@ -1,7 +1,9 @@
 # Matcher Agent
 
-**Genkit Flow:** `matchPlantFlow`
+**Genkit Flow:** `matchPlantFlow` | **Source:** `genkit/src/flows/matchPlantFlow.ts`
 **Priority:** P0 — Required for all operations
+**Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`) — used only for fuzzy match tiebreaker
+**Prompt:** `genkit/src/prompts/match-tiebreaker.md`
 
 ## Role
 
@@ -42,9 +44,20 @@ RULES:
 
 | Tool | Description |
 |------|-------------|
-| `lookupProductionPlant` | Search production plants table by genus, species, or common name |
-| `resolveSynonym` | Query POWO_WCVP and WorldFloraOnline for accepted name of a given scientific name |
-| `fuzzyMatchName` | Levenshtein/phonetic matching for misspelled scientific names |
+| `lookupProductionPlant` | Search production plants table by genus + optional species via `doltPool`. Uses `LOWER()` comparisons (no `ILIKE` — DoltgreSQL limitation). |
+| `resolveSynonym` | Resolves against 3 SQLite taxonomy backbones: USDA_PLANTS (full synonym resolution), POWO_WCVP (accepted-name validation), WorldFloraOnline (cross-validation). Lazy-loaded, LFS-aware. |
+| `fuzzyMatchPlant` | Uses `fastest-levenshtein` for close name matches. Phase 1: exact genus match ranked by species similarity. Phase 2 fallback: full-name comparison across all ~1,361 plants. |
+
+### 6-Step Matching Pipeline
+Per input plant, the flow runs these steps in order:
+1. **EXACT** — direct genus+species lookup
+2. **SYNONYM** — resolves via USDA/POWO/WFO backbone, then looks up accepted name
+3. **CULTIVAR** — strips cultivar token, retries lookup
+4. **GENUS_ONLY** — matches on genus alone (if `includeGenusOnly` flag set)
+5. **FUZZY** — trigram/similarity match; if top-2 candidates are within 0.05 similarity, calls `MODELS.bulk` with `match-tiebreaker.md` prompt for AI tiebreaker
+6. **NONE** — no match found
+
+Also exports `parsePlantName` utility for splitting scientific names into genus/species/infraspecific parts.
 
 ## Input Schema
 
@@ -152,7 +165,7 @@ const MatchPlantOutput = z.object({
 
 | Failure | Handling |
 |---------|----------|
-| Source name has typo | `fuzzyMatchName` tool suggests corrections; flag as AMBIGUOUS |
+| Source name has typo | `fuzzyMatchPlant` tool suggests corrections; if top-2 within 0.05, AI tiebreaker decides; otherwise flag as AMBIGUOUS |
 | Genus reclassified since source publication | Taxonomy backbone resolves; note in `synonymResolution` |
 | Source uses cultivar name not in production | Match to base species; mark as CULTIVAR |
 | Production has duplicate entries for same species | Flag all candidates as AMBIGUOUS for human review |

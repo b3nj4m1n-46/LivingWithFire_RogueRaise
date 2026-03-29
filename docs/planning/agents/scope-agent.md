@@ -1,7 +1,8 @@
 # Scope Agent
 
-**Genkit Flow:** `scopeConflictFlow`
+**Genkit Flow:** `scopeConflictFlow` | **Source:** `genkit/src/flows/scopeConflictFlow.ts`
 **Priority:** P0 — Critical for Pacific West focus
+**Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 
 ## Role
 
@@ -48,35 +49,27 @@ RULES:
 
 | Tool | Description |
 |------|-------------|
-| `getSourceRegion` | Returns the geographic scope of a source dataset |
-| `getPlantNativeRange` | Queries POWO/WCVP for native distribution |
-| `getClimateZone` | Returns USDA hardiness zone for a location |
-| `getDataDictionary` | Load source's geographic scope notes |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for both source dataset folders |
+| `searchDocumentIndex` | Searches knowledge-base indexes augmented with region terms for corroborating evidence |
+
+The flow uses the shared `SpecialistInput` type (defined in `ratingConflictFlow.ts`). It loads context for both sources, searches the knowledge base augmented with region terms, then calls `MODELS.quality` with an inline prompt focused on Pacific West applicability.
 
 ## Input/Output Schema
 
-Same structure as Rating Conflict Agent but with scope-specific fields:
+Uses shared `SpecialistInput` (from `ratingConflictFlow.ts`) as input. Output extends the shared `SpecialistOutput` with a `regionAnalysis` object:
 
 ```typescript
-const ScopeConflictOutput = z.object({
-  conflictId: z.string(),
-  warrantAScope: z.object({
-    region: z.string(),
-    climateType: z.string(),
-    applicabilityToTarget: z.enum(["HIGH", "MODERATE", "LOW", "UNKNOWN"]),
-    reasoning: z.string(),
-  }),
-  warrantBScope: z.object({
-    region: z.string(),
-    climateType: z.string(),
-    applicabilityToTarget: z.enum(["HIGH", "MODERATE", "LOW", "UNKNOWN"]),
-    reasoning: z.string(),
-  }),
-  plantNativeRange: z.string(),
-  recommendation: z.enum(["PREFER_A", "PREFER_B", "KEEP_BOTH_WITH_CONTEXT", "NEEDS_RESEARCH", "HUMAN_DECIDE"]),
-  recommendationReasoning: z.string(),
-});
+// Shared specialist output fields: verdict, recommendation, analysis, confidence
+// Plus scope-specific extension:
+regionAnalysis: {
+  regionA: string,
+  regionB: string,
+  overlapAssessment: "disjoint" | "partial_overlap" | "same_region" | "unknown",
+  applicability: string,
+}
 ```
+
+The `regionAnalysis` JSON is appended to `specialist_analysis` in the DB.
 
 ## Example
 

@@ -1,7 +1,9 @@
 # Conflict Classifier Agent
 
-**Genkit Flow:** `classifyConflictFlow`
+**Genkit Flow:** `classifyConflictFlow` | **Source:** `genkit/src/flows/classifyConflictFlow.ts`
 **Priority:** P0 — Required for conflict detection
+**Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
+**Prompt:** `genkit/src/prompts/classify-conflict.md`
 
 ## Role
 
@@ -39,8 +41,8 @@ For each plant+attribute combination with multiple warrants:
    - TEMPORAL_CONFLICT: Older source contradicts newer source (methodology may have changed)
    - METHODOLOGY_DIFFERENCE: Lab testing vs field observation vs literature review
    - DEFINITION_CONFLICT: Sources use the same term but define it differently
-   - TAXONOMY_CONFLICT: Name resolution issue (synonym, reclassification)
-   - COMPLEMENTARY: Warrants add detail rather than conflict (not a conflict — enhancement)
+   - GRANULARITY_MISMATCH: Different taxonomic levels (genus vs species vs cultivar)
+   - COMPLETENESS_CONFLICT: One source has data the other lacks (deterministic — no specialist needed)
 
 4. Assign severity:
    - CRITICAL: Direct contradiction on a safety-relevant attribute (flammability, invasiveness)
@@ -60,11 +62,11 @@ RULES:
 
 | Tool | Description |
 |------|-------------|
-| `getWarrantsForPlant` | Returns all warrants for a given plant_id, optionally filtered by attribute |
-| `getProductionValues` | Returns current production values for a plant |
-| `getAttributeDefinition` | Returns the production attribute definition and allowed values |
-| `getSourceMetadata` | Returns source methodology, region, year for a given source_id |
-| `writeConflictRecord` | Creates a conflict record linking the disagreeing warrants |
+| `getWarrantGroups` | Returns groups of warrants sharing the same plant_id + attribute_id (conflict candidates). Supports mode filtering, pagination, and min group size. |
+| `writeConflict` | Creates a single conflict record with status `pending` |
+| `writeConflictsBatch` (non-tool) | Bulk-inserts multiple conflict records in a single multi-row INSERT |
+
+**Processing pipeline:** Fetches warrant groups → runs deterministic pre-classification (corroboration, completeness) → batches remaining pairs through LLM (25 pairs/batch) → optionally dispatches all 6 specialist flows via `runSpecialists` flag.
 
 ## Input Schema
 
@@ -74,6 +76,9 @@ const ClassifyConflictInput = z.object({
   plantIds: z.array(z.string()).optional(), // specific plants, or null for full scan
   attributeFilter: z.string().optional(), // e.g., "Flammability" to focus on fire data
   sourceDataset: z.string().optional(), // for external mode: which new source to compare
+  batchId: z.string().optional(), // groups conflicts for tracking
+  dryRun: z.boolean().default(false), // preview without writing to DB
+  runSpecialists: z.boolean().default(false), // dispatch specialist flows after classification
 });
 ```
 
@@ -88,7 +93,7 @@ const ClassifyConflictOutput = z.object({
     conflictType: z.enum([
       "RATING_DISAGREEMENT", "SCALE_MISMATCH", "SCOPE_DIFFERENCE",
       "TEMPORAL_CONFLICT", "METHODOLOGY_DIFFERENCE", "DEFINITION_CONFLICT",
-      "TAXONOMY_CONFLICT"
+      "GRANULARITY_MISMATCH", "COMPLETENESS_CONFLICT"
     ]),
     severity: z.enum(["CRITICAL", "MODERATE", "MINOR"]),
     warrantA: z.object({ id: z.string(), value: z.string(), source: z.string() }),

@@ -1,7 +1,8 @@
 # Bulk Enhancer Agent
 
-**Genkit Flow:** `bulkEnhanceFlow`
+**Genkit Flow:** `bulkEnhanceFlow` | **Source:** `genkit/src/flows/bulkEnhanceFlow.ts`
 **Priority:** P0 — Core data pipeline
+**Model:** None — pure data transformation, no LLM calls
 
 ## Role
 
@@ -44,13 +45,12 @@ RULES:
 
 ## Tools
 
-| Tool | Description |
+| Tool / Utility | Description |
 |------|-------------|
-| `readSourceCSV` | Read rows from the source dataset |
-| `getApprovedMapping` | Get the admin-approved schema mapping for this source |
-| `getMatchResults` | Get plant matching results from the Matcher |
-| `createWarrant` | Write a warrant record to the warrants table |
-| `createWarrantBatch` | Write multiple warrants in one transaction |
+| `parseCSV` (util) | Reads source CSV rows via `genkit/src/utils/csv.ts` |
+| `queryDolt` | Retrieves approved mapping and match results; batch-inserts warrants (chunks of 500) |
+
+Note: This flow reads mapping and match results directly from DoltgreSQL rather than calling other flows. Crosswalk transformations are applied inline.
 
 ## Input Schema
 

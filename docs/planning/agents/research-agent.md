@@ -1,8 +1,9 @@
 # Research Agent
 
-**Genkit Flow:** `researchConflictFlow`
+**Genkit Flow:** `researchConflictFlow` | **Source:** `genkit/src/flows/researchConflictFlow.ts`
 **Priority:** P0 — Required for evidence-informed conflict resolution
-**Model:** `ollama/qwen3:32b` (local)
+**Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
+**Prompt:** `genkit/src/prompts/research-conflict.md`
 
 ## Role
 
@@ -56,9 +57,9 @@ RULES:
 | `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for a specified dataset folder. Returns rating scales, methodology, geographic scope. |
 | `searchDocumentIndex` | **PageIndex search.** Loads `knowledge-base/indexes/manifest.json`, finds relevant documents by keyword match on doc_name and section titles/summaries. Returns matching sections with summaries. |
 | `navigateDocumentTree` | **PageIndex deep read.** Given a specific document index file and node_id, returns that section's full summary and all children. Used to drill into a specific part of a document. |
-| `getAttributeRegistry` | Returns the production attribute tree from `LivingWithFire-DB/api-reference/ATTRIBUTE-REGISTRY.md` |
-| `getSourceRegistry` | Returns production source metadata from `LivingWithFire-DB/api-reference/SOURCE-REGISTRY.md` |
-| `getLiteratureMetadata` | Returns reference metadata from `data-sources/LITERATURE-REFERENCES-SEARCH.csv` |
+
+
+The flow resolves dataset folders, loads context for both sources, searches the document index (5 hits), then navigates the top 3 hits deeper via `navigateDocumentTree`. Returns structured `datasetFindings` and `documentFindings` arrays in addition to the standard verdict/recommendation/analysis/confidence. Appends findings JSON to `specialist_analysis` in DB.
 
 ### PageIndex Tool Details
 

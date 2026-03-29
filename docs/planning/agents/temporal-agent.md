@@ -1,7 +1,9 @@
 # Temporal Agent
 
-**Genkit Flow:** `temporalConflictFlow`
+**Genkit Flow:** `temporalConflictFlow` | **Source:** `genkit/src/flows/temporalConflictFlow.ts`
 **Priority:** P1
+**Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
+**Prompt:** `genkit/src/prompts/temporal-conflict.md`
 
 ## Role
 
@@ -36,26 +38,25 @@ OUTPUT: Assessment of whether temporal difference explains the conflict, and whi
 
 | Tool | Description |
 |------|-------------|
-| `getSourceMetadata` | Get publication year, methodology date |
-| `getDataDictionary` | Check for methodology dating notes |
-| `checkSupersession` | Check if newer source cites/updates older source |
+| `getDatasetContext` | Loads DATA-DICTIONARY.md + README.md for both source datasets (README prioritized for publication metadata) |
+
+The flow uses the shared `SpecialistInput` type (defined in `ratingConflictFlow.ts`). It loads dataset context (README prioritized for publication metadata), then calls `MODELS.bulk` with the `temporal-conflict.md` prompt template.
 
 ## Input/Output
 
-Same base schema as other specialists with temporal-specific fields:
+Uses shared `SpecialistInput` as input. Output extends shared `SpecialistOutput` with a `temporalAnalysis` object:
 
 ```typescript
-const TemporalConflictOutput = z.object({
-  conflictId: z.string(),
-  yearA: z.string(),
-  yearB: z.string(),
-  yearGap: z.number(),
-  fieldEvolution: z.string(), // how the field has changed between dates
-  supersedes: z.boolean(), // does newer explicitly update older?
-  recommendation: z.enum(["PREFER_NEWER", "PREFER_OLDER", "KEEP_BOTH", "NEEDS_RESEARCH", "HUMAN_DECIDE"]),
-  recommendationReasoning: z.string(),
-});
+// Shared specialist output fields: verdict, recommendation, analysis, confidence
+// Plus temporal-specific extension:
+temporalAnalysis: {
+  yearGap: number,
+  newerSource: string,
+  supersedes: boolean,
+}
 ```
+
+The `temporalAnalysis` JSON is appended to `specialist_analysis` in the DB.
 
 ## Failure Modes
 
