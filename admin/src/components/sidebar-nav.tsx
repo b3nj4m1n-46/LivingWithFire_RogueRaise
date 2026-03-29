@@ -9,6 +9,7 @@ const navItems = [
   { href: "/conflicts", label: "Conflicts" },
   { href: "/claims", label: "Claims" },
   { href: "/warrants", label: "Warrants" },
+  { href: "/fusion", label: "Fusion" },
   { href: "/sync", label: "Sync" },
   { href: "/history", label: "History" },
 ];
