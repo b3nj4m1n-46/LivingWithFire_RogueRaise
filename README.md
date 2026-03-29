@@ -275,16 +275,38 @@ Every data operation is tracked as a Dolt commit with full diff history.
 ### Prerequisites
 
 - **Node.js** 18+ and npm
-- **DoltgreSQL** v0.55.6+ (the PostgreSQL-compatible Dolt server)
+- **Dolt** (version-controlled database CLI) + **DoltgreSQL** v0.55.6+ (PostgreSQL-compatible server)
 - **Python 3.9+** (for dataset build scripts only)
 - **Anthropic API key** (optional — pipeline works without it for DB-only operations)
 
-### Install DoltgreSQL
+### Install Dolt + DoltgreSQL
 
-DoltgreSQL is a separate binary from Dolt — it's the PostgreSQL-wire-compatible server that the admin portal connects to.
+You need **both** binaries: `dolt` (the CLI for commits, diffs, and history) and `doltgres` (the PostgreSQL-wire server the admin portal connects to). They are separate downloads.
+
+#### Dolt CLI
+
+**Windows (pick one):**
+
+- **MSI installer (recommended):** Download [`dolt-windows-amd64.msi`](https://github.com/dolthub/dolt/releases/latest/download/dolt-windows-amd64.msi) from the [releases page](https://github.com/dolthub/dolt/releases) and run it. Adds `dolt` to your PATH automatically.
+- **Chocolatey:** `choco install dolt`
+- **Manual zip:** Download `dolt-windows-amd64.zip` from [releases](https://github.com/dolthub/dolt/releases), extract, and add the folder to your PATH.
+
+**macOS:**
+```bash
+brew install dolt
+```
+
+**Linux:**
+```bash
+sudo bash -c 'curl -L https://github.com/dolthub/dolt/releases/latest/download/install.sh | bash'
+```
+
+Verify: `dolt version`
+
+#### DoltgreSQL Server
 
 **Windows:**
-1. Download the latest release from [github.com/dolthub/doltgresql/releases](https://github.com/dolthub/doltgresql/releases) (`doltgresql-windows-amd64.zip`)
+1. Download [`doltgresql-windows-amd64.zip`](https://github.com/dolthub/doltgresql/releases/latest/download/doltgresql-windows-amd64.zip) from the [releases page](https://github.com/dolthub/doltgresql/releases)
 2. Extract `doltgres.exe` and place it somewhere on your PATH (e.g., `C:\Users\<you>\bin`)
 3. Add that directory to your PATH if needed:
    ```powershell
@@ -292,11 +314,23 @@ DoltgreSQL is a separate binary from Dolt — it's the PostgreSQL-wire-compatibl
    ```
 4. Restart your terminal and verify: `doltgres --version`
 
-**macOS / Linux:**
+**macOS:**
 ```bash
-curl -sL https://github.com/dolthub/doltgresql/releases/latest/download/install.sh | bash
-doltgres --version
+# Intel
+curl -L https://github.com/dolthub/doltgresql/releases/latest/download/doltgresql-darwin-amd64.tar.gz | sudo tar xz -C /usr/local/bin
+
+# Apple Silicon
+curl -L https://github.com/dolthub/doltgresql/releases/latest/download/doltgresql-darwin-arm64.tar.gz | sudo tar xz -C /usr/local/bin
 ```
+
+**Linux:**
+```bash
+sudo bash -c 'curl -L https://github.com/dolthub/doltgresql/releases/latest/download/install.sh | bash'
+```
+
+Verify: `doltgres --version`
+
+> **Note:** There is no Homebrew formula or Chocolatey package for DoltgreSQL — it must be installed from the binary release.
 
 ### Configure Environment
 
