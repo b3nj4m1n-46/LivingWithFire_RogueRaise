@@ -12,6 +12,12 @@ All endpoints are Next.js Route Handlers served from `admin/src/app/api/`.
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
+| `GET` | `/api/plants` | List plants with search, sort, pagination |
+| `GET` | `/api/plants/{plantId}` | Get plant detail with curation overlay |
+| `GET` | `/api/plants/lookup?suggest={prefix}` | Typeahead: top 10 species from USDA + POWO |
+| `GET` | `/api/plants/lookup?q={name}` | Full lookup: taxonomy + 30 sources + production |
+| `POST` | `/api/plants/create` | Create plant + warrants + claims in Dolt |
+| `PATCH` | `/api/plants/{plantId}` | Edit plant attributes (manual_edit warrants) |
 | `PATCH` | `/api/warrants/{id}` | Update warrant curation status |
 | `POST` | `/api/synthesize` | Generate AI claim synthesis from warrants (Anthropic Sonnet 4.6) |
 | `POST` | `/api/claims/approve` | Approve a claim with Dolt version control |
@@ -1108,5 +1114,144 @@ List all PDFs in the knowledge base with their indexing status.
       "indexFile": null
     }
   ]
+}
+```
+
+---
+
+## `GET /api/plants/lookup`
+
+Search taxonomy backbones, source databases, and production DB by scientific name. Supports typeahead suggestions and full cross-database lookup with synonym resolution.
+
+**Source:** `admin/src/app/api/plants/lookup/route.ts`
+
+### Typeahead Mode: `?suggest={prefix}`
+
+Returns top 10 species matching the prefix from USDA_PLANTS (93K accepted species) + POWO_WCVP (362K species).
+
+```json
+[
+  { "scientificName": "Mahonia aquifolium", "commonName": "hollyleaved barberry", "family": "Berberidaceae" },
+  { "scientificName": "Mahonia nervosa", "commonName": "Cascade barberry", "family": "Berberidaceae" }
+]
+```
+
+### Full Lookup Mode: `?q={scientific_name}`
+
+Searches 3 taxonomy backbones + 30 source databases (via SQLite) + production Neon DB. Resolves synonyms via USDA_PLANTS shared symbol.
+
+```json
+{
+  "taxonomy": {
+    "family": "Berberidaceae",
+    "lifeform": "Shrub",
+    "climate": "temperate",
+    "nativeRange": "Western North America",
+    "commonName": "hollyleaved barberry",
+    "sources": ["USDA_PLANTS", "POWO_WCVP", "WorldFloraOnline"],
+    "synonym": null
+  },
+  "productionMatch": {
+    "exists": true,
+    "plantId": "uuid",
+    "attributeCount": 47
+  },
+  "sourceHits": [
+    {
+      "sourceId": "FIRE-01",
+      "displayName": "Fire Performance Plants (SREF)",
+      "category": "fire",
+      "matchedName": "Mahonia aquifolium",
+      "matchConfidence": 1.0,
+      "fields": [
+        {
+          "sourceColumn": "firewise_rating_code",
+          "value": "1",
+          "attributeId": "d996587c-383b-4dc6-a23c-239b7de7e47b",
+          "attributeName": "List Choice",
+          "attributeCategory": "Flammability"
+        }
+      ]
+    }
+  ]
+}
+```
+
+When a synonym is detected, `taxonomy.synonym` contains:
+```json
+{
+  "searchedName": "Berberis aquifolium",
+  "acceptedName": "Mahonia aquifolium",
+  "acceptedCommonName": "hollyleaved barberry"
+}
+```
+
+---
+
+## `POST /api/plants/create`
+
+Create a new plant with attributes in Dolt staging. Creates warrants (`warrant_type = 'manual_entry'`), pre-approved claims, and a Dolt commit.
+
+**Source:** `admin/src/app/api/plants/create/route.ts`
+
+### Request Body
+
+```json
+{
+  "genus": "Mahonia",
+  "species": "aquifolium",
+  "commonName": "hollyleaved barberry",
+  "attributes": [
+    {
+      "attributeId": "d996587c-383b-4dc6-a23c-239b7de7e47b",
+      "attributeName": "List Choice",
+      "value": "1",
+      "sourceIdCode": "FIRE-01",
+      "sourceValue": "1",
+      "sourceDataset": "Fire Performance Plants (SREF)",
+      "matchConfidence": 1.0
+    }
+  ],
+  "curatorNotes": "Added from field observation"
+}
+```
+
+### Response
+
+```json
+{
+  "plantId": "uuid",
+  "commitHash": "abc123...",
+  "warrantCount": 12,
+  "claimCount": 12
+}
+```
+
+---
+
+## `PATCH /api/plants/{plantId}`
+
+Edit attributes on an existing plant. Creates warrants with `warrant_type = 'manual_edit'` and pre-approved claims.
+
+**Source:** `admin/src/app/api/plants/[plantId]/route.ts`
+
+### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `plantId` | `string` | Plant UUID |
+
+### Request Body
+
+Same `attributes` array format as `POST /api/plants/create`. Only changed attributes need to be included.
+
+### Response
+
+```json
+{
+  "plantId": "uuid",
+  "commitHash": "abc123...",
+  "warrantCount": 3,
+  "claimCount": 3
 }
 ```

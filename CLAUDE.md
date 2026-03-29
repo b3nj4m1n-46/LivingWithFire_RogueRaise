@@ -72,6 +72,10 @@ LivinWitFire/
 │   │   │   ├── upload/          # 4-step upload workflow (CSV → metadata → AI dict → run)
 │   │   │   ├── documents/       # Knowledge base PDF registry + indexing
 │   │   │   └── [batchId]/       # Pipeline progress tracking (auto-refresh)
+│   │   ├── plants/              # Plant browser, detail, manual entry
+│   │   │   ├── page.tsx         # Searchable plant list with pagination
+│   │   │   ├── [plantId]/       # Plant detail with curation overlay
+│   │   │   └── add/             # 4-step manual entry wizard (identify → sources → review → create)
 │   │   ├── claims/              # Claim curation — warrant cards, synthesis, approval
 │   │   ├── conflicts/           # Conflict queue — filterable, research, batch ops
 │   │   ├── matrix/              # Cross-source conflict heatmap
@@ -80,6 +84,7 @@ LivinWitFire/
 │   │   ├── sync/                # Preview and push to production
 │   │   ├── history/             # Dolt commit log and diff viewer
 │   │   └── api/                 # API routes
+│   │       ├── plants/          # Lookup (typeahead + full search), create, detail, edit
 │   │       ├── sources/         # Upload, create, dictionary, run, status polling, documents
 │   │       ├── fusion/          # Map, preview, execute
 │   │       ├── warrants/        # Status updates
@@ -92,9 +97,19 @@ LivinWitFire/
 │   ├── src/components/          # UI components (shadcn/ui + base-ui)
 │   ├── src/lib/                 # DB connection, queries, fusion bridge
 │   │   ├── dolt.ts              # PostgreSQL pool + query<T>(), queryOne<T>()
+│   │   ├── production.ts        # Neon PostgreSQL pool + queryProd<T>()
+│   │   ├── source-registry.ts   # Static registry: 30 source DBs + 3 taxonomy backbones
+│   │   ├── attribute-map.ts     # Source column → production attribute UUID crosswalk
 │   │   ├── fusion-bridge.ts     # Subprocess bridge to Genkit flows
 │   │   ├── index-bridge.ts      # Subprocess bridge to PageIndex pipeline
 │   │   └── queries/             # Type-safe query functions per domain
+│   │       ├── plants.ts        # Plant list + detail with curation overlay
+│   │       ├── lookup.ts        # Cross-database species lookup (SQLite + Neon)
+│   │       ├── claims.ts        # Claim lifecycle queries
+│   │       ├── conflicts.ts     # Conflict analysis queries
+│   │       ├── dashboard.ts     # Admin dashboard aggregates
+│   │       ├── history.ts       # Dolt commit and audit logs
+│   │       └── sources.ts       # Data source registry
 │   └── .env.local               # (removed — env consolidated to root .env)
 │
 ├── genkit/                      # Genkit agent pipeline
@@ -113,7 +128,7 @@ LivinWitFire/
 │   ├── index_pdf.py             # CLI: index a single PDF → knowledge-base/indexes/
 │   └── index_all_pdfs.sh        # Batch: index all unindexed PDFs with parallelism
 │
-├── database-sources/            # 40 source datasets, organized by category
+├── database-sources/            # 41 source datasets, organized by category
 │   ├── fire/                    # 12 fire resistance datasets (FIRE-01 through FIRE-12)
 │   ├── deer/                    # 6 deer resistance datasets (DEER-01 through DEER-06)
 │   ├── traits/                  # 2 plant trait datasets (TRAIT-01, TRAIT-02)
@@ -295,13 +310,16 @@ Concrete steps to confirm it works — not "it should work" but "query X, expect
 ## Common Tasks
 
 ### "Tell me everything about [plant]"
-Search across all 40 databases by scientific name. Check fire, deer, water, pollinator, invasive, and native status. Return results with source IDs.
+Search across all 41 databases by scientific name. Check fire, deer, water, pollinator, invasive, and native status. Return results with source IDs. The admin portal's `/plants/add` wizard automates this — type a name and it searches all registered sources.
 
 ### "Find plants matching [criteria]"
 Cross-reference datasets: e.g., fire-safe (FIRE-01) + deer-resistant (DEER-01) + low water (WATER-01) + native to Oregon (TAXON-03 state list). Always check invasive databases before recommending.
 
+### "Add a single plant"
+Use the `/plants/add` wizard in the admin portal. It searches 30 source databases + 3 taxonomy backbones via SQLite, auto-populates attributes with production UUID mappings, and creates warrants + claims in Dolt. Synonym resolution via USDA_PLANTS.
+
 ### "Add this new data source"
-Follow the "How to Add a New Dataset" pattern above. Parse to standard formats, write README with citation, assign source ID.
+Follow the "How to Add a New Dataset" pattern above. Parse to standard formats, write README with citation, assign source ID. Then add the source to `admin/src/lib/source-registry.ts` so it appears in the plant lookup wizard.
 
 ### "Merge datasets for [purpose]"
 Tag every record with its source_id. Keep multiple ratings from different sources rather than averaging — let the downstream application decide how to weight them.
@@ -309,7 +327,11 @@ Tag every record with its source_id. Keep multiple ratings from different source
 ## Dependencies
 
 ```bash
+# Python (scripts, pageindex)
 pip install pdfplumber openpyxl requests beautifulsoup4
+
+# Node (admin portal) — managed via package.json
+# Key deps: next@16, pg, better-sqlite3, @anthropic-ai/sdk, sonner
 ```
 
 ## Deferred Data Sources

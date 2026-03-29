@@ -1,8 +1,8 @@
 # LivinWitFire — Plant Data Fusion Platform for Fire-Wise Landscaping
 
-**40 plant databases** | **866,000+ records** | **AI-powered data curation** | **Version-controlled staging**
+**41 plant databases** | **866,000+ records** | **AI-powered data curation** | **Version-controlled staging**
 
-A plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). Includes an AI agent pipeline and admin portal for fusing 40 source databases into a production database using a Claim/Warrant evidence curation model.
+A plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). Includes an AI agent pipeline and admin portal for fusing 41 source databases into a production database using a Claim/Warrant evidence curation model.
 
 ## Architecture
 
