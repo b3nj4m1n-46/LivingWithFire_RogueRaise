@@ -1,6 +1,6 @@
 # Extract Agent Prompts — Decouple system prompts from flow code
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P2 (normal)
 > **Depends on:** None (all 4 flows already working)
 > **Blocks:** Future specialist agent implementations (T41-T45) should follow this pattern

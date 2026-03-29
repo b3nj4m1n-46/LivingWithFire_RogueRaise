@@ -3,6 +3,7 @@ import { ai, MODELS } from '../config.js';
 import { lookupProductionPlant } from '../tools/lookupPlant.js';
 import { resolveSynonym } from '../tools/resolveSynonym.js';
 import { fuzzyMatchPlant } from '../tools/fuzzyMatch.js';
+import { loadPrompt } from '../prompts/load.js';
 
 // --- Name parser ---
 
@@ -365,13 +366,12 @@ async function resolveAmbiguous(
       .map((c, i) => `${i + 1}. ${c.genus} ${c.species ?? ''} (${c.commonName ?? 'no common name'}) [${Math.round(c.similarity * 100)}%]`)
       .join('\n');
 
+    const plantDescription = `"${plant.scientificName}"` +
+      (plant.commonName ? ` (common name: "${plant.commonName}")` : '');
+
     const { text } = await ai.generate({
       model: MODELS.bulk,
-      prompt:
-        `A source dataset lists the plant "${plant.scientificName}"` +
-        (plant.commonName ? ` (common name: "${plant.commonName}")` : '') +
-        `. Which of these production database candidates is the best match?\n\n${candidateList}\n\n` +
-        `Reply with ONLY the number (1, 2, or 3) of the best match, or 0 if none are appropriate.`,
+      prompt: loadPrompt('match-tiebreaker.md', { plantDescription, candidateList }),
     });
 
     const pick = parseInt(text.trim(), 10);

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"const fs=require('fs'),p=require('path');fs.mkdirSync('dist/prompts',{recursive:true});fs.readdirSync('src/prompts').filter(f=>f.endsWith('.md')).forEach(f=>fs.copyFileSync(p.join('src/prompts',f),p.join('dist/prompts',f)))\"",
     "test": "tsx src/test-tools.ts",
     "bootstrap": "tsx src/scripts/bootstrap-warrants.ts",
     "test-matcher": "tsx src/scripts/test-matcher.ts",
