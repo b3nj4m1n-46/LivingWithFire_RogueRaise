@@ -9,8 +9,18 @@ import {
   CURATION_SOURCE_NAME,
 } from "@/lib/queries/sync";
 
-export async function POST() {
-  const claims = await fetchSyncableClaims();
+export async function POST(request: Request) {
+  // Accept optional claim ID filter from request body
+  const body = await request.json().catch(() => ({}));
+  const requestedIds: string[] | undefined = Array.isArray(body?.claimIds)
+    ? body.claimIds
+    : undefined;
+
+  const allClaims = await fetchSyncableClaims();
+  const claims = requestedIds?.length
+    ? allClaims.filter((c) => requestedIds.includes(c.id))
+    : allClaims;
+
   if (claims.length === 0) {
     return Response.json({ pushed: 0, commitHash: null });
   }

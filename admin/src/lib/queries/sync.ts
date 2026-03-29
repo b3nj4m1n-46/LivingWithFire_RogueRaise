@@ -16,13 +16,23 @@ export interface SyncableClaim {
   approved_at: string;
 }
 
+export interface StaleWarrant {
+  source: string;
+  value: string;
+  created_at: string;
+}
+
 export interface SyncPreviewRow {
   id: string;
+  plantId: string;
+  attributeId: string;
   plantName: string;
   attributeName: string;
   oldValue: string | null;
   newValue: string;
   confidence: string;
+  stale: boolean;
+  staleWarrants: StaleWarrant[];
 }
 
 export async function fetchSyncableClaims(): Promise<SyncableClaim[]> {
@@ -84,7 +94,49 @@ export async function fetchProductionValues(
 }
 
 /**
- * Build a full preview: syncable claims enriched with current production values.
+ * Check whether approved claims have newer warrants (staleness).
+ * Returns a map of claimId → stale warrants added after approval.
+ */
+async function checkStaleness(
+  claims: SyncableClaim[]
+): Promise<Map<string, StaleWarrant[]>> {
+  const result = new Map<string, StaleWarrant[]>();
+
+  // Run staleness queries in parallel
+  const checks = claims.map(async (c) => {
+    if (!c.approved_at) return;
+    const rows = await query<{
+      source_id_code: string | null;
+      value: string;
+      created_at: string;
+    }>(
+      `SELECT w.source_id_code, w."value", w.created_at
+       FROM warrants w
+       WHERE w.plant_id = $1
+         AND w.attribute_id = $2
+         AND w.created_at > $3
+         AND w.status != 'excluded'`,
+      [c.plant_id, c.attribute_id, c.approved_at]
+    );
+    if (rows.length > 0) {
+      result.set(
+        c.id,
+        rows.map((r) => ({
+          source: r.source_id_code ?? "unknown",
+          value: r.value,
+          created_at: r.created_at,
+        }))
+      );
+    }
+  });
+
+  await Promise.all(checks);
+  return result;
+}
+
+/**
+ * Build a full preview: syncable claims enriched with current production values
+ * and staleness information.
  */
 export async function fetchSyncPreview(): Promise<{
   claims: SyncPreviewRow[];
@@ -97,16 +149,27 @@ export async function fetchSyncPreview(): Promise<{
     plantId: c.plant_id,
     attributeId: c.attribute_id,
   }));
-  const currentValues = await fetchProductionValues(pairs);
 
-  const claims: SyncPreviewRow[] = syncable.map((c) => ({
-    id: c.id,
-    plantName: c.plant_name,
-    attributeName: c.attribute_name,
-    oldValue: currentValues.get(`${c.plant_id}:${c.attribute_id}`) ?? null,
-    newValue: c.new_value,
-    confidence: c.confidence,
-  }));
+  const [currentValues, stalenessMap] = await Promise.all([
+    fetchProductionValues(pairs),
+    checkStaleness(syncable),
+  ]);
+
+  const claims: SyncPreviewRow[] = syncable.map((c) => {
+    const staleWarrants = stalenessMap.get(c.id) ?? [];
+    return {
+      id: c.id,
+      plantId: c.plant_id,
+      attributeId: c.attribute_id,
+      plantName: c.plant_name,
+      attributeName: c.attribute_name,
+      oldValue: currentValues.get(`${c.plant_id}:${c.attribute_id}`) ?? null,
+      newValue: c.new_value,
+      confidence: c.confidence,
+      stale: staleWarrants.length > 0,
+      staleWarrants,
+    };
+  });
 
   return { claims, totalChanges: claims.length };
 }
