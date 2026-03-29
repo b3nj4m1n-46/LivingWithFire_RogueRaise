@@ -1,12 +1,58 @@
-# LivinWitFire — Plant Data Collection for Fire-Wise Landscaping
+# LivinWitFire — Plant Data Fusion Platform for Fire-Wise Landscaping
 
-A curated collection of **40 plant databases** containing **866,000+ records** for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington).
+**40 plant databases** | **866,000+ records** | **AI-powered data curation** | **Version-controlled staging**
 
-## What Is This?
+A plant data collection and admin tooling project for building a fire-wise, wildlife-friendly, drought-tolerant plant selection tool for the Pacific West (Oregon, California, Washington). Includes an AI agent pipeline and admin portal for fusing 40 source databases into a production database using a Claim/Warrant evidence curation model.
 
-This folder contains raw and processed plant data harvested from federal agencies, universities, extension services, conservation organizations, and scientific databases. Each subfolder is a self-contained dataset with standardized outputs, original sources, and documentation.
+## Architecture
 
-The data spans **8 categories** relevant to fire-safe landscaping:
+```
+┌─────────────────────────────────────────────────────────────┐
+│  40 Source Datasets (866K+ records)                         │
+│  database-sources/{fire,deer,water,native,invasive,...}     │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+          ┌────────────▼────────────┐
+          │   Genkit Agent Pipeline  │
+          │   genkit/src/flows/      │
+          │                          │
+          │  matchPlantFlow          │  ← Exact + synonym + fuzzy matching
+          │  mapSchemaFlow           │  ← AI column→attribute mapping
+          │  bulkEnhanceFlow         │  ← Warrant creation from sources
+          │  classifyConflictFlow    │  ← 8-type conflict detection
+          └────────────┬────────────┘
+                       │
+          ┌────────────▼────────────┐
+          │  DoltgreSQL Staging DB   │  ← Version-controlled PostgreSQL
+          │  Port 5433               │
+          │                          │
+          │  94,903 warrants         │  ← Bootstrapped from production
+          │  + external warrants     │  ← From FIRE-01, WATER-01, ...
+          │  + conflicts detected    │  ← Internal + external
+          │  + claims (curated)      │  ← Admin-approved values
+          └────────────┬────────────┘
+                       │
+          ┌────────────▼────────────┐
+          │  Admin Portal (Next.js)  │  ← localhost:3000
+          │  admin/                  │
+          │                          │
+          │  Dashboard               │  ← Stats, batches, severity breakdown
+          │  Claim Curation          │  ← Warrant cards, synthesis, approval
+          │  Conflict Queue          │  ← Filterable, research, batch ops
+          │  History                 │  ← Dolt commit log (placeholder)
+          └────────────┬────────────┘
+                       │
+          ┌────────────▼────────────┐
+          │  Production DB (Neon)    │  ← 1,361 curated plants
+          │  lwf-api.vercel.app      │  ← Public-facing REST API
+          └─────────────────────────┘
+```
+
+## Project Components
+
+### 1. Source Datasets (`database-sources/`)
+
+40 datasets harvested from federal agencies, universities, extension services, and conservation organizations, spanning **8 categories**:
 
 | Category | Datasets | Key Question Answered |
 |----------|----------|----------------------|
@@ -183,44 +229,261 @@ Three datasets serve as **reference taxonomies** for resolving plant names acros
 | `database-sources/taxonomy/WorldFloraOnline` | Global | 381,467 | Independent taxonomic cross-validation |
 | `database-sources/taxonomy/USDA_PLANTS` | US | 93,157 | USDA symbols, US-specific common names, OR/CA state lists |
 
-## Root Files
+### 2. Genkit Agent Pipeline (`genkit/`)
+
+AI-powered data fusion agents built with [Firebase Genkit](https://firebase.google.com/docs/genkit) and the Anthropic Claude API.
+
+**Flows** (`genkit/src/flows/`):
+| Flow | Purpose | Model |
+|------|---------|-------|
+| `matchPlantFlow` | Three-tier plant matching: exact → synonym (POWO/WFO) → fuzzy (Levenshtein) | None (DB-only) |
+| `mapSchemaFlow` | AI-driven source column → production attribute mapping with crosswalks | Sonnet 4.6 |
+| `bulkEnhanceFlow` | Create warrant records from matched + mapped source data | None (data transform) |
+| `classifyConflictFlow` | Detect and classify conflicts into 8 types with severity | Haiku 4.5 |
+
+**Tools** (`genkit/src/tools/`) — 13 reusable Genkit tools: `queryDolt`, `lookupProductionPlant`, `getDatasetContext`, `searchDocumentIndex`, `navigateDocumentTree`, `resolveSynonym`, `fuzzyMatch`, `warrantGroups`, `writeConflict`, `sourceMetadata`, `productionAttributes`, `sampleSourceData`
+
+**Scripts** (`genkit/src/scripts/`):
+| Script | Purpose |
+|--------|---------|
+| `bootstrap-warrants.ts` | Convert 94,903 production values to warrants |
+| `internal-conflict-scan.ts` | Detect conflicts within existing production data |
+| `external-analysis.ts` | Full pipeline for processing a source dataset |
+| `test-matcher.ts` | Validate plant matching against FIRE-01 |
+
+### 3. Admin Portal (`admin/`)
+
+Next.js 16 admin portal with shadcn/ui for data steward curation workflow.
+
+**Pages:**
+| Route | Purpose |
+|-------|---------|
+| `/` | Dashboard — summary cards, analysis batches, conflict severity breakdown |
+| `/claims` | Claims list — filterable plant+attribute combinations with warrant counts |
+| `/claims/[plantId]/[attributeId]` | Claim view — warrant cards, selection, synthesis, approval |
+| `/conflicts` | Conflict queue — filterable table with inline expansion, research, batch ops |
+| `/warrants` | Warrant browser |
+| `/history` | Dolt commit log (placeholder — Phase 4) |
+
+**API Routes:**
+| Endpoint | Method | Purpose |
+|----------|--------|---------|
+| `/api/warrants/[id]` | PATCH | Update warrant status (included/excluded/unreviewed) |
+| `/api/synthesize` | POST | Trigger claim synthesis (stub — Phase 4) |
+| `/api/claims/approve` | POST | Approve claim → Dolt commit |
+| `/api/conflicts/[id]` | PATCH | Update conflict status |
+| `/api/conflicts/[id]/research` | POST | Retrieve research context for a conflict |
+| `/api/conflicts/batch` | POST | Batch dismiss/route conflicts |
+
+### 4. Production Database (`LivingWithFire-DB/`)
+
+Neon PostgreSQL with 1,361 curated plants powering the public app at `lwf-api.vercel.app`. EAV schema (13 tables, 125 attributes, 94,903 values). Full API reference cached in `LivingWithFire-DB/api-reference/`.
+
+### 5. DoltgreSQL Staging Database
+
+Version-controlled PostgreSQL (DoltgreSQL v0.55.6) on port 5433. Contains mirrored production tables + Claim/Warrant tables:
+
+| Table | Purpose |
+|-------|---------|
+| `warrants` | Evidence records (existing + external) with source provenance |
+| `conflicts` | Detected disagreements between warrant pairs |
+| `claims` | Finalized production values synthesized from curated warrants |
+| `claim_warrants` | Junction: which warrants support which claims |
+| `analysis_batches` | Audit trail per pipeline run |
+
+Every data operation is tracked as a Dolt commit with full diff history.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** 18+ and npm
+- **DoltgreSQL** v0.55.6+ ([install guide](https://docs.dolthub.com/introduction/installation))
+- **Python 3.9+** (for dataset build scripts only)
+- **Anthropic API key** (optional — pipeline works without it for DB-only operations)
+
+### 1. Start DoltgreSQL
+
+```bash
+# First time: init the database
+cd path/to/dolt-data
+doltgresql --data-dir . --port 5433
+
+# The staging DB (lwf_staging) should already be initialized
+# If starting fresh, run the bootstrap scripts (see below)
+```
+
+### 2. Set Up the Genkit Pipeline
+
+```bash
+cd genkit
+npm install
+
+# Optional: set Anthropic API key for AI-powered flows
+export ANTHROPIC_API_KEY=sk-ant-...
+
+# Run the pipeline scripts
+npm run bootstrap          # Convert production values to warrants
+npm run internal-scan      # Detect internal conflicts
+npm run analyze:fire01     # Process FIRE-01 through full pipeline
+npm run analyze:water01    # Process WATER-01 through full pipeline
+npm run test-matcher       # Validate plant matching
+npm test                   # Smoke test all tools
+```
+
+### 3. Start the Admin Portal
+
+```bash
+cd admin
+npm install
+
+# Configure DoltgreSQL connection (defaults should work)
+# Edit .env.local if needed:
+#   DOLT_HOST=localhost
+#   DOLT_PORT=5433
+#   DOLT_DATABASE=lwf_staging
+#   DOLT_USER=root
+#   DOLT_PASSWORD=
+
+npm run dev
+# Portal available at http://localhost:3000
+```
+
+### Environment Variables
+
+| Variable | Where | Required | Default | Purpose |
+|----------|-------|----------|---------|---------|
+| `ANTHROPIC_API_KEY` | `genkit/` | No | — | Enables AI-powered flows (synthesis, schema mapping, conflict classification) |
+| `DOLT_HOST` | `admin/.env.local` | No | `localhost` | DoltgreSQL host |
+| `DOLT_PORT` | `admin/.env.local` | No | `5433` | DoltgreSQL port |
+| `DOLT_DATABASE` | `admin/.env.local` | No | `lwf_staging` | Staging database name |
+| `DOLT_USER` | `admin/.env.local` | No | `root` | DoltgreSQL user |
+| `DOLT_PASSWORD` | `admin/.env.local` | No | (empty) | DoltgreSQL password |
+
+---
+
+## Repository Structure
+
+```
+LivinWitFire/
+├── README.md                    # This file
+├── CLAUDE.md                    # AI assistant context
+├── HOW-TO-USE.md                # Practical guide for querying/merging data
+├── admin/                       # Next.js 16 admin portal
+│   ├── src/app/                 # App Router pages + API routes
+│   ├── src/components/          # shadcn/ui components
+│   ├── src/lib/                 # DB connection + query functions
+│   └── .env.local               # DoltgreSQL connection config
+├── genkit/                      # Genkit agent pipeline
+│   ├── src/flows/               # 4 Genkit flows
+│   ├── src/tools/               # 13 reusable tools
+│   ├── src/scripts/             # Runnable pipeline scripts
+│   └── src/config.ts            # Anthropic plugin + model assignments
+├── database-sources/            # 40 source datasets by category
+├── LivingWithFire-DB/           # Production database mirror + API reference
+├── knowledge-base/              # 52 research documents (PDFs, HTML)
+├── data-sources/                # Provenance, literature, crossref docs
+└── docs/                        # Planning, architecture, task specs
+    ├── planning/                # PRD, architecture, schema, conflict taxonomy
+    └── tasks/                   # Spec-driven task documents
+        ├── todo/                # Active specs ready for implementation
+        ├── completed/           # Implemented with commit references
+        └── future/              # Deferred
+```
+
+### Key Reference Files
 
 | File | Purpose |
 |------|---------|
-| `README.md` | This file |
 | `CLAUDE.md` | AI assistant context — conventions, structure, common tasks |
 | `HOW-TO-USE.md` | Practical guide for querying, merging, and using the data |
-| `.gitattributes` | Git LFS tracking for files >100MB |
+| `docs/planning/PRD.md` | Product Requirements — Claim/Warrant model |
+| `docs/planning/ARCHITECTURE.md` | System architecture — Dolt + Genkit + agents |
+| `docs/planning/PROPOSALS-SCHEMA.md` | Claims, warrants, resolutions data model |
+| `docs/planning/CONFLICT-TAXONOMY.md` | 8 conflict types with detection/resolution patterns |
+| `LivingWithFire-DB/api-reference/ATTRIBUTE-REGISTRY.md` | 125 production attributes with UUIDs |
+| `data-sources/DATA-PROVENANCE.md` | Source ID registry with full citations |
 
-### `data-sources/` folder
+---
 
-| File | Purpose |
-|------|---------|
-| `Primary Sources for the Plant List Generator Project.docx` | Original requirements document |
-| `DATA-PROVENANCE.md` | Source ID registry with full citations |
-| `SOURCE-CROSSREF.md` | Maps original requirements doc to completed folders |
-| `TODO-DataSources.md` | Tracking status of all data sources |
-| `LITERATURE-TRIAGE.md` | 195 literature references — 93.3% accounted for (52 standalone + 89 in compilation) |
-| `LITERATURE-REFERENCES-SEARCH.csv` | Search-ready reference list with Google Scholar/Wayback URLs |
+## Quick Start: Querying Source Data
 
-### `knowledge-base/` folder
+### Find fire-resistant plants for Oregon
 
-52 procured research documents (PDFs, HTML) from federal agencies, universities, fire safe councils, and conservation districts. Covers fire resistance, deer resistance, WUI defensible space, and regional plant guides for OR, WA, and CA. Files named as `Org_Descriptive-Title_Year.pdf`. Includes `SEARCH-LITERATURE.html` — an interactive tool for finding remaining references.
+```sql
+-- In any SQLite browser, open database-sources/fire/FirePerformancePlants/plants.db
+SELECT scientific_name, common_name, firewise_rating, landscape_zone
+FROM plants
+WHERE firewise_rating = 'Firewise (1)'
+ORDER BY common_name;
+```
 
-## Reproducibility
+### Find plants that are fire-safe AND deer-resistant
 
-Every dataset includes the Python script that built it in the `scripts/` folder. To rebuild any dataset:
+```python
+import sqlite3
+
+fire_db = sqlite3.connect('database-sources/fire/FirePerformancePlants/plants.db')
+deer_db = sqlite3.connect('database-sources/deer/RutgersDeerResistance/plants.db')
+
+fire_plants = set(r[0].lower() for r in fire_db.execute(
+    "SELECT scientific_name FROM plants WHERE firewise_rating LIKE '%Firewise (1)%'"))
+deer_plants = set(r[0].lower() for r in deer_db.execute(
+    "SELECT scientific_name FROM plants WHERE deer_rating_code = 'A'"))
+
+both = fire_plants & deer_plants
+print(f"Fire-safe AND rarely damaged by deer: {len(both)} species")
+```
+
+### Check if a plant is invasive
+
+```sql
+-- database-sources/invasive/USGS_RIIS/plants.db (most comprehensive — 4,918 species)
+SELECT scientific_name, common_name, degree_of_establishment, locality
+FROM plants
+WHERE scientific_name LIKE '%Hedera%';
+```
+
+### Find low-water plants for California
+
+```sql
+-- database-sources/water/WUCOLS/plants.db — 4,103 plants with regional water ratings
+SELECT scientific_name, common_name, plant_type,
+       region_4_water_use AS south_coastal,
+       region_6_water_use AS north_coastal_bay
+FROM plants
+WHERE region_4_water_use IN ('Very Low', 'Low')
+ORDER BY scientific_name;
+```
+
+## Rebuilding Source Datasets
+
+Every dataset includes the Python script that built it in the `scripts/` folder:
 
 ```bash
 cd database-sources/<category>/DatasetName
 python scripts/build_data.py    # or parse_pdf.py, scrape_all.py
 ```
 
-Dependencies: `pdfplumber`, `openpyxl`, `requests`, `beautifulsoup4` (install via `pip install pdfplumber openpyxl requests beautifulsoup4`)
+Dependencies: `pip install pdfplumber openpyxl requests beautifulsoup4`
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Agent Pipeline | [Firebase Genkit](https://firebase.google.com/docs/genkit) + TypeScript |
+| AI Models | Anthropic Claude — Haiku 4.5 (bulk), Sonnet 4.6 (quality) |
+| Staging Database | [DoltgreSQL](https://www.dolthub.com/blog/2024-03-29-doltgresql/) (version-controlled PostgreSQL) |
+| Admin Portal | Next.js 16 + shadcn/ui + Tailwind CSS |
+| Production Database | Neon PostgreSQL (EAV schema) |
+| Public API | Vercel (`lwf-api.vercel.app`) |
+| Dataset Scripts | Python 3 (pdfplumber, openpyxl, beautifulsoup4) |
 
 ## What's Deferred
 
-These sources require JavaScript rendering (Selenium/Playwright) or registration:
+These data sources require JavaScript rendering (Selenium/Playwright) or registration:
 
 - **Calscape** (CA Native Plant Society) — JavaScript app
 - **Audubon Native Plants** — JavaScript, no API
