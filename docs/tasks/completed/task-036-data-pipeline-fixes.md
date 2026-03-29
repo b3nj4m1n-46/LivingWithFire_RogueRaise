@@ -1,9 +1,10 @@
 # Task 036 — Data Pipeline Page Fixes
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P1 (important)
 > **Depends on:** None
 > **Blocks:** None
+> **Commit:** 238aad2
 
 ## Problem
 
