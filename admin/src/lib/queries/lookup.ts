@@ -8,6 +8,7 @@ import {
   SOURCE_DATABASES,
   type SourceEntry,
 } from "@/lib/source-registry";
+import { resolveAttribute } from "@/lib/attribute-map";
 
 // --- Types ---
 
@@ -31,13 +32,21 @@ export interface ProductionMatch {
   attributeCount?: number;
 }
 
+export interface MappedField {
+  sourceColumn: string;
+  value: string;
+  attributeId: string | null;
+  attributeName: string | null;
+  attributeCategory: string | null;
+}
+
 export interface SourceHit {
   sourceId: string;
   displayName: string;
   category: string;
   matchedName: string;
   matchConfidence: number;
-  fields: Record<string, string>;
+  fields: MappedField[];
 }
 
 export interface LookupResult {
@@ -178,10 +187,18 @@ export function searchSourceDatabases(scientificName: string): SourceHit[] {
     }
 
     if (row) {
-      const fields: Record<string, string> = {};
+      const fields: MappedField[] = [];
       for (const col of entry.keyColumns) {
         const val = str(row[col]);
-        if (val) fields[col] = val;
+        if (!val) continue;
+        const mapping = resolveAttribute(col);
+        fields.push({
+          sourceColumn: col,
+          value: val,
+          attributeId: mapping?.attributeId ?? null,
+          attributeName: mapping?.attributeName ?? null,
+          attributeCategory: mapping?.category ?? null,
+        });
       }
       matchedName = str(row[entry.nameColumn]) || matchedName;
 

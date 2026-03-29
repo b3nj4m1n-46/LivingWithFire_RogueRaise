@@ -50,13 +50,21 @@ interface ProductionMatch {
   attributeCount?: number;
 }
 
+interface MappedField {
+  sourceColumn: string;
+  value: string;
+  attributeId: string | null;
+  attributeName: string | null;
+  attributeCategory: string | null;
+}
+
 interface SourceHit {
   sourceId: string;
   displayName: string;
   category: string;
   matchedName: string;
   matchConfidence: number;
-  fields: Record<string, string>;
+  fields: MappedField[];
 }
 
 interface LookupResult {
@@ -67,7 +75,9 @@ interface LookupResult {
 
 interface EditableAttribute {
   key: string;
+  attributeId: string | null;
   attributeName: string;
+  sourceColumn: string;
   value: string;
   sourceIdCode: string;
   sourceValue: string;
@@ -88,6 +98,16 @@ const STEP_LABELS = [
 ];
 
 const CATEGORY_ORDER = [
+  "Flammability",
+  "Wildlife Values",
+  "Water Requirements",
+  "Growth",
+  "Environmental Requirements to Thrive",
+  "Nativeness",
+  "Invasiveness",
+  "Soils",
+  "Plant Materials",
+  // Fallback source categories for unmapped fields
   "fire",
   "deer",
   "water",
@@ -224,22 +244,29 @@ export function AddPlantClient() {
     const seen = new Set<string>();
 
     for (const hit of data.sourceHits) {
-      for (const [column, value] of Object.entries(hit.fields)) {
-        // Use sourceId:column as a unique key for dedup
-        const attrKey = `${column}`;
-        if (seen.has(`${attrKey}:${hit.sourceId}`)) continue;
-        seen.add(`${attrKey}:${hit.sourceId}`);
+      for (const field of hit.fields) {
+        // Use sourceId:sourceColumn as a unique key for dedup
+        const dedupKey = `${hit.sourceId}:${field.sourceColumn}`;
+        if (seen.has(dedupKey)) continue;
+        seen.add(dedupKey);
+
+        // Use mapped attribute name/category if available, else fall back to source column
+        const displayName = field.attributeName
+          || field.sourceColumn.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+        const displayCategory = field.attributeCategory || hit.category;
 
         attrs.push({
-          key: `${hit.sourceId}:${column}`,
-          attributeName: column.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
-          value,
+          key: dedupKey,
+          attributeId: field.attributeId,
+          attributeName: displayName,
+          sourceColumn: field.sourceColumn,
+          value: field.value,
           sourceIdCode: hit.sourceId,
-          sourceValue: value,
+          sourceValue: field.value,
           sourceDisplayName: hit.displayName,
-          category: hit.category,
+          category: displayCategory,
           matchConfidence: hit.matchConfidence,
-          included: true,
+          included: field.attributeId !== null, // auto-include only mapped fields
           edited: false,
         });
       }
@@ -280,6 +307,14 @@ export function AddPlantClient() {
       return;
     }
 
+    // Warn if any included attributes lack a production UUID
+    const unmapped = included.filter((a) => !a.attributeId);
+    if (unmapped.length > 0) {
+      toast.error(
+        `${unmapped.length} attribute(s) have no production UUID mapping and will be stored as raw source data: ${unmapped.map((a) => a.sourceColumn).join(", ")}`
+      );
+    }
+
     setCreating(true);
     try {
       const res = await fetch("/api/plants/create", {
@@ -290,7 +325,7 @@ export function AddPlantClient() {
           species,
           commonName: lookupResult.taxonomy.commonName || undefined,
           attributes: included.map((a) => ({
-            attributeId: a.key,
+            attributeId: a.attributeId || a.key,
             attributeName: a.attributeName,
             value: a.value,
             sourceIdCode: a.sourceIdCode,
@@ -594,13 +629,14 @@ export function AddPlantClient() {
                         </TableCell>
                         <TableCell>
                           <div className="flex flex-wrap gap-1">
-                            {Object.entries(hit.fields).map(([k, v]) => (
+                            {hit.fields.map((f) => (
                               <Badge
-                                key={k}
-                                variant="outline"
+                                key={f.sourceColumn}
+                                variant={f.attributeId ? "outline" : "secondary"}
                                 className="text-xs"
+                                title={f.attributeId ? `→ ${f.attributeName}` : "unmapped"}
                               >
-                                {k}: {v.length > 30 ? v.slice(0, 30) + "..." : v}
+                                {f.sourceColumn}: {f.value.length > 30 ? f.value.slice(0, 30) + "..." : f.value}
                               </Badge>
                             ))}
                           </div>
@@ -691,7 +727,17 @@ export function AddPlantClient() {
                             />
                           </TableCell>
                           <TableCell className="text-sm font-medium">
-                            {attr.attributeName}
+                            <div>
+                              {attr.attributeName}
+                              {!attr.attributeId && (
+                                <Badge variant="secondary" className="ml-2 text-xs">
+                                  unmapped
+                                </Badge>
+                              )}
+                            </div>
+                            <span className="text-xs text-muted-foreground">
+                              {attr.sourceColumn}
+                            </span>
                           </TableCell>
                           <TableCell>
                             <Input
