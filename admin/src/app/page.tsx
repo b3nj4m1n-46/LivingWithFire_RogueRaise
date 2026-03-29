@@ -15,6 +15,7 @@ export default async function DashboardPage() {
         conflicts={data.conflicts}
         claims={data.claims}
         datasets={data.datasets}
+        pendingSyncCount={data.pendingSyncCount}
       />
       <BatchesTable
         batches={data.batches}

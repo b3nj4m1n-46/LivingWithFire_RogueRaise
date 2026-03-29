@@ -13,12 +13,19 @@ All endpoints are Next.js Route Handlers served from `admin/src/app/api/`.
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `PATCH` | `/api/warrants/{id}` | Update warrant curation status |
-| `POST` | `/api/synthesize` | Generate claim synthesis from warrants (stub) |
+| `POST` | `/api/synthesize` | Generate AI claim synthesis from warrants (Anthropic Sonnet 4.6) |
 | `POST` | `/api/claims/approve` | Approve a claim with Dolt version control |
 | `GET` | `/api/conflicts/{id}` | Get conflict detail with both warrants |
 | `PATCH` | `/api/conflicts/{id}` | Update conflict status |
 | `POST` | `/api/conflicts/{id}/research` | Fetch research context for a conflict |
+| `POST` | `/api/conflicts/{id}/specialist` | Run AI specialist analysis (rating or scope) |
 | `POST` | `/api/conflicts/batch` | Batch update conflict statuses |
+| `GET` | `/api/dolt/log` | Fetch Dolt commit history |
+| `GET` | `/api/dolt/status` | Check for uncommitted changes |
+| `POST` | `/api/dolt/commit` | Create a manual Dolt commit |
+| `POST` | `/api/dolt/revert` | Revert a recent commit |
+| `GET` | `/api/sync/preview` | Preview approved claims pending sync to production |
+| `POST` | `/api/sync/push` | Push approved claims to production Neon PostgreSQL |
 
 ---
 
@@ -71,9 +78,10 @@ Update the curation status of a single warrant. Used by the warrant card checkbo
 
 ## `POST /api/synthesize`
 
-Request AI synthesis of selected warrants into a claim. Currently returns a **stub response** — the real implementation will connect to the Genkit `synthesizeClaimFlow` in Phase 4.
+Generate AI synthesis of selected warrants into a production claim. Uses the Anthropic Claude Sonnet 4.6 API to analyze warrant values, source methodologies, conflict verdicts, and attribute constraints to produce a merged claim.
 
 **Source:** `admin/src/app/api/synthesize/route.ts`
+**Requires:** `ANTHROPIC_API_KEY` environment variable
 
 ### Request Body
 
@@ -89,36 +97,48 @@ Request AI synthesis of selected warrants into a claim. Currently returns a **st
 |-------|------|----------|-------------|
 | `plantId` | `string` | Yes | Plant UUID |
 | `attributeId` | `string` | Yes | Attribute UUID |
-| `warrantIds` | `string[]` | Yes | UUIDs of warrants to synthesize |
+| `warrantIds` | `string[]` | Yes | Non-empty array of warrant UUIDs to synthesize |
 
-### Response — 200 OK (Stub)
+### Response — 200 OK
 
 ```json
 {
-  "synthesized_text": "Synthesis pending — 3 warrant(s) selected for uuid. Connect synthesizeClaimFlow in Phase 4 to generate AI synthesis.",
-  "categorical_value": null,
-  "confidence": "MODERATE",
-  "confidence_reasoning": "Stub — AI synthesis not yet implemented. This placeholder will be replaced by the Genkit synthesizeClaimFlow."
+  "synthesized_text": "Based on FIRE-01 and WATER-01, Arbutus menziesii exhibits high fire resistance...",
+  "categorical_value": "High",
+  "confidence": "HIGH",
+  "confidence_reasoning": "Two independent Pacific West sources agree on fire resistance rating.",
+  "sources_cited": ["FIRE-01", "WATER-01"],
+  "warrant_weights": [
+    { "warrantId": "uuid-1", "weight": "primary" },
+    { "warrantId": "uuid-2", "weight": "supporting" }
+  ]
 }
 ```
 
-### Future Response Shape (Phase 4)
-
-When connected to the synthesis agent, the response will follow the same shape but with real AI-generated content:
-
 | Field | Type | Description |
 |-------|------|-------------|
-| `synthesized_text` | `string` | Full synthesis with citations referencing warrant sources |
-| `categorical_value` | `string \| null` | Normalized value if attribute expects a category |
+| `synthesized_text` | `string` | 2-3 sentence synthesis with evidence citations |
+| `categorical_value` | `string \| null` | Validated against attribute's `values_allowed`; null if no match |
 | `confidence` | `string` | `HIGH`, `MODERATE`, or `LOW` |
-| `confidence_reasoning` | `string` | Explanation of confidence assessment |
+| `confidence_reasoning` | `string \| null` | Explanation of confidence assessment |
+| `sources_cited` | `string[]` | Source ID codes referenced in synthesis |
+| `warrant_weights` | `array` | Per-warrant weight: `primary`, `supporting`, or `contextual` |
 
 ### Errors
 
 | Status | Body | Cause |
 |--------|------|-------|
-| `400` | `{ "error": "Missing required fields..." }` | Missing plantId, attributeId, or warrantIds |
-| `500` | `{ "error": "Failed to process synthesis request" }` | Unexpected error |
+| `400` | `{ "error": "Missing required fields..." }` | Missing plantId, attributeId, or empty warrantIds |
+| `404` | `{ "error": "No warrants found..." }` | None of the provided warrant IDs exist |
+| `500` | `{ "error": "Failed to process synthesis request" }` | Anthropic API error or JSON parse failure |
+
+### Implementation Notes
+
+- Loads warrant details, attribute metadata (allowed values), current production value, and related conflicts in parallel from DoltgreSQL
+- Builds a structured prompt including all warrant values, source methodologies, conflict specialist verdicts, and attribute constraints
+- Uses `@anthropic-ai/sdk` with `claude-sonnet-4-6-20250514`
+- Includes JSON extraction retry: if the first response isn't valid JSON, sends a correction prompt
+- Validates `categorical_value` against the attribute's `values_allowed` list; returns null if no match
 
 ---
 
@@ -397,6 +417,308 @@ Batch update the status of multiple conflicts at once. Used by the batch toolbar
 
 ---
 
+## `POST /api/conflicts/{id}/specialist`
+
+Run AI specialist analysis on a conflict. Determines whether the conflict is REAL, APPARENT, or NUANCED by analyzing source methodologies, rating scales, and geographic applicability. Only `ratingConflictFlow` and `scopeConflictFlow` specialists are implemented.
+
+**Source:** `admin/src/app/api/conflicts/[id]/specialist/route.ts`
+**Requires:** `ANTHROPIC_API_KEY` environment variable
+
+### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `id` | `string` | Conflict UUID |
+
+### Request Body
+
+None required — the route reads the conflict and determines which specialist to run based on `specialist_agent`.
+
+### Response — 200 OK
+
+```json
+{
+  "verdict": "APPARENT",
+  "recommendation": "KEEP_BOTH_WITH_CONTEXT",
+  "analysis": "The disagreement stems from different rating scales...",
+  "confidence": 0.85,
+  "regionAnalysis": {
+    "regionA": "Southern California",
+    "regionB": "Pacific Northwest",
+    "overlapAssessment": "partial",
+    "applicability": "Both sources cover portions of the Pacific West."
+  }
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `verdict` | `string` | `REAL`, `APPARENT`, or `NUANCED` |
+| `recommendation` | `string` | `PREFER_A`, `PREFER_B`, `KEEP_BOTH`, `KEEP_BOTH_WITH_CONTEXT`, `NEEDS_RESEARCH`, or `HUMAN_DECIDE` |
+| `analysis` | `string` | 2-4 sentence explanation |
+| `confidence` | `number` | 0.0-1.0 |
+| `regionAnalysis` | `object \| null` | Only present for scope conflicts |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "No specialist agent assigned..." }` | Conflict has no `specialist_agent` value |
+| `400` | `{ "error": "Specialist ... is not yet implemented" }` | Specialist type other than rating/scope |
+| `404` | `{ "error": "Conflict not found" }` | No conflict with that ID |
+| `500` | `{ "error": "Failed to run specialist analysis" }` | Anthropic API error or parse failure |
+
+### Side Effects
+
+- Updates `conflicts` table: sets `specialist_verdict`, `specialist_analysis`, `specialist_recommendation` on the conflict row.
+
+### Implementation Notes
+
+- Uses Anthropic API directly (`claude-sonnet-4-6-20250514`) via `fetch`, not the SDK
+- Loads dataset contexts (DATA-DICTIONARY.md, README.md) and knowledge base search results for both sources
+- Builds specialist-specific prompts (rating vs scope) with source methodology and regional context
+- Includes JSON extraction with one retry on parse failure
+
+---
+
+## `GET /api/dolt/log`
+
+Fetch Dolt commit history from the staging database.
+
+**Source:** `admin/src/app/api/dolt/log/route.ts`
+
+### Query Parameters
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `limit` | `number` | `50` | Max entries to return (capped at 100) |
+| `offset` | `number` | `0` | Pagination offset |
+
+### Response — 200 OK
+
+```json
+[
+  {
+    "commit_hash": "abc123def456...",
+    "committer": "root",
+    "date": "2026-03-28T14:30:00.000Z",
+    "message": "Approve claim: Arbutus menziesii / Fire Resistance"
+  }
+]
+```
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `500` | `{ "error": "Failed to fetch log" }` | Database error |
+
+---
+
+## `GET /api/dolt/status`
+
+Check whether there are uncommitted changes in the DoltgreSQL working set.
+
+**Source:** `admin/src/app/api/dolt/status/route.ts`
+
+### Response — 200 OK
+
+```json
+{
+  "changes": 3
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `changes` | `number` | Number of uncommitted table changes (0 = clean) |
+
+### Notes
+
+Returns `{ "changes": 0 }` on error (graceful degradation for the Save Changes button).
+
+---
+
+## `POST /api/dolt/commit`
+
+Create a manual Dolt commit of all uncommitted changes. Used by the "Save Changes" button in the portal.
+
+**Source:** `admin/src/app/api/dolt/commit/route.ts`
+
+### Request Body
+
+```json
+{
+  "message": "Manual save: updated deer resistance warrants"
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `message` | `string` | Yes | Commit message |
+
+### Response — 200 OK
+
+```json
+{
+  "commitHash": "abc123def456..."
+}
+```
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "Commit message required" }` | Missing or non-string message |
+| `400` | `{ "error": "No uncommitted changes" }` | Working set is clean |
+| `500` | `{ "error": "Failed to commit changes" }` | Database error |
+
+### Side Effects
+
+- Runs `dolt_add('.')` then `dolt_commit(...)` on a single connection
+- On failure, attempts `dolt_checkout('.')` to reset working state
+
+---
+
+## `POST /api/dolt/revert`
+
+Revert a recent Dolt commit. Creates a new commit that reverses the changes from the specified commit. Safety-limited to the 5 most recent commits.
+
+**Source:** `admin/src/app/api/dolt/revert/route.ts`
+
+### Request Body
+
+```json
+{
+  "commitHash": "abc123def456..."
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `commitHash` | `string` | Yes | Full commit hash to revert |
+
+### Response — 200 OK
+
+```json
+{
+  "commitHash": "newdef789..."
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `commitHash` | `string` | The new commit hash created by the revert |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "Commit hash required" }` | Missing or non-string hash |
+| `400` | `{ "error": "Can only revert one of the 5 most recent commits" }` | Safety limit exceeded |
+| `500` | `{ "error": "Failed to revert commit" }` | Database error |
+
+### Side Effects
+
+- Runs `dolt_revert($hash)` then `dolt_add('.')` + `dolt_commit(...)` with message `"Revert commit <hash>"`
+- On failure, attempts `dolt_checkout('.')` to reset working state
+
+---
+
+## `GET /api/sync/preview`
+
+Preview approved claims that are pending sync to the production database. Returns a comparison of current production values vs. new curated values.
+
+**Source:** `admin/src/app/api/sync/preview/route.ts`
+
+### Response — 200 OK
+
+```json
+{
+  "claims": [
+    {
+      "id": "claim-uuid",
+      "plantName": "Arbutus menziesii",
+      "attributeName": "Fire Resistance",
+      "oldValue": "Moderate",
+      "newValue": "High",
+      "confidence": "HIGH"
+    }
+  ],
+  "totalChanges": 1
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `claims` | `array` | Approved claims not yet pushed, with old/new comparison |
+| `totalChanges` | `number` | Total count of pending changes |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `500` | `{ "error": "Failed to fetch sync preview" }` | Database error |
+
+### Implementation Notes
+
+- Queries Dolt for approved-but-not-pushed claims
+- Queries production Neon for current values to show old vs. new comparison
+- No writes performed
+
+---
+
+## `POST /api/sync/push`
+
+Execute the production sync: upsert approved claim values into the production Neon PostgreSQL database, mark claims as pushed in Dolt, and log the sync event.
+
+**Source:** `admin/src/app/api/sync/push/route.ts`
+**Requires:** `NEON_DATABASE_URL` environment variable
+
+### Request Body
+
+None required.
+
+### Response — 200 OK
+
+```json
+{
+  "pushed": 5,
+  "commitHash": "abc123def456..."
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `pushed` | `number` | Number of claims pushed (0 if nothing pending) |
+| `commitHash` | `string \| null` | Dolt commit hash (null if nothing pushed) |
+
+### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `500` | `{ "error": "Failed to push to production" }` | Database error |
+
+### Side Effects
+
+1. **Ensure source** — Creates/reuses "LWF Curation Pipeline" source in production `sources` table
+2. **Upsert `"values"`** — For each claim: UPDATE existing row or INSERT new row in production
+3. **COMMIT** — Neon transaction committed
+4. **UPDATE `claims`** — Marks claims as `status = 'pushed'`, `pushed_to_production = true` in Dolt
+5. **INSERT `analysis_batches`** — Logs sync event with `batch_type = 'production_sync'`
+6. **Dolt commit** — Two commits: one for claim status changes, one for batch log
+
+On failure: ROLLBACK on Neon, `dolt_checkout('.')` on Dolt, both clients released.
+
+### Implementation Notes
+
+- Uses two separate database connections: one to Dolt (staging), one to Neon (production)
+- Upsert strategy: UPDATE first (matching `plant_id + attribute_id`), INSERT if no existing row
+- All production values tagged with curation pipeline `source_id` for provenance
+- Idempotent: re-running with no pending claims returns `{ pushed: 0, commitHash: null }`
+
+---
+
 ## Database Tables Referenced
 
 These endpoints read from and write to the following DoltgreSQL tables. Full schema definitions are in `scripts/create_warrant_tables.sql`.
@@ -410,5 +732,8 @@ These endpoints read from and write to the following DoltgreSQL tables. Full sch
 | `attributes` | Read | Attribute definitions (via claim view queries) |
 | `"values"` | Read | Current production values (quoted — reserved word) |
 | `conflicts` | Read, Update | Warrant conflict pairs — queue, detail, status updates |
+| `dolt_log` | Read | Commit history (system table) |
+| `dolt_status` | Read | Uncommitted changes (system table) |
+| `dolt_commit_diff_*` | Read | Row-level diffs between commits (system tables) |
 
 See also: `docs/planning/PROPOSALS-SCHEMA.md` for the full data model.

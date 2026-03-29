@@ -240,6 +240,9 @@ AI-powered data fusion agents built with [Firebase Genkit](https://firebase.goog
 | `mapSchemaFlow` | AI-driven source column → production attribute mapping with crosswalks | Sonnet 4.6 |
 | `bulkEnhanceFlow` | Create warrant records from matched + mapped source data | None (data transform) |
 | `classifyConflictFlow` | Detect and classify conflicts into 8 types with severity | Haiku 4.5 |
+| `ratingConflictFlow` | Specialist: resolve rating disagreements via methodology/scale analysis | Sonnet 4.6 |
+| `scopeConflictFlow` | Specialist: resolve scope conflicts via regional applicability analysis | Sonnet 4.6 |
+| `synthesizeClaimFlow` | Merge selected warrants into production-ready claim with confidence | Sonnet 4.6 |
 
 **Tools** (`genkit/src/tools/`) — 13 reusable Genkit tools: `queryDolt`, `lookupProductionPlant`, `getDatasetContext`, `searchDocumentIndex`, `navigateDocumentTree`, `resolveSynonym`, `fuzzyMatch`, `warrantGroups`, `writeConflict`, `sourceMetadata`, `productionAttributes`, `sampleSourceData`
 
@@ -263,17 +266,23 @@ Next.js 16 admin portal with shadcn/ui for data steward curation workflow.
 | `/claims/[plantId]/[attributeId]` | Claim view — warrant cards, selection, synthesis, approval |
 | `/conflicts` | Conflict queue — filterable table with inline expansion, research, batch ops |
 | `/warrants` | Warrant browser |
-| `/history` | Dolt commit log (placeholder — Phase 4) |
+| `/history` | Dolt commit log with diff viewer, save, and undo |
+| `/history/[commitHash]` | Commit diff viewer — row-level changes per table |
 
 **API Routes:**
 | Endpoint | Method | Purpose |
 |----------|--------|---------|
 | `/api/warrants/[id]` | PATCH | Update warrant status (included/excluded/unreviewed) |
-| `/api/synthesize` | POST | Trigger claim synthesis (stub — Phase 4) |
+| `/api/synthesize` | POST | AI claim synthesis from warrants (Anthropic Sonnet 4.6) |
 | `/api/claims/approve` | POST | Approve claim → Dolt commit |
-| `/api/conflicts/[id]` | PATCH | Update conflict status |
+| `/api/conflicts/[id]` | GET/PATCH | Get conflict detail / update status |
 | `/api/conflicts/[id]/research` | POST | Retrieve research context for a conflict |
+| `/api/conflicts/[id]/specialist` | POST | Run AI specialist analysis (rating/scope) |
 | `/api/conflicts/batch` | POST | Batch dismiss/route conflicts |
+| `/api/dolt/log` | GET | Fetch Dolt commit history |
+| `/api/dolt/status` | GET | Check for uncommitted changes |
+| `/api/dolt/commit` | POST | Create manual Dolt commit |
+| `/api/dolt/revert` | POST | Revert a recent commit |
 
 ### 4. Production Database (`LivingWithFire-DB/`)
 
@@ -355,7 +364,7 @@ npm run dev
 
 | Variable | Where | Required | Default | Purpose |
 |----------|-------|----------|---------|---------|
-| `ANTHROPIC_API_KEY` | `genkit/` | No | — | Enables AI-powered flows (synthesis, schema mapping, conflict classification) |
+| `ANTHROPIC_API_KEY` | `genkit/`, `admin/` | No | — | Enables AI-powered flows and admin API routes (synthesis, specialist analysis, schema mapping, conflict classification) |
 | `DOLT_HOST` | `admin/.env.local` | No | `localhost` | DoltgreSQL host |
 | `DOLT_PORT` | `admin/.env.local` | No | `5433` | DoltgreSQL port |
 | `DOLT_DATABASE` | `admin/.env.local` | No | `lwf_staging` | Staging database name |

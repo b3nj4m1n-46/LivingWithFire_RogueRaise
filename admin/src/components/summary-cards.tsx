@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import type {
@@ -12,6 +13,7 @@ interface SummaryCardsProps {
   conflicts: ConflictStats;
   claims: ClaimStats;
   datasets: DatasetStats;
+  pendingSyncCount: number;
 }
 
 function severityVariant(severity: string) {
@@ -37,9 +39,10 @@ export function SummaryCards({
   conflicts,
   claims,
   datasets,
+  pendingSyncCount,
 }: SummaryCardsProps) {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
       {/* Total Warrants */}
       <Card>
         <CardHeader className="pb-2">
@@ -127,6 +130,30 @@ export function SummaryCards({
               {datasets.sources.length <= 6
                 ? datasets.sources.join(", ")
                 : `${datasets.sources.slice(0, 5).join(", ")} +${datasets.sources.length - 5} more`}
+            </p>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Pending Sync */}
+      <Card>
+        <CardHeader className="pb-2">
+          <CardTitle className="text-sm font-medium text-muted-foreground">
+            Pending Sync
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-3xl font-bold">{pendingSyncCount}</p>
+          {pendingSyncCount > 0 ? (
+            <Link
+              href="/sync"
+              className="mt-2 inline-block text-xs text-primary hover:underline"
+            >
+              Review & push to production
+            </Link>
+          ) : (
+            <p className="mt-2 text-xs text-muted-foreground">
+              All claims synced
             </p>
           )}
         </CardContent>

@@ -40,6 +40,7 @@ export interface DashboardData {
   batches: AnalysisBatch[];
   criticalPendingCount: number;
   unreviewedLatestBatchCount: number;
+  pendingSyncCount: number;
 }
 
 export async function fetchDashboardData(): Promise<DashboardData> {
@@ -55,6 +56,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     batches,
     criticalPending,
     unreviewedLatest,
+    pendingSync,
   ] = await Promise.all([
     queryOne<{ count: string }>("SELECT COUNT(*) as count FROM warrants"),
     query<{ warrant_type: string; count: string }>(
@@ -84,6 +86,9 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     ),
     queryOne<{ count: string }>(
       "SELECT COUNT(*) as count FROM warrants WHERE status = 'unreviewed' AND batch_id = (SELECT id FROM analysis_batches ORDER BY started_at DESC LIMIT 1)"
+    ),
+    queryOne<{ count: string }>(
+      "SELECT COUNT(*) as count FROM claims WHERE status = 'approved' AND (pushed_to_production IS NULL OR pushed_to_production = false)"
     ),
   ]);
 
@@ -116,5 +121,6 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     batches,
     criticalPendingCount: Number(criticalPending?.count ?? 0),
     unreviewedLatestBatchCount: Number(unreviewedLatest?.count ?? 0),
+    pendingSyncCount: Number(pendingSync?.count ?? 0),
   };
 }

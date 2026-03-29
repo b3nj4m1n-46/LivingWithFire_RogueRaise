@@ -1,9 +1,10 @@
 # Production Sync — Push Approved Claims to Neon PostgreSQL
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P2 (normal)
 > **Depends on:** 015-synthesis-agent (claims must exist to sync), 016-dolt-version-control-ui (commit tracking), 017-extract-agent-prompts
 > **Blocks:** None
+> **Completed:** 2026-03-28
 
 ## Problem
 
