@@ -44,7 +44,10 @@ LivinWitFire/
 │
 ├── knowledge-base/              # 52 procured research documents (PDFs, HTML)
 │   ├── SEARCH-LITERATURE.html   # Interactive search tool for remaining references
-│   └── Org_Title_Year.pdf       # Named by: Organization, Descriptive Title, Year
+│   ├── Org_Title_Year.pdf       # Named by: Organization, Descriptive Title, Year
+│   └── indexes/                 # Hierarchical JSON indexes for agent search
+│       ├── manifest.json        # Registry of all indexed documents
+│       └── *_structure.json     # Per-document hierarchical section trees
 │
 ├── LivingWithFire-DB/           # Production database (Neon PostgreSQL mirror)
 │   ├── README.md                # EAV schema overview, connection info, rebuild steps
@@ -67,6 +70,7 @@ LivinWitFire/
 │   │   ├── sources/             # Source pipeline — upload, registry, progress
 │   │   │   ├── page.tsx         # Source registry listing all datasets
 │   │   │   ├── upload/          # 4-step upload workflow (CSV → metadata → AI dict → run)
+│   │   │   ├── documents/       # Knowledge base PDF registry + indexing
 │   │   │   └── [batchId]/       # Pipeline progress tracking (auto-refresh)
 │   │   ├── claims/              # Claim curation — warrant cards, synthesis, approval
 │   │   ├── conflicts/           # Conflict queue — filterable, research, batch ops
@@ -76,7 +80,7 @@ LivinWitFire/
 │   │   ├── sync/                # Preview and push to production
 │   │   ├── history/             # Dolt commit log and diff viewer
 │   │   └── api/                 # API routes
-│   │       ├── sources/         # Upload, create, dictionary, run, status polling
+│   │       ├── sources/         # Upload, create, dictionary, run, status polling, documents
 │   │       ├── fusion/          # Map, preview, execute
 │   │       ├── warrants/        # Status updates
 │   │       ├── claims/          # Approve
@@ -89,14 +93,25 @@ LivinWitFire/
 │   ├── src/lib/                 # DB connection, queries, fusion bridge
 │   │   ├── dolt.ts              # PostgreSQL pool + query<T>(), queryOne<T>()
 │   │   ├── fusion-bridge.ts     # Subprocess bridge to Genkit flows
+│   │   ├── index-bridge.ts      # Subprocess bridge to PageIndex pipeline
 │   │   └── queries/             # Type-safe query functions per domain
 │   └── .env.local               # DoltgreSQL connection config
 │
 ├── genkit/                      # Genkit agent pipeline
-│   ├── src/flows/               # 11 Genkit flows (match, map, enhance, classify, specialists, synthesize)
+│   ├── src/flows/               # 12 Genkit flows (match, map, enhance, classify, specialists, synthesize, indexDocument)
 │   ├── src/tools/               # 13 reusable tools (queryDolt, getDatasetContext, etc.)
-│   ├── src/scripts/             # CLI scripts + fusion-bridge.ts (JSON stdin/stdout for admin)
+│   ├── src/scripts/             # CLI scripts + fusion-bridge.ts + index-bridge.ts (JSON stdin/stdout for admin)
 │   └── src/config.ts            # Anthropic plugin + model assignments
+│
+├── scripts/                     # Utility scripts
+│   ├── pageindex/               # PDF document indexing pipeline (ported from PageIndexAlt)
+│   │   ├── page_index.py        # Core algorithm — TOC detection, extraction, verification, summary
+│   │   ├── llm_client.py        # Anthropic-only LLM client
+│   │   ├── utils.py             # PDF extraction, JSON parsing, tree operations
+│   │   ├── config.yaml          # Model and indexing parameters
+│   │   └── requirements.txt     # Python dependencies
+│   ├── index_pdf.py             # CLI: index a single PDF → knowledge-base/indexes/
+│   └── index_all_pdfs.sh        # Batch: index all unindexed PDFs with parallelism
 │
 ├── database-sources/            # 40 source datasets, organized by category
 │   ├── fire/                    # 12 fire resistance datasets (FIRE-01 through FIRE-12)

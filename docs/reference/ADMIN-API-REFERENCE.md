@@ -27,6 +27,9 @@ All endpoints are Next.js Route Handlers served from `admin/src/app/api/`.
 | `PUT` | `/api/sources/dictionary` | Save edited DATA-DICTIONARY.md content |
 | `POST` | `/api/sources/run` | Trigger full analysis pipeline (fire-and-forget) |
 | `GET` | `/api/sources/{batchId}/status` | Poll pipeline progress (step status, stats) |
+| `POST` | `/api/sources/documents/upload` | Upload a PDF to knowledge-base/ |
+| `POST` | `/api/sources/documents/index` | Trigger PDF indexing (fire-and-forget) |
+| `GET` | `/api/sources/documents/status` | List all PDFs with indexed status |
 | `POST` | `/api/fusion/map` | Run schema mapping for a dataset |
 | `GET` | `/api/fusion/preview` | Preview fusion results |
 | `POST` | `/api/fusion/execute` | Execute fusion batch with reviewed mapping |
@@ -1003,3 +1006,107 @@ Poll the progress of a running pipeline batch.
 | Status | Body | Cause |
 |--------|------|-------|
 | `404` | `{ "error": "Batch not found" }` | No batch with that ID |
+
+---
+
+## Document Indexing Endpoints
+
+### `POST /api/sources/documents/upload`
+
+Upload a PDF file to the knowledge base directory.
+
+**Source:** `admin/src/app/api/sources/documents/upload/route.ts`
+
+#### Request
+
+`Content-Type: multipart/form-data` with a `file` field containing a `.pdf` file.
+
+#### Response — 200 OK
+
+```json
+{
+  "filename": "NewDocument.pdf",
+  "size": 1234567
+}
+```
+
+#### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "No PDF file provided" }` | Missing file in form data |
+| `400` | `{ "error": "Only .pdf files are accepted" }` | Wrong file extension |
+
+#### Side Effects
+
+- Writes PDF to `knowledge-base/{filename}`
+
+---
+
+### `POST /api/sources/documents/index`
+
+Trigger indexing of a PDF in the knowledge base. Returns immediately; indexing runs asynchronously.
+
+**Source:** `admin/src/app/api/sources/documents/index/route.ts`
+
+#### Request Body
+
+```json
+{
+  "filename": "NewDocument.pdf"
+}
+```
+
+#### Response — 200 OK
+
+```json
+{
+  "status": "indexing",
+  "filename": "NewDocument.pdf"
+}
+```
+
+#### Errors
+
+| Status | Body | Cause |
+|--------|------|-------|
+| `400` | `{ "error": "filename is required" }` | Missing filename |
+| `404` | `{ "error": "PDF not found: ..." }` | File doesn't exist in knowledge-base/ |
+
+#### Side Effects
+
+- Spawns Python indexer (`scripts/index_pdf.py`) via index-bridge (fire-and-forget)
+- On success: creates `knowledge-base/indexes/{stem}_structure.json` and updates `manifest.json`
+
+---
+
+### `GET /api/sources/documents/status`
+
+List all PDFs in the knowledge base with their indexing status.
+
+**Source:** `admin/src/app/api/sources/documents/status/route.ts`
+
+#### Response — 200 OK
+
+```json
+{
+  "total": 49,
+  "indexed": 47,
+  "documents": [
+    {
+      "filename": "ABAG_Home-Hardening-Defensible-Space-Resource-Guide.pdf",
+      "indexed": true,
+      "sections": 8,
+      "sizeBytes": 12345,
+      "indexFile": "ABAG_Home-Hardening-Defensible-Space-Resource-Guide_structure.json"
+    },
+    {
+      "filename": "DiabloFiresafe_Fire-Resistant-Flammable-Plant-Lists.pdf",
+      "indexed": false,
+      "sections": null,
+      "sizeBytes": null,
+      "indexFile": null
+    }
+  ]
+}
+```

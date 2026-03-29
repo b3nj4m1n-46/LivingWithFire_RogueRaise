@@ -11,6 +11,7 @@ const navItems = [
   { href: "/claims", label: "Claims" },
   { href: "/warrants", label: "Warrants" },
   { href: "/sources", label: "Sources" },
+  { href: "/sources/documents", label: "Documents" },
   { href: "/sources/reliability", label: "Reliability" },
   { href: "/fusion", label: "Fusion" },
   { href: "/sync", label: "Sync" },

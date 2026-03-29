@@ -1,9 +1,16 @@
 # PageIndex Integration — In-Repo Document Indexing Pipeline
 
-> **Status:** FUTURE
+> **Status:** IMPLEMENTED
 > **Priority:** P2 (normal)
 > **Depends on:** None (existing indexes work; this adds the ability to create new ones)
 > **Blocks:** None (but enables self-service document ingestion for data stewards)
+>
+> ## Implementation Notes
+>
+> All three phases implemented:
+> - **Phase 1 (Python):** `scripts/pageindex/` package ported from PageIndexAlt with Anthropic-only LLM client. CLI entry point `scripts/index_pdf.py` with manifest auto-update. Batch script `scripts/index_all_pdfs.sh`.
+> - **Phase 2 (Genkit):** `genkit/src/scripts/index-bridge.ts` (JSON stdin/stdout bridge), `genkit/src/flows/indexDocumentFlow.ts` (Genkit flow wrapper), `admin/src/lib/index-bridge.ts` (admin-side bridge).
+> - **Phase 3 (Admin):** Document registry at `/sources/documents` with upload, index, re-index, and bulk index. API routes: upload, index trigger (fire-and-forget), status polling.
 
 ## Problem
 

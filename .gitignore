@@ -34,6 +34,9 @@ __pycache__/
 *.pyo
 venv/
 
+# ----- PageIndex logs (JSON debug logs from indexing runs) -----
+scripts/pageindex/logs/
+
 # ----- DoltgreSQL staging database (local dev only) -----
 lwf-staging/
 .doltcfg/
