@@ -2,7 +2,7 @@ import { Pool } from "pg";
 
 const pool = new Pool({
   connectionString: process.env.NEON_DATABASE_URL,
-  ssl: process.env.NEON_DATABASE_URL ? true : false,
+  ssl: process.env.NEON_DATABASE_URL ? { rejectUnauthorized: true } : false,
 });
 
 /**

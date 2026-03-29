@@ -18,6 +18,29 @@ interface PlantDetailClientProps {
   data: PlantDetail;
 }
 
+function decodeValue(value: string, valuesAllowed: string | null): string {
+  if (!valuesAllowed || !value) return value;
+  try {
+    const allowed = JSON.parse(valuesAllowed) as { id: string; displayName: string }[];
+    const match = allowed.find((v) => v.id === value);
+    if (match) return match.displayName;
+  } catch {
+    // not valid JSON, return raw
+  }
+  return value;
+}
+
+/** Build the display value: decoded value, falling back to source_value */
+function displayValue(attr: { value: string; source_value: string | null; values_allowed: string | null; value_notes: string | null }): {
+  display: string;
+  isSourceValue: boolean;
+} {
+  const decoded = decodeValue(attr.value, attr.values_allowed);
+  if (decoded) return { display: decoded, isSourceValue: false };
+  if (attr.source_value) return { display: attr.source_value, isSourceValue: true };
+  return { display: "", isSourceValue: false };
+}
+
 export function PlantDetailClient({ data }: PlantDetailClientProps) {
   const { plant, attributes, categories, overlay, pendingSync, pendingClaimCount } = data;
 
@@ -94,6 +117,8 @@ export function PlantDetailClient({ data }: PlantDetailClientProps) {
                     const conflicts = overlay.conflictCounts[attr.attribute_name] ?? 0;
                     const claim = overlay.pendingClaims[attr.attribute_id];
 
+                    const val = displayValue(attr);
+
                     return (
                       <TableRow key={`${attr.attribute_id}-${idx}`}>
                         <TableCell>
@@ -101,15 +126,33 @@ export function PlantDetailClient({ data }: PlantDetailClientProps) {
                             href={`/claims/${data.plant.id}/${attr.attribute_id}`}
                             className="text-primary underline-offset-4 hover:underline"
                           >
-                            {attr.attribute_name}
+                            {/^\d+[A-Z]?$/.test(attr.attribute_name) && attr.attribute_notes
+                              ? attr.attribute_notes
+                              : attr.attribute_name}
                           </Link>
                         </TableCell>
                         <TableCell className="font-medium">
-                          {attr.value}
+                          {val.display ? (
+                            <span>
+                              {val.display}
+                              {val.isSourceValue && (
+                                <span className="ml-1.5 text-xs text-muted-foreground italic">(raw)</span>
+                              )}
+                            </span>
+                          ) : (
+                            <span className="text-muted-foreground italic">—</span>
+                          )}
+                          {attr.value_notes && (
+                            <p className="text-xs text-muted-foreground mt-0.5">{attr.value_notes}</p>
+                          )}
                         </TableCell>
                         <TableCell className="text-sm text-muted-foreground">
-                          {attr.source_name ?? (
-                            <span className="italic">unknown</span>
+                          {attr.source_name ? (
+                            attr.source_name
+                          ) : attr.value_notes?.startsWith("Calculated") ? (
+                            <span className="italic">calculated</span>
+                          ) : (
+                            <span className="italic">—</span>
                           )}
                         </TableCell>
                         <TableCell>

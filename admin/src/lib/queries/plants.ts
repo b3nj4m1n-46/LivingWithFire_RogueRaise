@@ -103,8 +103,12 @@ export interface PlantDetailIdentity {
 export interface AttributeValueRow {
   attribute_id: string;
   attribute_name: string;
+  attribute_notes: string | null;
   category: string | null;
   value: string;
+  source_value: string | null;
+  value_notes: string | null;
+  values_allowed: string | null;
   source_name: string | null;
   source_id: string | null;
 }
@@ -138,21 +142,36 @@ export async function fetchPlantDetail(
         [plantId]
       ).then((rows) => rows[0] ?? null),
 
-      // 2. All attribute values with category and source (Neon)
+      // 2. All attribute values with category, source, and allowed values (Neon)
+      // Uses recursive CTE to walk up the attribute hierarchy to find the root category
       queryProd<AttributeValueRow>(
-        `SELECT
+        `WITH RECURSIVE ancestors AS (
+           SELECT id, name, parent_attribute_id, name AS root_name
+           FROM attributes
+           WHERE parent_attribute_id IS NULL
+           UNION ALL
+           SELECT a.id, a.name, a.parent_attribute_id, anc.root_name
+           FROM attributes a
+           JOIN ancestors anc ON anc.id = a.parent_attribute_id
+         )
+         SELECT
            v.attribute_id,
            a.name AS attribute_name,
-           pa.name AS category,
+           a.notes AS attribute_notes,
+           anc.root_name AS category,
            v."value",
+           v.source_value,
+           v.notes AS value_notes,
+           a.values_allowed::text AS values_allowed,
            s.name AS source_name,
            v.source_id
          FROM "values" v
          JOIN attributes a ON a.id = v.attribute_id
-         LEFT JOIN attributes pa ON pa.id = a.parent_attribute_id
+         JOIN ancestors anc ON anc.id = a.id
          LEFT JOIN sources s ON s.id = v.source_id
          WHERE v.plant_id = $1
-         ORDER BY pa.name, a.name`,
+           AND NOT (COALESCE(v."value", '') = '' AND (v.source_value IS NULL OR v.source_value = '' OR v.source_value = 'x'))
+         ORDER BY anc.root_name, a.name`,
         [plantId]
       ),
 
