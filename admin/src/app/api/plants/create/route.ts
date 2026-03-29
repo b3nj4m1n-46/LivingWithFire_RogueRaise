@@ -1,117 +1,113 @@
-import { fetchPlantDetail } from "@/lib/queries/plants";
 import pool from "@/lib/dolt";
 
-export async function GET(
-  _request: Request,
-  { params }: { params: Promise<{ plantId: string }> }
-) {
-  try {
-    const { plantId } = await params;
-    const data = await fetchPlantDetail(plantId);
-
-    if (!data) {
-      return Response.json({ error: "Plant not found" }, { status: 404 });
-    }
-
-    return Response.json(data);
-  } catch (error) {
-    console.error("GET /api/plants/[plantId] error:", error);
-    return Response.json(
-      { error: "Failed to fetch plant detail" },
-      { status: 500 }
-    );
-  }
-}
-
-interface EditAttributeInput {
+interface AttributeInput {
   attributeId: string;
   attributeName: string;
   value: string;
   sourceIdCode: string;
   sourceValue?: string;
+  sourceDataset?: string;
   matchConfidence: number;
 }
 
-export async function PATCH(
-  request: Request,
-  { params }: { params: Promise<{ plantId: string }> }
-) {
+interface CreatePlantBody {
+  genus: string;
+  species: string;
+  commonName?: string;
+  notes?: string;
+  attributes: AttributeInput[];
+  curatorNotes?: string;
+}
+
+export async function POST(request: Request) {
   const client = await pool.connect();
 
   try {
-    const { plantId } = await params;
-    const body: { attributes: EditAttributeInput[]; curatorNotes?: string } =
-      await request.json();
+    const body: CreatePlantBody = await request.json();
+    const { genus, species, commonName, notes, attributes, curatorNotes } = body;
 
-    if (!Array.isArray(body.attributes) || body.attributes.length === 0) {
+    if (!genus?.trim() || !species?.trim()) {
+      return Response.json(
+        { error: "genus and species are required" },
+        { status: 400 }
+      );
+    }
+
+    if (!Array.isArray(attributes) || attributes.length === 0) {
       return Response.json(
         { error: "At least one attribute is required" },
         { status: 400 }
       );
     }
 
-    // Fetch plant name for commit message
-    const plantRow = await client.query<{
-      genus: string;
-      species: string;
-    }>(`SELECT genus, species FROM plants WHERE id = $1`, [plantId]);
+    // Generate plant UUID
+    const plantIdResult = await client.query<{ id: string }>(
+      "SELECT gen_random_uuid()::text AS id"
+    );
+    const plantId = plantIdResult.rows[0].id;
 
-    if (plantRow.rows.length === 0) {
-      return Response.json({ error: "Plant not found" }, { status: 404 });
-    }
+    // Insert plant into Dolt staging
+    await client.query(
+      `INSERT INTO plants (id, genus, species, common_name, notes, last_updated)
+       VALUES ($1, $2, $3, $4, $5, NOW())`,
+      [plantId, genus.trim(), species.trim(), commonName?.trim() || null, notes?.trim() || null]
+    );
 
-    const { genus, species } = plantRow.rows[0];
-    const plantName = `${genus} ${species}`;
+    const plantName = `${genus.trim()} ${species.trim()}`;
     let warrantCount = 0;
     let claimCount = 0;
 
-    for (const attr of body.attributes) {
-      // Create warrant with manual_edit type
+    // Create warrants + claims for each attribute
+    for (const attr of attributes) {
+      // Generate warrant UUID
       const warrantIdResult = await client.query<{ id: string }>(
         "SELECT gen_random_uuid()::text AS id"
       );
       const warrantId = warrantIdResult.rows[0].id;
 
+      // Insert warrant
       await client.query(
         `INSERT INTO warrants (
           id, warrant_type, status,
           plant_id, plant_genus, plant_species,
           attribute_id, attribute_name,
           value, source_value,
-          source_id_code,
+          source_id_code, source_dataset,
           match_method, match_confidence,
           admin_notes, created_at
         ) VALUES (
-          $1, 'manual_edit', 'included',
+          $1, 'manual_entry', 'included',
           $2, $3, $4,
           $5, $6,
           $7, $8,
-          $9,
-          'exact', $10,
-          $11, NOW()
+          $9, $10,
+          'exact', $11,
+          $12, NOW()
         )`,
         [
           warrantId,
           plantId,
-          genus,
-          species,
+          genus.trim(),
+          species.trim(),
           attr.attributeId,
           attr.attributeName,
           attr.value,
           attr.sourceValue || attr.value,
           attr.sourceIdCode,
+          attr.sourceDataset || null,
           attr.matchConfidence,
-          body.curatorNotes || null,
+          curatorNotes || null,
         ]
       );
       warrantCount++;
 
-      // Create pre-approved claim
+      // Generate claim UUID
       const claimIdResult = await client.query<{ id: string }>(
         "SELECT gen_random_uuid()::text AS id"
       );
       const claimId = claimIdResult.rows[0].id;
 
+      // Insert pre-approved claim
       await client.query(
         `INSERT INTO claims (
           id, status,
@@ -139,15 +135,15 @@ export async function PATCH(
           plantName,
           attr.attributeName,
           attr.value,
-          "Manual edit by curator",
+          "Manual entry by curator",
           "HIGH",
-          "Curator-reviewed manual edit",
+          "Curator-reviewed manual entry",
           1,
         ]
       );
       claimCount++;
 
-      // Junction row
+      // Insert claim_warrant junction
       const cwIdResult = await client.query<{ id: string }>(
         "SELECT gen_random_uuid()::text AS id"
       );
@@ -157,10 +153,10 @@ export async function PATCH(
       );
     }
 
-    // Dolt commit
+    // Dolt: stage and commit
     await client.query(`SELECT dolt_add('.')`);
 
-    const commitMsg = `Manual edit: ${plantName} (${body.attributes.length} attributes updated)`;
+    const commitMsg = `Manual entry: ${plantName} (${attributes.length} attributes from ${new Set(attributes.map((a) => a.sourceIdCode)).size} sources)`;
     const commitResult = await client.query(
       `SELECT dolt_commit('-m', $1)`,
       [commitMsg]
@@ -179,7 +175,7 @@ export async function PATCH(
       claimCount,
     });
   } catch (error) {
-    console.error("PATCH /api/plants/[plantId] error:", error);
+    console.error("POST /api/plants/create error:", error);
 
     try {
       await client.query(`SELECT dolt_checkout('.')`);
@@ -188,7 +184,7 @@ export async function PATCH(
     }
 
     return Response.json(
-      { error: "Failed to edit plant" },
+      { error: "Failed to create plant" },
       { status: 500 }
     );
   } finally {
