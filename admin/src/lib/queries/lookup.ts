@@ -255,7 +255,21 @@ export function searchSourceDatabases(scientificName: string): SourceHit[] {
 
     if (row) {
       const fields: MappedField[] = [];
-      for (const col of entry.keyColumns) {
+      // Expose all columns — not just keyColumns — for enrichment
+      const skipCols = new Set([
+        entry.nameColumn,
+        "id", "ID", "rowid",
+        "taxon_id", "taxon_ID",
+        "source_plant_id", "source_plant_ID",
+        "source_leaf_id", "source_leaf_ID",
+        "source_distrib_id", "source_distrib_ID",
+        "source_ID", "source_id",
+        "site_ID", "site_id",
+        "symbol",
+        "is_synonym",
+      ]);
+      for (const col of Object.keys(row)) {
+        if (skipCols.has(col)) continue;
         const val = str(row[col]);
         if (!val) continue;
         const mapping = resolveAttribute(col);
@@ -278,11 +292,6 @@ export function searchSourceDatabases(scientificName: string): SourceHit[] {
                   COUNT(*) AS n
            FROM data
            WHERE taxon_name = ? AND var_value != ''
-             AND var_name IN (
-               'flammability index', 'ignition frequency (%)',
-               'time to flaming (s)', 'flame height (cm)',
-               'flaming duration (s)', 'burnt biomass (%)'
-             )
            GROUP BY var_name`,
           [matchedName]
         );
