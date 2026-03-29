@@ -1,9 +1,10 @@
 # Dolt Version Control UI — History, Diffs, and Undo
 
-> **Status:** TODO
+> **Status:** COMPLETED
 > **Priority:** P1 (important)
 > **Depends on:** 010-portal-scaffold (Next.js app + DB connection)
 > **Blocks:** None, but essential for demo (shows Dolt's version control value)
+> **Commit:** `e503784` — Add Dolt version control UI (016) with history, diffs, save, and undo
 
 ## Problem
 
