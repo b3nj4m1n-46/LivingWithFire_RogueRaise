@@ -4,6 +4,7 @@ import {
   updateConflictStatus,
   isValidConflictStatus,
 } from "@/lib/queries/conflicts";
+import { fetchReliabilityForSources } from "@/lib/queries/reliability";
 
 export async function GET(
   _request: Request,
@@ -22,7 +23,26 @@ export async function GET(
       conflict.warrant_b_id
     );
 
-    return Response.json({ conflict, warrants });
+    // Fetch reliability scores for the sources involved
+    const sourceCodes = warrants
+      .map((w) => w.source_id_code)
+      .filter((code): code is string => code !== null);
+    let reliability: Record<string, { score: number; methodology: string | null; peer_reviewed: boolean; scope: string | null }> = {};
+    try {
+      const rows = await fetchReliabilityForSources([...new Set(sourceCodes)]);
+      for (const r of rows) {
+        reliability[r.source_id_code] = {
+          score: Number(r.reliability_score),
+          methodology: r.methodology_type,
+          peer_reviewed: r.peer_reviewed,
+          scope: r.geographic_specificity,
+        };
+      }
+    } catch {
+      // Table may not exist yet
+    }
+
+    return Response.json({ conflict, warrants, reliability });
   } catch (error) {
     console.error("GET /api/conflicts/[id] error:", error);
     return Response.json(

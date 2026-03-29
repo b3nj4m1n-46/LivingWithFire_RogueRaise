@@ -33,6 +33,13 @@ interface ConflictsTableProps {
   sortDir: string;
 }
 
+interface ReliabilityInfo {
+  score: number;
+  methodology: string | null;
+  peer_reviewed: boolean;
+  scope: string | null;
+}
+
 interface ExpandedData {
   warrants: WarrantDetail[];
   classifier_explanation: string | null;
@@ -40,6 +47,7 @@ interface ExpandedData {
   specialist_agent: string | null;
   warrant_a_id: string;
   warrant_b_id: string;
+  reliability: Record<string, ReliabilityInfo>;
 }
 
 function severityVariant(severity: string) {
@@ -156,6 +164,7 @@ export function ConflictsTable({
             specialist_agent: data.conflict.specialist_agent,
             warrant_a_id: data.conflict.warrant_a_id,
             warrant_b_id: data.conflict.warrant_b_id,
+            reliability: data.reliability ?? {},
           },
         }));
       } catch {
@@ -509,6 +518,21 @@ interface ExpandedConflictProps {
   onStatusChange: (warrantId: string, newStatus: string) => void;
 }
 
+function reliabilityBadge(rel: ReliabilityInfo | undefined, sourceCode: string | null) {
+  if (!rel) return null;
+  const color =
+    rel.score >= 0.8
+      ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+      : rel.score >= 0.6
+        ? "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200"
+        : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200";
+  return (
+    <span className={`ml-2 inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${color}`}>
+      {rel.score.toFixed(2)}
+    </span>
+  );
+}
+
 function ExpandedConflict({
   row,
   detail,
@@ -517,6 +541,9 @@ function ExpandedConflict({
 }: ExpandedConflictProps) {
   const warrantA = detail.warrants.find((w) => w.id === detail.warrant_a_id);
   const warrantB = detail.warrants.find((w) => w.id === detail.warrant_b_id);
+
+  const relA = warrantA?.source_id_code ? detail.reliability[warrantA.source_id_code] : undefined;
+  const relB = warrantB?.source_id_code ? detail.reliability[warrantB.source_id_code] : undefined;
 
   // Build empty conflicts array for WarrantCard (conflicts are shown at this level instead)
   const emptyConflicts: ConflictSummary[] = [];
@@ -529,6 +556,7 @@ function ExpandedConflict({
           <div>
             <p className="mb-2 text-xs font-medium uppercase text-muted-foreground">
               Warrant A — {row.source_a}
+              {reliabilityBadge(relA, warrantA.source_id_code)}
             </p>
             <WarrantCard
               warrant={warrantA}
@@ -541,6 +569,7 @@ function ExpandedConflict({
           <div>
             <p className="mb-2 text-xs font-medium uppercase text-muted-foreground">
               Warrant B — {row.source_b}
+              {reliabilityBadge(relB, warrantB.source_id_code)}
             </p>
             <WarrantCard
               warrant={warrantB}

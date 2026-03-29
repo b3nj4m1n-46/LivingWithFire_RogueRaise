@@ -1,6 +1,6 @@
 # Confidence Scoring — Per-Source Reliability Weights
 
-> **Status:** TODO
+> **Status:** COMPLETE
 > **Priority:** P2 (normal)
 > **Depends on:** 015-synthesis-agent (claims already have HIGH/MODERATE/LOW confidence), 012-warrant-claim-curation (warrant cards show source info)
 > **Blocks:** None

@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { query, queryOne } from "@/lib/dolt";
+import { fetchReliabilityForSources, type ReliabilityRow } from "@/lib/queries/reliability";
 
 interface WarrantRow {
   id: string;
@@ -88,22 +89,26 @@ function buildPrompt(
   attrMeta: AttributeRow,
   warrants: WarrantRow[],
   conflicts: ConflictRow[],
-  productionValue: string | null
+  productionValue: string | null,
+  reliabilityMap: Map<string, ReliabilityRow> = new Map()
 ): string {
   const warrantsSection = warrants
-    .map(
-      (w, i) =>
-        `### Warrant ${i + 1}: ${w.sourceIdCode ?? w.sourceDataset ?? "Unknown"}
+    .map((w, i) => {
+      const rel = w.sourceIdCode ? reliabilityMap.get(w.sourceIdCode) : undefined;
+      const reliabilityLine = rel
+        ? `- Reliability Score: ${rel.reliability_score.toFixed(2)} (${rel.methodology_type ?? "unknown"}, ${rel.peer_reviewed ? "peer-reviewed" : "not peer-reviewed"}, ${rel.geographic_specificity ?? "unknown"} scope, ${rel.temporal_currency ?? "unknown"})`
+        : `- Reliability: ${w.sourceReliability ?? "Unknown"}`;
+      return `### Warrant ${i + 1}: ${w.sourceIdCode ?? w.sourceDataset ?? "Unknown"}
 - Value: "${w.value}"${w.sourceValue && w.sourceValue !== w.value ? ` (original: "${w.sourceValue}")` : ""}
 - Context: ${w.valueContext ?? "none"}
 - Type: ${w.warrantType}
 - Methodology: ${w.sourceMethodology ?? "Unknown"}
 - Region: ${w.sourceRegion ?? "Unknown"}
 - Year: ${w.sourceYear ?? "Unknown"}
-- Reliability: ${w.sourceReliability ?? "Unknown"}
+${reliabilityLine}
 - Match confidence: ${w.matchConfidence ?? "N/A"}
-- Warrant ID: ${w.id}`
-    )
+- Warrant ID: ${w.id}`;
+    })
     .join("\n\n");
 
   const conflictsSection =
@@ -139,13 +144,24 @@ ${warrantsSection}
 ## Conflicts & Specialist Verdicts
 ${conflictsSection}
 
+## Source Reliability Scores
+${reliabilityMap.size > 0
+    ? Array.from(reliabilityMap.values())
+        .map(
+          (r) =>
+            `- ${r.source_id_code}: ${r.reliability_score.toFixed(2)} — ${r.methodology_type ?? "unknown"}, ${r.peer_reviewed ? "peer-reviewed" : "not peer-reviewed"}, ${r.geographic_scope ?? "unknown"} scope`
+        )
+        .join("\n")
+    : "No structured reliability scores available. Use the qualitative metadata above."}
+
 ## Instructions
 Synthesize these warrants into a single production claim for "${attributeName}". Consider:
-1. Source reliability and methodology rigor
-2. Regional relevance to Pacific West (Oregon, California, Washington)
+1. Source reliability scores — weight your synthesis toward higher-reliability sources
+2. Regional relevance to Pacific West (Oregon, California, Washington) — prefer sources with higher geographic specificity for the plant's region
 3. Recency of data (prefer more recent sources when relevant)
 4. Conflict resolutions and specialist verdicts
 5. Cross-source consensus (agreement across multiple independent sources)
+6. When sources conflict, prefer the source with higher reliability unless the lower-reliability source has stronger geographic specificity for the plant's region
 
 ${allowedValuesInstruction}
 
@@ -234,13 +250,30 @@ export async function POST(request: Request) {
       valuesAllowed: null,
     };
 
+    // Fetch reliability scores for all source_id_codes in warrants
+    const sourceIdCodes = warrants
+      .map((w) => w.sourceIdCode)
+      .filter((code): code is string => code !== null);
+    const uniqueCodes = [...new Set(sourceIdCodes)];
+
+    let reliabilityMap = new Map<string, ReliabilityRow>();
+    try {
+      const reliabilityRows = await fetchReliabilityForSources(uniqueCodes);
+      reliabilityMap = new Map(
+        reliabilityRows.map((r) => [r.source_id_code, r])
+      );
+    } catch {
+      // Reliability table may not exist yet — continue without it
+    }
+
     const prompt = buildPrompt(
       plantName,
       attribute.name,
       attribute,
       warrants,
       conflicts,
-      prodVal?.value ?? null
+      prodVal?.value ?? null,
+      reliabilityMap
     );
 
     // Call Anthropic API

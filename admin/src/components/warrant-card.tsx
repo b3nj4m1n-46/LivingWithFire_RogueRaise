@@ -141,7 +141,22 @@ export function WarrantCard({
           )}
           {warrant.source_year && <span>Year: {warrant.source_year}</span>}
           {warrant.source_reliability && (
-            <span>Reliability: {warrant.source_reliability}</span>
+            <span>
+              Reliability: {warrant.source_reliability}
+              {/^\d/.test(warrant.source_reliability) && (
+                <span
+                  className={`ml-1 inline-flex items-center rounded-full px-1.5 py-0.5 text-xs font-medium ${
+                    parseFloat(warrant.source_reliability) >= 0.8
+                      ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+                      : parseFloat(warrant.source_reliability) >= 0.6
+                        ? "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200"
+                        : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200"
+                  }`}
+                >
+                  {parseFloat(warrant.source_reliability).toFixed(2)}
+                </span>
+              )}
+            </span>
           )}
           <span>Match: {warrant.match_method}</span>
         </div>

@@ -11,7 +11,8 @@
     "internal-scan": "tsx src/scripts/internal-conflict-scan.ts",
     "analyze:fire01": "tsx src/scripts/external-analysis.ts database-sources/fire/FirePerformancePlants",
     "analyze:water01": "tsx src/scripts/external-analysis.ts database-sources/water/WUCOLS",
-    "test-synthesis": "tsx src/scripts/test-synthesis.ts"
+    "test-synthesis": "tsx src/scripts/test-synthesis.ts",
+    "seed-reliability": "tsx src/scripts/seed-reliability.ts"
   },
   "dependencies": {
     "@genkit-ai/anthropic": "^0.2.0",
