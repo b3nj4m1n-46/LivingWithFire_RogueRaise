@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import {
   Select,
   SelectContent,
@@ -42,15 +43,38 @@ export function ConflictsFilters({
     router.push("/conflicts");
   }
 
+  function clearSourcePair() {
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete("sourceA");
+    params.delete("sourceB");
+    params.delete("page");
+    router.push(`/conflicts?${params.toString()}`);
+  }
+
+  const hasSourcePair = currentFilters.sourceA && currentFilters.sourceB;
+
   const hasAnyFilter =
     currentFilters.status ||
     currentFilters.severity ||
     currentFilters.conflictType ||
     currentFilters.attributeCategory ||
-    currentFilters.sourceDataset;
+    currentFilters.sourceDataset ||
+    hasSourcePair;
 
   return (
     <div className="flex flex-wrap items-center gap-3">
+      {hasSourcePair && (
+        <Badge variant="secondary" className="gap-1 py-1.5 text-sm">
+          {currentFilters.sourceA} vs {currentFilters.sourceB}
+          <button
+            onClick={clearSourcePair}
+            className="ml-1 text-muted-foreground hover:text-foreground"
+          >
+            &times;
+          </button>
+        </Badge>
+      )}
+
       {/* Status filter */}
       <Select
         value={currentFilters.status ?? ""}

@@ -32,6 +32,12 @@ export interface AnalysisBatch {
   started_at: string;
 }
 
+export interface TopConflictingPair {
+  source_a: string;
+  source_b: string;
+  count: number;
+}
+
 export interface DashboardData {
   warrants: WarrantStats;
   conflicts: ConflictStats;
@@ -41,6 +47,7 @@ export interface DashboardData {
   criticalPendingCount: number;
   unreviewedLatestBatchCount: number;
   pendingSyncCount: number;
+  topConflictingPairs: TopConflictingPair[];
 }
 
 export async function fetchDashboardData(): Promise<DashboardData> {
@@ -57,6 +64,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     criticalPending,
     unreviewedLatest,
     pendingSync,
+    topPairs,
   ] = await Promise.all([
     queryOne<{ count: string }>("SELECT COUNT(*) as count FROM warrants"),
     query<{ warrant_type: string; count: string }>(
@@ -90,6 +98,14 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     queryOne<{ count: string }>(
       "SELECT COUNT(*) as count FROM claims WHERE status = 'approved' AND (pushed_to_production IS NULL OR pushed_to_production = false)"
     ),
+    query<{ source_a: string; source_b: string; count: string }>(
+      `SELECT source_a, source_b, COUNT(*)::int AS count
+       FROM conflicts
+       WHERE status = 'pending'
+       GROUP BY source_a, source_b
+       ORDER BY count DESC
+       LIMIT 5`
+    ),
   ]);
 
   return {
@@ -122,5 +138,10 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     criticalPendingCount: Number(criticalPending?.count ?? 0),
     unreviewedLatestBatchCount: Number(unreviewedLatest?.count ?? 0),
     pendingSyncCount: Number(pendingSync?.count ?? 0),
+    topConflictingPairs: topPairs.map((r) => ({
+      source_a: r.source_a,
+      source_b: r.source_b,
+      count: Number(r.count),
+    })),
   };
 }

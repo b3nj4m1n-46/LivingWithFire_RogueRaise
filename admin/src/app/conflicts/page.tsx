@@ -23,6 +23,8 @@ export default async function ConflictsPage({
     conflictType: params.conflictType,
     attributeCategory: params.attributeCategory,
     sourceDataset: params.sourceDataset,
+    sourceA: params.sourceA,
+    sourceB: params.sourceB,
     sortBy: params.sortBy,
     sortDir: params.sortDir,
     page: params.page,

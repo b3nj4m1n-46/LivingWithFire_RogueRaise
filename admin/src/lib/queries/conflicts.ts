@@ -37,6 +37,8 @@ export interface ConflictListFilters {
   conflictType?: string;
   attributeCategory?: string;
   sourceDataset?: string;
+  sourceA?: string;
+  sourceB?: string;
   sortBy?: string;
   sortDir?: string;
   page?: string;
@@ -103,6 +105,26 @@ export async function fetchConflictsList(
       `(c.source_a = $${paramIndex} OR c.source_b = $${paramIndex})`
     );
     params.push(filters.sourceDataset);
+    paramIndex++;
+  }
+
+  if (filters.sourceA && filters.sourceB) {
+    conditions.push(
+      `((c.source_a = $${paramIndex} AND c.source_b = $${paramIndex + 1}) OR (c.source_a = $${paramIndex + 1} AND c.source_b = $${paramIndex}))`
+    );
+    params.push(filters.sourceA, filters.sourceB);
+    paramIndex += 2;
+  } else if (filters.sourceA) {
+    conditions.push(
+      `(c.source_a = $${paramIndex} OR c.source_b = $${paramIndex})`
+    );
+    params.push(filters.sourceA);
+    paramIndex++;
+  } else if (filters.sourceB) {
+    conditions.push(
+      `(c.source_a = $${paramIndex} OR c.source_b = $${paramIndex})`
+    );
+    params.push(filters.sourceB);
     paramIndex++;
   }
 
