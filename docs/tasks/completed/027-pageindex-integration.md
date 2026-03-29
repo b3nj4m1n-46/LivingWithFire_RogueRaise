@@ -1,9 +1,10 @@
 # PageIndex Integration — In-Repo Document Indexing Pipeline
 
-> **Status:** IMPLEMENTED
+> **Status:** COMPLETED
 > **Priority:** P2 (normal)
 > **Depends on:** None (existing indexes work; this adds the ability to create new ones)
 > **Blocks:** None (but enables self-service document ingestion for data stewards)
+> **Commits:** `e3a046f`, `29b4333`
 >
 > ## Implementation Notes
 >
