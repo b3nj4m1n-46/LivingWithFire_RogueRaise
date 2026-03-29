@@ -233,6 +233,24 @@ export function searchSourceDatabases(scientificName: string): SourceHit[] {
         `SELECT * FROM "${entry.tableName}" WHERE "${entry.nameColumn}" = ? COLLATE NOCASE LIMIT 1`,
         [target]
       );
+
+      // FLAMITS: fall back to synonymy table if no direct match
+      if (!row && entry.sourceId === "FIRE-03") {
+        const synRow = querySqliteOne(
+          dbPath,
+          `SELECT taxon_name FROM synonymy WHERE original_name = ? COLLATE NOCASE LIMIT 1`,
+          [target]
+        );
+        if (synRow && str(synRow.taxon_name)) {
+          matchedName = str(synRow.taxon_name)!;
+          row = querySqliteOne(
+            dbPath,
+            `SELECT * FROM "${entry.tableName}" WHERE "${entry.nameColumn}" = ? COLLATE NOCASE LIMIT 1`,
+            [matchedName]
+          );
+          confidence = 0.9;
+        }
+      }
     }
 
     if (row) {
