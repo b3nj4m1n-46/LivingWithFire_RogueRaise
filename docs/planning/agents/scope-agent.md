@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `scopeConflictFlow` | **Source:** `genkit/src/flows/scopeConflictFlow.ts`
 **Priority:** P0 — Critical for Pacific West focus
+**Status:** Implemented
 **Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 
 ## Role

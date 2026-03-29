@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `classifyConflictFlow` | **Source:** `genkit/src/flows/classifyConflictFlow.ts`
 **Priority:** P0 — Required for conflict detection
+**Status:** Implemented
 **Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
 **Prompt:** `genkit/src/prompts/classify-conflict.md`
 

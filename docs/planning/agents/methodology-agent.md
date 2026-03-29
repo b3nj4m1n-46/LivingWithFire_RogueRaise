@@ -2,9 +2,10 @@
 
 **Genkit Flow:** `methodologyConflictFlow` | **Source:** `genkit/src/flows/methodologyConflictFlow.ts`
 **Priority:** P1
-**Model:** None — **STUB implementation** (no LLM call)
+**Status:** Stub — pending LLM integration
+**Model:** None (no LLM call)
 
-> **Implementation Status:** This flow is currently a stub. It loads DATA-DICTIONARY.md from both source datasets, surfaces methodology strings from `sourceMethodologyA`/`B`, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
+> **Stub Details:** Loads DATA-DICTIONARY.md from both source datasets, surfaces methodology strings from `sourceMethodologyA`/`B`, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
 
 ## Role
 

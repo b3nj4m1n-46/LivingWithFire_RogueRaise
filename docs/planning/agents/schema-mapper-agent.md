@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `mapSchemaFlow` | **Source:** `genkit/src/flows/mapSchemaFlow.ts`
 **Priority:** P1 — Required for Table Fusion UI
+**Status:** Implemented
 **Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 **Prompt:** `genkit/src/prompts/map-schema.md`
 

@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `bulkEnhanceFlow` | **Source:** `genkit/src/flows/bulkEnhanceFlow.ts`
 **Priority:** P0 — Core data pipeline
+**Status:** Implemented
 **Model:** None — pure data transformation, no LLM calls
 
 ## Role

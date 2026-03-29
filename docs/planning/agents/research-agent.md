@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `researchConflictFlow` | **Source:** `genkit/src/flows/researchConflictFlow.ts`
 **Priority:** P0 — Required for evidence-informed conflict resolution
+**Status:** Implemented
 **Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 **Prompt:** `genkit/src/prompts/research-conflict.md`
 

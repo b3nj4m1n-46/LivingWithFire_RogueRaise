@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `temporalConflictFlow` | **Source:** `genkit/src/flows/temporalConflictFlow.ts`
 **Priority:** P1
+**Status:** Implemented
 **Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
 **Prompt:** `genkit/src/prompts/temporal-conflict.md`
 

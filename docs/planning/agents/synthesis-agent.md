@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `synthesizeClaimFlow` | **Source:** `genkit/src/flows/synthesizeClaimFlow.ts`
 **Priority:** P0 — Core of the Claim/Warrant model
+**Status:** Implemented
 **Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 
 ## Role

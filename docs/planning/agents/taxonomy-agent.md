@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `taxonomyConflictFlow` | **Source:** `genkit/src/flows/taxonomyConflictFlow.ts`
 **Priority:** P0 — Foundational for accurate matching
+**Status:** Implemented
 **Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`)
 **Prompt:** `genkit/src/prompts/taxonomy-conflict.md`
 **Conflict Type:** `GRANULARITY_MISMATCH` (renamed from `TAXONOMY_CONFLICT`)

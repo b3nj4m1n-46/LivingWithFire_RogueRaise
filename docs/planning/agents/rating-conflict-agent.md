@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `ratingConflictFlow` | **Source:** `genkit/src/flows/ratingConflictFlow.ts`
 **Priority:** P0 — Most common conflict type
+**Status:** Implemented
 **Model:** `MODELS.quality` (`anthropic/claude-sonnet-4-6`)
 
 > **Note:** This flow defines and exports the shared `specialistInput` Zod schema and `SpecialistInput`/`SpecialistOutput` types used as the common input schema by all other specialist flows.

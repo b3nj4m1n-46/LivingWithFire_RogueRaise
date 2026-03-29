@@ -2,9 +2,10 @@
 
 **Genkit Flow:** `definitionConflictFlow` | **Source:** `genkit/src/flows/definitionConflictFlow.ts`
 **Priority:** P1
-**Model:** None — **STUB implementation** (no LLM call)
+**Status:** Stub — pending LLM integration
+**Model:** None (no LLM call)
 
-> **Implementation Status:** This flow is currently a stub. It loads DATA-DICTIONARY.md from both source datasets, builds a human-review analysis string, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
+> **Stub Details:** Loads DATA-DICTIONARY.md from both source datasets, builds a human-review analysis string, and writes a hardcoded `NUANCED / HUMAN_DECIDE / confidence: 0` verdict to the DB. Full LLM-powered analysis is planned but not yet implemented.
 
 ## Role
 

@@ -2,6 +2,7 @@
 
 **Genkit Flow:** `matchPlantFlow` | **Source:** `genkit/src/flows/matchPlantFlow.ts`
 **Priority:** P0 — Required for all operations
+**Status:** Implemented
 **Model:** `MODELS.bulk` (`anthropic/claude-haiku-4-5`) — used only for fuzzy match tiebreaker
 **Prompt:** `genkit/src/prompts/match-tiebreaker.md`
 
