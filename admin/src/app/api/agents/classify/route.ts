@@ -17,6 +17,15 @@ export async function POST(request: Request) {
       runSpecialists?: boolean;
     };
 
+    // Mark stale "running" batches as failed (crashed process never updated status)
+    await query(
+      `UPDATE analysis_batches
+       SET status = 'failed', completed_at = CURRENT_TIMESTAMP,
+           notes = 'Marked as failed: process did not complete within 20 minutes'
+       WHERE batch_type = 'classify_existing' AND status = 'running'
+         AND started_at < CURRENT_TIMESTAMP - INTERVAL '20 MINUTES'`
+    );
+
     // Guard: check if already running
     const existing = await queryOne<{ id: string }>(
       `SELECT id FROM analysis_batches

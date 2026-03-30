@@ -22,27 +22,36 @@ export async function callFusionBridge<T>(
       },
       (error, stdout, stderr) => {
         if (error) {
-          let message = error.message;
+          // Capture the real execFile error info (killed, signal, timeout, etc.)
+          const execInfo = [
+            (error as NodeJS.ErrnoException).code ? `code=${(error as NodeJS.ErrnoException).code}` : '',
+            (error as { killed?: boolean }).killed ? 'killed=true' : '',
+            (error as { signal?: string }).signal ? `signal=${(error as { signal?: string }).signal}` : '',
+          ].filter(Boolean).join(', ');
+
+          let message = '';
           if (stderr) {
-            // stderr contains both progress logs (redirected console.log) AND
-            // the final JSON error on the last line. Try the last line first.
-            const lines = stderr.trimEnd().split('\n');
-            const lastLine = lines[lines.length - 1];
-            try {
-              const parsed = JSON.parse(lastLine);
-              message = parsed.error || lastLine;
-            } catch {
+            // stderr has progress logs (redirected console.log) + possibly a
+            // JSON error blob appended at the very end (no newline before it).
+            // Try to extract the JSON error from the tail of stderr.
+            const jsonStart = stderr.lastIndexOf('{"error"');
+            if (jsonStart !== -1) {
               try {
-                const parsed = JSON.parse(stderr);
-                message = parsed.error || stderr;
-              } catch {
-                // Fall back to last 500 chars to avoid massive error messages
-                message = stderr.length > 500
-                  ? '...' + stderr.slice(-500)
-                  : stderr;
-              }
+                const parsed = JSON.parse(stderr.slice(jsonStart));
+                message = parsed.error || parsed.stack || '';
+              } catch { /* fall through */ }
             }
           }
+
+          if (!message) {
+            message = execInfo
+              ? `Bridge process died (${execInfo})`
+              : error.message.length > 500
+                ? error.message.slice(0, 500)
+                : error.message;
+          }
+
+          console.error(`fusion-bridge [${action}] failed: ${message}`);
           return reject(new Error(message));
         }
         try {

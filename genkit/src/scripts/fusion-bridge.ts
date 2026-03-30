@@ -577,16 +577,14 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
     return { claimsGenerated: 0, pairsProcessed: 0, pairsSkipped: 0, commitHash: '' };
   }
 
-  // Step 2: Synthesize each pair
+  // Step 2+3: Synthesize each pair and write to DB immediately
+  // Claims are written one at a time so progress is never lost on crash.
   steps.synthesizing.status = 'running';
   await updateStepProgress(input.batchId, 'synthesizing', steps);
 
-  const synthResults: Array<{
-    pair: typeof pairs[0];
-    output: Awaited<ReturnType<typeof synthesizeClaimFlow>>;
-    warrantIds: string[];
-  }> = [];
+  let claimsGenerated = 0;
   let pairsSkipped = 0;
+  const COMMIT_INTERVAL = 25; // Dolt commit every N claims to checkpoint progress
 
   for (let i = 0; i < pairs.length; i++) {
     const pair = pairs[i];
@@ -648,16 +646,75 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
         productionValue: prodVal,
       });
 
-      synthResults.push({
-        pair,
-        output,
-        warrantIds: warrants.map((w: { id: string }) => w.id),
-      });
+      // Write claim to DB immediately — don't buffer in memory
+      const warrantIds = warrants.map((w: { id: string }) => w.id);
+      const writeClient = await doltPool.connect();
+      try {
+        const idResult = await writeClient.query("SELECT gen_random_uuid()::text AS id");
+        const claimId = idResult.rows[0].id;
 
-      // Update progress periodically
+        await writeClient.query(
+          `INSERT INTO claims (
+            id, status, plant_id, attribute_id, plant_name, attribute_name,
+            categorical_value, synthesized_text, confidence, confidence_reasoning,
+            warrant_count
+          ) VALUES ($1, 'draft', $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
+          [
+            claimId,
+            pair.plant_id,
+            pair.attribute_id,
+            pair.plant_name.trim(),
+            pair.attribute_name,
+            output.categorical_value,
+            output.synthesized_text,
+            output.confidence,
+            output.confidence_reasoning,
+            warrantIds.length,
+          ],
+        );
+
+        // Link warrants via claim_warrants junction table
+        for (const wId of warrantIds) {
+          const cwId = await writeClient.query("SELECT gen_random_uuid()::text AS id");
+          await writeClient.query(
+            `INSERT INTO claim_warrants (id, claim_id, warrant_id) VALUES ($1, $2, $3)`,
+            [cwId.rows[0].id, claimId, wId],
+          );
+        }
+      } finally {
+        writeClient.release();
+      }
+
+      claimsGenerated++;
+
+      // Checkpoint: Dolt commit every COMMIT_INTERVAL claims
+      if (claimsGenerated % COMMIT_INTERVAL === 0) {
+        const cpClient = await doltPool.connect();
+        try {
+          await cpClient.query(`SELECT dolt_add('.')`);
+          await cpClient.query(
+            `SELECT dolt_commit('-m', $1)`,
+            [`agent-ops: synthesize checkpoint — ${claimsGenerated} claims so far`],
+          );
+        } finally {
+          cpClient.release();
+        }
+      }
+
+      // Update progress and batch stats periodically
       if ((i + 1) % 5 === 0 || i === pairs.length - 1) {
-        steps.synthesizing.detail = `${synthResults.length} synthesized, ${pairsSkipped} skipped (${i + 1}/${pairs.length})`;
+        steps.synthesizing.detail = `${claimsGenerated} synthesized, ${pairsSkipped} skipped (${i + 1}/${pairs.length})`;
         await updateStepProgress(input.batchId, 'synthesizing', steps);
+
+        const statsClient = await doltPool.connect();
+        try {
+          await statsClient.query(
+            'UPDATE analysis_batches SET claims_generated = $1 WHERE id = $2',
+            [claimsGenerated, input.batchId],
+          );
+        } finally {
+          statsClient.release();
+        }
       }
     } catch (err) {
       console.error(`[bulk-synthesize] Error on pair ${pair.plant_id}/${pair.attribute_id}:`, err);
@@ -667,69 +724,11 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
 
   steps.synthesizing = {
     status: 'completed',
-    detail: `${synthResults.length} synthesized, ${pairsSkipped} skipped`,
+    detail: `${claimsGenerated} synthesized, ${pairsSkipped} skipped`,
   };
   await updateStepProgress(input.batchId, 'synthesizing', steps);
 
-  // Step 3: Write claims to DB
-  steps.writing.status = 'running';
-  await updateStepProgress(input.batchId, 'writing', steps);
-
-  const client3 = await doltPool.connect();
-  try {
-    for (const { pair, output, warrantIds } of synthResults) {
-      // Generate claim ID
-      const idResult = await client3.query("SELECT gen_random_uuid()::text AS id");
-      const claimId = idResult.rows[0].id;
-
-      await client3.query(
-        `INSERT INTO claims (
-          id, status, plant_id, attribute_id, plant_name, attribute_name,
-          categorical_value, synthesized_text, confidence, confidence_reasoning,
-          warrant_count
-        ) VALUES ($1, 'draft', $2, $3, $4, $5, $6, $7, $8, $9, $10)`,
-        [
-          claimId,
-          pair.plant_id,
-          pair.attribute_id,
-          pair.plant_name.trim(),
-          pair.attribute_name,
-          output.categorical_value,
-          output.synthesized_text,
-          output.confidence,
-          output.confidence_reasoning,
-          warrantIds.length,
-        ],
-      );
-
-      // Link warrants via claim_warrants junction table
-      for (const wId of warrantIds) {
-        const cwId = await client3.query("SELECT gen_random_uuid()::text AS id");
-        await client3.query(
-          `INSERT INTO claim_warrants (id, claim_id, warrant_id) VALUES ($1, $2, $3)`,
-          [cwId.rows[0].id, claimId, wId],
-        );
-      }
-    }
-  } finally {
-    client3.release();
-  }
-
-  steps.writing = { status: 'completed', detail: `${synthResults.length} claims written` };
-  await updateStepProgress(input.batchId, 'writing', steps);
-
-  // Update batch stats
-  const clientStats = await doltPool.connect();
-  try {
-    await clientStats.query(
-      'UPDATE analysis_batches SET claims_generated = $1 WHERE id = $2',
-      [synthResults.length, input.batchId],
-    );
-  } finally {
-    clientStats.release();
-  }
-
-  // Step 4: Dolt commit
+  // Final Dolt commit
   steps.committing.status = 'running';
   await updateStepProgress(input.batchId, 'committing', steps);
 
@@ -739,7 +738,7 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
     await client4.query(`SELECT dolt_add('.')`);
     await client4.query(
       `SELECT dolt_commit('-m', $1)`,
-      [`agent-ops: synthesize — ${synthResults.length} claims`],
+      [`agent-ops: synthesize — ${claimsGenerated} claims`],
     );
     const logResult = await client4.query(
       'SELECT commit_hash FROM dolt_log ORDER BY date DESC LIMIT 1',
@@ -753,7 +752,7 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
   await updateStepProgress(input.batchId, 'committing', steps);
 
   return {
-    claimsGenerated: synthResults.length,
+    claimsGenerated,
     pairsProcessed: pairs.length,
     pairsSkipped,
     commitHash,
