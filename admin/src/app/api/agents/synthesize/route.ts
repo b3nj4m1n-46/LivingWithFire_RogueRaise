@@ -50,7 +50,7 @@ export async function POST(request: Request) {
     callFusionBridge(
       "bulk-synthesize",
       { batchId, plantIds, attributeFilter, limit },
-      900_000
+      1_800_000
     )
       .then(async (result) => {
         const r = result as { claimsGenerated?: number };
