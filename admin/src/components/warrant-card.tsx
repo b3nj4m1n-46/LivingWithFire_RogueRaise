@@ -11,6 +11,24 @@ interface WarrantCardProps {
   warrant: WarrantDetail;
   conflicts: ConflictSummary[];
   onStatusChange: (warrantId: string, newStatus: string) => void;
+  valuesAllowed?: string | null;
+}
+
+function resolveValue(raw: string, valuesAllowed?: string | null): string {
+  if (!valuesAllowed || !raw) return raw;
+  try {
+    const allowed = JSON.parse(valuesAllowed) as { id: string; displayName: string }[];
+    const match = allowed.find((v) => v.id === raw);
+    if (match) return match.displayName;
+    // Check if it's already the display name
+    const nameMatch = allowed.find(
+      (v) => v.displayName.toLowerCase() === raw.toLowerCase()
+    );
+    if (nameMatch) return nameMatch.displayName;
+  } catch {
+    // not valid JSON
+  }
+  return raw;
 }
 
 function confidenceVariant(confidence: number | null) {
@@ -40,6 +58,7 @@ export function WarrantCard({
   warrant,
   conflicts,
   onStatusChange,
+  valuesAllowed,
 }: WarrantCardProps) {
   const [status, setStatus] = useState(warrant.status);
   const [toggling, setToggling] = useState(false);
@@ -117,7 +136,14 @@ export function WarrantCard({
 
         {/* Value display */}
         <div className="space-y-1 pl-7">
-          <div className="text-lg font-semibold">{warrant.value}</div>
+          <div className="text-lg font-semibold">
+            {resolveValue(warrant.value, valuesAllowed)}
+          </div>
+          {warrant.value !== resolveValue(warrant.value, valuesAllowed) && (
+            <p className="text-xs text-muted-foreground">
+              Raw: {warrant.value}
+            </p>
+          )}
           {warrant.source_value &&
             warrant.source_value !== warrant.value && (
               <p className="text-sm text-muted-foreground">

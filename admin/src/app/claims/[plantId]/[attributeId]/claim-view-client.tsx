@@ -72,6 +72,19 @@ export function ClaimViewClient({
     : plantId;
   const commonName = data.plant?.common_name;
   const attributeName = data.attribute?.name ?? attributeId;
+  const valuesAllowed = data.attribute?.values_allowed ?? null;
+
+  // Resolve production value for display
+  const resolvedProductionValue = (() => {
+    if (!data.productionValue) return null;
+    if (!valuesAllowed) return data.productionValue;
+    try {
+      const allowed = JSON.parse(valuesAllowed) as { id: string; displayName: string }[];
+      const match = allowed.find((v) => v.id === data.productionValue);
+      if (match) return match.displayName;
+    } catch { /* */ }
+    return data.productionValue;
+  })();
 
   const includedWarrants = warrants.filter((w) => w.status === "included");
   const { existing, bySource } = groupWarrants(warrants);
@@ -152,10 +165,10 @@ export function ClaimViewClient({
       {/* Back link + Header */}
       <div>
         <Link
-          href={`/conflicts/${plantId}`}
+          href={`/plants/${plantId}`}
           className="text-sm text-muted-foreground hover:underline"
         >
-          &larr; Back to Plant Conflicts
+          &larr; Back to Plant Detail
         </Link>
         <h2 className="mt-2 text-2xl font-bold italic">{plantName}</h2>
         {commonName && (
@@ -164,7 +177,7 @@ export function ClaimViewClient({
         <p className="mt-1 text-lg">{attributeName}</p>
         <div className="mt-2 flex flex-wrap gap-2">
           <Badge variant="outline">
-            Production: {data.productionValue ?? "none"}
+            Production: {resolvedProductionValue ?? "none"}
           </Badge>
           <Badge variant={statusVariant(data.claim?.status ?? null)}>
             {data.claim?.status ?? "No claim"}
@@ -213,6 +226,7 @@ export function ClaimViewClient({
             <WarrantCard
               key={w.id}
               warrant={w}
+              valuesAllowed={valuesAllowed}
               conflicts={data.conflicts.filter(
                 (c) =>
                   c.other_warrant_id === w.id ||
@@ -234,6 +248,7 @@ export function ClaimViewClient({
             <WarrantCard
               key={w.id}
               warrant={w}
+              valuesAllowed={valuesAllowed}
               conflicts={data.conflicts.filter(
                 (c) =>
                   c.other_warrant_id === w.id ||

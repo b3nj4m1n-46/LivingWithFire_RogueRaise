@@ -152,6 +152,7 @@ export interface AttributeValueRow {
   category: string | null;
   parent_name: string | null;
   value_type: string | null;
+  value_units: string | null;
   value: string;
   source_value: string | null;
   value_notes: string | null;
@@ -229,6 +230,7 @@ export async function fetchPlantDetail(
            anc.root_name AS category,
            anc.parent_name,
            a.value_type,
+           a.value_units,
            v."value",
            v.source_value,
            v.notes AS value_notes,

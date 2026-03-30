@@ -23,26 +23,73 @@ interface PlantDetailClientProps {
 
 // --- Value decoding ---
 
-function decodeValue(value: string, valuesAllowed: string | null): string {
-  if (!valuesAllowed || !value) return value;
+function decodeValue(value: string, valuesAllowed: string | null): string | null {
+  if (!valuesAllowed || !value) return null;
   try {
     const allowed = JSON.parse(valuesAllowed) as { id: string; displayName: string }[];
+    // Try exact ID match first
     const match = allowed.find((v) => v.id === value);
     if (match) return match.displayName;
+    // Try case-insensitive displayName match (value might already be the display name)
+    const nameMatch = allowed.find(
+      (v) => v.displayName.toLowerCase() === value.toLowerCase()
+    );
+    if (nameMatch) return nameMatch.displayName;
   } catch {
-    // not valid JSON, return raw
+    // not valid JSON
   }
-  return value;
+  return null;
+}
+
+/** Character score placement interpretation */
+function characterScorePlacement(score: number): string {
+  if (score <= 2) return "P0 — Do not plant near structures";
+  if (score <= 4) return "P5 — Plant 5-10 ft from buildings";
+  if (score <= 8) return "P10 — Plant 10+ ft from buildings";
+  if (score <= 12) return "P10S — Plant 10-30 ft (sparse)";
+  if (score <= 16) return "P30 — Plant 30+ ft from buildings";
+  if (score <= 19) return "P50 — Plant 50+ ft from buildings";
+  return "P100 — Plant 100+ ft from buildings";
 }
 
 function displayValue(attr: AttributeValueRow): {
   display: string;
+  suffix: string;
+  subtitle: string;
   isSourceValue: boolean;
 } {
   const decoded = decodeValue(attr.value, attr.values_allowed);
-  if (decoded) return { display: decoded, isSourceValue: false };
-  if (attr.source_value) return { display: attr.source_value, isSourceValue: true };
-  return { display: "", isSourceValue: false };
+  const units = attr.value_units ?? "";
+
+  // If decoded from values_allowed, use the display name
+  if (decoded) {
+    return { display: decoded, suffix: units ? ` ${units}` : "", subtitle: "", isSourceValue: false };
+  }
+
+  // Value exists but wasn't in values_allowed — show it with units
+  if (attr.value) {
+    let subtitle = "";
+
+    // Character Score: add placement interpretation
+    if (attr.attribute_id === "70dcbd81-352d-4678-8d8a-f3bd51f1bab6") {
+      const num = Number(attr.value);
+      if (!isNaN(num)) subtitle = characterScorePlacement(num);
+    }
+
+    return {
+      display: attr.value,
+      suffix: units ? ` ${units}` : "",
+      subtitle,
+      isSourceValue: false,
+    };
+  }
+
+  // Fall back to source_value
+  if (attr.source_value) {
+    return { display: attr.source_value, suffix: "", subtitle: "", isSourceValue: true };
+  }
+
+  return { display: "", suffix: "", subtitle: "", isSourceValue: false };
 }
 
 // --- Key attribute IDs for the hero section ---
@@ -186,7 +233,7 @@ function ImageGallery({ images }: { images: PlantImage[] }) {
 // --- Hero Stats ---
 
 function HeroStats({ attributes }: { attributes: AttributeValueRow[] }) {
-  const stats: { label: string; icon: string; display: string }[] = [];
+  const stats: { label: string; icon: string; display: string; subtitle: string }[] = [];
 
   for (const attr of attributes) {
     const hero = HERO_ATTRIBUTES[attr.attribute_id];
@@ -195,7 +242,12 @@ function HeroStats({ attributes }: { attributes: AttributeValueRow[] }) {
     if (!val.display) continue;
     // Avoid duplicate labels (e.g., two height entries)
     if (stats.some((s) => s.label === hero.label)) continue;
-    stats.push({ label: hero.label, icon: hero.icon, display: val.display });
+    stats.push({
+      label: hero.label,
+      icon: hero.icon,
+      display: val.display + val.suffix,
+      subtitle: val.subtitle,
+    });
   }
 
   if (stats.length === 0) return null;
@@ -211,6 +263,9 @@ function HeroStats({ attributes }: { attributes: AttributeValueRow[] }) {
           <div className="min-w-0">
             <p className="truncate font-medium">{stat.display}</p>
             <p className="text-xs text-muted-foreground">{stat.label}</p>
+            {stat.subtitle && (
+              <p className="text-xs text-muted-foreground">{stat.subtitle}</p>
+            )}
           </div>
         </div>
       ))}
@@ -240,7 +295,7 @@ function AttrValueDisplay({ attr }: { attr: AttributeValueRow }) {
     <span>
       {val.display ? (
         <>
-          {val.display}
+          {val.display}{val.suffix}
           {val.isSourceValue && (
             <span className="ml-1.5 text-xs text-muted-foreground italic">
               (raw)
@@ -249,6 +304,9 @@ function AttrValueDisplay({ attr }: { attr: AttributeValueRow }) {
         </>
       ) : (
         <span className="text-muted-foreground italic">&mdash;</span>
+      )}
+      {val.subtitle && (
+        <p className="text-xs text-muted-foreground mt-0.5">{val.subtitle}</p>
       )}
       {attr.value_notes && (
         <p className="text-xs text-muted-foreground mt-0.5">
@@ -276,24 +334,33 @@ function CurationBadges({
 
   if (!warrants && !conflicts && !claim) return null;
 
+  const claimHref = `/claims/${plantId}/${attr.attribute_id}`;
+
   return (
     <div className="flex gap-1.5 flex-wrap">
       {warrants > 0 && (
-        <Badge variant="secondary">
-          {warrants} warrant{warrants !== 1 ? "s" : ""}
-        </Badge>
+        <Link href={claimHref}>
+          <Badge variant="secondary" className="cursor-pointer hover:bg-secondary/80">
+            {warrants} warrant{warrants !== 1 ? "s" : ""}
+          </Badge>
+        </Link>
       )}
       {conflicts > 0 && (
         <Link href={`/conflicts/${plantId}`}>
-          <Badge variant="destructive">
+          <Badge variant="destructive" className="cursor-pointer">
             {conflicts} conflict{conflicts !== 1 ? "s" : ""}
           </Badge>
         </Link>
       )}
       {claim && (
-        <Badge variant={claim.status === "approved" ? "default" : "outline"}>
-          {claim.status}
-        </Badge>
+        <Link href={claimHref}>
+          <Badge
+            variant={claim.status === "approved" ? "default" : "outline"}
+            className="cursor-pointer"
+          >
+            {claim.status}
+          </Badge>
+        </Link>
       )}
     </div>
   );

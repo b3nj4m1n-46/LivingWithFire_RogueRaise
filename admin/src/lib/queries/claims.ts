@@ -1,4 +1,5 @@
 import { query, queryOne } from "@/lib/dolt";
+import { queryOneProd } from "@/lib/production";
 
 // ── Interfaces ──────────────────────────────────────────────────────────
 
@@ -240,20 +241,20 @@ export async function fetchClaimViewData(
         [plantId, attributeId]
       ),
 
-      // Plant info
-      queryOne<PlantInfo>(
+      // Plant info (from production — Dolt may not have plants table populated)
+      queryOneProd<PlantInfo>(
         `SELECT id, genus, species, common_name FROM plants WHERE id = $1`,
         [plantId]
       ),
 
-      // Attribute info
-      queryOne<AttributeInfo>(
-        `SELECT id, name, value_type, values_allowed FROM attributes WHERE id = $1`,
+      // Attribute info (from production — need values_allowed for display)
+      queryOneProd<AttributeInfo>(
+        `SELECT id, name, value_type, values_allowed::text AS values_allowed FROM attributes WHERE id = $1`,
         [attributeId]
       ),
 
       // Current production value
-      queryOne<{ value: string }>(
+      queryOneProd<{ value: string }>(
         `SELECT "value" FROM "values" WHERE plant_id = $1 AND attribute_id = $2 LIMIT 1`,
         [plantId, attributeId]
       ),
@@ -280,8 +281,8 @@ export async function fetchClaimViewData(
                 c.warrant_a_id, c.warrant_b_id
          FROM conflicts c
          WHERE c.plant_id = $1
-           AND c.attribute_name = (SELECT attribute_name FROM warrants WHERE plant_id = $1 AND attribute_id = $2 LIMIT 1)`,
-        [plantId, attributeId]
+           AND c.attribute_name = (SELECT attribute_name FROM warrants WHERE plant_id = $2 AND attribute_id = $3 LIMIT 1)`,
+        [plantId, plantId, attributeId]
       ),
     ]);
 
