@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Living With Fire — Pitch Deck</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --flame: #E8530E;
+    --flame-light: #FF7A3D;
+    --ember: #F59E0B;
+    --forest: #065F46;
+    --forest-light: #059669;
+    --sky: #0EA5E9;
+    --slate: #1E293B;
+    --slate-light: #475569;
+    --bg: #0F172A;
+    --card: #1E293B;
+    --text: #F8FAFC;
+    --muted: #94A3B8;
+  }
+
+  html { scroll-behavior: smooth; scroll-snap-type: y mandatory; overflow-y: scroll; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); }
+
+  .slide {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide-inner {
+    max-width: 1200px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .nav a {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--slate-light);
+    display: block;
+    transition: all 0.3s;
+  }
+  .nav a:hover, .nav a.active { background: var(--flame); transform: scale(1.4); }
+
+  /* Slide-specific */
+  .slide-title {
+    background: linear-gradient(135deg, var(--bg) 0%, #1a1030 50%, var(--bg) 100%);
+  }
+  .slide-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(232,83,14,0.15) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 30%, rgba(245,158,11,0.1) 0%, transparent 50%);
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+  }
+  h1 .accent { color: var(--flame); }
+  h1 .accent-green { color: var(--forest-light); }
+
+  h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--ember);
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    color: var(--muted);
+    font-weight: 300;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+
+  .tagline {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--flame), var(--ember));
+    color: white;
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+  .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 20px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 32px;
+    transition: transform 0.2s;
+  }
+  .card:hover { transform: translateY(-2px); }
+  .card p { color: var(--muted); line-height: 1.6; font-size: 0.95rem; }
+
+  .stat-card {
+    text-align: center;
+    padding: 40px 24px;
+  }
+  .stat-card .number {
+    font-size: 3.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--flame-light), var(--ember));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-card .label {
+    font-size: 0.9rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .problem-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .problem-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 1.1rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .problem-list .marker {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: white;
+  }
+  .marker-red { background: #DC2626; }
+  .marker-amber { background: #D97706; }
+  .marker-blue { background: #2563EB; }
+
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  .flow-step {
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 20px 24px;
+    text-align: center;
+    min-width: 140px;
+  }
+  .flow-step .step-icon { font-size: 1.5rem; margin-bottom: 8px; }
+  .flow-step .step-label { font-size: 0.85rem; font-weight: 600; }
+  .flow-arrow { color: var(--flame); font-size: 1.5rem; font-weight: 700; }
+
+  .warrant-box {
+    background: rgba(6,95,70,0.15);
+    border: 1px solid rgba(5,150,105,0.3);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .warrant-box .source-tag {
+    background: var(--forest);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .claim-result {
+    background: linear-gradient(135deg, rgba(232,83,14,0.1), rgba(245,158,11,0.08));
+    border: 1px solid rgba(232,83,14,0.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 16px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  .claim-result strong { color: var(--ember); }
+
+  .tech-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .category-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 0.95rem;
+  }
+  .category-row:last-child { border-bottom: none; }
+  .category-row .cat-icon { font-size: 1.3rem; width: 32px; text-align: center; }
+  .category-row .cat-name { font-weight: 600; flex: 1; }
+  .category-row .cat-count { color: var(--flame-light); font-weight: 700; }
+  .category-row .cat-desc { color: var(--muted); font-size: 0.85rem; flex: 2; }
+
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--flame), var(--forest-light), var(--sky));
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 36px;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--flame);
+    border: 3px solid var(--bg);
+  }
+  .timeline-item h3 { color: var(--text); margin-bottom: 6px; font-size: 1.1rem; }
+  .timeline-item p { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+  .timeline-item .phase-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .phase-done { background: var(--forest); color: white; }
+  .phase-now { background: var(--flame); color: white; }
+  .phase-next { background: var(--slate-light); color: white; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .footnote {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    font-size: 0.75rem;
+    color: var(--slate-light);
+  }
+
+  @media (max-width: 900px) {
+    .slide { padding: 40px 24px; }
+    h1 { font-size: 2.8rem; }
+    h2 { font-size: 2rem; }
+    .grid-2, .grid-3, .grid-4, .two-col { grid-template-columns: 1fr; }
+    .flow { flex-direction: column; }
+    .flow-arrow { transform: rotate(90deg); }
+    .nav { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="#title" title="Title"></a>
+  <a href="#problem" title="Problem"></a>
+  <a href="#data" title="Data Asset"></a>
+  <a href="#solution" title="Solution"></a>
+  <a href="#model" title="Claim/Warrant"></a>
+  <a href="#pipeline" title="Pipeline"></a>
+  <a href="#tech" title="Technology"></a>
+  <a href="#traction" title="Traction"></a>
+  <a href="#roadmap" title="Roadmap"></a>
+  <a href="#close" title="Close"></a>
+</nav>
+
+<!-- SLIDE 1: TITLE -->
+<section class="slide slide-title" id="title">
+  <div class="slide-inner">
+    <div class="tagline">Enhancing the Living With Fire Database</div>
+    <h1>
+      <span class="accent">Living</span> With <span class="accent">Fire</span>
+    </h1>
+    <p class="subtitle">
+      The Living With Fire app already helps Pacific West homeowners choose fire-safe plants.
+      Now we're supercharging its database &mdash; using AI to fuse 866,000+ records from
+      37 scientific sources into richer, evidence-backed plant profiles.
+    </p>
+    <div style="margin-top: 48px; display: flex; gap: 16px; flex-wrap: wrap;">
+      <div class="tech-badge">1,361 Plants in Production Today</div>
+      <div class="tech-badge">37 Enhancement Sources</div>
+      <div class="tech-badge">866K+ Records to Fuse</div>
+      <div class="tech-badge">125 Attributes to Enrich</div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 2: PROBLEM -->
+<section class="slide" id="problem" style="background: linear-gradient(135deg, var(--bg), #1a0f0a);">
+  <div class="slide-inner">
+    <div class="tagline" style="background: #DC2626;">The Challenge</div>
+    <h2>A good database that <br>could be <span style="color: var(--flame);">great</span></h2>
+    <div class="two-col" style="margin-top: 20px;">
+      <ul class="problem-list">
+        <li>
+          <span class="marker marker-red">1</span>
+          <span><strong style="color: var(--text);">The app works today.</strong> Living With Fire serves 1,361 plants with 94,903 attribute values from 103 sources &mdash; but there's vastly more data sitting in 37 external databases that could enrich every plant profile.</span>
+        </li>
+        <li>
+          <span class="marker marker-red">2</span>
+          <span><strong style="color: var(--text);">Enhancement data can't be safely ingested.</strong> The 37 source databases use different schemas, scales, and methodologies. Merging blindly would introduce contradictions and degrade quality.</span>
+        </li>
+        <li>
+          <span class="marker marker-amber">3</span>
+          <span><strong style="color: var(--text);">Internal conflicts already exist.</strong> The same plant may have contradictory ratings from different sources already in production, with no systematic way to detect or resolve them.</span>
+        </li>
+        <li>
+          <span class="marker marker-blue">4</span>
+          <span><strong style="color: var(--text);">Manual curation doesn't scale.</strong> 866K records across 37 datasets with overlapping species &mdash; a botanist would need years to reconcile by hand.</span>
+        </li>
+      </ul>
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="card" style="border-left: 3px solid var(--flame);">
+          <h3 style="color: var(--flame);">Why It Matters</h3>
+          <p style="font-size: 1.05rem; line-height: 1.7;">
+            In 2020, Oregon wildfires burned <strong style="color: var(--text);">1.2 million acres</strong> and destroyed 4,000+ homes. California averages <strong style="color: var(--text);">7,000+ wildfires per year</strong>.
+            <br><br>
+            Living With Fire already helps homeowners choose fire-safe plants. Enhancing it with deeper, multi-source evidence means <strong style="color: var(--text);">better recommendations backed by more science</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 3: DATA ASSET -->
+<section class="slide" id="data" style="background: linear-gradient(135deg, var(--bg), #0a1a15);">
+  <div class="slide-inner">
+    <div class="tagline" style="background: var(--forest);">The Enhancement Pipeline</div>
+    <h2>37 databases ready to enrich production</h2>
+
+    <div class="grid-4" style="margin-bottom: 40px;">
+      <div class="card stat-card"><div class="number">37</div><div class="label">Source Databases</div></div>
+      <div class="card stat-card"><div class="number">866K+</div><div class="label">Plant Records</div></div>
+      <div class="card stat-card"><div class="number">52</div><div class="label">Research Documents</div></div>
+      <div class="card stat-card"><div class="number">8</div><div class="label">Data Categories</div></div>
+    </div>
+
+    <div class="card" style="padding: 24px 32px;">
+      <div class="category-row"><span class="cat-icon">&#128293;</span><span class="cat-name">Fire Resistance</span><span class="cat-count">9 datasets</span><span class="cat-desc">Flammability ratings, fire-safe landscaping guides, burn test results</span></div>
+      <div class="category-row"><span class="cat-icon">&#129420;</span><span class="cat-name">Deer Resistance</span><span class="cat-count">6 datasets</span><span class="cat-desc">Browse resistance from extension services across 4 states</span></div>
+      <div class="category-row"><span class="cat-icon">&#128167;</span><span class="cat-name">Water & Drought</span><span class="cat-count">3 datasets</span><span class="cat-desc">WUCOLS plant factors, drought tolerance, irrigation requirements</span></div>
+      <div class="category-row"><span class="cat-icon">&#129431;</span><span class="cat-name">Pollinators</span><span class="cat-count">3 datasets</span><span class="cat-desc">Bee, butterfly, and hummingbird attractors with bloom timing</span></div>
+      <div class="category-row"><span class="cat-icon">&#127793;</span><span class="cat-name">Native Plants</span><span class="cat-count">3 datasets</span><span class="cat-desc">State-specific native plant registries for OR, CA, WA</span></div>
+      <div class="category-row"><span class="cat-icon">&#9888;&#65039;</span><span class="cat-name">Invasiveness</span><span class="cat-count">5 datasets</span><span class="cat-desc">Noxious weed lists, Cal-IPC ratings, establishment risk</span></div>
+      <div class="category-row"><span class="cat-icon">&#128038;</span><span class="cat-name">Birds & Wildlife</span><span class="cat-count">1 dataset</span><span class="cat-desc">Lepidoptera host plants supporting bird food chains</span></div>
+      <div class="category-row"><span class="cat-icon">&#127807;</span><span class="cat-name">Traits & Taxonomy</span><span class="cat-count">5 datasets</span><span class="cat-desc">837K+ records across 3 global taxonomy backbones + trait databases</span></div>
+    </div>
+
+    <p style="color: var(--muted); margin-top: 20px; font-size: 0.9rem;">
+      Sources include: USDA, UC Davis, OSU Extension, Cal-IPC, Xerces Society, POWO/Kew Gardens, World Flora Online, and 30+ more federal, academic, and conservation organizations.
+    </p>
+  </div>
+</section>
+
+<!-- SLIDE 4: SOLUTION -->
+<section class="slide" id="solution">
+  <div class="slide-inner">
+    <div class="tagline">The Solution</div>
+    <h2>AI agents that <span style="color: var(--forest-light);">enhance</span> the database <br>without breaking it</h2>
+
+    <div class="grid-3" style="margin-top: 20px;">
+      <div class="card">
+        <span class="icon">&#128270;</span>
+        <h3>Match & Map</h3>
+        <p>AI agents match source plants to existing production records, resolve taxonomy (synonyms, name changes), and map external schemas to the live 125-attribute model. No data is lost in translation.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#9878;&#65039;</span>
+        <h3>Detect & Research</h3>
+        <p>Before any data touches production, agents detect conflicts between new source data and existing values. Specialist agents research <em>why</em> sources disagree using 52 indexed research documents.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#128161;</span>
+        <h3>Synthesize & Curate</h3>
+        <p>AI synthesizes new and existing data into richer plant profiles than either alone. A human data steward reviews, edits, and approves &mdash; ensuring quality never regresses.</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step"><div class="step-icon">&#128196;</div><div class="step-label">CSV Upload</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step"><div class="step-icon">&#129302;</div><div class="step-label">AI Match</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step"><div class="step-icon">&#128260;</div><div class="step-label">Schema Map</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step"><div class="step-icon">&#9888;&#65039;</div><div class="step-label">Conflict Detect</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step"><div class="step-icon">&#128218;</div><div class="step-label">Research</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step"><div class="step-icon">&#9989;</div><div class="step-label">Curate & Approve</div></div>
+      <span class="flow-arrow">&rarr;</span>
+      <div class="flow-step" style="border-color: var(--forest-light);"><div class="step-icon">&#127793;</div><div class="step-label">Sync to LWF DB</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 5: CLAIM/WARRANT -->
+<section class="slide" id="model" style="background: linear-gradient(135deg, var(--bg), #15102a);">
+  <div class="slide-inner">
+    <div class="tagline" style="background: var(--sky);">Innovation</div>
+    <h2>The Claim/Warrant Model</h2>
+    <p style="color: var(--muted); font-size: 1.1rem; margin-bottom: 32px; max-width: 800px;">
+      Inspired by argumentation theory. Every production value is a <strong style="color: var(--text);">Claim</strong> backed by
+      <strong style="color: var(--text);">Warrants</strong> &mdash; evidence from specific sources with full provenance.
+      Conflicting evidence isn't discarded; it adds nuance.
+    </p>
+
+    <div class="two-col" style="gap: 40px;">
+      <div>
+        <h3 style="margin-bottom: 16px;">Warrants (Evidence)</h3>
+        <div class="warrant-box">
+          <span class="source-tag">FIRE-01</span>
+          "Firewise (1)" &mdash; literature-based rating
+        </div>
+        <div class="warrant-box">
+          <span class="source-tag">FIRE-02</span>
+          "Highly resistant, plant 30ft from structures" &mdash; practitioner guide
+        </div>
+        <div class="warrant-box">
+          <span class="source-tag">FIRE-04</span>
+          "Moderate flammability in controlled burn" &mdash; lab testing
+        </div>
+        <div class="warrant-box">
+          <span class="source-tag">FIRE-07</span>
+          "Fire-resistant in 3+ sources" &mdash; meta-analysis
+        </div>
+
+        <div class="claim-result">
+          <strong>AI Synthesized Claim:</strong> "Fire-resistant (high confidence, 4 sources). Lab testing showed moderate heat release under controlled conditions, but field sources consistently rate favorably for landscape use. Plant 30ft from structures per Idaho guidelines."
+        </div>
+      </div>
+
+      <div>
+        <div class="card" style="margin-bottom: 20px;">
+          <h3>Why This Matters for LWF</h3>
+          <p style="font-size: 1rem; line-height: 1.7;">
+            The production database already has values from 103 sources. Instead of overwriting them, the Claim/Warrant model <em>enriches</em> existing data &mdash; adding depth, nuance, and provenance to every plant profile.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Full Provenance Chain</h3>
+          <p style="font-size: 1rem; line-height: 1.7;">
+            Every word in a synthesized claim traces back to specific warrants &rarr; specific sources &rarr; specific files, rows, and methodologies. The data steward can always ask: <em>"Where did this come from?"</em>
+          </p>
+        </div>
+        <div class="card" style="margin-top: 20px;">
+          <h3>Human-in-the-Loop</h3>
+          <p style="font-size: 1rem; line-height: 1.7;">
+            AI synthesizes; humans approve. The data steward selects which warrants to include, edits AI output, and every decision is logged with full audit trail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 6: PIPELINE -->
+<section class="slide" id="pipeline">
+  <div class="slide-inner">
+    <div class="tagline">Architecture</div>
+    <h2>Multi-Agent Pipeline</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <span class="icon">&#128269;</span>
+        <h3>Match Agent</h3>
+        <p>Resolves species names across taxonomy backbones (POWO, World Flora Online, USDA). Handles synonyms, name changes, and fuzzy matching at genus level.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#128736;&#65039;</span>
+        <h3>Mapping Agent</h3>
+        <p>Reads each source's DATA-DICTIONARY.md and auto-maps columns to the 125-attribute production schema. Handles rating scale conversion.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#9878;&#65039;</span>
+        <h3>Conflict Detector</h3>
+        <p>Scans for 8 conflict types: direct contradictions, scale mismatches, scope differences, temporal drift, and more. Prioritizes by severity.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#128218;</span>
+        <h3>Research Agent</h3>
+        <p>RAG over 52 indexed research documents. When sources disagree, explains <em>why</em> &mdash; different methodology, region, time period, or definition.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#129302;</span>
+        <h3>Specialist Agents</h3>
+        <p>Domain-specific agents for fire, deer, water, pollinators, and invasiveness. Each understands its field's rating systems and methodologies.</p>
+      </div>
+      <div class="card">
+        <span class="icon">&#128300;</span>
+        <h3>Synthesis Agent</h3>
+        <p>Combines selected warrants into a single, rich claim. Preserves nuance from conflicting evidence. Produces natural-language explanations.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 40px; text-align: center; color: var(--muted); font-size: 0.95rem;">
+      Built on <strong style="color: var(--text);">Firebase Genkit</strong> &mdash; 12 flows, 13 reusable tools, orchestrated through a Next.js admin portal.
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 7: TECH STACK -->
+<section class="slide" id="tech" style="background: linear-gradient(135deg, var(--bg), #0a1520);">
+  <div class="slide-inner">
+    <div class="tagline" style="background: var(--sky);">Technology</div>
+    <h2>Built for data integrity</h2>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3 style="color: var(--sky);">Version-Controlled Staging</h3>
+        <p style="font-size: 1rem; line-height: 1.7;">
+          <strong style="color: var(--text);">DoltgreSQL</strong> &mdash; Git for databases. Every change is a commit with branching, diffing, blame, and revert. Zero risk to production: the public app never touches the staging layer.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--sky);">Live Production Database</h3>
+        <p style="font-size: 1rem; line-height: 1.7;">
+          <strong style="color: var(--text);">Neon PostgreSQL</strong> &mdash; the existing LWF database we're enhancing. 1,361 plants, 125 attributes, 94,903 values, 103 sources. Already serving the public app via REST API on Vercel.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--sky);">AI Pipeline</h3>
+        <p style="font-size: 1rem; line-height: 1.7;">
+          <strong style="color: var(--text);">Firebase Genkit</strong> with the <strong style="color: var(--text);">Anthropic Claude API</strong>. 12 flows for matching, mapping, conflict detection, research, and synthesis. Cost-optimized: Haiku for bulk matching, Sonnet for synthesis.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--sky);">Admin Portal</h3>
+        <p style="font-size: 1rem; line-height: 1.7;">
+          <strong style="color: var(--text);">Next.js 16</strong> with App Router. Upload workflows, curation interfaces, conflict queues, coverage dashboards, and sync-to-production. Built for the data steward, not the developer.
+        </p>
+      </div>
+    </div>
+
+    <div style="margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+      <div class="tech-badge">Next.js 16</div>
+      <div class="tech-badge">DoltgreSQL</div>
+      <div class="tech-badge">Neon PostgreSQL</div>
+      <div class="tech-badge">Firebase Genkit</div>
+      <div class="tech-badge">Claude API</div>
+      <div class="tech-badge">SQLite</div>
+      <div class="tech-badge">Vercel</div>
+      <div class="tech-badge">Python</div>
+      <div class="tech-badge">TypeScript</div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 8: TRACTION -->
+<section class="slide" id="traction">
+  <div class="slide-inner">
+    <div class="tagline" style="background: var(--forest);">Progress</div>
+    <h2>What's built today</h2>
+
+    <div class="grid-3" style="margin-bottom: 40px;">
+      <div class="card stat-card" style="border-top: 3px solid var(--forest-light);">
+        <div class="number" style="background: linear-gradient(135deg, var(--forest-light), #34D399); -webkit-background-clip: text;">1,361</div>
+        <div class="label">Plants in Production (Live App)</div>
+      </div>
+      <div class="card stat-card" style="border-top: 3px solid var(--forest-light);">
+        <div class="number" style="background: linear-gradient(135deg, var(--forest-light), #34D399); -webkit-background-clip: text;">94,903</div>
+        <div class="label">Attribute Values Serving Users</div>
+      </div>
+      <div class="card stat-card" style="border-top: 3px solid var(--forest-light);">
+        <div class="number" style="background: linear-gradient(135deg, var(--forest-light), #34D399); -webkit-background-clip: text;">866K+</div>
+        <div class="label">Records Ready to Enhance It</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3 style="color: var(--forest-light);">Enhancement Sources (Complete)</h3>
+        <ul style="color: var(--muted); line-height: 2; list-style: none;">
+          <li>&#9745; 37 databases harvested, parsed, standardized</li>
+          <li>&#9745; Every dataset has README + DATA-DICTIONARY</li>
+          <li>&#9745; CSV + SQLite + JSON outputs with indexes</li>
+          <li>&#9745; 3 taxonomy backbones (837K+ records)</li>
+          <li>&#9745; Source provenance registry with citations</li>
+          <li>&#9745; 52 research documents indexed for RAG</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color: var(--forest-light);">Admin Portal — Fusion Tools (In Progress)</h3>
+        <ul style="color: var(--muted); line-height: 2; list-style: none;">
+          <li>&#9745; Upload & schema mapping to production EAV</li>
+          <li>&#9745; Cross-database plant lookup (30 sources)</li>
+          <li>&#9745; AI fusion pipeline (match, map, enhance)</li>
+          <li>&#9745; Conflict detection vs. existing prod values</li>
+          <li>&#9745; Coverage dashboard showing attribute gaps</li>
+          <li>&#9744; Batch curation & sync to Neon production</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 9: ROADMAP -->
+<section class="slide" id="roadmap" style="background: linear-gradient(135deg, var(--bg), #1a1520);">
+  <div class="slide-inner">
+    <div class="tagline">Roadmap</div>
+    <h2>What's next</h2>
+
+    <div class="two-col">
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="phase-tag phase-done">Complete</span>
+          <h3>Enhancement Data Collection</h3>
+          <p>37 databases harvested from federal agencies, universities, and conservation orgs. Each standardized and mapped to the production schema.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="phase-tag phase-done">Complete</span>
+          <h3>Knowledge Base for AI Research</h3>
+          <p>52 research documents indexed for RAG. Agents can now explain <em>why</em> sources disagree before new data touches production.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="phase-tag phase-now">In Progress</span>
+          <h3>Fusion Admin Portal</h3>
+          <p>Upload workflows, schema mapping to production EAV, conflict detection against existing data, AI-assisted curation with audit trail.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="phase-tag phase-next">Next</span>
+          <h3>Production Database Enhancement</h3>
+          <p>Batch-curate and sync enriched data from Dolt staging into the live Neon database. Fill attribute gaps, add new plants, deepen existing profiles.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="phase-tag phase-next">Future</span>
+          <h3>Richer Public Experience</h3>
+          <p>Surface multi-source evidence in the public app. Users see not just "fire-resistant" but <em>why</em>, backed by provenance from multiple scientific sources.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="card" style="margin-bottom: 24px;">
+          <h3>Target Outcome</h3>
+          <p style="font-size: 1.05rem; line-height: 1.8;">
+            The Living With Fire production database enhanced so every plant attribute is backed by traceable evidence from multiple scientific sources &mdash; not just a rating, but the <em>story</em> behind that rating.
+          </p>
+        </div>
+        <div class="card" style="margin-bottom: 24px;">
+          <h3>What Enhancement Means</h3>
+          <p style="font-size: 1.05rem; line-height: 1.8;">
+            <strong style="color: var(--text);">Fill gaps:</strong> plants missing fire, deer, or water ratings get them from new sources.<br>
+            <strong style="color: var(--text);">Add depth:</strong> single-source ratings become multi-source, evidence-backed claims.<br>
+            <strong style="color: var(--text);">Resolve conflicts:</strong> contradictory existing data gets researched and reconciled.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Reusable Architecture</h3>
+          <p style="font-size: 1.05rem; line-height: 1.8;">
+            The Claim/Warrant model and multi-agent pipeline are domain-agnostic. The same approach could enhance databases in <strong style="color: var(--text);">soil science, wildlife management, invasive species tracking,</strong> or any field with fragmented, contradictory datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 10: CLOSE -->
+<section class="slide" id="close" style="background: linear-gradient(135deg, #1a0f0a, var(--bg), #0a1a15);">
+  <div class="slide-inner" style="text-align: center;">
+    <h1>
+      <span class="accent">Enhancing</span> a database<br>
+      that <span class="accent-green">saves homes</span>
+    </h1>
+    <p class="subtitle" style="margin: 24px auto 48px; text-align: center;">
+      The Living With Fire app already serves homeowners in wildfire country.<br>
+      We're making it dramatically better &mdash; fusing 866K+ records from 37 scientific sources<br>
+      into richer, evidence-backed plant profiles with full provenance.
+    </p>
+
+    <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 48px;">
+      <div class="card stat-card" style="min-width: 200px;">
+        <div class="number">1,361</div>
+        <div class="label">Plants Getting Enhanced</div>
+      </div>
+      <div class="card stat-card" style="min-width: 200px;">
+        <div class="number">866K+</div>
+        <div class="label">Enhancement Records</div>
+      </div>
+      <div class="card stat-card" style="min-width: 200px;">
+        <div class="number">37</div>
+        <div class="label">Scientific Sources</div>
+      </div>
+    </div>
+
+    <p style="color: var(--muted); font-size: 1.1rem;">
+      <strong style="color: var(--text);">Living With Fire</strong> &mdash; Making a good plant database great, with AI and science
+    </p>
+  </div>
+</section>
+
+<script>
+// Highlight active nav dot
+const sections = document.querySelectorAll('.slide');
+const navLinks = document.querySelectorAll('.nav a');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const id = entry.target.id;
+      const active = document.querySelector(`.nav a[href="#${id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { threshold: 0.5 });
+
+sections.forEach(s => observer.observe(s));
+
+// Keyboard nav
+document.addEventListener('keydown', (e) => {
+  const ids = [...sections].map(s => s.id);
+  const current = [...sections].findIndex(s => {
+    const r = s.getBoundingClientRect();
+    return r.top >= -100 && r.top < window.innerHeight / 2;
+  });
+  if (e.key === 'ArrowDown' || e.key === ' ' || e.key === 'PageDown') {
+    e.preventDefault();
+    if (current < ids.length - 1) document.getElementById(ids[current + 1]).scrollIntoView({ behavior: 'smooth' });
+  }
+  if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+    e.preventDefault();
+    if (current > 0) document.getElementById(ids[current - 1]).scrollIntoView({ behavior: 'smooth' });
+  }
+});
+</script>
+
+</body>
+</html>
