@@ -96,9 +96,30 @@ interface BulkSynthesizeInput {
 
 type BridgeInput = MapInput | PreviewInput | ExecuteInput | FullAnalysisInput | ClassifyExistingInput | BulkSynthesizeInput;
 
+async function findDatasetCsv(datasetFolder: string): Promise<string> {
+  const base = resolve(REPO_ROOT, datasetFolder);
+  // Try plants.csv first
+  try {
+    const content = await readFile(resolve(base, 'plants.csv'), 'utf-8');
+    if (!content.startsWith('version https://git-lfs.github.com/')) return content;
+  } catch { /* not found */ }
+  // Fall back to any plants_*.csv file
+  const { readdir } = await import('node:fs/promises');
+  const entries = await readdir(base);
+  const plantCsvs = entries.filter(
+    (e) => e.startsWith('plants') && e.endsWith('.csv') && e !== 'plants.csv'
+  ).sort();
+  for (const csv of plantCsvs) {
+    try {
+      const content = await readFile(resolve(base, csv), 'utf-8');
+      if (!content.startsWith('version https://git-lfs.github.com/')) return content;
+    } catch { continue; }
+  }
+  throw new Error(`No usable CSV found in ${datasetFolder}. Available: ${entries.filter(e => e.endsWith('.csv')).join(', ')}`);
+}
+
 async function buildPlantInputs(datasetFolder: string, datasetName: string) {
-  const csvPath = resolve(REPO_ROOT, datasetFolder, 'plants.csv');
-  const content = await readFile(csvPath, 'utf-8');
+  const content = await findDatasetCsv(datasetFolder);
   const parsed = parseCSV(content);
   return {
     totalRecords: parsed.rows.length,
@@ -554,6 +575,7 @@ async function handleBulkSynthesize(input: BulkSynthesizeInput) {
     pairsQuery += `
       GROUP BY w.plant_id, w.attribute_id, w.plant_genus, w.plant_species, w.attribute_name
       HAVING COUNT(*) >= 2
+        AND COUNT(*) FILTER (WHERE w.warrant_type NOT IN ('internal_audit', 'existing')) >= 1
       ORDER BY COUNT(*) DESC
       LIMIT $${paramIdx}
     `;

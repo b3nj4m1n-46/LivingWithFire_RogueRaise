@@ -6,7 +6,7 @@
  * and inserts warrant records into DoltgreSQL.
  */
 import crypto from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { z } from 'zod';
 import { parseCSV } from '../utils/csv.js';
@@ -16,6 +16,26 @@ import { columnMapping, mapSchemaOutput } from './mapSchemaFlow.js';
 
 const REPO_ROOT = resolve(import.meta.dirname, '..', '..', '..');
 const BATCH_SIZE = 500;
+
+async function findCsvContent(base: string): Promise<string> {
+  // Try plants.csv first
+  try {
+    const content = await readFile(resolve(base, 'plants.csv'), 'utf-8');
+    if (!content.startsWith('version https://git-lfs.github.com/')) return content;
+  } catch { /* not found */ }
+  // Fall back to any plants_*.csv
+  const entries = await readdir(base);
+  const plantCsvs = entries.filter(
+    (e) => e.startsWith('plants') && e.endsWith('.csv') && e !== 'plants.csv'
+  ).sort();
+  for (const csv of plantCsvs) {
+    try {
+      const content = await readFile(resolve(base, csv), 'utf-8');
+      if (!content.startsWith('version https://git-lfs.github.com/')) return content;
+    } catch { continue; }
+  }
+  throw new Error(`No usable CSV found in ${base}`);
+}
 
 // --- Types ---
 
@@ -53,9 +73,8 @@ export async function bulkEnhanceFlow(input: BulkEnhanceInput): Promise<BulkEnha
     dryRun = false,
   } = input;
 
-  // 1. Read and parse source CSV
-  const csvPath = resolve(REPO_ROOT, datasetFolder, 'plants.csv');
-  const content = await readFile(csvPath, 'utf-8');
+  // 1. Read and parse source CSV (try plants.csv, fall back to plants_*.csv)
+  const content = await findCsvContent(resolve(REPO_ROOT, datasetFolder));
   const parsed = parseCSV(content);
 
   // 2. Build lookup: scientificName → MatchResult
