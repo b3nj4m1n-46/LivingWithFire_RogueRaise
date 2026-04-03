@@ -48,16 +48,16 @@ export function SidebarNav({ onLinkClick }: { onLinkClick?: () => void } = {}) {
 
   return (
     <div className="flex h-full flex-col">
-      <div className="px-4 py-5">
-        <h1 className="text-lg font-semibold tracking-tight">LWF Admin</h1>
-        <p className="text-xs text-muted-foreground">Plant Data Portal</p>
+      <div className="px-5 py-5">
+        <h1 className="text-lg font-semibold tracking-tight text-sidebar-primary-foreground">LWF Admin</h1>
+        <p className="text-xs text-sidebar-foreground/60">Plant Data Portal</p>
       </div>
-      <Separator />
-      <nav className="flex flex-col gap-1 p-2">
+      <div className="mx-4 border-t border-sidebar-border" />
+      <nav className="mt-2 flex flex-1 flex-col gap-0.5 px-3">
         {navGroups.map((group, gi) => (
-          <div key={gi} className={group.label ? "mt-4" : ""}>
+          <div key={gi} className={group.label ? "mt-5" : ""}>
             {group.label && (
-              <p className="mb-1 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground/70">
+              <p className="mb-1.5 px-3 text-[10px] font-semibold uppercase tracking-widest text-sidebar-foreground/40">
                 {group.label}
               </p>
             )}
@@ -71,19 +71,19 @@ export function SidebarNav({ onLinkClick }: { onLinkClick?: () => void } = {}) {
                   key={href}
                   href={href}
                   onClick={onLinkClick}
-                  className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+                  className={`flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
                     group.label ? "pl-5" : ""
                   } ${
                     isActive
-                      ? "bg-accent text-accent-foreground"
-                      : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                      ? "bg-sidebar-accent text-sidebar-accent-foreground"
+                      : "text-sidebar-foreground/70 hover:bg-sidebar-accent/60 hover:text-sidebar-accent-foreground"
                   }`}
                 >
                   {label}
                   {badge && (
                     <Badge
                       variant="outline"
-                      className="ml-auto px-1.5 py-0 text-[10px] font-normal text-muted-foreground"
+                      className="ml-auto border-sidebar-border px-1.5 py-0 text-[10px] font-normal text-sidebar-foreground/50"
                     >
                       {badge}
                     </Badge>

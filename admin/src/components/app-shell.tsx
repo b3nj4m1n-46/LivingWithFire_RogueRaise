@@ -21,7 +21,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed inset-y-0 left-0 z-40 w-56 shrink-0 transform border-r bg-card transition-transform md:static md:translate-x-0 ${
+        className={`fixed inset-y-0 left-0 z-40 w-60 shrink-0 transform border-r border-sidebar-border bg-sidebar text-sidebar-foreground shadow-lg transition-transform md:static md:translate-x-0 ${
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -30,11 +30,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
       {/* Main content */}
       <div className="flex flex-1 flex-col overflow-hidden">
-        <header className="flex items-center justify-between border-b px-4 py-2 md:justify-end md:px-6">
+        <header className="flex items-center justify-between border-b border-border/60 bg-card/80 px-4 py-2.5 backdrop-blur-sm md:justify-end md:px-6">
           {/* Mobile menu button */}
           <button
             onClick={() => setSidebarOpen(true)}
-            className="rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-accent-foreground md:hidden"
+            className="rounded-md p-2 text-muted-foreground hover:bg-secondary hover:text-secondary-foreground md:hidden"
             aria-label="Open menu"
           >
             <svg
@@ -53,7 +53,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </button>
           <SaveChangesButton />
         </header>
-        <main className="flex-1 overflow-y-auto p-6">{children}</main>
+        <main className="flex-1 overflow-y-auto bg-background p-6">{children}</main>
       </div>
     </>
   );

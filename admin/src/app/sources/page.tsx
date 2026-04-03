@@ -38,7 +38,10 @@ export default async function SourcesPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold">Data Set Sources</h2>
+        <div>
+          <h2 className="text-2xl font-bold tracking-tight">Data Set Sources</h2>
+          <p className="text-sm text-muted-foreground">Manage source datasets and upload new data</p>
+        </div>
         <Link href="/sources/upload">
           <Button>Upload New Source</Button>
         </Link>

@@ -23,7 +23,10 @@ export default async function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Dashboard</h2>
+      <div>
+        <h2 className="text-2xl font-bold tracking-tight">Dashboard</h2>
+        <p className="text-sm text-muted-foreground">Overview of plant data pipeline and curation status</p>
+      </div>
       <SummaryCards
         warrants={data.warrants}
         conflicts={data.conflicts}
